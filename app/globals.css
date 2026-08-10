@@ -1409,8 +1409,8 @@ button {
 .footer-main {
   padding-bottom: 65px;
   display: grid;
-  grid-template-columns: 1.6fr 0.5fr 0.5fr;
-  gap: 70px;
+  grid-template-columns: 1.3fr 0.5fr 0.5fr 0.5fr;
+  gap: 50px;
 }
 
 .footer-brand p {
@@ -1555,6 +1555,53 @@ button {
 .related-tools a span { font-size: 12px; font-weight: 800; }
 .related-tools a strong { overflow-wrap: anywhere; font-weight: 500; }
 
+.pillar-section {
+  width: min(100% - 64px, 1260px);
+  margin-inline: auto;
+  padding: 70px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.pillar-howto-grid,
+.pillar-where-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.pillar-howto-grid article,
+.pillar-where-grid article {
+  padding: 22px;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.pillar-howto-grid .step-number {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--coral-dark);
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 560;
+}
+
+.pillar-howto-grid p,
+.pillar-where-grid p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+}
+
+.pillar-where-grid h3 {
+  margin: 0 0 8px;
+  font-family: var(--display);
+  font-size: 19px;
+  font-weight: 560;
+  color: var(--ink);
+}
+
 /* Information pages */
 .info-page {
   width: min(100% - 64px, 1120px);
@@ -1566,6 +1613,8 @@ button {
   max-width: 880px;
   padding: 30px 0 80px;
 }
+
+.info-page > header .back-link { display: flex; }
 
 .info-page h1 {
   margin: 18px 0 25px;
@@ -1659,6 +1708,97 @@ button {
 }
 
 .not-found h1 em { color: var(--coral-dark); font-weight: 430; }
+
+.freshness-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 12.5px;
+  letter-spacing: 0.01em;
+}
+
+.freshness-note time { font-weight: 600; }
+
+.guide-pillar-cta {
+  margin-top: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.guide-pillar-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  background: var(--ink);
+  color: white;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.guide-pillar-cta a:hover { background: var(--coral-dark); }
+
+.guide-body { padding-top: 0; }
+.guide-body .info-content { max-width: 780px; }
+
+.guide-intro-paragraph {
+  font-size: 17px;
+  color: var(--ink-soft);
+}
+
+.guide-index-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.guide-index-card {
+  position: relative;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.guide-index-card:hover {
+  border-color: var(--coral);
+  box-shadow: var(--shadow-card);
+  transform: translateY(-2px);
+}
+
+.guide-index-eyebrow {
+  color: var(--coral-dark);
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.guide-index-card h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 21px;
+  font-weight: 560;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.guide-index-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.guide-index-card .guide-index-arrow {
+  margin-top: auto;
+  color: var(--coral-dark);
+}
 
 @media (max-width: 1000px) {
   .desktop-nav { gap: 16px; }

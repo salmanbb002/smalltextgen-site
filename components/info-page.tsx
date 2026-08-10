@@ -1,12 +1,25 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { LastUpdated } from "@/components/last-updated";
 
 type InfoSection = {
   title: string;
   body: React.ReactNode;
 };
 
-export function InfoPage({ eyebrow, title, intro, sections }: { eyebrow: string; title: string; intro: string; sections: InfoSection[] }) {
+export function InfoPage({
+  eyebrow,
+  title,
+  intro,
+  sections,
+  lastUpdated,
+}: {
+  eyebrow: string;
+  title: string;
+  intro: string;
+  sections: InfoSection[];
+  lastUpdated?: string;
+}) {
   return (
     <article className="info-page">
       <header>
@@ -14,6 +27,7 @@ export function InfoPage({ eyebrow, title, intro, sections }: { eyebrow: string;
         <span className="eyebrow">{eyebrow}</span>
         <h1>{title}</h1>
         <p>{intro}</p>
+        {lastUpdated && <LastUpdated date={lastUpdated} />}
       </header>
       <div className="info-layout">
         <aside>

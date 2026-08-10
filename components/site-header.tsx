@@ -7,6 +7,7 @@ import { Logo } from "@/components/logo";
 
 const links = [
   ["Small caps", "/tools/small-caps"],
+  ["Invisible text", "/tools/invisible"],
   ["Superscript", "/tools/superscript"],
   ["Subscript", "/tools/subscript"],
   ["Cursive", "/tools/cursive"],

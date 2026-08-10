@@ -1,6 +1,6 @@
 # SmallTextGen
 
-A production-ready small-text generator built with Next.js. It converts normal text into 22 copy-ready Unicode styles in the browser and includes an optional Hugging Face caption starter.
+A production-ready small-text generator built with Next.js. It converts normal text into 23 copy-ready Unicode styles in the browser and includes an optional Hugging Face caption starter.
 
 Live site: [smalltextgen.site](https://smalltextgen.site)
 

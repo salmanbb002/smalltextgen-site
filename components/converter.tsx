@@ -29,6 +29,7 @@ const categories: Array<"All" | StyleCategory | "Saved"> = [
   "Classic",
   "Decorated",
   "Playful",
+  "Invisible",
   "Saved",
 ];
 
@@ -41,6 +42,7 @@ const quickTools = [
   ["Bubble text", "Ⓣⓣ", "bubble"],
   ["Underline", "T̲t̲", "underline"],
   ["Upside down", "ʇ⊥", "upside-down"],
+  ["Invisible text", "␣␣", "invisible"],
 ] as const;
 
 type ConverterProps = {
@@ -168,7 +170,7 @@ export function Converter({ initialStyle, title, description }: ConverterProps) 
     <section className="generator tool-workspace" id="generator" aria-label="Unicode converter workspace">
       <div className="workspace-bar">
         <span><span className="live-dot" /> Generator ready</span>
-        <div><span>22 styles</span><span>Private</span><span>Free</span></div>
+        <div><span>23 styles</span><span>Private</span><span>Free</span></div>
       </div>
 
       <div className="workspace-grid">

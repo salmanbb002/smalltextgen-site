@@ -5,6 +5,7 @@ import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { getSiteUrl } from "@/lib/site-url";
+import { jsonLdGraph, organizationSchema } from "@/lib/schema";
 
 const siteUrl = getSiteUrl();
 const googleSiteVerification =
@@ -25,22 +26,25 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "SmallTextGen",
     title: "SmallTextGen — Small Text Generator",
-    description: "22 copy-ready Unicode styles, generated instantly in your browser.",
+    description: "23 copy-ready Unicode styles, generated instantly in your browser.",
     images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "SmallTextGen small text generator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "SmallTextGen — Small Text Generator",
-    description: "22 copy-ready Unicode styles, generated instantly in your browser.",
+    description: "23 copy-ready Unicode styles, generated instantly in your browser.",
     images: ["/og-image.svg"],
   },
   icons: { icon: "/favicon.svg" },
 };
 
+const organizationLd = jsonLdGraph([organizationSchema()]);
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationLd) }} />
         <a className="skip-link" href="#main-content">Skip to content</a>
         <SiteHeader />
         <main id="main-content">{children}</main>

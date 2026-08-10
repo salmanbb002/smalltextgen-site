@@ -1,10 +1,14 @@
 import type { Metadata } from "next";
 import { InfoPage } from "@/components/info-page";
 
+const privacyDescription = "How SmallTextGen handles your text, local storage, and technical logs.";
+
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "SmallTextGen privacy information.",
+  description: privacyDescription,
   alternates: { canonical: "/privacy" },
+  openGraph: { title: "Privacy | SmallTextGen", description: privacyDescription },
+  twitter: { title: "Privacy | SmallTextGen", description: privacyDescription },
 };
 
 export default function PrivacyPage() {
@@ -28,13 +32,14 @@ export default function PrivacyPage() {
         },
         {
           title: "Operational data",
-          body: <p>Your hosting provider may process limited technical logs such as IP address, browser type, timestamps, and error details for security and reliability. Configure this notice to name your provider and retention period before a public launch.</p>,
+          body: <><p>SmallTextGen is hosted on Vercel, which processes standard technical logs (IP address, browser type, timestamps, and request/error details) for security and reliability, independent of anything you type into the converter.</p><p>This site does not currently run any analytics or advertising script — no third-party tracking pixels or behavioral profiling are in place beyond Google Search Console&apos;s site-ownership verification, which does not track visitors.</p></>,
         },
         {
           title: "Changes",
-          body: <p>Material updates to this notice should be dated and published here. This starter policy is not legal advice and should be reviewed for the laws and services that apply to your deployment.</p>,
+          body: <p>Material updates to this notice are dated below. This is a plain-language summary, not a substitute for legal advice specific to your jurisdiction.</p>,
         },
       ]}
+      lastUpdated="2026-08-10"
     />
   );
 }

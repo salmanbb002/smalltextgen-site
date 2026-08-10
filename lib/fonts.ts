@@ -1,4 +1,4 @@
-export type StyleCategory = "Tiny" | "Classic" | "Decorated" | "Playful";
+export type StyleCategory = "Tiny" | "Classic" | "Decorated" | "Playful" | "Invisible";
 
 export type TextStyle = {
   slug: string;
@@ -111,6 +111,12 @@ const zalgo = (text: string) =>
     .map((char, index) => (char.trim() ? `${char}${zalgoMarks[index % zalgoMarks.length]}${zalgoMarks[(index + 5) % zalgoMarks.length]}` : char))
     .join("");
 
+const BRAILLE_BLANK = "⠀";
+const invisible = (text: string) =>
+  Array.from(text)
+    .map((char) => (char === "\n" ? char : BRAILLE_BLANK))
+    .join("");
+
 export const textStyles: TextStyle[] = [
   { slug: "small-caps", name: "Small caps", category: "Tiny", description: "Compact, even, and highly readable", transform: smallCaps },
   { slug: "superscript", name: "Superscript", category: "Tiny", description: "Raised miniature letters and numbers", transform: superscript },
@@ -134,6 +140,7 @@ export const textStyles: TextStyle[] = [
   { slug: "hearts", name: "Hearts", category: "Playful", description: "A warm decorative frame", transform: (text) => `♡ ${text} ♡` },
   { slug: "brackets", name: "Editorial brackets", category: "Decorated", description: "Clean full-width bookends", transform: (text) => `【${text}】` },
   { slug: "zalgo", name: "Glitch", category: "Playful", description: "A restrained corrupted-text effect", transform: zalgo },
+  { slug: "invisible", name: "Invisible", category: "Invisible", description: "Blank Unicode characters that copy and paste like empty space", transform: invisible },
 ];
 
 export const toolPages = [
@@ -147,6 +154,7 @@ export const toolPages = [
   "strikethrough",
   "upside-down",
   "zalgo",
+  "invisible",
 ] as const;
 
 export function getStyle(slug: string) {

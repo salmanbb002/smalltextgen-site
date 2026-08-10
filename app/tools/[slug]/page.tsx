@@ -3,7 +3,9 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Converter } from "@/components/converter";
+import { PillarToolPage } from "@/components/pillar-tool-page";
 import { getStyle, textStyles, toolPages } from "@/lib/fonts";
+import { getPillarContent } from "@/lib/pillar-content";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -15,15 +17,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const style = getStyle(slug);
   if (!style || !toolPages.includes(slug as (typeof toolPages)[number])) return {};
-  const title = `${style.name} Text Generator — Copy & Paste`;
-  const description = `Convert normal text into ${style.name.toLowerCase()} Unicode instantly. Free, private, and ready to copy for bios, captions, chats, and names.`;
-  return { title, description, alternates: { canonical: `/tools/${slug}` } };
+  const pillar = getPillarContent(slug);
+  const title = pillar?.title ?? `${style.name} Text Generator — Copy & Paste`;
+  const description = pillar?.metaDescription ?? `Convert normal text into ${style.name.toLowerCase()} Unicode instantly. Free, private, and ready to copy for bios, captions, chats, and names.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `/tools/${slug}` },
+    openGraph: { title, description },
+    twitter: { title, description },
+  };
 }
 
 export default async function ToolPage({ params }: Props) {
   const { slug } = await params;
   const style = getStyle(slug);
   if (!style || !toolPages.includes(slug as (typeof toolPages)[number])) notFound();
+
+  const pillar = getPillarContent(slug);
+  if (pillar) return <PillarToolPage style={style} pillar={pillar} />;
 
   const related = textStyles
     .filter((item) => item.slug !== slug && toolPages.includes(item.slug as (typeof toolPages)[number]))

@@ -40,4 +40,9 @@ describe("Unicode text transformations", () => {
   it("leaves non-Latin text readable", () => {
     expect(transformText("small-caps", "سلام 🌿")).toBe("سلام 🌿");
   });
+
+  it("converts every character to a blank Braille cell but keeps line breaks", () => {
+    expect(transformText("invisible", "Hi\nyou")).toBe("⠀⠀\n⠀⠀⠀");
+    expect(Array.from(transformText("invisible", "Hi"))).toHaveLength(2);
+  });
 });

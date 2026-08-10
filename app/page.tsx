@@ -17,10 +17,19 @@ import {
   Zap,
 } from "lucide-react";
 import { Converter } from "@/components/converter";
+import { LastUpdated } from "@/components/last-updated";
 import { getSiteUrl } from "@/lib/site-url";
 
+const homeTitle = "Small Text Generator – Tiny Text Maker (Copy & Paste)";
+const homeDescription =
+  "Turn any word into small caps or tiny letters instantly — free small text generator with one-tap copy and paste for Instagram bios, Discord, and TikTok.";
+
 export const metadata: Metadata = {
+  title: { absolute: homeTitle },
+  description: homeDescription,
   alternates: { canonical: "/" },
+  openGraph: { title: homeTitle, description: homeDescription },
+  twitter: { title: homeTitle, description: homeDescription },
 };
 
 const faq = [
@@ -44,10 +53,15 @@ const faq = [
     "Will every style work on every app?",
     "Most modern apps display these characters, but some services filter unusual Unicode or use fonts without every glyph. If one style fails, small caps and bold are usually reliable alternatives.",
   ],
+  [
+    "Can I copy and paste small text into a username?",
+    "Usually not — usernames are typically restricted to plain letters, numbers, and a few symbols. Small text generally works in bios, display names, captions, and messages instead.",
+  ],
 ];
 
 const focusedTools = [
   ["Small caps", "ᴛɪɴʏ ᴛᴇxᴛ", "small-caps"],
+  ["Invisible text", "⠀⠀⠀⠀ (blank)", "invisible"],
   ["Superscript", "ᵗⁱⁿʸ ᵗᵉˣᵗ", "superscript"],
   ["Subscript", "ₜᵢₙy ₜₑₓₜ", "subscript"],
   ["Bold text", "𝐓𝐢𝐧𝐲 𝐭𝐞𝐱𝐭", "bold"],
@@ -55,6 +69,12 @@ const focusedTools = [
   ["Bubble text", "Ⓣⓘⓝⓨ ⓣⓔⓧⓣ", "bubble"],
   ["Underline", "T̲i̲n̲y̲ t̲e̲x̲t̲", "underline"],
   ["Upside down", "ʇxǝʇ ʎuᴉ⊥", "upside-down"],
+] as const;
+
+const relatedGuides = [
+  ["How to Get Small Text on Your Instagram Bio", "small-text-instagram-bio"],
+  ["Tiny Text for Discord: Copy, Paste, and Tips", "tiny-text-discord"],
+  ["Best Copy-Paste Text Tricks for Social Media Bios", "copy-paste-text-tricks-social-media-bios"],
 ] as const;
 
 const siteUrl = getSiteUrl();
@@ -93,16 +113,19 @@ export default function Home() {
           <div className="breadcrumbs" aria-label="Breadcrumb">Home <span>/</span> Text tools <span>/</span> Small text generator</div>
           <span className="eyebrow"><span className="status-dot" /> Free online text tool</span>
           <h1>Small Text Generator</h1>
-          <p>Convert normal text into small caps, superscript, subscript, cursive, bubble letters, and more copy-and-paste Unicode styles.</p>
+          <p>
+            This small text generator turns any sentence into tiny letters you can copy and paste — small caps, superscript, and more, generated instantly as you type. It&apos;s a fast way to get small text, tiny lettering, or a compact small font for a bio, caption, or display name, without installing a keyboard app or downloading a font. Every style updates live, so you can compare a few small letter options side by side before copying the one that fits. Nothing you type is uploaded — the whole converter runs locally in your browser.
+          </p>
           <div className="utility-badges">
             <span><Zap size={15} aria-hidden="true" /> Instant results</span>
             <span><LockKeyhole size={15} aria-hidden="true" /> Private conversion</span>
             <span><Check size={15} aria-hidden="true" /> No sign-up</span>
           </div>
+          <LastUpdated date="2026-08-10" />
         </div>
         <div className="tool-profile" aria-label="Tool capabilities">
           <div className="tool-profile-head"><span>Tool overview</span><b>Ready</b></div>
-          <div className="profile-metric"><strong>22</strong><span>Unicode styles<br />in one workspace</span></div>
+          <div className="profile-metric"><strong>23</strong><span>Unicode styles<br />in one workspace</span></div>
           <div className="profile-grid">
             <span><b>0</b> uploads</span>
             <span><b>&lt;1s</b> conversion</span>
@@ -128,11 +151,11 @@ export default function Home() {
             <div className="feature-card-top"><span>Live results</span><Zap aria-hidden="true" /></div>
             <h3>Live conversion</h3>
             <p>Every visible result updates the moment your input changes. There is no submit step and no waiting screen.</p>
-            <div className="feature-flow"><span>Plain text</span><ArrowRight aria-hidden="true" /><strong>22 outputs</strong></div>
+            <div className="feature-flow"><span>Plain text</span><ArrowRight aria-hidden="true" /><strong>23 outputs</strong></div>
           </article>
           <article className="feature-card">
             <div className="feature-card-top"><span>Style library</span><Layers3 aria-hidden="true" /></div>
-            <h3>22 Unicode styles</h3>
+            <h3>23 Unicode styles</h3>
             <p>Small caps, superscript, bold, cursive, bubble, underline, upside down, and more.</p>
             <div className="feature-specimen">Aa&nbsp; ᴀᴀ&nbsp; ᴬᵃ&nbsp; Ⓐⓐ</div>
           </article>
@@ -217,11 +240,12 @@ export default function Home() {
           <h2 id="unicode-title">What is a small text generator?</h2>
           <p>A small text generator replaces ordinary Latin letters with visually similar Unicode characters. The result looks like a different font, but it remains selectable text you can copy and paste.</p>
           <p>SmallTextGen generates small caps, raised superscript, lowered subscript, mathematical alphabets, circled characters, and decorated styles without asking you to install anything.</p>
-          <Link href="/about">Read how Unicode conversion works <ArrowRight size={16} aria-hidden="true" /></Link>
+          <Link href="/guides/unicode-explained">Read why these aren&apos;t real fonts <ArrowRight size={16} aria-hidden="true" /></Link>
         </article>
         <aside>
           <span className="section-index">Popular uses</span>
           <h3>Where can I use it?</h3>
+          <p>Small text shows up most in Instagram and TikTok bios, Discord display names, and WhatsApp chats — anywhere a plain caption could use a little personality. It reads correctly wherever standard Unicode is accepted, which covers most social apps and messengers.</p>
           <ul>
             <li><Check size={16} aria-hidden="true" /> Instagram and TikTok bios</li>
             <li><Check size={16} aria-hidden="true" /> Discord names and community roles</li>
@@ -244,6 +268,18 @@ export default function Home() {
               <summary><span>{String(index + 1).padStart(2, "0")}</span>{question}<span className="faq-plus">+</span></summary>
               <p>{answer}</p>
             </details>
+          ))}
+        </div>
+      </section>
+
+      <section className="related-tools">
+        <span className="section-index">Read more</span>
+        <h2>Guides for small text.</h2>
+        <div>
+          {relatedGuides.map(([title, slug]) => (
+            <Link href={`/guides/${slug}`} key={slug}>
+              <span>Guide</span><strong>{title}</strong><ArrowRight size={18} />
+            </Link>
           ))}
         </div>
       </section>
