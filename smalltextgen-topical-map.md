@@ -234,10 +234,42 @@ Verified: `typecheck` + `lint` + `build` (**63 static pages**, up from 33 pre-Ph
 | Signal | Definition | Target |
 |---|---|---|
 | **Coverage** | % of CSV `primary` + `secondary` keywords that have a URL where the keyword appears in title/H1/H2 | ≥ 90 % by end of Phase 1 |
-| **Historical data** | GSC impressions per Core node, month over month | up and to the right on all 11 nodes |
+| **Historical data** | GSC impressions per Core node, month over month | up and to the right on all 14 nodes |
 | **Equity routing** | clicks on the money anchor inside each outer guide | ≥ 3 % of guide pageviews |
 | **Momentum** | new guides published per week; median time-to-index | ≥ 2/wk; < 5 days |
 | **Cannibalisation** | Core nodes where GSC shows 2 of our URLs alternating for one query | 0 |
+
+### 6.1 GSC baseline — captured 2026-09-03 (3 months to Aug 31, `https://smalltextgen.site/` URL-prefix property)
+
+The "before" numbers. The Phase 0–3 work is committed but **not yet deployed** (Vercel deploy `daf9214` is `BLOCKED` on team/billing config), so none of it is reflected here.
+
+| Metric | Value | Read |
+|---|---|---|
+| Clicks (3 mo) | **0** | nothing ranks high enough to be clicked |
+| Impressions (3 mo) | **4,120** | Google shows the site for **815 distinct queries** |
+| Avg CTR | 0 % | — |
+| Avg position | **67.9** | every query sits page 6–9 |
+| Indexed pages | **16** | of ~28 known |
+| Not indexed | **12** | 11 "Discovered – currently not indexed" (never crawled), 1 "Crawled – not indexed" |
+| Sitemap | `/sitemap.xml` — Success, 27 pages, last read Sep 2 | will jump to 57 on deploy |
+| First impressions | ~Aug 8 2026 | domain is ~4 weeks into being indexed |
+
+**Top pages by impressions:** `/guides/tiny-text-discord` 1,340 impr @ pos **57.7** (best page, 33 % of all impressions) · `/tools/subscript` 938 @ 73.8 · `/` 883 @ 71.6 · `/tools/small-caps` 197 @ 82.7 · `/tools/superscript` 192 @ 78.3 · `/guides/blank-discord-name-message` 188 @ 58.5 · `/guides/small-text-instagram-bio` 61 @ 55.1.
+
+**Top queries by impressions:** small text generator (77 @ 73.9) · text small generator (45 @ 75.9) · small text maker (35 @ 69.2) · subscript generator (35 @ 71.4) · text generator small (32) · small text gen (27) · super small text generator (26) · small text converter (24) · subscript and superscript generator (16) · little text generator (15).
+
+**Never-crawled (Discovered, last-crawled N/A):** `/guides` index, `/guides/cursive-fonts-instagram-bio`, `/guides/subscript-numbers-chemistry`, `/guides/subscript-vs-superscript`, `/tools/strikethrough`, `/tools/underline`, `/tools/upside-down`, `/contact`, `/privacy`, `/terms`.
+
+**Diagnosis:** textbook brand-new domain. Google has crawled the indexed set, understands the topic (every one of the 815 queries is on-theme), and parks the whole site at position ~68 for lack of authority — hence 0 clicks. Guides already out-rank tool pages by ~15 positions, which validates the Outer-Section-first approach. The ceiling is **domain authority (backlinks) + crawl priority**, not on-page content. The Phase 0–3 build-out is necessary groundwork; it will not by itself move position 68 → page 1.
+
+### 6.2 Post-deploy actions (in order)
+
+1. **Unblock the Vercel deploy** — resolve the `researchcrave` team config/billing so `daf9214` ships. Nothing below matters until the new pages are live.
+2. Re-submit `/sitemap.xml` in GSC; confirm discovered-pages climbs toward 57.
+3. **Request Indexing** (URL Inspection) for: the 3 new tool pages, `/` (title changed), `/guides` index, and the 4 strongest new hub guides (`copy-paste-fonts-guide`, `how-to-make-tiny-text`, `bubble-letters-copy-paste`, `convert-text-to-cursive`).
+4. Request Indexing for the 7 never-crawled existing pages (`/guides`, the 3 guides, strikethrough / underline / upside-down).
+5. **Off-page** becomes the priority lever: directory + tool-roundup listings, a handful of relevant outreach placements, forum/QA answers, social. This is what closes the position-68 gap.
+6. **Cadence:** re-pull GSC at +2 weeks (watch indexation 16 → toward 57, new pages moving Discovered → Indexed), then monthly for position/impression trend per cluster and the home vs `/tools/tiny-text-generator` cannibalisation check on "tiny text generator".
 
 ---
 
