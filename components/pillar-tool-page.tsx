@@ -11,7 +11,7 @@ import { breadcrumbSchema, faqPageSchema, jsonLdGraph } from "@/lib/schema";
 
 export function PillarToolPage({ style, pillar }: { style: TextStyle; pillar: PillarContent }) {
   const example = style.transform("Tiny text, big mood.");
-  const otherPillars = pillarNav.filter((entry) => entry.slug !== pillar.slug);
+  const otherPillars = pillarNav.filter((entry) => entry.slug !== pillar.slug).slice(0, 6);
   const relatedGuides = pillar.relatedGuideSlugs.map((slug) => getGuide(slug)).filter((g): g is NonNullable<typeof g> => Boolean(g));
 
   const schema = jsonLdGraph([
@@ -28,6 +28,15 @@ export function PillarToolPage({ style, pillar }: { style: TextStyle; pillar: Pi
       { name: "Tools", path: "/#generator" },
       { name: style.name, path: `/tools/${style.slug}` },
     ]),
+    {
+      "@type": "HowTo",
+      name: `How to copy and paste ${style.name.toLowerCase()} text`,
+      step: pillar.howToSteps.map((text, index) => ({
+        "@type": "HowToStep",
+        position: index + 1,
+        text: stripInlineLinks(text),
+      })),
+    },
     faqPageSchema(pillar.faq.map((item) => ({ question: item.question, answer: stripInlineLinks(item.answer) }))),
   ]);
 

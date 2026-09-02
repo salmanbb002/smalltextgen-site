@@ -10,12 +10,15 @@ export function SiteFooter() {
           <p>Small text with big personality. Generated locally in your browser.</p>
         </div>
         <div>
-          <p className="footer-label">Tiny tools</p>
+          <p className="footer-label">Text tools</p>
+          <Link href="/tools/fancy-text-generator">Fancy text generator</Link>
+          <Link href="/tools/unicode-text-converter">Unicode text converter</Link>
+          <Link href="/tools/tiny-text-generator">Tiny text generator</Link>
           <Link href="/tools/small-caps">Small caps</Link>
-          <Link href="/tools/invisible">Invisible text</Link>
-          <Link href="/tools/subscript">Subscript</Link>
+          <Link href="/tools/superscript">Superscript</Link>
           <Link href="/tools/cursive">Cursive</Link>
-          <Link href="/tools/upside-down">Upside down</Link>
+          <Link href="/tools/bubble">Bubble text</Link>
+          <Link href="/tools/invisible">Invisible text</Link>
         </div>
         <div>
           <p className="footer-label">Guides</p>

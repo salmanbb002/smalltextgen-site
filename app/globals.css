@@ -1282,6 +1282,21 @@ button {
   font-weight: 500;
 }
 
+.tool-link-grid .tool-link-static {
+  min-height: 96px;
+  padding: 18px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft, inherit);
+}
+
+.tool-link-grid .tool-link-static:nth-child(odd) { border-right: 1px solid var(--line); }
+.tool-link-grid .tool-link-static > span { font-size: 12px; font-weight: 850; }
+.tool-link-grid .tool-link-static strong { font-size: 21px; font-weight: 500; }
+
 .faq-section {
   display: grid;
   grid-template-columns: 0.72fr 1fr;

@@ -6,12 +6,13 @@ import { useState } from "react";
 import { Logo } from "@/components/logo";
 
 const links = [
+  ["Fancy text", "/tools/fancy-text-generator"],
   ["Small caps", "/tools/small-caps"],
-  ["Invisible text", "/tools/invisible"],
   ["Superscript", "/tools/superscript"],
   ["Subscript", "/tools/subscript"],
   ["Cursive", "/tools/cursive"],
   ["Bubble", "/tools/bubble"],
+  ["Invisible text", "/tools/invisible"],
 ] as const;
 
 export function SiteHeader() {

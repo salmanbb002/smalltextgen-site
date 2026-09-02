@@ -20,9 +20,9 @@ import { Converter } from "@/components/converter";
 import { LastUpdated } from "@/components/last-updated";
 import { getSiteUrl } from "@/lib/site-url";
 
-const homeTitle = "Small Text Generator – Tiny Text Maker (Copy & Paste)";
+const homeTitle = "Small Text Generator — Tiny Text & Copy-and-Paste Fonts";
 const homeDescription =
-  "Turn any word into small caps or tiny letters instantly — free small text generator with one-tap copy and paste for Instagram bios, Discord, and TikTok.";
+  "Free small text generator: turn any word into small caps, tiny letters, cursive, or bubble text you can copy and paste into Instagram bios, TikTok, and Discord. Also works as a font generator and Unicode text converter — no app, no sign-up.";
 
 export const metadata: Metadata = {
   title: { absolute: homeTitle },
@@ -57,9 +57,24 @@ const faq = [
     "Can I copy and paste small text into a username?",
     "Usually not — usernames are typically restricted to plain letters, numbers, and a few symbols. Small text generally works in bios, display names, captions, and messages instead.",
   ],
+  [
+    "Is this a copy-and-paste fonts generator?",
+    "Yes — that is another name for it. SmallTextGen swaps your letters for styled Unicode characters, so you can copy the result and paste fonts like cursive, bold, small caps, or bubble text into apps that do not let you change the typeface.",
+  ],
+  [
+    "How do I get tiny text or small letters?",
+    "Type your text into the generator above, then copy the small caps or superscript result — those are the styles that read as genuinely small — and paste it wherever you need it.",
+  ],
+  [
+    "Is a small text generator the same as a Unicode text converter?",
+    "Yes. Every style here is built from Unicode characters, so small text generator, font generator, and Unicode text converter all describe the same tool.",
+  ],
 ];
 
 const focusedTools = [
+  ["Fancy text generator", "𝒻𝒶𝓃𝒸𝔂 𝓉ℯ𝔁𝓉", "fancy-text-generator"],
+  ["Unicode text converter", "ᴜɴɪᴄᴏᴅᴇ", "unicode-text-converter"],
+  ["Tiny text generator", "ᵗⁱⁿʸ ᵗᵉˣᵗ", "tiny-text-generator"],
   ["Small caps", "ᴛɪɴʏ ᴛᴇxᴛ", "small-caps"],
   ["Invisible text", "⠀⠀⠀⠀ (blank)", "invisible"],
   ["Superscript", "ᵗⁱⁿʸ ᵗᵉˣᵗ", "superscript"],
@@ -68,6 +83,7 @@ const focusedTools = [
   ["Cursive", "𝒯𝒾𝓃𝓎 𝓉ℯ𝓍𝓉", "cursive"],
   ["Bubble text", "Ⓣⓘⓝⓨ ⓣⓔⓧⓣ", "bubble"],
   ["Underline", "T̲i̲n̲y̲ t̲e̲x̲t̲", "underline"],
+  ["Strikethrough", "T̶i̶n̶y̶ t̶e̶x̶t̶", "strikethrough"],
   ["Upside down", "ʇxǝʇ ʎuᴉ⊥", "upside-down"],
 ] as const;
 
@@ -114,7 +130,7 @@ export default function Home() {
           <span className="eyebrow"><span className="status-dot" /> Free online text tool</span>
           <h1>Small Text Generator</h1>
           <p>
-            This small text generator turns any sentence into tiny letters you can copy and paste — small caps, superscript, and more, generated instantly as you type. It&apos;s a fast way to get small text, tiny lettering, or a compact small font for a bio, caption, or display name, without installing a keyboard app or downloading a font. Every style updates live, so you can compare a few small letter options side by side before copying the one that fits. Nothing you type is uploaded — the whole converter runs locally in your browser.
+            This small text generator turns any sentence into tiny letters you can copy and paste — small caps, superscript, cursive, bubble, and more, generated instantly as you type. Use it as a quick copy-and-paste font generator or Unicode text converter to get small text, tiny lettering, or a compact small font for a bio, caption, or display name, without installing a keyboard app or downloading a font. Every style updates live, so you can compare a few small letter options side by side before copying the one that fits. Nothing you type is uploaded — the whole converter runs locally in your browser.
           </p>
           <div className="utility-badges">
             <span><Zap size={15} aria-hidden="true" /> Instant results</span>
@@ -136,6 +152,29 @@ export default function Home() {
       </section>
 
       <Converter />
+
+      <section className="content-hub" aria-labelledby="unicode-title">
+        <article>
+          <span className="section-index">About the tool</span>
+          <h2 id="unicode-title">What is a small text generator?</h2>
+          <p>A small text generator — also called a font generator or Unicode text converter — replaces ordinary Latin letters with visually similar Unicode characters. The result looks like a different font, but it stays selectable text you can copy and paste.</p>
+          <p>SmallTextGen generates small caps, raised superscript, lowered subscript, cursive, bubble text, mathematical alphabets, and decorated styles without asking you to install anything.</p>
+          <Link href="/guides/unicode-explained">Read why these aren&apos;t real fonts <ArrowRight size={16} aria-hidden="true" /></Link>
+        </article>
+        <aside>
+          <span className="section-index">Popular uses</span>
+          <h3>Where can I use it?</h3>
+          <p>Small text shows up most in Instagram and TikTok bios, Discord display names, and WhatsApp chats — anywhere a plain caption could use a little personality. It reads correctly wherever standard Unicode is accepted, which covers most social apps and messengers.</p>
+          <ul>
+            <li><Check size={16} aria-hidden="true" /> Instagram and TikTok bios</li>
+            <li><Check size={16} aria-hidden="true" /> Discord names and community roles</li>
+            <li><Check size={16} aria-hidden="true" /> WhatsApp and Messenger chats</li>
+            <li><Check size={16} aria-hidden="true" /> Captions, headings, and notes</li>
+            <li><Check size={16} aria-hidden="true" /> Gaming names and profile labels</li>
+          </ul>
+          <div className="platform-tags"><span>Instagram</span><span>Discord</span><span>WhatsApp</span><span>TikTok</span><span>Reddit</span></div>
+        </aside>
+      </section>
 
       <section className="feature-command" aria-labelledby="features-title">
         <header className="feature-command-head">
@@ -232,29 +271,6 @@ export default function Home() {
             <p>Copy one result and paste it into the app you use.</p>
           </article>
         </div>
-      </section>
-
-      <section className="content-hub" aria-labelledby="unicode-title">
-        <article>
-          <span className="section-index">About the tool</span>
-          <h2 id="unicode-title">What is a small text generator?</h2>
-          <p>A small text generator replaces ordinary Latin letters with visually similar Unicode characters. The result looks like a different font, but it remains selectable text you can copy and paste.</p>
-          <p>SmallTextGen generates small caps, raised superscript, lowered subscript, mathematical alphabets, circled characters, and decorated styles without asking you to install anything.</p>
-          <Link href="/guides/unicode-explained">Read why these aren&apos;t real fonts <ArrowRight size={16} aria-hidden="true" /></Link>
-        </article>
-        <aside>
-          <span className="section-index">Popular uses</span>
-          <h3>Where can I use it?</h3>
-          <p>Small text shows up most in Instagram and TikTok bios, Discord display names, and WhatsApp chats — anywhere a plain caption could use a little personality. It reads correctly wherever standard Unicode is accepted, which covers most social apps and messengers.</p>
-          <ul>
-            <li><Check size={16} aria-hidden="true" /> Instagram and TikTok bios</li>
-            <li><Check size={16} aria-hidden="true" /> Discord names and community roles</li>
-            <li><Check size={16} aria-hidden="true" /> WhatsApp and Messenger chats</li>
-            <li><Check size={16} aria-hidden="true" /> Captions, headings, and notes</li>
-            <li><Check size={16} aria-hidden="true" /> Gaming names and profile labels</li>
-          </ul>
-          <div className="platform-tags"><span>Instagram</span><span>Discord</span><span>WhatsApp</span><span>TikTok</span><span>Reddit</span></div>
-        </aside>
       </section>
 
       <section className="faq-section" aria-labelledby="faq-title">

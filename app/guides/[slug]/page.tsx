@@ -6,6 +6,9 @@ import { LastUpdated } from "@/components/last-updated";
 import { RichParagraph, RichText } from "@/components/rich-text";
 import { getGuide, getRelatedGuides, guides, stripInlineLinks } from "@/lib/guides";
 import { breadcrumbSchema, faqPageSchema, jsonLdGraph } from "@/lib/schema";
+import { getSiteUrl } from "@/lib/site-url";
+
+const siteUrl = getSiteUrl();
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -38,6 +41,16 @@ export default async function GuidePage({ params }: Props) {
       { name: "Guides", path: "/guides" },
       { name: guide.h1, path: `/guides/${guide.slug}` },
     ]),
+    {
+      "@type": "Article",
+      headline: guide.h1,
+      description: guide.metaDescription,
+      datePublished: guide.lastUpdated,
+      dateModified: guide.lastUpdated,
+      author: { "@type": "Organization", name: "SmallTextGen", url: siteUrl },
+      publisher: { "@id": `${siteUrl}/#organization` },
+      mainEntityOfPage: `${siteUrl}/guides/${guide.slug}`,
+    },
     ...(guide.faq.length
       ? [faqPageSchema(guide.faq.map((item) => ({ question: item.question, answer: stripInlineLinks(item.answer) })))]
       : []),
