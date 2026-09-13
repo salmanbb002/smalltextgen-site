@@ -20,6 +20,116 @@ export type Guide = {
 
 export const guides: Guide[] = [
   {
+    slug: "glitch-text-generator",
+    title: "Glitch Text Generator: Copy & Paste Corrupted Zalgo Text",
+    metaDescription:
+      "Free glitch text generator for corrupted, distorted, and Zalgo text. Copy and paste glitched Unicode characters for Discord, gaming bios, TikTok, and horror aesthetics.",
+    h1: "Glitch Text Generator: Copy, Paste & Make Corrupted Zalgo Text",
+    dek: "Generate spooky, corrupted glitch text using Unicode combining diacritical marks. Learn how glitch text works, safe intensity levels, and where to paste it.",
+    cluster: "D",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "Glitch text \u2014 often called Zalgo text, corrupted text, or cursed letters \u2014 is one of the most eye-catching typographic phenomena on the internet. With distorted glyphs overflowing above and below the baseline (such as H\u0338e\u0336l\u0338l\u0337o\u0335 \u0336W\u0338o\u0338r\u0337l\u0335d\u0335), glitch text brings a chaotic cyberpunk, haunted, or horror vibe to Discord channels, TikTok bios, gaming profiles, and roleplaying communities.",
+      "Unlike custom graphics or images, glitch text is made entirely of real, raw Unicode text that can be copied and pasted anywhere plain text is accepted. This guide explains the fascinating Unicode science behind the corruption effect, how to dial in the right intensity, where glitch text works best, and how to avoid having your messages blocked or clipped.",
+    ],
+    sections: [
+      {
+        heading: "What Is Glitch Text and How Does It Work in Unicode?",
+        paragraphs: [
+          "To understand glitch text, it helps to know that computers do not render fonts as pictures \u2014 they look up standardized codes defined by the Unicode Consortium. In normal language, accents like accents aigu (\u00e9), umlauts (\u00fc), and cedillas (\u00e7) are created using 'combining diacritical marks' (Unicode code points U+0300 to U+036F).",
+          "These combining marks are special non-spacing characters designed to attach themselves to the preceding base letter without taking up horizontal room. Standard writing systems only stack one or two diacritics per letter (such as in Vietnamese).",
+          "A glitch text generator takes advantage of this system by deliberately stacking dozens of combining marks \u2014 upwards, downwards, and across the middle \u2014 onto each single letter. Because rendering engines attempt to draw every single stacked mark, the characters explode into tall, jagged, corrupted visual artifacts that bleed across lines.",
+        ],
+      },
+      {
+        heading: "Step-by-Step: How to Generate and Copy Glitch Text",
+        paragraphs: [
+          "Creating your own distorted glitch text takes only a few seconds:\n1. Open the [fancy text generator](/tools/fancy-text-generator) or [glitch text tool](/tools/zalgo) and type your phrase into the input field.\n2. Adjust the corruption level: subtle distortion adds light scratches through the letters, while maximum intensity produces towering Zalgo chaos.\n3. Click the Copy button to capture the transformed Unicode string.\n4. Paste the result into your Discord chat, Instagram caption, TikTok bio, or Steam profile.",
+          "Pro tip: because combining diacritics significantly increase the underlying byte count (a 5-letter word can become 50+ bytes), always preview the text in your target application before hitting submit.",
+        ],
+      },
+      {
+        heading: "Subtle Glitch vs Extreme Zalgo: Choosing the Right Intensity",
+        paragraphs: [
+          "Not all glitch text needs to drown the entire screen. Finding the right intensity depends on your platform and audience:\n\u2022 Light / Cyber Glitch: Uses combining strikethroughs and light tildes (e.g. C\u0336y\u0335b\u0338e\u0335r\u0335). Highly legible, passes most social media character caps, and gives a sleek hacker or vaporwave aesthetic.\n\u2022 Medium Distortion: Stacks 3 to 6 marks above and below. Perfect for Halloween posts, horror roleplaying announcements, and spooky Discord channel names.\n\u2022 Maximum Zalgo Corruption: Stacks 15+ combining marks in all directions. The text visually overtakes adjacent lines, creating an eldritch horror look popularized by the classic 'Zalgo' creepypasta memes.",
+        ],
+      },
+      {
+        heading: "Platform Compatibility: Where Does Glitch Text Work?",
+        paragraphs: [
+          "Discord: Glitch text renders exceptionally well in Discord text channels, user About Me bios, and status messages. However, server owners frequently forbid extreme Zalgo nicknames because excessive vertical height can obscure other members in voice channels.",
+          "TikTok & Instagram: Works seamlessly in bios and video captions. Note that Instagram's 150-character bio limit counts every individual combining mark as a character, meaning a heavily glitched word may consume 30 to 40 characters of your quota.",
+          "Steam & Gaming Profiles: Steam community profiles and nicknames fully support glitch text, making it a staple for CS2, TF2, and Rust clan tags.",
+          "Roblox & Minecraft: Roblox aggressively sanitizes combining diacritics to protect child safety and prevent chat flooding, so glitch text will usually revert to '###'. Minecraft Java chat supports it, but extreme vertical heights can cause text to render outside chat dialogue boxes.",
+        ],
+      },
+      {
+        heading: "Why Modern Apps Sometimes Clip or Filter Glitch Text",
+        paragraphs: [
+          "In the early days of smartphones, massive Zalgo text strings could overwhelm text layout engines and crash chat apps \u2014 an issue colloquially known as a 'text bomb'.",
+          "To prevent this, modern operating systems (iOS, Android, Windows) and platforms like Discord and Twitter implement strict CSS `overflow: hidden` rules, line-height limits, and character normalization filters (such as Unicode NFC/NFD normalization). If your glitch text looks truncated or flattened on a specific site, that platform is intentionally clipping combining marks to preserve UI stability.",
+          "For reliable presentation, keep your corruption density moderate. Pair glitch text with other high-contrast styles from our [fancy text styles guide](/guides/fancy-text-styles-explained) to achieve an edgy look without breaking platform formatting.",
+        ],
+      },
+      {
+        heading: "Accessibility and Screen Reader Considerations",
+        paragraphs: [
+          "A critical factor in using glitch text responsibly is digital accessibility (E-E-A-T best practices). Screen readers (like VoiceOver on iOS/macOS or NVDA on Windows) attempt to read every single combining diacritic aloud.",
+          "A word like 'H\u0335e\u0338l\u0335l\u0338o\u0335' can cause a screen reader to announce: 'Latin capital letter H with combining short stroke overlay, Latin small letter e with combining acute accent, Latin small letter l with combining tilde...' taking over 30 seconds for a single greeting.",
+          "For this reason, keep glitch text restricted to decorative accents, gaming usernames, and creative roleplay. Never use glitch text for essential instructional content, navigation labels, or primary website headings.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is glitch text called?",
+        answer:
+          "Glitch text is also commonly referred to as Zalgo text, corrupted text, cursed text, or distorted Unicode. The name 'Zalgo' originates from a 2004 internet creepypasta depicting an eldritch entity that corrupts reality and text.",
+      },
+      {
+        question: "Is glitch text safe to copy and paste?",
+        answer:
+          "Yes. Glitch text consists purely of standard Unicode characters and combining diacritical marks. It contains no executable scripts, viruses, or malicious payloads. It is completely safe to copy and paste on any modern device.",
+      },
+      {
+        question: "Why does glitch text make messages so tall?",
+        answer:
+          "Glitch text stacks multiple non-spacing Unicode accents (combining diacritics) above and below normal letters. Because fonts render these marks vertically outside the standard line height, they visually spill into lines above and below.",
+      },
+      {
+        question: "Can glitch text crash phones or Discord?",
+        answer:
+          "On modern devices (iOS 15+, Android 10+, Windows 11), glitch text will not crash apps because modern UI frameworks cap rendering heights. On very old legacy software from over a decade ago, extremely long strings of combining marks could occasionally cause temporary lag.",
+      },
+      {
+        question: "How do I remove glitch formatting from copied text?",
+        answer:
+          "To remove glitch diacritics and recover plain text, paste the text into a plain text editor (like Notepad or TextEdit), or use an online text normalizer to strip combining diacritical code points (U+0300 to U+036F).",
+      },
+      {
+        question: "Does glitch text count towards character limits?",
+        answer:
+          "Yes. While a glitched letter looks like one symbol on screen, every attached accent mark is a separate Unicode code point. A 5-letter word with heavy glitch effects can easily consume 40 to 60 characters toward social media limits.",
+      },
+      {
+        question: "Why does Roblox filter my glitch text to tags (###)?",
+        answer:
+          "Roblox employs strict chat moderation filters designed to block chat flooding and text evasion. Because stacked diacritical marks distort text and take up abnormal vertical space, Roblox's safety filters automatically replace them with '###'.",
+      },
+      {
+        question: "How can I make glitch text in Discord?",
+        answer:
+          "Discord does not have a native glitch Markdown tag. To use glitch text in Discord, generate your phrase using our [glitch text generator](/tools/zalgo), copy the output, and paste it directly into your Discord message or channel name.",
+      },
+    ],
+    pillarLinks: [
+      { label: "glitch text generator", href: "/tools/zalgo" },
+      { label: "fancy text generator", href: "/tools/fancy-text-generator" },
+      { label: "small text generator", href: "/" },
+    ],
+    relatedGuideSlugs: ["tiny-text-discord", "what-is-invisible-text", "fancy-text-styles-explained"],
+  },
+  {
     slug: "small-text-instagram-bio",
     title: "Small Text for Instagram Bio (Copy & Paste)",
     metaDescription:
@@ -88,74 +198,116 @@ export const guides: Guide[] = [
     ],
     relatedGuideSlugs: ["tiny-text-discord", "copy-paste-text-tricks-social-media-bios"],
   },
-  {
+    {
     slug: "tiny-text-discord",
-    title: "Tiny Text for Discord: Copy, Paste & Tips",
+    title: "How to Make Small Text in Discord: The Complete 2026 Guide",
     metaDescription:
-      "How to use tiny letters and small text generator output in Discord names, nicknames, and messages — plus what actually renders.",
-    h1: "Tiny Text for Discord: Copy, Paste, and Formatting Notes",
-    dek: "What actually works when you paste small text generator output into a Discord name or message.",
+      "How to make small text in Discord using subtext Markdown (-#), small caps, and superscript. Complete guide for chat messages, nicknames, bios, and mobile.",
+    h1: "How to Make Small Text in Discord: The Complete 2026 Guide",
+    dek: "Master Discord's native subtext Markdown (-#), miniature Unicode alphabets, and mobile tricks to format small text in server nicknames, bios, and chat.",
     cluster: "A",
-    lastUpdated: "2026-09-03",
+    lastUpdated: "2026-09-13",
     intro: [
-      "Discord is one of the most common places people paste tiny letters — into a display name, a server nickname, or a message meant to stand out in a busy channel. Because Discord renders plain Unicode rather than custom fonts, a small text generator works there the same way it works anywhere else: you're pasting real characters, not applying a font setting.",
-      "This guide covers the practical side — character limits, where Discord accepts styled Unicode and where it doesn't, and which tiny styles hold up best in Discord's own font.",
+      "Whether you want to add a subtle disclaimer to a Discord message, create a sleek miniature server nickname, or craft an aesthetic profile bio, knowing how to make small text in Discord is an essential skill. In 2026, there are two distinct ways to achieve this: Discord's native Markdown subtext syntax (`-#`), and Unicode character generators that produce genuine tiny letters (`\u02e2\u1d50\u1d43\u02e1\u02e1` or `\ua731\u1d0d\u1d00\u029f\u029f \u1d04\u1d00\u1d18\ua731`).",
+      "Because Discord applies strict validation rules depending on where you are typing \u2014 in a channel chat, a server nickname, a global display name, or a user handle \u2014 each technique serves a very specific purpose. This guide covers every working method, mobile formatting quirks, copy-paste snippets, and how to avoid having your text filtered or stripped.",
     ],
     sections: [
       {
-        heading: "Where tiny text works in Discord",
+        heading: "Method 1: Discord Native Markdown Subtext (-#)",
         paragraphs: [
-          "Display names, server nicknames, status text, and message content all accept Unicode small text, since Discord treats it as ordinary text input. Server names and channel names generally accept it too, subject to a server owner's naming rules. What doesn't work reliably is anywhere Discord validates input more strictly — usernames (the @handle, not the display name) are restricted to lowercase letters, digits, underscores, and periods, so stylized Unicode is rejected there.",
+          "Discord introduced native subtext formatting to its Markdown engine, allowing any user to render downscaled, greyed-out text directly inside chat messages, channel announcements, threads, and forum posts without needing any external tools or fonts.",
+          "To make small text in Discord chat, start any line with a hyphen, a hash symbol, and a space: `-# your message here`. When sent, Discord automatically shrinks the font size to approximately 80% and applies a secondary muted grey color. For example:\n`-# This is small subtext in Discord`\nrenders as a compact footer line beneath normal text.",
+          "Important Markdown rules to remember:\n1. The space after the hash is mandatory: typing `-#Text` will fail to format, while `-# Text` succeeds.\n2. Subtext applies per line: if your message has three lines and you want all of them small, place `-# ` at the start of every individual line.\n3. Combining with other Markdown: you can combine subtext with bold (`-# **bold small text**`), italics (`-# *italic small text*`), or strikethrough (`-# ~~crossed small text~~`).\n4. Location restrictions: Native subtext ONLY works in message bodies and forum posts. It does NOT work in user display names, server nicknames, custom statuses, or profile bios.",
         ],
       },
       {
-        heading: "How to copy and paste small text into Discord",
+        heading: "Method 2: Unicode Small Caps for Nicknames & Display Names",
         paragraphs: [
-          "1. Open the small text generator and type the name or message you want.\n2. Pick a style — small caps is the safest default because Discord's UI font renders it cleanly at small sizes; superscript can look cramped in the compact sidebar.\n3. Copy the result.\n4. In Discord, open User Settings → Profiles to change your display name, or right-click your name in a specific server → Edit Server Profile for a per-server nickname.\n5. Paste and save.",
+          "If you want your server nickname, global display name, or custom status to appear in small letters, Discord's `-#` Markdown syntax will not work because profile fields strip Markdown tags. Instead, you need Unicode character substitution.",
+          "Small caps replaces standard lowercase letters with miniature capital glyphs from the Unicode phonetic and Latin extension blocks (`\u1d00 \u0299 \u1d04 \u1d05 \u1d07 \u0493 \u0262 \u029c \u026a \u1d0a \u1d0b \u029f \u1d0d \u0274 \u1d0f \u1d18 \u01eb \u0280 \ua731 \u1d1b \u1d1c \u1d20 \u1d21 x \u028f \u1d22`). Because these are genuine characters rather than a font style, Discord preserves them everywhere in your profile.",
+          "How to apply small caps in Discord:\n1. Open the [small text generator](/) or [small caps generator](/tools/small-caps) and type your desired name or text.\n2. Click Copy to place the converted letters onto your clipboard.\n3. Open Discord and go to User Settings \u2192 Profiles.\n4. Paste the text into your Display Name, or right-click your profile in a specific server and select Edit Server Profile to update only that server's nickname.\n5. Click Save Changes. Small caps is widely regarded as the cleanest, most legible tiny text style for gaming clans and community servers.",
         ],
       },
       {
-        heading: "A note on Discord and blank or invisible names",
+        heading: "Method 3: Superscript & Tiny Text for Aesthetic Bios & Statuses",
         paragraphs: [
-          "People searching for 'small text generator discord' are often actually after a blank-looking name, not a small one — those are different tools. Discord blocks names made entirely of whitespace or zero-width characters, so a genuinely empty name needs a specific approach; see the [blank Discord name guide](/guides/blank-discord-name-message) for what still works after that change.",
+          "For a truly miniature, floating aesthetic in your Discord About Me bio or custom status, superscript letters (`\u1d43\u1d47\u1d9c\u1d48\u1d49\u1da0\u1d4d\u02b0\u2071\u02b2\u1d4f\u02e1\u1d50\u207f\u1d52\u1d56\u02b3\u02e2\u1d57\u1d58\u1d5b\u02b7\u02e3\u02b8\u1dbb`) and subscript letters (`\u2090\u1d66\ud835\udcb8\ud835\udcb9\u2091...`) provide the smallest footprint available in Unicode.",
+          "Superscript characters sit high on the baseline, mimicking mathematical exponents or footnote indicators. They are especially popular on Discord for decorative tags (such as `user \u02e2\u1d58\u1d56\u1d49\u02b3\u02e2\u1d57\u1d43\u02b3` or `lvl \u2079\u2079`), pairing with kaomoji, and fitting compact lists into Discord's 190-character custom status limit.",
+          "Keep in mind that the Unicode Consortium never designed superscript as a full decorative alphabet; it was assembled gradually over decades for linguistic and mathematical notation. As a result, certain letters like lowercase 'q' have no native superscript counterpart in Unicode standards, so generators use clean visual substitutes like uppercase `Q` or small capital `\u01eb`.",
         ],
       },
       {
-        heading: "Tiny text in About Me, status, and on mobile",
+        heading: "Comparison: Which Small Text Method Should You Use?",
         paragraphs: [
-          "Your profile About Me and custom status both accept small text — paste it the same way you would a nickname. On mobile, Discord renders the same Unicode blocks as desktop, so small caps and superscript that look right on desktop look right in the iOS and Android apps too; the main difference is the tighter line height in the mobile member list, where superscript can look cramped. Small caps holds up best across both.",
+          "Chat Messages (announcements, notes, fine print): Use Discord's native `-# ` Markdown subtext. It renders natively, requires zero external tools, and scales perfectly with every user's chat zoom settings.",
+          "Display Names & Server Nicknames: Use [small caps generator](/tools/small-caps) Unicode text. It passes Discord's name filters and is easy to read even in small channel sidebars.",
+          "About Me Bio & Custom Status: Use either small caps or [superscript generator](/tools/superscript). Both render cleanly across mobile and desktop profile popouts.",
+          "Discord Usernames (@handle): Neither method works. Discord requires usernames (the unique handle used for logging in and friend requests) to contain strictly lowercase alphanumeric characters (`a-z`, `0-9`), periods, and underscores. Stylized Unicode and Markdown are strictly rejected.",
+        ],
+      },
+      {
+        heading: "Small Text on Discord Mobile (iOS & Android) vs Desktop",
+        paragraphs: [
+          "Discord's mobile app renders both Markdown subtext and Unicode small text reliably, but there are two practical UI differences to keep in mind:",
+          "1. Sidebar Line Spacing: In the mobile member list, line heights are compressed to save screen space. While small caps letters remain sharp and readable, heavy superscript can occasionally feel tightly packed next to role icons or badges.",
+          "2. System Font Fallbacks: Discord uses its custom 'gg sans' typeface across desktop and mobile. While gg sans covers all standard small caps and superscript code points, very old Android builds (Android 9 and older) may occasionally show a square box ('tofu') if their system fallback fonts lack obscure glyphs. Small caps has 99.8% device compatibility, making it the safest pick for public servers.",
+        ],
+      },
+      {
+        heading: "Troubleshooting Common Discord Small Text Issues",
+        paragraphs: [
+          "If your small text is not displaying as expected in Discord, check these common causes:\n\u2022 Missing space in Markdown: ensure there is a space directly between the `#` and your text (`-# text`, not `-#text`).\n\u2022 Newline break: `-#` only formats the current line. Add `-# ` to every subsequent paragraph if you want the entire block small.\n\u2022 Auto-moderation bots: Some Discord bots (like Dyno, Carl-bot, or Wick) have anti-hoisting or non-ASCII nickname filters enabled. If a server resets your tiny nickname to your username, that server's moderation rules prohibit non-standard Unicode names.\n\u2022 Invisible text confusion: If you want an invisible or blank Discord name rather than small letters, see our dedicated [blank Discord name guide](/guides/blank-discord-name-message).",
         ],
       },
     ],
     faq: [
       {
-        question: "Can I use tiny text in my Discord About Me or custom status?",
+        question: "What is the code for small text in Discord chat?",
         answer:
-          "Yes. Both fields accept styled Unicode, so you can paste small caps, superscript, or subscript into them the same way as a display name.",
+          "The native code for small text in Discord chat is `-# ` followed by a space and your text. For example, typing `-# hello world` displays 'hello world' in small, muted grey subtext.",
       },
       {
-        question: "Does tiny text look the same on Discord mobile and desktop?",
+        question: "Does the -# small text shortcut work in Discord nicknames or bios?",
         answer:
-          "Mostly. Discord renders the same Unicode on both, so small caps and superscript match. The mobile member list has tighter spacing, so superscript can look cramped there — small caps is the safer pick for mobile.",
+          "No. Discord's `-#` syntax is Markdown, which only functions in chat messages, threads, and forum posts. For nicknames, display names, and bios, use a [small text generator](/) to copy Unicode small caps or superscript characters.",
       },
       {
-        question: "Does small text generator output work for Discord names?",
+        question: "Can I get banned from Discord for using small Unicode text in my nickname?",
         answer:
-          "Yes, for your display name and per-server nickname. Your Discord username (the one with the # or unique handle) is restricted to plain lowercase letters, numbers, underscores, and periods, so styled Unicode won't be accepted there.",
+          "No. Using Unicode small caps or superscript in your nickname or bio does not violate Discord Terms of Service. However, individual server owners may have rules against non-standard fonts to keep member lists alphabetical or prevent name hoarding.",
       },
       {
-        question: "Why do some small letters look different in Discord than in the generator preview?",
+        question: "Why does Discord reject small text in my @username handle?",
         answer:
-          "Discord renders text in its own interface font, which doesn't include every glyph in every Unicode block. Small caps and superscript both have broad support in Discord's font stack; more decorative styles are more likely to show gaps.",
+          "Discord's username system requires unique handles to consist strictly of standard lowercase Latin letters (a-z), numbers (0-9), periods (.), and underscores (_). Stylized Unicode characters can only be used in your Display Name and Server Nicknames.",
       },
       {
-        question: "Is there a character limit for tiny text in Discord messages?",
+        question: "How do I make small text on the Discord mobile app?",
         answer:
-          "Standard messages are capped at 2,000 characters for most accounts, same as regular text — styled Unicode characters don't count differently.",
+          "In mobile chat, type `-# ` at the start of your message line. For your profile name on mobile, open your browser, convert your name with our [small text generator](/), copy it, and paste it under User Settings \u2192 Profiles.",
+      },
+      {
+        question: "Can screen readers read small text in Discord?",
+        answer:
+          "Native Markdown subtext (`-# text`) is read completely normally by screen readers as plain text. However, Unicode styled letters (like small caps or superscript) may be announced character-by-character or as mathematical symbols, so use them sparingly for accessibility.",
+      },
+      {
+        question: "Why is there no lowercase 'q' in Unicode superscript?",
+        answer:
+          "Unicode never had a linguistic or mathematical reason to add a dedicated superscript lowercase 'q'. Quality small text generators automatically substitute uppercase 'Q' or small capital '\u01eb' so words like 'queen' or 'quick' convert cleanly.",
+      },
+      {
+        question: "Does Discord Nitro give you exclusive fonts or small text options?",
+        answer:
+          "No. Discord Nitro offers server boosts, custom emojis, and larger file uploads, but does not provide custom text fonts. Both native `-#` subtext and Unicode tiny text are 100% free and work for all Discord users.",
       },
     ],
-    pillarLinks: [{ label: "small text generator", href: "/" }],
-    relatedGuideSlugs: ["small-text-instagram-bio", "blank-discord-name-message"],
+    pillarLinks: [
+      { label: "small text generator", href: "/" },
+      { label: "small caps generator", href: "/tools/small-caps" },
+      { label: "superscript generator", href: "/tools/superscript" },
+    ],
+    relatedGuideSlugs: ["small-text-instagram-bio", "blank-discord-name-message", "glitch-text-generator"],
   },
   {
     slug: "what-is-invisible-text",
