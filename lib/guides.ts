@@ -20,6 +20,97 @@ export type Guide = {
 
 export const guides: Guide[] = [
   {
+    slug: "zalgo-text-generator",
+    title: "Zalgo Text Generator \u2013 Creepy Corrupted Text",
+    metaDescription:
+      "Free Zalgo text generator to create cursed, creepy, and corrupted text for Discord, TikTok bios, horror roleplay, and gaming names. Copy and paste instantly.",
+    h1: "Zalgo Text Generator: How to Make Creepy Corrupted Text",
+    dek: "Convert normal text into terrifying Zalgo-corrupted glyphs using stacked Unicode combining characters. Adjust chaos levels and copy with one click.",
+    cluster: "D",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "Originating from the notorious 2004 internet creepypasta 'He Comes', Zalgo text \u2014 also known as cursed text, eldritch font, or corrupted text \u2014 is one of the most iconic aesthetic phenomena in online culture. By producing chaotic characters that bleed upwards and downwards across the screen (like Z\u0336a\u0336l\u0336g\u0336o\u0335 \u0337i\u0336s\u0335 \u0337h\u0336e\u0336r\u0336e\u0335), it brings an ominous horror aesthetic to Discord channels, TikTok bios, and spooky usernames.",
+      "While Zalgo text looks like corrupted machine code or a broken digital display, it is constructed entirely from valid, standardized Unicode characters. This guide breaks down how Zalgo diacritical stacking works, safe corruption levels for social media, platform restrictions, and how to generate copy-paste Zalgo text in seconds.",
+    ],
+    sections: [
+      {
+        heading: "The Origin of Zalgo: From Internet Lore to Typography",
+        paragraphs: [
+          "The concept of Zalgo originated in August 2004 on the Something Awful forums by artist Dave Kelly, who edited classic comic strips (like Garfield) into surreal, nightmare-fuel illustrations featuring pitch-black eyes, bleeding walls, and unintelligible corrupted letters.",
+          "Internet users quickly sought a way to replicate this visual chaos in plain text. Programmers realized that the Unicode standard contained an obscure category of characters \u2014 combining diacritical marks \u2014 that could be intentionally weaponized to produce the same towering, jagged visual corruption across modern browsers.",
+        ],
+      },
+      {
+        heading: "The Science: How Combining Diacritics Create Zalgo Text",
+        paragraphs: [
+          "In traditional linguistics, diacritics are accents placed on letters (such as the acute accent in '\u00e9' or the tilde in '\u00f1'). In Unicode, these are assigned to code points U+0300 through U+036F and are designated as 'non-spacing combining marks'.",
+          "Non-spacing marks have zero width; when a text renderer encounters one, it draws the mark directly above, below, or through the preceding base letter.",
+          "A Zalgo text generator exploits this by attaching 10, 20, or even 40 combining diacritics to every single letter in your phrase. Because the computer attempts to render every accent mark sequentially, the characters erupt into tall visual spikes that overflow normal line boundaries.",
+        ],
+      },
+      {
+        heading: "Choosing Your Corruption Level: Subtle to Eldritch Chaos",
+        paragraphs: [
+          "When creating Zalgo text, choosing the right corruption density is essential for usability:\n1. Light Corruption (Cyber / Hacker): Adds minimal strikethroughs and light tildes. Completely legible, lightweight in byte size, and ideal for Discord channel names and gaming clan tags.\n2. Medium Glitch (Spooky Aesthetic): Stacks 4 to 8 diacritics per glyph. Visually distorted and ominous while remaining decipherable for captions and horror roleplay.\n3. Maximum Zalgo (Total Eldritch Chaos): Stacks 20+ marks in every direction. The text completely obscures surrounding lines, mimicking an eldritch corruption breaking through your display.",
+        ],
+      },
+      {
+        heading: "Where Does Zalgo Text Work (and Where Is It Filtered)?",
+        paragraphs: [
+          "Discord: Highly popular in text channels, bot messages, and custom statuses. However, server moderation bots (like Carl-bot or Dyno) frequently scrub extreme Zalgo nicknames to prevent channel member list clogging.",
+          "TikTok & Instagram: Supported in captions and user bios. Note that Instagram's 150-character limit counts every individual combining mark as a character, so an extreme Zalgo word can rapidly deplete your bio allowance.",
+          "Roblox & Gaming Filters: Roblox aggressively sanitizes combining diacritics to prevent chat flooding and filter evasion, usually replacing Zalgo text with '###'. Steam community profiles, however, render it without restriction.",
+        ],
+      },
+      {
+        heading: "Accessibility and Digital Etiquette",
+        paragraphs: [
+          "While Zalgo text is fun for creative gaming and Halloween aesthetics, it should be used thoughtfully regarding digital accessibility.",
+          "Screen readers (such as VoiceOver and JAWS) will attempt to pronounce every stacked diacritic individually. A single glitched word can force a visually impaired user's screen reader to recite dozens of obscure linguistic descriptors over several minutes.",
+          "Best practice: Keep Zalgo text limited to decorative headers, roleplay flavor text, and social handles, never in essential navigational buttons or accessibility menus.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What is Zalgo text?",
+        answer:
+          "Zalgo text is distorted Unicode text created by stacking multiple combining diacritical marks onto standard letters, giving them a cursed, corrupted, or glitched appearance.",
+      },
+      {
+        question: "Is Zalgo text dangerous or a virus?",
+        answer:
+          "No. Zalgo text contains zero malicious scripts, viruses, or executable code. It is 100% standard plain text defined by the Unicode Consortium.",
+      },
+      {
+        question: "Can Zalgo text crash my computer or phone?",
+        answer:
+          "On modern smartphones and operating systems (iOS, Android, Windows 11), Zalgo text will not crash your device because modern rendering engines enforce maximum line heights. On legacy browsers from 15 years ago, very long Zalgo strings could sometimes cause temporary slowdown.",
+      },
+      {
+        question: "How do I remove Zalgo corruption from copied text?",
+        answer:
+          "You can paste the glitched text into a text cleaner tool or plain text editor that strips non-ASCII or combining characters (Unicode block U+0300 to U+036F) to restore the original words.",
+      },
+      {
+        question: "Does Zalgo text work in Discord names?",
+        answer:
+          "Yes, in your Display Name and Server Nicknames. It does not work in your unique @username handle because Discord handles are strictly limited to lowercase letters (a-z), numbers, periods, and underscores.",
+      },
+      {
+        question: "Why does Zalgo text take up so many characters?",
+        answer:
+          "While a glitched letter looks like one symbol on screen, every attached accent mark is a distinct Unicode character in memory. A 5-letter word with heavy Zalgo can be 50 to 80 characters in length.",
+      },
+    ],
+    pillarLinks: [
+      { label: "glitch text tool", href: "/tools/zalgo" },
+      { label: "fancy text generator", href: "/tools/fancy-text-generator" },
+      { label: "small text generator", href: "/" },
+    ],
+    relatedGuideSlugs: ["glitch-text-generator", "tiny-text-discord", "what-is-invisible-text"],
+  },
+  {
     slug: "glitch-text-generator",
     title: "Glitch Text Generator: Copy & Paste Corrupted Zalgo Text",
     metaDescription:
