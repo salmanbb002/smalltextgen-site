@@ -13,6 +13,7 @@ const links = [
   ["Cursive", "/tools/cursive"],
   ["Bubble", "/tools/bubble"],
   ["Invisible text", "/tools/invisible"],
+  ["Guides", "/guides"],
 ] as const;
 
 export function SiteHeader() {

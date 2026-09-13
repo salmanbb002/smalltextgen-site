@@ -233,6 +233,130 @@ export const pillarContent: PillarContent[] = [
     ],
     relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios"],
   },
+  {
+    slug: "bold",
+    title: "Bold Text Generator – Bold Unicode Copy & Paste",
+    metaDescription:
+      "Turn text into bold Unicode you can copy and paste — for Instagram, WhatsApp, X/Twitter, and LinkedIn. Free bold text generator, no formatting toolbar needed.",
+    h1: "Bold Text Generator",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "This bold text generator turns plain letters and numbers into bold Unicode mathematical characters — 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 — that you can copy and paste anywhere, including places with no bold button at all. Because the boldness is part of the character itself rather than a formatting style, it survives copy-paste into plain-text fields that would otherwise strip rich-text formatting.",
+      "It's the fastest way to get bold text into an Instagram bio, a WhatsApp message, an X/Twitter post, or a LinkedIn update — all of which either lack a bold button or only support one in limited places. Type below, copy the bold result, and paste it in; if you want emphasis without full bold, the [cursive font generator](/tools/cursive) and [underline text generator](/tools/underline) are two lighter-weight alternatives.",
+    ],
+    howToSteps: [
+      "Type or paste the text you want in bold into the box below.",
+      "Watch the bold result update instantly as you type, alongside the other styles.",
+      "Copy the bold output with one tap.",
+      "Paste it into your bio, caption, message, or post — it displays the same way for anyone who opens it, with no font install needed on their end either.",
+    ],
+    whereUsed: [
+      { platform: "Social bios & posts", blurb: "A bold name or headline line in an Instagram, TikTok, or X/Twitter bio — see [fonts for X/Twitter](/guides/fonts-for-twitter-x) for the platform-specific fields that accept it." },
+      { platform: "WhatsApp & Messenger chats", blurb: "WhatsApp's own bold formatting only works with asterisks in a live chat; pasted Unicode bold works everywhere, including status updates and group names." },
+      { platform: "Documents & plain-text fields", blurb: "A bold heading or label in plain-text notes, forms, and fields that don't support rich-text formatting." },
+    ],
+    faq: [
+      { question: "How do I make bold text to copy and paste?", answer: "Type your text into the generator above, copy the bold result, and paste it wherever you need it — no formatting toolbar or font install required, since the boldness is built into the Unicode characters themselves." },
+      { question: "Why use a bold text generator instead of my app's bold button?", answer: "Many apps — Instagram bios, WhatsApp status, most bios and display-name fields — simply don't offer a bold button. A bold text generator gives you the same visual weight anywhere plain text is accepted." },
+      { question: "Does bold Unicode text work on Instagram and WhatsApp?", answer: "Yes, in bios, captions, comments, and chat messages. It won't work in strict fields like the Instagram @username, which only accepts plain characters." },
+      { question: "Why do a few bold characters look unchanged?", answer: "Unicode's bold mathematical alphabet covers A–Z, a–z, and 0–9, but not punctuation or symbols — those characters are left as-is rather than substituting a misleading look-alike." },
+      { question: "Is copy-paste bold text the same as real bold formatting?", answer: "No. It's a different set of Unicode characters that happen to look bold, not a style applied to your original letters. That's exactly why it travels through plain-text fields that strip actual formatting." },
+    ],
+    relatedGuideSlugs: ["copy-paste-fonts-guide", "fonts-for-twitter-x"],
+  },
+  {
+    slug: "strikethrough",
+    title: "Strikethrough Text Generator – Cross Out Text Copy & Paste",
+    metaDescription:
+      "Cross out text with a real strikethrough line you can copy and paste — no formatting toolbar needed. Free strikethrough text generator using Unicode combining marks.",
+    h1: "Strikethrough Text Generator",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "This strikethrough text generator draws a line through every character using a Unicode combining mark, so the crossed-out text copies and pastes into bios, captions, chat messages, and comments that have no strikethrough button. The line travels with the letters as real characters, not a formatting style.",
+      "It's a quick way to cross out a price, a to-do item, or a joke correction anywhere plain text is accepted. Type below and copy the result; if you want a line under text instead of through it, the [underline text generator](/tools/underline) does that with the same combining-mark approach.",
+    ],
+    howToSteps: [
+      "Type or paste the text you want to cross out into the box below.",
+      "Check the strikethrough result — a combining line is added through each character as you type.",
+      "Copy the strikethrough output with one tap.",
+      "Paste it into a caption, message, comment, or document; if the line disappears, that app has stripped combining marks and there's no workaround on that surface.",
+    ],
+    whereUsed: [
+      { platform: "Social captions & comments", blurb: "Crossing out an old price, a joke 'correction', or a canceled plan in a caption or comment." },
+      { platform: "Chats & to-do notes", blurb: "Marking a chat message or plain-text to-do item as done without a rich-text editor." },
+      { platform: "Discord & gaming names", blurb: "A crossed-out word or name for a stylized effect in display names and messages." },
+    ],
+    faq: [
+      { question: "How do I make strikethrough text to copy and paste?", answer: "Type into the generator above, tap Copy on the strikethrough result, and paste it into the field you need. The line comes along with the letters as part of the text." },
+      { question: "Does strikethrough text work without a formatting toolbar?", answer: "Yes — that's the point. It attaches a Unicode combining line to each character, so it pastes into plain-text fields that have no strikethrough option at all." },
+      { question: "Why does my strikethrough line sometimes disappear?", answer: "Some platforms strip or normalise combining marks for consistency or safety. When that happens the base letters remain but the line is removed, and there's no fix on that specific surface." },
+      { question: "Is this the same as my app's built-in strikethrough formatting?", answer: "No — apps with a real strikethrough button apply a text style. This generator substitutes a combining character instead, which is why it survives copy-paste into places that would strip an actual style." },
+      { question: "Does strikethrough copy-paste work on Discord and Instagram?", answer: "Yes, in messages, captions, comments, and bios. Discord also has its own markdown strikethrough (`~~text~~`) inside chat, but the Unicode version works in fields Discord's markdown doesn't reach, like display names." },
+    ],
+    relatedGuideSlugs: ["copy-paste-fonts-guide", "cool-different-fonts"],
+  },
+  {
+    slug: "upside-down",
+    title: "Upside Down Text Generator – Flip Text Copy & Paste",
+    metaDescription:
+      "Flip text upside down and reverse it — copy and paste ready. Free upside down text generator for bios, captions, and jokes, no app needed.",
+    h1: "Upside Down Text Generator",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "This upside down text generator reverses your text and swaps each letter for a Unicode character that reads correctly when flipped — ʇxǝʇ ǝʞᴉl sᴉɥ┴ — so the flipped result is still real, copy-paste-ready text rather than a rotated image. It works letter by letter, then reverses the order so the whole line reads correctly upside down from left to right.",
+      "It's mostly used for a novelty caption, a joke reply, or a display name that stands out. Coverage is strongest for lowercase letters and digits; a handful of characters have no upside-down look-alike and are left unflipped rather than substituting something misleading. For a different kind of reversal, the [bubble text generator](/tools/bubble) and [cursive font generator](/tools/cursive) give a decorative look without flipping anything.",
+    ],
+    howToSteps: [
+      "Type the word or phrase you want flipped into the box below.",
+      "Watch it flip upside down and reverse instantly as you type.",
+      "Copy the upside down result with one tap.",
+      "Paste it into your bio, caption, comment, or message — it reads upside down for everyone who sees it, no rotation needed on their end.",
+    ],
+    whereUsed: [
+      { platform: "Captions & comments", blurb: "A novelty caption line or a playful reply that stands out by literally being upside down." },
+      { platform: "Bios & display names", blurb: "A flipped name or tagline in Instagram, TikTok, or Discord for a distinctive profile." },
+      { platform: "Jokes & messages", blurb: "A flipped punchline or reaction in a chat, since the novelty is the whole point." },
+    ],
+    faq: [
+      { question: "How do I flip text upside down to copy and paste?", answer: "Type your text into the generator above, copy the flipped result, and paste it wherever you need it — the flipping and reversing both happen automatically." },
+      { question: "Why are some letters not flipped correctly?", answer: "Unicode only has upside-down look-alikes for most lowercase letters and digits — a few characters, mostly uppercase, have no good match and are left as-is rather than substituting a misleading symbol." },
+      { question: "Is upside down text the same as mirrored or flipped text?", answer: "Not quite. This generator flips text vertically (upside down) and reverses the reading order, which is the classic 'ʇxǝʇ uʍop ǝpᴉsdn' effect. A true left-right mirror would flip each letter's shape horizontally instead, which most 'mirror text' tools approximate by simply reversing the character order." },
+      { question: "Does upside down text work on Instagram and Discord?", answer: "Yes, in bios, captions, comments, and display names — anywhere standard Unicode is accepted. It won't work in strict fields like the Instagram @username." },
+      { question: "Why does upside down text look different on some phones?", answer: "A few of the flipped characters come from less common Unicode blocks, so an older device's font may render one or two letters as a box or a slightly different shape." },
+    ],
+    relatedGuideSlugs: ["cool-different-fonts", "copy-paste-fonts-guide"],
+  },
+  {
+    slug: "zalgo",
+    title: "Glitch Text Generator – Zalgo & Corrupted Text Copy & Paste",
+    metaDescription:
+      "Turn text into creepy glitch, zalgo, or corrupted text you can copy and paste. Free glitch text generator using stacked Unicode combining marks.",
+    h1: "Glitch Text Generator",
+    lastUpdated: "2026-09-13",
+    intro: [
+      "This glitch text generator — also known as a zalgo text generator — stacks Unicode combining marks above, through, and below each letter to produce that corrupted, creepy, 'glitched-out' look, built from real text rather than an image or video effect. The more marks stacked on, the more distorted and unstable the text appears.",
+      "It's popular for horror-themed posts, creepypasta text, Discord messages, and usernames that need to stand out. Because it's real Unicode text, it copies and pastes anywhere plain text is accepted — though the same density that makes it look unsettling can also make it hard to read or trigger spam filters in a few apps, so it's worth previewing before you rely on it somewhere important.",
+    ],
+    howToSteps: [
+      "Type the word or phrase you want glitched into the box below.",
+      "Watch it corrupt in real time as combining marks stack onto each letter.",
+      "Copy the glitch text result with one tap.",
+      "Paste it into your caption, message, or display name, and preview it there, since a few apps or moderation filters treat heavily-stacked text as suspicious.",
+    ],
+    whereUsed: [
+      { platform: "Discord & gaming names", blurb: "Creepy or glitchy display names and messages — a common horror-game and creepypasta aesthetic." },
+      { platform: "Horror & creepypasta posts", blurb: "A corrupted-looking heading or quote to set the tone on a horror-themed post or story." },
+      { platform: "Captions & comments", blurb: "A short glitch-text accent for a spooky or chaotic-feeling caption." },
+    ],
+    faq: [
+      { question: "What is glitch text (zalgo text)?", answer: "It's text built by stacking multiple Unicode combining marks — accents, underlines, and overlines meant to be used sparingly — onto each character, which creates the corrupted, unstable 'glitched' look often called zalgo text." },
+      { question: "How do I make glitch or zalgo text to copy and paste?", answer: "Type your text into the generator above, copy the corrupted result, and paste it wherever you need it — it's standard Unicode, so no special app or font is required." },
+      { question: "Is glitch text the same as zalgo text?", answer: "Yes — 'glitch text' and 'zalgo text' both describe the same combining-mark effect. Some communities also call it 'corrupted text' or 'creepy text'." },
+      { question: "Why does heavily glitched text get cut off or blocked in some apps?", answer: "A dense stack of combining marks can trip length limits or spam/abuse filters in some apps, since it's an unusual pattern compared to normal text. If that happens, try a lighter amount of glitching." },
+      { question: "Does glitch text work in Discord names and messages?", answer: "Yes, in messages and most display names. Extremely heavy glitching can occasionally be rejected by a server's name-length limit, since each combining mark adds to the character count even though it doesn't add visible width." },
+    ],
+    relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe"],
+  },
 ];
 
 export function getPillarContent(slug: string) {
@@ -250,4 +374,8 @@ export const pillarNav: PillarNavEntry[] = [
   { slug: "bubble", href: "/tools/bubble", eyebrow: "Bubble text", anchor: "the bubble text generator" },
   { slug: "underline", href: "/tools/underline", eyebrow: "Underline", anchor: "the underline text generator" },
   { slug: "invisible", href: "/tools/invisible", eyebrow: "Invisible text", anchor: "our invisible text tool" },
+  { slug: "bold", href: "/tools/bold", eyebrow: "Bold", anchor: "the bold text generator" },
+  { slug: "strikethrough", href: "/tools/strikethrough", eyebrow: "Strikethrough", anchor: "the strikethrough text generator" },
+  { slug: "upside-down", href: "/tools/upside-down", eyebrow: "Upside down", anchor: "the upside down text generator" },
+  { slug: "zalgo", href: "/tools/zalgo", eyebrow: "Glitch text", anchor: "the glitch text generator" },
 ];

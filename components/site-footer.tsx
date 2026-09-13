@@ -16,14 +16,23 @@ export function SiteFooter() {
           <Link href="/tools/tiny-text-generator">Tiny text generator</Link>
           <Link href="/tools/small-caps">Small caps</Link>
           <Link href="/tools/superscript">Superscript</Link>
+          <Link href="/tools/subscript">Subscript</Link>
           <Link href="/tools/cursive">Cursive</Link>
           <Link href="/tools/bubble">Bubble text</Link>
+          <Link href="/tools/bold">Bold text</Link>
+          <Link href="/tools/underline">Underline</Link>
+          <Link href="/tools/strikethrough">Strikethrough</Link>
+          <Link href="/tools/upside-down">Upside down</Link>
+          <Link href="/tools/zalgo">Glitch text</Link>
           <Link href="/tools/invisible">Invisible text</Link>
         </div>
         <div>
           <p className="footer-label">Guides</p>
           <Link href="/guides">All guides</Link>
           <Link href="/guides/unicode-explained">Unicode explained</Link>
+          <Link href="/guides/tiny-text-discord">Tiny text for Discord</Link>
+          <Link href="/guides/small-text-instagram-bio">Small text for Instagram</Link>
+          <Link href="/guides/copy-paste-fonts-guide">Copy-paste fonts guide</Link>
         </div>
         <div>
           <p className="footer-label">Info</p>
