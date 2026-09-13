@@ -45,7 +45,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Does invisible text work for Discord names?", answer: "For display names and server nicknames, generally yes. Discord's actual @username is restricted to plain characters and blocks blank-only values entirely — details in the [blank Discord guide](/guides/blank-discord-name-message)." },
       { question: "Is invisible text the same as a zero-width space?", answer: "No. A zero-width space has no width at all and is aggressively filtered by many apps. This generator uses a character with real visible width instead, which is why it survives copy-paste in more places." },
     ],
-    relatedGuideSlugs: ["what-is-invisible-text", "blank-discord-name-message"],
+    relatedGuideSlugs: ["what-is-invisible-text", "blank-discord-name-message", "blank-text-copy-paste", "hidden-zero-width-characters", "invisible-character-instagram"],
   },
   {
     slug: "subscript",
@@ -76,7 +76,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Is a subscript generator different from a superscript generator?", answer: "Yes — they use entirely separate Unicode character blocks and serve different purposes. This site keeps them as two focused tools; see the [subscript generator](/tools/subscript) and the superscript generator in the tool directory." },
       { question: "Does subscript copy-paste work in Word or Google Docs?", answer: "Yes, pasted subscript displays correctly in both. For documents you'll edit heavily afterward, each app's built-in subscript formatting is more robust since it's a real text style rather than a substituted character." },
     ],
-    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry"],
+    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-subscript-character-set", "smallest-text-style-compared"],
   },
   {
     slug: "cursive",
@@ -107,7 +107,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Why do cursive letters look like boxes on some phones?", answer: "It means that device's installed font doesn't include glyphs for the specific Unicode script block being used — more common on older Android phones. There's no fix on your end beyond choosing a simpler style for critical text." },
       { question: "Is there a cursive font keyboard I can install instead?", answer: "Some keyboard apps offer a built-in style picker, but they work the same way under the hood — substituting Unicode characters — so a copy-paste generator gives you an identical result without installing anything." },
     ],
-    relatedGuideSlugs: ["cursive-fonts-instagram-bio", "how-cursive-font-generator-works"],
+    relatedGuideSlugs: ["cursive-fonts-instagram-bio", "how-cursive-font-generator-works", "aesthetic-cursive-fonts", "cursive-font-keyboard", "thin-cursive-fonts"],
   },
   {
     slug: "small-caps",
@@ -138,7 +138,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Why do a couple of letters stay normal or show as a box?", answer: "Unicode's small-capital block is nearly complete, but a few characters differ across fonts and some older Android builds miss a glyph. When there's no reliable small-cap form the generator leaves the original letter rather than substituting a lookalike." },
       { question: "Is small caps the same as ALL CAPS?", answer: "No. ALL CAPS uses full-height capitals; small caps uses capital letterforms shrunk to about x-height, so the text reads as quieter and more compact. It also differs from Title Case, which only capitalises the first letter of each word." },
     ],
-    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios"],
+    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "small-caps-copy-paste", "small-caps-vs-all-caps", "fonts-for-tiktok", "numbers-in-small-font", "small-text-png-vs-unicode"],
   },
   {
     slug: "superscript",
@@ -169,7 +169,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Does superscript work in Word, Google Docs, and Discord?", answer: "Pasted superscript displays correctly in all three. For documents you'll heavily edit afterwards, the app's own superscript formatting is more robust because it's a text style rather than a substituted character." },
       { question: "What's the difference between superscript and subscript?", answer: "Superscript sits above the baseline (x², 1ˢᵗ); subscript sits below it (H₂O, xₙ). They use separate Unicode blocks — see the [subscript vs superscript guide](/guides/subscript-vs-superscript)." },
     ],
-    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry"],
+    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-discord", "superscript-numbers-exponents", "superscript-subscript-character-set", "smallest-text-style-compared"],
   },
   {
     slug: "bubble",
@@ -200,7 +200,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Why do some bubble letters show as normal letters or boxes?", answer: "That device's font is missing the enclosed-alphanumeric glyph, most often for the filled set on older Android. The circled style has the broadest support, so switch to it for anything important." },
       { question: "Can I make bubble numbers too?", answer: "Yes — digits 0–9 have circled forms (①–⑨, ⓪), so they convert alongside letters." },
     ],
-    relatedGuideSlugs: ["copy-paste-text-tricks-social-media-bios", "small-text-instagram-bio"],
+    relatedGuideSlugs: ["copy-paste-text-tricks-social-media-bios", "small-text-instagram-bio", "bubble-text-instagram-tiktok"],
   },
   {
     slug: "underline",
@@ -231,7 +231,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Is this the same as typing underscores between letters?", answer: "No. Underscores between characters sit on the baseline. This tool places a continuous underline beneath each character, closer to a true underline." },
       { question: "Does underlined Unicode text work in Word or Google Docs?", answer: "It pastes and displays, but for documents you'll keep editing, the app's own underline formatting is cleaner because it's a text attribute rather than stacked marks." },
     ],
-    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios"],
+    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "underline-text-copy-paste"],
   },
   {
     slug: "bold",
@@ -355,7 +355,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Why does heavily glitched text get cut off or blocked in some apps?", answer: "A dense stack of combining marks can trip length limits or spam/abuse filters in some apps, since it's an unusual pattern compared to normal text. If that happens, try a lighter amount of glitching." },
       { question: "Does glitch text work in Discord names and messages?", answer: "Yes, in messages and most display names. Extremely heavy glitching can occasionally be rejected by a server's name-length limit, since each combining mark adds to the character count even though it doesn't add visible width." },
     ],
-    relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe"],
+    relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe", "fonts-for-roblox"],
   },
 ];
 

@@ -51,7 +51,7 @@ export const galleryPages: GalleryPage[] = [
       { question: "Is Unicode styled text accessible to screen readers?", answer: "Partly. Small caps and full-width read close to normal, but mathematical-alphabet styles are often read letter by letter or skipped. Keep important information in plain text and use styled Unicode for short accents." },
     ],
     relatedToolSlugs: ["small-caps", "cursive", "bubble", "superscript"],
-    relatedGuideSlugs: ["unicode-text-converter-explained", "unicode-explained", "copy-paste-fonts-guide"],
+    relatedGuideSlugs: ["unicode-text-converter-explained", "unicode-explained", "copy-paste-fonts-guide", "small-text-png-vs-unicode", "hidden-zero-width-characters"],
     lastUpdated: "2026-09-03",
   },
   {
