@@ -21,7 +21,7 @@ export type Guide = {
 export const guides: Guide[] = [
   {
     slug: "zalgo-text-generator",
-    title: "Zalgo Text Generator \u2013 Creepy Corrupted Text",
+    title: "Zalgo Text Generator – Creepy Corrupted Text",
     metaDescription:
       "Free Zalgo text generator to create cursed, creepy, and corrupted text for Discord, TikTok bios, horror roleplay, and gaming names. Copy and paste instantly.",
     h1: "Zalgo Text Generator: How to Make Creepy Corrupted Text",
@@ -29,7 +29,7 @@ export const guides: Guide[] = [
     cluster: "D",
     lastUpdated: "2026-09-13",
     intro: [
-      "Originating from the notorious 2004 internet creepypasta 'He Comes', Zalgo text \u2014 also known as cursed text, eldritch font, or corrupted text \u2014 is one of the most iconic aesthetic phenomena in online culture. By producing chaotic characters that bleed upwards and downwards across the screen (like Z\u0336a\u0336l\u0336g\u0336o\u0335 \u0337i\u0336s\u0335 \u0337h\u0336e\u0336r\u0336e\u0335), it brings an ominous horror aesthetic to Discord channels, TikTok bios, and spooky usernames.",
+      "Originating from the notorious 2004 internet creepypasta 'He Comes', Zalgo text — also known as cursed text, eldritch font, or corrupted text — is one of the most iconic aesthetic phenomena in online culture. By producing chaotic characters that bleed upwards and downwards across the screen (like Z̷a̷l̷g̷o̷ ̷i̷s̷ ̷h̷e̷r̷e̷), it brings an ominous horror aesthetic to Discord channels, TikTok bios, and spooky usernames.",
       "While Zalgo text looks like corrupted machine code or a broken digital display, it is constructed entirely from valid, standardized Unicode characters. This guide breaks down how Zalgo diacritical stacking works, safe corruption levels for social media, platform restrictions, and how to generate copy-paste Zalgo text in seconds.",
     ],
     sections: [
@@ -37,13 +37,13 @@ export const guides: Guide[] = [
         heading: "The Origin of Zalgo: From Internet Lore to Typography",
         paragraphs: [
           "The concept of Zalgo originated in August 2004 on the Something Awful forums by artist Dave Kelly, who edited classic comic strips (like Garfield) into surreal, nightmare-fuel illustrations featuring pitch-black eyes, bleeding walls, and unintelligible corrupted letters.",
-          "Internet users quickly sought a way to replicate this visual chaos in plain text. Programmers realized that the Unicode standard contained an obscure category of characters \u2014 combining diacritical marks \u2014 that could be intentionally weaponized to produce the same towering, jagged visual corruption across modern browsers.",
+          "Internet users quickly sought a way to replicate this visual chaos in plain text. Programmers realized that the Unicode standard contained an obscure category of characters — combining diacritical marks — that could be intentionally weaponized to produce the same towering, jagged visual corruption across modern browsers.",
         ],
       },
       {
         heading: "The Science: How Combining Diacritics Create Zalgo Text",
         paragraphs: [
-          "In traditional linguistics, diacritics are accents placed on letters (such as the acute accent in '\u00e9' or the tilde in '\u00f1'). In Unicode, these are assigned to code points U+0300 through U+036F and are designated as 'non-spacing combining marks'.",
+          "In traditional linguistics, diacritics are accents placed on letters (such as the acute accent in 'é' or the tilde in 'ñ'). In Unicode, these are assigned to code points U+0300 through U+036F and are designated as 'non-spacing combining marks'.",
           "Non-spacing marks have zero width; when a text renderer encounters one, it draws the mark directly above, below, or through the preceding base letter.",
           "A Zalgo text generator exploits this by attaching 10, 20, or even 40 combining diacritics to every single letter in your phrase. Because the computer attempts to render every accent mark sequentially, the characters erupt into tall visual spikes that overflow normal line boundaries.",
         ],
@@ -73,35 +73,55 @@ export const guides: Guide[] = [
     ],
     faq: [
       {
-        question: "What is Zalgo text?",
+        question: "What is Zalgo text and how does a Zalgo generator work?",
         answer:
-          "Zalgo text is distorted Unicode text created by stacking multiple combining diacritical marks onto standard letters, giving them a cursed, corrupted, or glitched appearance.",
+          "Zalgo text is distorted Unicode text created by stacking multiple combining diacritical marks (Unicode block U+0300 to U+036F) above, through, and below standard letters. A generator dynamically attaches random diacritics to each character to produce a creepy, glitched aesthetic."
       },
       {
-        question: "Is Zalgo text dangerous or a virus?",
+        question: "Is Zalgo text safe, or can it contain viruses and malware?",
         answer:
-          "No. Zalgo text contains zero malicious scripts, viruses, or executable code. It is 100% standard plain text defined by the Unicode Consortium.",
+          "Zalgo text is 100% safe. It consists entirely of standard plain text characters recognized by the Unicode Consortium and contains zero executable scripts, code, or viruses."
       },
       {
-        question: "Can Zalgo text crash my computer or phone?",
+        question: "Why does Zalgo text overflow outside chat boxes and comment sections?",
         answer:
-          "On modern smartphones and operating systems (iOS, Android, Windows 11), Zalgo text will not crash your device because modern rendering engines enforce maximum line heights. On legacy browsers from 15 years ago, very long Zalgo strings could sometimes cause temporary slowdown.",
+          "Because combining diacritical marks are designed to render vertically on top of characters, adding dozens of them causes the rendering engine to paint glyphs outside the normal HTML line height, spilling into adjacent paragraphs and UI elements."
+      },
+      {
+        question: "Can Zalgo text crash modern smartphones or web browsers?",
+        answer:
+          "No. Modern browsers (Chrome, Safari, Firefox, Edge) and operating systems (iOS 16+, Android 13+, Windows 11) employ robust font bounding boxes and rendering timeouts that prevent memory overflow crashes caused by stacked diacritics."
       },
       {
         question: "How do I remove Zalgo corruption from copied text?",
         answer:
-          "You can paste the glitched text into a text cleaner tool or plain text editor that strips non-ASCII or combining characters (Unicode block U+0300 to U+036F) to restore the original words.",
+          "Paste the glitched text into a Unicode cleaner or strip all characters in the combining diacritical mark range (U+0300 through U+036F) using a text editor or regex to instantly recover the clean ASCII text."
       },
       {
-        question: "Does Zalgo text work in Discord names?",
+        question: "Does Zalgo text work in Discord server nicknames and bios?",
         answer:
-          "Yes, in your Display Name and Server Nicknames. It does not work in your unique @username handle because Discord handles are strictly limited to lowercase letters (a-z), numbers, periods, and underscores.",
+          "Yes. Zalgo text functions in Discord chat messages, channel topics, personal bios, and server nicknames. It is restricted only in unique @username handles, which require standard alphanumeric characters."
       },
       {
-        question: "Why does Zalgo text take up so many characters?",
+        question: "Why is Zalgo text often banned or censored in Roblox chat?",
         answer:
-          "While a glitched letter looks like one symbol on screen, every attached accent mark is a distinct Unicode character in memory. A 5-letter word with heavy Zalgo can be 50 to 80 characters in length.",
+          "Roblox and many online games enforce automated chat filters that sanitize or block combining diacritics (replacing them with '###') because excessive vertical text disrupts chat readability and can be used to bypass profanity filters."
       },
+      {
+        question: "How does Zalgo text affect screen readers for visually impaired users?",
+        answer:
+          "Screen readers like NVDA and VoiceOver attempt to pronounce every single attached accent mark phonetically (e.g., 'combining circumflex accent', 'combining tilde below'). A single 5-letter word can take over two minutes for a screen reader to recite, creating major accessibility barriers."
+      },
+      {
+        question: "Why does a 5-letter Zalgo word count as 60+ characters on Twitter/X?",
+        answer:
+          "While a glitched letter appears as one symbol on your screen, each attached combining accent mark is an independent Unicode code point. A 5-letter word with 10 accents per letter consumes 55 characters against character limits."
+      },
+      {
+        question: "What is the internet lore origin of the name 'Zalgo'?",
+        answer:
+          "Zalgo originated in 2004 on the 'Something Awful' comedy forums created by animator Dave Kelly, who drew corrupted comic strips featuring an unseen Eldritch entity known as 'Zalgo' that warped reality and text."
+      }
     ],
     pillarLinks: [
       { label: "glitch text tool", href: "/tools/zalgo" },
