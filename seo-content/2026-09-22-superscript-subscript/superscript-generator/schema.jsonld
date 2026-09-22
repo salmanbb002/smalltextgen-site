@@ -1,0 +1,47 @@
+{
+  "_note": "This site auto-generates FAQPage + HowTo + WebApplication JSON-LD from the pillarContent object at runtime (see lib/schema.ts + components/pillar-tool-page.tsx). No manual schema file needs to ship — once the 5 new FAQ entries below are pasted into the `faq` array in lib/pillar-content.ts, the page's existing faqPageSchema() call picks them up automatically. This file exists only so the new entries can be run through the Rich Results Test in isolation before merging.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this work for chemical or ionic notation like Na⁺ and Cl⁻?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — charge symbols and ion notation use the same Unicode superscript characters as exponents. For the subscript numbers in a formula (H2O, CO2), use the subscript generator instead; most formulas need both tools together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I add a trademark or copyright symbol this way?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TM and (R) aren't superscript characters technically, but people commonly raise a small TM or (R) next to a brand name using this same generator — type the letters, copy the result, and place it right after the name."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I type superscript directly in Word or Google Docs instead?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Word: select the text and press Ctrl+Shift+= (Windows) or Cmd+Shift+= (Mac). Google Docs: select the text and press Ctrl+. or Cmd+. Both apply a real superscript text style rather than swapping characters, which holds up better through later edits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do 'i' and 'q' never convert, specifically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unicode never assigned superscript code points for lowercase i or q — every other lowercase letter has one, but those two don't exist in any font. The generator leaves them as regular letters rather than faking a lookalike."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a superscript shortcut for Excel or PowerPoint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PowerPoint uses the same shortcut as Word (Ctrl+Shift+=). Excel has no default keyboard shortcut — select the characters inside the cell, open Format Cells then Font, and check Superscript."
+      }
+    }
+  ]
+}

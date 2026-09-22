@@ -2,6 +2,8 @@ import type { GuideFaq } from "@/lib/guides";
 
 export type WhereUsed = { platform: string; blurb: string };
 
+export type NativeFormatting = { app: string; instructions: string };
+
 export type PillarContent = {
   slug: string;
   title: string;
@@ -10,6 +12,7 @@ export type PillarContent = {
   intro: string[];
   howToSteps: string[];
   whereUsed: WhereUsed[];
+  nativeFormatting?: NativeFormatting[];
   faq: GuideFaq[];
   relatedGuideSlugs: string[];
   lastUpdated: string;
@@ -68,6 +71,13 @@ export const pillarContent: PillarContent[] = [
       { platform: "Chemistry & school notes", blurb: "Formulas like H₂O and C₆H₁₂O₆ shared in chat, slides, or digital notebooks — see the [chemistry formula guide](/guides/subscript-numbers-chemistry) for the full walkthrough." },
       { platform: "Captions & footnotes", blurb: "A subscript number or word used as a stylized footnote marker or annotation." },
       { platform: "Gaming names", blurb: "Subscript numbers used inside display names and stat call-outs." },
+      { platform: "Math & indexed variables", blurb: "Indexed variables and log bases (x₁, x₂, aₙ, log₂) in notes and worked examples — pair with the superscript generator for exponents in the same formula." },
+    ],
+    nativeFormatting: [
+      { app: "Microsoft Word", instructions: "Select the text, then press Ctrl+= (Windows) or ⌘+= (Mac)." },
+      { app: "Google Docs", instructions: "Select the text, then press Ctrl+, (Windows) or ⌘+, (Mac)." },
+      { app: "Excel", instructions: "Double-click into the cell, select the characters, open Format Cells → Font, and check Subscript — there's no default keyboard shortcut." },
+      { app: "HTML", instructions: "Wrap the characters in a <sub> tag — for example H<sub>2</sub>O." },
     ],
     faq: [
       { question: "What is subscript text used for?", answer: "Mostly chemical formulas (H₂O, CO₂) and mathematically subscripted variables (xₙ) — anywhere a smaller character needs to sit below the baseline instead of above it." },
@@ -75,6 +85,11 @@ export const pillarContent: PillarContent[] = [
       { question: "Why don't all letters convert to subscript?", answer: "Unicode only defines subscript forms for a handful of letters — there's no subscript version of most consonants. When a letter has no subscript form, this generator leaves the original letter in place instead of substituting something misleading." },
       { question: "Is a subscript generator different from a superscript generator?", answer: "Yes — they use entirely separate Unicode character blocks and serve different purposes. This site keeps them as two focused tools; see the [subscript generator](/tools/subscript) and the superscript generator in the tool directory." },
       { question: "Does subscript copy-paste work in Word or Google Docs?", answer: "Yes, pasted subscript displays correctly in both. For documents you'll edit heavily afterward, each app's built-in subscript formatting is more robust since it's a real text style rather than a substituted character." },
+      { question: "Which letters don't have a subscript version?", answer: "Unicode has no subscript form for c, d, f, g, w, y, or z — every other lowercase letter and all ten digits do. For 'w' specifically, this generator approximates it with two subscript 'v' characters (ᵥᵥ), since no single subscript w exists. See the [full character reference](/guides/superscript-subscript-character-set) for every supported letter and number." },
+      { question: "Can I write a full chemical formula like C₆H₁₂O₆ with this?", answer: "Yes — type each number where it needs to sit below the line (6, 12, 6) and paste each result right after its letter. Every digit 0–9 has a complete subscript form, so formulas with only numbers convert exactly every time. The [chemistry formula guide](/guides/subscript-numbers-chemistry) walks through more examples." },
+      { question: "How do I type subscript directly in Word or Google Docs instead?", answer: "Word: select the text and press Ctrl+= (Windows) or ⌘+= (Mac). Google Docs: select the text and press Ctrl+, or ⌘+,. Both apply a real subscript text style, which holds up better through later edits than a substituted character." },
+      { question: "Is there a subscript shortcut for Excel?", answer: "Excel has no default keyboard shortcut for subscript. Double-click into the cell, select the characters, open Format Cells → Font, and check Subscript." },
+      { question: "How do I write subscript in HTML?", answer: "Wrap the characters in a <sub> tag — for example H<sub>2</sub>O. Unicode subscript from this generator is the plain-text alternative for fields that don't support HTML or rich formatting at all." },
     ],
     relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-subscript-character-set", "smallest-text-style-compared"],
   },
@@ -161,6 +176,14 @@ export const pillarContent: PillarContent[] = [
       { platform: "Maths & science notes", blurb: "Exponents and powers (E = mc², 2¹⁰) shared in chat, slides, or notebooks where a real superscript style isn't available." },
       { platform: "Ordinals & footnotes", blurb: "1ˢᵗ, 2ⁿᵈ, 3ʳᵈ and small raised footnote markers in captions and posts." },
       { platform: "Discord & gaming names", blurb: "Raised mini-text in display names and stat call-outs, same as any other styled Unicode text." },
+      { platform: "Chemistry & trademarks", blurb: "Ionic charges (Na⁺, Cl⁻) alongside the subscript numbers in a formula, plus ™ and ® marks in a bio or listing — see the [subscript generator](/tools/subscript) for the half of a formula that sits below the line." },
+    ],
+    nativeFormatting: [
+      { app: "Microsoft Word", instructions: "Select the text, then press Ctrl+Shift+= (Windows) or ⌘+Shift+= (Mac)." },
+      { app: "Google Docs", instructions: "Select the text, then press Ctrl+. (Windows) or ⌘+. (Mac)." },
+      { app: "Excel", instructions: "Double-click into the cell, select the characters, open Format Cells → Font, and check Superscript — there's no default keyboard shortcut." },
+      { app: "PowerPoint", instructions: "Same shortcut as Word — Ctrl+Shift+= — since it shares Office's formatting engine." },
+      { app: "HTML", instructions: "Wrap the characters in a <sup> tag — for example x<sup>2</sup>." },
     ],
     faq: [
       { question: "How do I get superscript to copy and paste?", answer: "Type into the generator above, copy the superscript result, and paste it wherever you need it. The raised look is built from Unicode superscript characters, so it survives copy-paste like normal text." },
@@ -168,6 +191,11 @@ export const pillarContent: PillarContent[] = [
       { question: "Why aren't all letters converting to superscript?", answer: "Unicode defines raised forms for all digits and most lowercase letters but only some capitals. Unsupported characters are left as-is so the text stays readable rather than mixing in misleading symbols." },
       { question: "Does superscript work in Word, Google Docs, and Discord?", answer: "Pasted superscript displays correctly in all three. For documents you'll heavily edit afterwards, the app's own superscript formatting is more robust because it's a text style rather than a substituted character." },
       { question: "What's the difference between superscript and subscript?", answer: "Superscript sits above the baseline (x², 1ˢᵗ); subscript sits below it (H₂O, xₙ). They use separate Unicode blocks — see the [subscript vs superscript guide](/guides/subscript-vs-superscript)." },
+      { question: "Does this work for chemical or ionic notation like Na⁺ and Cl⁻?", answer: "Yes — charge symbols and ion notation use the same Unicode superscript characters as exponents. For the subscript numbers in a formula (H₂O, CO₂), use the [subscript generator](/tools/subscript) instead; most formulas need both tools together." },
+      { question: "Can I add a trademark or copyright symbol this way?", answer: "™ and © aren't superscript characters technically, but people commonly raise a small ™ or ® next to a brand name using this same generator — type the letters, copy the result, and place it right after the name." },
+      { question: "How do I type superscript directly in Word or Google Docs instead?", answer: "Word: select the text and press Ctrl+Shift+= (Windows) or ⌘+Shift+= (Mac). Google Docs: select the text and press Ctrl+. or ⌘+. Both apply a real superscript text style rather than swapping characters, which holds up better through later edits." },
+      { question: "Why do 'i' and 'q' never convert, specifically?", answer: "Unicode never assigned superscript code points for lowercase i or q — every other lowercase letter has one, but those two don't exist in any font. The generator leaves them as regular letters rather than faking a lookalike. See the [full character reference](/guides/superscript-subscript-character-set) for what does convert." },
+      { question: "Is there a superscript shortcut for Excel or PowerPoint?", answer: "PowerPoint uses the same shortcut as Word (Ctrl+Shift+=). Excel has no default keyboard shortcut — select the characters inside the cell, open Format Cells → Font, and check Superscript." },
     ],
     relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-discord", "superscript-numbers-exponents", "superscript-subscript-character-set", "smallest-text-style-compared"],
   },

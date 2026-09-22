@@ -1,0 +1,185 @@
+{
+  "keyword": "superscript generator",
+  "entities": [
+    {
+      "canonical": "Superscript",
+      "type": "Concept",
+      "aliases": ["superscript text", "raised text", "raised characters"],
+      "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript",
+      "kind": "entity",
+      "competitor_count": 4,
+      "in_title_or_h2": true,
+      "tier": 1
+    },
+    {
+      "canonical": "Unicode",
+      "type": "Standard",
+      "aliases": ["Unicode standard", "Unicode characters"],
+      "sameAs": "https://en.wikipedia.org/wiki/Unicode",
+      "kind": "entity",
+      "competitor_count": 4,
+      "in_title_or_h2": false,
+      "tier": 1
+    },
+    {
+      "canonical": "Subscript",
+      "type": "Concept",
+      "aliases": ["subscript text"],
+      "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript",
+      "kind": "entity",
+      "competitor_count": 3,
+      "in_title_or_h2": false,
+      "tier": 1
+    },
+    {
+      "canonical": "Exponent / math notation",
+      "type": "Concept",
+      "aliases": ["exponents", "powers", "algebra notation"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 3,
+      "in_title_or_h2": false,
+      "tier": 1
+    },
+    {
+      "canonical": "Copy and paste",
+      "type": "Process",
+      "aliases": ["copy-paste"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 4,
+      "in_title_or_h2": true,
+      "tier": 1
+    },
+    {
+      "canonical": "Ordinal number",
+      "type": "Concept",
+      "aliases": ["1st, 2nd, 3rd endings"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Footnote / citation marker",
+      "type": "Concept",
+      "aliases": ["footnote", "citation"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Trademark / copyright symbol",
+      "type": "Concept",
+      "aliases": ["™", "®"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Microsoft Word",
+      "type": "Product",
+      "aliases": ["Word", "MS Word"],
+      "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Word",
+      "kind": "entity",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Google Docs",
+      "type": "Product",
+      "aliases": [],
+      "sameAs": "https://en.wikipedia.org/wiki/Google_Docs",
+      "kind": "entity",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Chemical / ionic notation",
+      "type": "Concept",
+      "aliases": ["Na+", "Cl-", "ionic charge"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Discord",
+      "type": "Product",
+      "aliases": [],
+      "sameAs": "https://en.wikipedia.org/wiki/Discord",
+      "kind": "entity",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Mobile keyboard limitation (Gboard/iOS)",
+      "type": "Concept",
+      "aliases": ["Gboard", "iOS keyboard"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "Reddit caret syntax",
+      "type": "Concept",
+      "aliases": ["x^2 syntax"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "HTML <sup> tag",
+      "type": "Concept",
+      "aliases": ["sup tag"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "Excel",
+      "type": "Product",
+      "aliases": ["Microsoft Excel"],
+      "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Excel",
+      "kind": "entity",
+      "competitor_count": 0,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "PowerPoint",
+      "type": "Product",
+      "aliases": ["Microsoft PowerPoint"],
+      "sameAs": "https://en.wikipedia.org/wiki/Microsoft_PowerPoint",
+      "kind": "entity",
+      "competitor_count": 0,
+      "in_title_or_h2": false,
+      "tier": 3
+    }
+  ],
+  "relationships": [
+    "Unicode --assigns--> superscript/subscript code points (block U+2070-209F plus scattered letters)",
+    "Superscript generator --substitutes--> a Unicode superscript glyph for each typed character (not a font change)",
+    "Superscript --used for--> exponents, ordinals, footnote markers, trademark symbols",
+    "Subscript --used for--> chemical formulas, indexed variables",
+    "Microsoft Word --applies superscript via--> Ctrl+Shift+= (Windows) / Cmd+Shift+= (Mac)",
+    "Google Docs --applies superscript via--> Ctrl+. / Cmd+.",
+    "HTML --renders superscript via--> the <sup> tag",
+    "Unicode superscript coverage --is complete for--> digits 0-9, incomplete for capital letters and the letters i/q specifically"
+  ]
+}

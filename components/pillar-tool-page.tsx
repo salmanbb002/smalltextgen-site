@@ -87,6 +87,21 @@ export function PillarToolPage({ style, pillar }: { style: TextStyle; pillar: Pi
         </div>
       </section>
 
+      {pillar.nativeFormatting && pillar.nativeFormatting.length > 0 && (
+        <section className="pillar-section" aria-labelledby="native-title">
+          <span className="section-index">Without the generator</span>
+          <h2 id="native-title">Type it natively instead.</h2>
+          <div className="pillar-where-grid">
+            {pillar.nativeFormatting.map((item) => (
+              <article key={item.app}>
+                <h3>{item.app}</h3>
+                <p>{item.instructions}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
       <section className="faq-section" aria-labelledby="pillar-faq-title">
         <div className="section-intro">
           <span className="section-index">FAQ</span>

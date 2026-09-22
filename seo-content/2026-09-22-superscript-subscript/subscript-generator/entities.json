@@ -1,0 +1,155 @@
+{
+  "keyword": "subscript generator",
+  "entities": [
+    {
+      "canonical": "Subscript",
+      "type": "Concept",
+      "aliases": ["subscript text", "lowered text"],
+      "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript",
+      "kind": "entity",
+      "competitor_count": 4,
+      "in_title_or_h2": true,
+      "tier": 1
+    },
+    {
+      "canonical": "Unicode",
+      "type": "Standard",
+      "aliases": ["Unicode standard"],
+      "sameAs": "https://en.wikipedia.org/wiki/Unicode",
+      "kind": "entity",
+      "competitor_count": 4,
+      "in_title_or_h2": false,
+      "tier": 1
+    },
+    {
+      "canonical": "Chemical formula notation",
+      "type": "Concept",
+      "aliases": ["H2O", "CO2", "chemistry formulas"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 3,
+      "in_title_or_h2": true,
+      "tier": 1
+    },
+    {
+      "canonical": "Copy and paste",
+      "type": "Process",
+      "aliases": ["copy-paste"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 4,
+      "in_title_or_h2": true,
+      "tier": 1
+    },
+    {
+      "canonical": "Superscript",
+      "type": "Concept",
+      "aliases": ["superscript text"],
+      "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript",
+      "kind": "entity",
+      "competitor_count": 4,
+      "in_title_or_h2": false,
+      "tier": 1
+    },
+    {
+      "canonical": "Mathematical index notation",
+      "type": "Concept",
+      "aliases": ["x1, x2, an", "log subscripts"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Microsoft Word",
+      "type": "Product",
+      "aliases": ["Word"],
+      "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Word",
+      "kind": "entity",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Google Docs",
+      "type": "Product",
+      "aliases": [],
+      "sameAs": "https://en.wikipedia.org/wiki/Google_Docs",
+      "kind": "entity",
+      "competitor_count": 2,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Excel",
+      "type": "Product",
+      "aliases": ["Microsoft Excel"],
+      "sameAs": "https://en.wikipedia.org/wiki/Microsoft_Excel",
+      "kind": "entity",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "HTML <sub> tag",
+      "type": "Concept",
+      "aliases": ["sub tag"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "Missing-letter list (c, d, f, g, w, y, z)",
+      "type": "Concept",
+      "aliases": ["unsupported subscript letters"],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 2
+    },
+    {
+      "canonical": "LaTeX",
+      "type": "Product",
+      "aliases": [],
+      "sameAs": "https://en.wikipedia.org/wiki/LaTeX",
+      "kind": "entity",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "w-to-double-v substitution",
+      "type": "Concept",
+      "aliases": [],
+      "sameAs": "",
+      "kind": "term",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    },
+    {
+      "canonical": "Discord",
+      "type": "Product",
+      "aliases": [],
+      "sameAs": "https://en.wikipedia.org/wiki/Discord",
+      "kind": "entity",
+      "competitor_count": 1,
+      "in_title_or_h2": false,
+      "tier": 3
+    }
+  ],
+  "relationships": [
+    "Unicode --assigns--> subscript code points (block U+2080-209C, incomplete for c, d, f, g, w, y, z)",
+    "Subscript generator --substitutes--> a Unicode subscript glyph for each typed character",
+    "Subscript --used for--> chemical formulas (H2O, CO2, C6H12O6), indexed math variables (x1, x2, an, logn)",
+    "Microsoft Word --applies subscript via--> Ctrl+= (Windows) / Cmd+= (Mac)",
+    "Google Docs --applies subscript via--> Ctrl+, / Cmd+,",
+    "HTML --renders subscript via--> the <sub> tag",
+    "Superscript --is the inverse of--> subscript (above vs below the baseline)",
+    "Unicode --has no subscript form for--> c, d, f, g, w, y, z; the generator approximates 'w' with two subscript 'v' characters"
+  ]
+}

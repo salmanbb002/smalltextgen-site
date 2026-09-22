@@ -1,0 +1,47 @@
+{
+  "_note": "Same as the superscript keyword: this site auto-generates FAQPage/HowTo/WebApplication JSON-LD from pillarContent (lib/schema.ts + components/pillar-tool-page.tsx). Paste the 5 new FAQ entries into the `faq` array in lib/pillar-content.ts and the existing faqPageSchema() call picks them up — no manual schema file ships. This file is for running the new entries through the Rich Results Test before merging.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which letters don't have a subscript version?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unicode has no subscript form for c, d, f, g, w, y, or z — every other lowercase letter and all ten digits do. For 'w' specifically, this generator approximates it with two subscript 'v' characters since no single subscript w exists."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I write a full chemical formula like C6H12O6 with this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — type each number where it needs to sit below the line and paste each result right after its letter. Every digit 0-9 has a complete subscript form, so formulas with only numbers convert exactly every time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I type subscript directly in Word or Google Docs instead?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Word: select the text and press Ctrl+= (Windows) or Cmd+= (Mac). Google Docs: select the text and press Ctrl+, or Cmd+,. Both apply a real subscript text style, which holds up better through later edits than a substituted character."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a subscript shortcut for Excel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Excel has no default keyboard shortcut for subscript. Double-click into the cell, select the characters, open Format Cells then Font, and check Subscript."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I write subscript in HTML?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrap the characters in a <sub> tag — for example H<sub>2</sub>O. Unicode subscript from this generator is the plain-text alternative for fields that don't support HTML or rich formatting at all."
+      }
+    }
+  ]
+}
