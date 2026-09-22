@@ -1,0 +1,12 @@
+{
+  "_note": "Auto-generated from pillarContent.faq via lib/schema.ts + components/pillar-tool-page.tsx once the 5 new entries are pasted into the `upside-down` entry's faq array in lib/pillar-content.ts.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Which letters stay the same when flipped upside down?", "acceptedAnswer": { "@type": "Answer", "text": "l, o, s, x, and z look identical rotated 180 degrees, so they appear unchanged even though the generator did convert them. A few uppercase letters (H, I, N, S, X, O) are also self-symmetric for the same reason." } },
+    { "@type": "Question", "name": "Can I use this to hide a riddle answer or a spoiler?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — flip the answer, paste it below the question, and it stays readable-but-deliberate: whoever wants it has to actively flip it back." } },
+    { "@type": "Question", "name": "Does upside down text work in Discord?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, in display names, server nicknames, messages, and bios. It won't work in the @username field, which only accepts plain characters." } },
+    { "@type": "Question", "name": "How do I flip upside down text back to normal?", "acceptedAnswer": { "@type": "Answer", "text": "There's no automatic reverse on this tool — paste it back in and read the mapped characters mentally, or rotate your screen." } },
+    { "@type": "Question", "name": "Does upside down text show up in search results?", "acceptedAnswer": { "@type": "Answer", "text": "No — search engines index the literal Unicode characters, which are different code points from normal letters." } }
+  ]
+}

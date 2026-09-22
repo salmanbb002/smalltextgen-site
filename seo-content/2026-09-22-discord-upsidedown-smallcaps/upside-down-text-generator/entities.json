@@ -1,0 +1,19 @@
+{
+  "keyword": "upside down text generator",
+  "entities": [
+    { "canonical": "Upside-down flip (map + reverse)", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "Unicode", "type": "Standard", "aliases": [], "sameAs": "https://en.wikipedia.org/wiki/Unicode", "kind": "entity", "competitor_count": 4, "in_title_or_h2": false, "tier": 1 },
+    { "canonical": "Copy and paste", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "Mirror / reversed text (comparison)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 1 },
+    { "canonical": "Symmetrical letters (verified: l, o, s, x, z)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Riddle / hidden-answer use case", "type": "Concept", "aliases": ["spoiler hiding"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Platform list (Discord, WhatsApp, etc.)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Bidirectional conversion (flip back)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3 },
+    { "canonical": "Named Unicode source blocks", "type": "Concept", "aliases": ["IPA Extensions"], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3 }
+  ],
+  "relationships": [
+    "Upside-down generator --maps then reverses--> each character to a rotated Unicode look-alike, then reverses string order",
+    "Letters l, o, s, x, z --look identical--> when rotated 180 degrees (verified against this site's own upsideDownMap)",
+    "Upside-down text --differs from--> mirror/reversed text (already correctly stated in this site's existing FAQ)"
+  ]
+}

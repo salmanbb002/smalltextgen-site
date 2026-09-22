@@ -1,0 +1,12 @@
+{
+  "_note": "Auto-generated from pillarContent.faq via lib/schema.ts + components/pillar-tool-page.tsx once the 5 new entries are pasted into the `small-caps` entry's faq array in lib/pillar-content.ts.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "How do I get small caps in Microsoft Word?", "acceptedAnswer": { "@type": "Answer", "text": "Select the text, press Ctrl+Shift+K, or use Format then Font then Small caps. It's a real text style there, so it survives further editing — but paste that text into a plain field and it reverts to normal capitals." } },
+    { "@type": "Question", "name": "Does CSS have a small caps option?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — font-variant: small-caps — but it only renders inside a page that loads that CSS. Copy the text out and it reverts to plain letters." } },
+    { "@type": "Question", "name": "Does Google Docs have small caps formatting?", "acceptedAnswer": { "@type": "Answer", "text": "No — unlike Word, Google Docs has no built-in small-caps option. Pasting Unicode small caps from this generator is the only way to get the look there." } },
+    { "@type": "Question", "name": "Do numbers convert to small caps too?", "acceptedAnswer": { "@type": "Answer", "text": "No — this generator only converts letters. Unicode's small-caps block doesn't include digit forms the way superscript and subscript do." } },
+    { "@type": "Question", "name": "Is Word's Small Caps the same as this generator's output?", "acceptedAnswer": { "@type": "Answer", "text": "They look similar but work differently. Word's version is a text style that only holds inside Word-compatible editing. This generator's output is actual Unicode characters that look the same everywhere." } }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "keyword": "discord name generator",
+  "entities": [
+    { "canonical": "Discord", "type": "Product", "aliases": [], "sameAs": "https://en.wikipedia.org/wiki/Discord", "kind": "entity", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "Display name / nickname vs @username", "type": "Concept", "aliases": ["Discord naming rules"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 1 },
+    { "canonical": "Unicode symbol decoration", "type": "Concept", "aliases": ["fancy symbols", "wrap templates"], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "Copy and paste", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "32-character display name limit", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Symbol-wrap template", "type": "Concept", "aliases": ["꧁NAME꧂", "✦ NAME ✦"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Server nickname", "type": "Concept", "aliases": ["per-server override"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Changing your Discord username/server name", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "No Nitro required for static Unicode", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Channel-name rules (lowercase, hyphenated)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3 },
+    { "canonical": "Hangul Filler invisible-name trick", "type": "Concept", "aliases": ["U+3164"], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3 }
+  ],
+  "relationships": [
+    "Discord --has three name surfaces--> @username (a-z, 0-9, underscore, period only), display name (full Unicode, profile-wide), server nickname (full Unicode, per-server)",
+    "Discord display name --is limited to--> 32 characters",
+    "Unicode symbols --wrap around--> a name to form a template (wrap-style decoration)",
+    "Static Unicode symbols --require--> no Discord Nitro subscription",
+    "Discord channel names --are forced to--> lowercase, spaces replaced with hyphens"
+  ]
+}

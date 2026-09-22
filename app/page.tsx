@@ -86,6 +86,7 @@ const focusedTools = [
   ["Strikethrough", "T̶i̶n̶y̶ t̶e̶x̶t̶", "strikethrough"],
   ["Upside down", "ʇxǝʇ ʎuᴉ⊥", "upside-down"],
   ["Glitch text", "T̸i̷n̶y̴ ̶t̵e̸x̷t̴", "zalgo"],
+  ["Discord name generator", "✦ Nᴀᴍᴇ ✦", "discord-name-generator"],
 ] as const;
 
 const relatedGuides = [

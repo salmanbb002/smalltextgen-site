@@ -1,0 +1,12 @@
+{
+  "_note": "Auto-generated at runtime from GalleryPage once this entry exists in lib/gallery-pages.ts — check components/gallery-tool-page.tsx for the exact schema wiring used on the other gallery pages (fancy-text-generator etc.) and mirror it for this slug. This file is for running the FAQ through the Rich Results Test before merging.",
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Can I use symbols and fancy fonts in my Discord name?", "acceptedAnswer": { "@type": "Answer", "text": "In your display name and any server nickname, yes — both accept the full Unicode range. Your @username is the exception: it's limited to lowercase letters, numbers, underscores, and periods, with no symbols or styled fonts." } },
+    { "@type": "Question", "name": "What's the difference between a Discord username, display name, and nickname?", "acceptedAnswer": { "@type": "Answer", "text": "Your @username is the plain handle you log in with and mention people by. Your display name is what shows everywhere instead of it, and accepts full Unicode. A server nickname is a further per-server override of your display name." } },
+    { "@type": "Question", "name": "Is there a character limit for Discord names?", "acceptedAnswer": { "@type": "Answer", "text": "Display names and nicknames are capped at 32 characters, including any symbols in a wrap template." } },
+    { "@type": "Question", "name": "Do I need Discord Nitro to use fancy fonts or symbols?", "acceptedAnswer": { "@type": "Answer", "text": "No. These are plain Unicode characters, not custom emoji — anyone can paste them into a display name or nickname without a Nitro subscription." } },
+    { "@type": "Question", "name": "How do I change my Discord display name?", "acceptedAnswer": { "@type": "Answer", "text": "Open User Settings, then Profile, edit the Display Name field, paste your generated name, and save." } }
+  ]
+}

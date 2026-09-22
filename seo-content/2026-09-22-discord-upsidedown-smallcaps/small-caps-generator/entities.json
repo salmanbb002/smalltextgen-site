@@ -1,0 +1,20 @@
+{
+  "keyword": "small caps generator",
+  "entities": [
+    { "canonical": "Small caps", "type": "Concept", "aliases": ["small capital letters"], "sameAs": "https://en.wikipedia.org/wiki/Small_caps", "kind": "entity", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "Unicode", "type": "Standard", "aliases": [], "sameAs": "https://en.wikipedia.org/wiki/Unicode", "kind": "entity", "competitor_count": 4, "in_title_or_h2": false, "tier": 1 },
+    { "canonical": "Copy and paste", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1 },
+    { "canonical": "CSS font-variant: small-caps", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Microsoft Word native Small Caps", "type": "Concept", "aliases": ["Ctrl+Shift+K"], "sameAs": "", "kind": "term", "competitor_count": 0, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Google Docs (no native small caps)", "type": "Product", "aliases": [], "sameAs": "https://en.wikipedia.org/wiki/Google_Docs", "kind": "entity", "competitor_count": 0, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Acronym / scholarly-title use case", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Digit non-conversion (verified)", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 0, "in_title_or_h2": false, "tier": 2 },
+    { "canonical": "Content-filter-bypass angle", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3 }
+  ],
+  "relationships": [
+    "CSS --has a native rule for--> small caps (font-variant: small-caps), lost on copy-paste since it's a rendering rule, not a character substitution",
+    "Microsoft Word --has a native Small Caps style via--> Format -> Font -> Small caps or Ctrl+Shift+K",
+    "Google Docs --has no native small-caps option--> unlike Word",
+    "This site's small-caps generator --converts letters only--> verified against lib/fonts.ts, no digit mapping exists"
+  ]
+}
