@@ -1,0 +1,9 @@
+{
+  "@context": "https://schema.org",
+  "note": "Rendered live by components/pillar-tool-page.tsx as @graph: WebApplication + BreadcrumbList + HowTo (from howToSteps) + FAQPage (from faq). No separate JSON-LD file to deploy.",
+  "about": {
+    "@type": "Thing",
+    "name": "Unicode",
+    "sameAs": "https://en.wikipedia.org/wiki/Unicode"
+  }
+}

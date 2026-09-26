@@ -22,7 +22,9 @@ export function SiteFooter() {
           <Link href="/tools/bold">Bold text</Link>
           <Link href="/tools/underline">Underline</Link>
           <Link href="/tools/strikethrough">Strikethrough</Link>
+          <Link href="/tools/italic">Italic</Link>
           <Link href="/tools/upside-down">Upside down</Link>
+          <Link href="/tools/mirror">Mirror text</Link>
           <Link href="/tools/zalgo">Glitch text</Link>
           <Link href="/tools/invisible">Invisible text</Link>
         </div>

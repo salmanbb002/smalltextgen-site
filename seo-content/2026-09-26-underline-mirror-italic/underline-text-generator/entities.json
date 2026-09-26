@@ -1,0 +1,132 @@
+[
+  {
+    "canonical": "Underline text generator",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Combining low line U+0332 (Unicode)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Unicode",
+    "kind": "term",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Copy and paste",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Plain-text fields with no formatting toolbar",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "LinkedIn / Instagram (no underline button)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Underline-looks-like-a-link caveat",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Character-count cost",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Double underline U+0333",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Native formatting (Ctrl+U, Discord __text__, HTML <u>)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Searchability / screen readers",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Decorative underline variants (seagull, arrow, asterisk)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Chrome extension (postformatter)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Spanish UI",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "term",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  }
+]

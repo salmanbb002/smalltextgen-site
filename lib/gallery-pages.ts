@@ -33,7 +33,7 @@ export const galleryPages: GalleryPage[] = [
     ],
     howToSteps: [
       "Type or paste your text into the converter below.",
-      "Scan the styles — small caps, bold, italic, cursive, fraktur, double-struck, monospace, bubble, superscript, and more all convert at once.",
+      "Scan the styles — small caps, bold, [italic](/tools/italic), cursive, fraktur, double-struck, monospace, bubble, superscript, and more all convert at once.",
       "Copy the version you want with one tap.",
       "Paste it into a bio, caption, message, or document, and preview it there, since some apps and older devices lack the glyph for a few blocks.",
     ],
@@ -78,7 +78,7 @@ export const galleryPages: GalleryPage[] = [
       { platform: "Invitations & captions", blurb: "A decorative heading or standout line in digital invites, stories, and posts." },
     ],
     faq: [
-      { question: "What counts as a fancy font here?", answer: "Any decorative Unicode letter style — cursive script, blackletter (fraktur), outlined (double-struck), bold, italic, circled/bubble, squared, spaced, and framed styles. They're grouped together as 'fancy text'." },
+      { question: "What counts as a fancy font here?", answer: "Any decorative Unicode letter style — cursive script, blackletter (fraktur), outlined (double-struck), bold, [italic](/tools/italic), circled/bubble, squared, spaced, and framed styles. They're grouped together as 'fancy text'." },
       { question: "Are fancy fonts real fonts?", answer: "No. Each 'font' is a set of Unicode characters that look styled. That's why you can copy and paste them into apps that don't let you change the typeface." },
       { question: "Which fancy text styles are most popular?", answer: "Cursive script and bold are the most-used for names; fraktur and double-struck for a distinctive look; bubble and squared for playful posts." },
       { question: "Do fancy fonts work on Instagram and TikTok?", answer: "Yes, in bios, captions, and comments. They don't work in the @username field, which only accepts plain characters." },

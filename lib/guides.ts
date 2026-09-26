@@ -1166,7 +1166,7 @@ export const guides: Guide[] = [
       {
         heading: "Weight and slant: bold, italic, bold italic, monospace",
         paragraphs: [
-          "These map to Unicode's mathematical alphanumeric blocks. Bold and bold italic are the most widely supported of all the fancy styles and stay readable at any length, which makes them a safe default when a style has to work everywhere.",
+          "These map to Unicode's mathematical alphanumeric blocks. Generate them with the [bold text generator](/tools/bold) and the [italic text generator](/tools/italic). Bold and bold italic are the most widely supported of all the fancy styles and stay readable at any length, which makes them a safe default when a style has to work everywhere.",
         ],
       },
       {
@@ -1814,7 +1814,7 @@ export const guides: Guide[] = [
       {
         heading: "Layout and effect",
         paragraphs: [
-          "Letter-spaced and full-width (ｃｏｏｌ) add air; upside-down and reversed flip the line; glitch adds a distorted overlay. Use these sparingly — they change layout more than letterform. For which styles render everywhere, see [copy and paste fonts](/guides/copy-paste-fonts-guide).",
+          "Letter-spaced and full-width (ｃｏｏｌ) add air; [upside-down](/tools/upside-down) and [mirror text](/tools/mirror) flip the line; glitch adds a distorted overlay. Use these sparingly — they change layout more than letterform. For which styles render everywhere, see [copy and paste fonts](/guides/copy-paste-fonts-guide).",
         ],
       },
     ],

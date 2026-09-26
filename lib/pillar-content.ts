@@ -246,9 +246,9 @@ export const pillarContent: PillarContent[] = [
     metaDescription:
       "Add a real underline to text you can copy and paste — no formatting toolbar needed. Free underline text generator using a Unicode combining underline.",
     h1: "Underline Text Generator",
-    lastUpdated: "2026-09-01",
+    lastUpdated: "2026-09-26",
     intro: [
-      "This underline text generator adds a line beneath every character using a Unicode combining underline mark, so the underlined text copies and pastes into places that have no formatting toolbar — bios, captions, chat messages, and display names. The underscore travels with the text as real characters rather than a style setting.",
+      "This underline text generator adds a line beneath every character using a Unicode combining underline mark, so the underlined text copies and pastes into places that have no formatting toolbar — bios, captions, LinkedIn posts, chat messages, and display names. The mark is U+0332 (COMBINING LOW LINE), and it travels with the text as a real character rather than a style setting.",
       "Because the underline is a combining mark stacked onto each letter, it works anywhere the base letters do, and it survives a copy-paste that would strip rich-text formatting. Type below and copy the underlined result; preview it where you'll use it, since a handful of apps normalise combining marks away.",
     ],
     howToSteps: [
@@ -261,6 +261,13 @@ export const pillarContent: PillarContent[] = [
       { platform: "Social bios & captions", blurb: "An underlined word or phrase for emphasis where the app gives you no formatting controls." },
       { platform: "Chats & display names", blurb: "Underlined names and message accents in apps that pass Unicode through untouched." },
       { platform: "Notes & docs", blurb: "A quick underline in plain-text fields and lightweight editors." },
+      { platform: "LinkedIn posts", blurb: "LinkedIn's post composer has no underline (or bold) button, so a pasted Unicode underline is the only way to underline a phrase there. Keep it to a few words — see the link caveat in the FAQ." },
+    ],
+    nativeFormatting: [
+      { app: "Microsoft Word", instructions: "Select the text, then press Ctrl+U (Windows) or ⌘+U (Mac). Ctrl+Shift+D gives a double underline in Word for Windows." },
+      { app: "Google Docs", instructions: "Select the text, then press Ctrl+U (Windows) or ⌘+U (Mac)." },
+      { app: "Discord", instructions: "Wrap the text in two underscores on each side — __like this__ — and Discord's own markdown underlines it, no Unicode needed." },
+      { app: "HTML", instructions: "Wrap the words in a <u> tag, or use CSS text-decoration: underline. Both vanish the moment the text is copied into a plain-text field." },
     ],
     faq: [
       { question: "How does an underline text generator work without a formatting button?", answer: "It attaches a Unicode combining low line to each character. The underline is part of the text itself, so it pastes into plain-text fields that have no underline option." },
@@ -268,6 +275,11 @@ export const pillarContent: PillarContent[] = [
       { question: "Why does my underline sometimes not show up?", answer: "Some platforms strip or normalise combining marks for consistency or safety. When that happens the base letters stay but the line is removed, and there's no fix on that specific surface." },
       { question: "Is this the same as typing underscores between letters?", answer: "No. Underscores between characters sit on the baseline. This tool places a continuous underline beneath each character, closer to a true underline." },
       { question: "Does underlined Unicode text work in Word or Google Docs?", answer: "It pastes and displays, but for documents you'll keep editing, the app's own underline formatting is cleaner because it's a text attribute rather than stacked marks." },
+      { question: "How do I underline text on LinkedIn or Instagram?", answer: "Neither app has an underline button, so type your phrase into the generator above, copy the result, and paste it into the post, caption, bio, or comment. The underline is part of the characters, so the app has nothing to strip." },
+      { question: "Will underlined text look like a link?", answer: "To some readers, yes — an underline is the classic signal for a clickable link, which is one reason social apps don't offer it. Underline a short phrase for emphasis, and never underline something readers might try to tap." },
+      { question: "Does underlined text use up more of my character limit?", answer: "Yes. Every underlined letter is two code points — the letter plus U+0332 — so a 20-letter phrase costs about 40 characters toward a limit like Instagram's 150-character bio." },
+      { question: "Can I make a double underline?", answer: "Unicode has a combining double low line (U+0333), but this generator uses the single U+0332 line because it renders most consistently across apps. In Word you can get a native double underline with Ctrl+Shift+D." },
+      { question: "Is underlined Unicode text searchable?", answer: "Not reliably. The combining marks make the word a different character string, so platform search and screen readers can miss it or read it awkwardly — keep keywords and key information in plain text." },
     ],
     relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "underline-text-copy-paste"],
   },
@@ -280,7 +292,7 @@ export const pillarContent: PillarContent[] = [
     lastUpdated: "2026-09-13",
     intro: [
       "This bold text generator turns plain letters and numbers into bold Unicode mathematical characters — 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 — that you can copy and paste anywhere, including places with no bold button at all. Because the boldness is part of the character itself rather than a formatting style, it survives copy-paste into plain-text fields that would otherwise strip rich-text formatting.",
-      "It's the fastest way to get bold text into an Instagram bio, a WhatsApp message, an X/Twitter post, or a LinkedIn update — all of which either lack a bold button or only support one in limited places. Type below, copy the bold result, and paste it in; if you want emphasis without full bold, the [cursive font generator](/tools/cursive) and [underline text generator](/tools/underline) are two lighter-weight alternatives.",
+      "It's the fastest way to get bold text into an Instagram bio, a WhatsApp message, an X/Twitter post, or a LinkedIn update — all of which either lack a bold button or only support one in limited places. Type below, copy the bold result, and paste it in; if you want emphasis without full bold, the [italic text generator](/tools/italic), [cursive font generator](/tools/cursive), and [underline text generator](/tools/underline) are lighter-weight alternatives.",
     ],
     howToSteps: [
       "Type or paste the text you want in bold into the box below.",
@@ -359,7 +371,7 @@ export const pillarContent: PillarContent[] = [
     faq: [
       { question: "How do I flip text upside down to copy and paste?", answer: "Type your text into the generator above, copy the flipped result, and paste it wherever you need it — the flipping and reversing both happen automatically." },
       { question: "Why are some letters not flipped correctly?", answer: "Unicode only has upside-down look-alikes for most lowercase letters and digits — a few characters, mostly uppercase, have no good match and are left as-is rather than substituting a misleading symbol." },
-      { question: "Is upside down text the same as mirrored or flipped text?", answer: "Not quite. This generator flips text vertically (upside down) and reverses the reading order, which is the classic 'ʇxǝʇ uʍop ǝpᴉsdn' effect. A true left-right mirror would flip each letter's shape horizontally instead, which most 'mirror text' tools approximate by simply reversing the character order." },
+      { question: "Is upside down text the same as mirrored or flipped text?", answer: "Not quite. This generator flips text vertically (upside down) and reverses the reading order, which is the classic 'ʇxǝʇ uʍop ǝpᴉsdn' effect. A true left-right mirror flips each letter's shape horizontally instead — that's what the [mirror text generator](/tools/mirror) does." },
       { question: "Does upside down text work on Instagram and Discord?", answer: "Yes, in bios, captions, comments, and display names — anywhere standard Unicode is accepted. It won't work in strict fields like the Instagram @username." },
       { question: "Why does upside down text look different on some phones?", answer: "A few of the flipped characters come from less common Unicode blocks, so an older device's font may render one or two letters as a box or a slightly different shape." },
       { question: "Which letters stay the same when flipped upside down?", answer: "l, o, s, x, and z look identical rotated 180°, so they appear unchanged even though the generator did convert them. A few uppercase letters (H, I, N, S, X, O) are also self-symmetric for the same reason." },
@@ -401,6 +413,84 @@ export const pillarContent: PillarContent[] = [
     ],
     relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe", "fonts-for-roblox"],
   },
+  {
+    slug: "italic",
+    title: "Italic Text Generator – Italic Font Copy & Paste (Free)",
+    metaDescription:
+      "Turn text into italic Unicode you can copy and paste into Instagram, WhatsApp, LinkedIn, and X — no italic button needed. Free italic text generator.",
+    h1: "Italic Text Generator",
+    lastUpdated: "2026-09-26",
+    intro: [
+      "This italic text generator swaps each letter for its slanted twin from Unicode's Mathematical Alphanumeric Symbols block (U+1D400–U+1D7FF) — 𝑙𝑖𝑘𝑒 𝑡ℎ𝑖𝑠 — so the italics are part of the characters themselves. That's why they survive copy-paste into bios, captions, and posts on apps that have no italic button.",
+      "Italic is the quietest way to add emphasis: a title, a quote, a foreign word, or an inner thought, without the weight of the [bold text generator](/tools/bold) or the flourish of the [cursive font generator](/tools/cursive). Type below, copy the italic result, and paste it where you need it.",
+    ],
+    howToSteps: [
+      "Type or paste your text into the box below.",
+      "Check the italic result — every letter a–z and A–Z converts as you type.",
+      "Copy the italic output with one tap.",
+      "Paste it into your post, bio, or message and preview it there; numbers and punctuation stay upright because Unicode has no italic versions of them.",
+    ],
+    whereUsed: [
+      { platform: "Instagram & TikTok", blurb: "An italic tagline, quote, or name line in a bio or caption, where the apps offer no text formatting at all." },
+      { platform: "LinkedIn & X", blurb: "Italicise a book title, a quote, or a single stressed word in a post — neither composer has an italic button." },
+      { platform: "Facebook & YouTube", blurb: "Posts, comments, and channel descriptions that accept Unicode but strip rich-text formatting." },
+    ],
+    nativeFormatting: [
+      { app: "WhatsApp", instructions: "Wrap the text in single underscores — _like this_ — and WhatsApp italicises it natively. It only shows as italic inside WhatsApp." },
+      { app: "Discord", instructions: "Wrap the text in single asterisks or underscores — *like this* — to italicise it with Discord's markdown." },
+      { app: "Microsoft Word & Google Docs", instructions: "Select the text, then press Ctrl+I (Windows) or ⌘+I (Mac)." },
+      { app: "HTML", instructions: "Wrap the words in an <em> tag for emphasis or <i> for titles and foreign terms. The styling disappears when the text is copied into a plain-text field." },
+    ],
+    faq: [
+      { question: "How does an italic text generator work?", answer: "It replaces each normal letter with the matching character from Unicode's mathematical italic alphabet. The result is plain text that looks slanted, so it pastes anywhere Unicode is accepted without installing a font." },
+      { question: "Why does the italic h look slightly different?", answer: "Unicode never added a mathematical italic small h, because the Planck constant symbol ℎ (U+210E) already existed. Generators use ℎ in its place, so it can look a touch different in some fonts." },
+      { question: "Why don't numbers turn italic?", answer: "The Mathematical Alphanumeric Symbols block has bold, double-struck, sans-serif, and monospace digits, but no italic digits. Numbers and punctuation stay upright in italic text for that reason." },
+      { question: "Does italic text work on Instagram, Facebook, and X?", answer: "Yes — in bios, captions, posts, and comments. It won't work in username or handle fields, which only accept plain letters, numbers, and a few symbols." },
+      { question: "How do I italicise text on WhatsApp without a generator?", answer: "Put an underscore on both sides of the words, like _this_. WhatsApp formats it as italic, but only inside WhatsApp — the Unicode version from this generator keeps its slant wherever you paste it." },
+      { question: "What's the difference between italic and cursive text?", answer: "Italic is an upright font slanted to the right, with the letters still separate. Cursive (script) imitates handwriting with loops and flourishes. For a handwritten look, use the [cursive font generator](/tools/cursive)." },
+      { question: "Can I make bold italic text?", answer: "Yes. Bold italic is its own Unicode alphabet — 𝑩𝒐𝒍𝒅 𝒊𝒕𝒂𝒍𝒊𝒄 — and it appears in the style list below the converter, next to plain italic." },
+      { question: "Is Unicode italic text accessible to screen readers?", answer: "Not reliably. Many screen readers read mathematical italic letters one by one or skip them. Keep important information in plain text and use italics for short accents." },
+      { question: "Will italic text show up in search?", answer: "Usually not. Platform search and search engines treat the italic characters as different symbols from normal letters, so an italicised keyword may not match a plain-text search." },
+      { question: "When should I use italics?", answer: "The standard uses are titles of books, films, and albums, foreign words, quotes, and a single stressed word. Italicising whole paragraphs reduces readability, especially on mobile." },
+    ],
+    relatedGuideSlugs: ["fancy-text-styles-explained", "copy-paste-fonts-guide", "fonts-for-twitter-x"],
+  },
+  {
+    slug: "mirror",
+    title: "Mirror Text Generator – Flip Text Backwards (Copy & Paste)",
+    metaDescription:
+      "Mirror your text so it reads like a reflection — letters flipped left-to-right and reversed. Free mirror text generator, copy and paste ready.",
+    h1: "Mirror Text Generator",
+    lastUpdated: "2026-09-26",
+    intro: [
+      "This mirror text generator flips your text horizontally, as if you were reading it in a mirror: the order of the characters is reversed and each letter that has a mirrored Unicode twin is swapped for it (b ↔ d, p ↔ q, e → ɘ, R → Я). Hold the result up to a mirror and it reads normally again.",
+      "Mirror text is not the same as backwards text or upside-down text. Backwards text only reverses the letter order and leaves each letter facing the normal way. Upside-down text rotates everything 180°, so try the [upside down text generator](/tools/upside-down) if you want to flip text vertically instead.",
+    ],
+    howToSteps: [
+      "Type or paste the text you want to mirror into the box below.",
+      "Check the mirror result — the line is reversed and each flippable letter is swapped for its mirror image.",
+      "Copy the mirrored text with one tap.",
+      "Paste it into a message, bio, or caption; letters with no mirrored Unicode form stay as they are, so preview it first.",
+    ],
+    whereUsed: [
+      { platform: "Puzzles & spoilers", blurb: "Hide a riddle answer, a quiz solution, or a spoiler so readers have to work to read it, or check it in a mirror." },
+      { platform: "Bios & captions", blurb: "A reflected name or tagline that makes people stop scrolling, and a popular choice for Opposite Day posts." },
+      { platform: "Design checks", blurb: "Preview how a word reads reversed before it goes on a window decal, glass, a stamp, or anything seen from the other side." },
+    ],
+    faq: [
+      { question: "What is mirror text?", answer: "Mirror text (also called mirror writing) is text written in reverse, so it only reads normally when reflected in a mirror. This generator recreates it with Unicode characters that look like horizontally flipped letters." },
+      { question: "What's the difference between mirror text, backwards text, and upside-down text?", answer: "Backwards text reverses the letter order only. Mirror text reverses the order and flips each letter left-to-right. Upside-down text rotates the whole line 180°, flipping it top-to-bottom." },
+      { question: "Why don't some letters mirror?", answer: "Two reasons. Symmetrical letters like A, H, I, M, O, T, U, V, W, X, Y, i, l, o, v, w, and x already look the same in a mirror. Others, such as f, g, h, j, y, G, K, and Q, have no clean mirrored character in Unicode, so they're left unchanged instead of being swapped for a misleading look-alike." },
+      { question: "How do I read mirror text?", answer: "Hold your screen up to a mirror, or paste the text back into this generator: mirroring it a second time puts it back in normal order. A few letters come back as their closest match rather than the original." },
+      { question: "Did Leonardo da Vinci use mirror writing?", answer: "Yes. Leonardo da Vinci filled many of his notebooks with right-to-left mirror script, which is the most famous historical example. Why he did it is still debated: he was left-handed, and writing right to left avoided smudging the ink." },
+      { question: "Why is 'AMBULANCE' written backwards on ambulances?", answer: "It's mirror-printed on the front of the vehicle so drivers ahead read it the right way round in their rear-view mirror. It's the most common real-world use of mirror text." },
+      { question: "Does mirror text work on Instagram, TikTok, and Discord?", answer: "Yes, in bios, captions, comments, messages, and display names, anywhere standard Unicode is accepted. Username fields reject it. On older devices, a few characters such as ꙅ or ꟻ can show as boxes." },
+      { question: "Do numbers get mirrored?", answer: "No. Unicode has no mirrored digits, so numbers keep their normal shape. Only their position moves because the whole line is reversed." },
+      { question: "Is mirror text searchable or accessible?", answer: "Not really. Search can't match the swapped characters to normal words, and screen readers read the line backwards or spell it out. Use it for fun and puzzles, not for information people need to find." },
+      { question: "Can I mirror text in Word or Google Docs instead?", answer: "Yes, as a graphic. Put the text in a text box or WordArt, then use the 3-D rotation or flip options (Word) or flip the drawing (Google Docs). That mirrors the image of the text, which is better for printing but can't be pasted as text." },
+    ],
+    relatedGuideSlugs: ["cool-different-fonts", "fancy-text-styles-explained", "copy-paste-text-tricks-social-media-bios"],
+  },
 ];
 
 export function getPillarContent(slug: string) {
@@ -421,5 +511,7 @@ export const pillarNav: PillarNavEntry[] = [
   { slug: "bold", href: "/tools/bold", eyebrow: "Bold", anchor: "the bold text generator" },
   { slug: "strikethrough", href: "/tools/strikethrough", eyebrow: "Strikethrough", anchor: "the strikethrough text generator" },
   { slug: "upside-down", href: "/tools/upside-down", eyebrow: "Upside down", anchor: "the upside down text generator" },
+  { slug: "mirror", href: "/tools/mirror", eyebrow: "Mirror text", anchor: "the mirror text generator" },
+  { slug: "italic", href: "/tools/italic", eyebrow: "Italic", anchor: "the italic text generator" },
   { slug: "zalgo", href: "/tools/zalgo", eyebrow: "Glitch text", anchor: "the glitch text generator" },
 ];

@@ -105,6 +105,14 @@ const upsideDownMap: Record<string, string> = {
   "(": ")", ")": "(", "[": "]", "]": "[", "{": "}", "}": "{",
 };
 
+// Horizontal flip only. Letters with no clean mirrored Unicode form (f, g, h, j, y…) and
+// self-symmetric ones (A, H, i, o, x…) pass through unchanged.
+const mirrorMap: Record<string, string> = {
+  a: "ɒ", b: "d", c: "ɔ", d: "b", e: "ɘ", k: "ʞ", p: "q", q: "p", r: "ɿ", s: "ꙅ", t: "ƚ", z: "ƹ",
+  B: "ᙠ", C: "Ɔ", D: "ᗡ", E: "Ǝ", F: "ꟻ", J: "Ⴑ", L: "⅃", N: "И", P: "ꟼ", R: "Я", S: "Ꙅ", Z: "Ƹ",
+  "?": "⸮", "(": ")", ")": "(", "[": "]", "]": "[", "{": "}", "}": "{", "<": ">", ">": "<", "/": "\\", "\\": "/",
+};
+
 const zalgoMarks = ["̴", "̵", "̶", "̷", "͞", "̸", "̡", "̢", "̧", "̛", "̖", "̗", "̘", "̙"];
 const zalgo = (text: string) =>
   Array.from(text)
@@ -135,6 +143,7 @@ export const textStyles: TextStyle[] = [
   { slug: "strikethrough", name: "Strikethrough", category: "Decorated", description: "A line through every character", transform: (text) => Array.from(text).map((c) => (c === "\n" ? c : `${c}̶`)).join("") },
   { slug: "spaced", name: "Letter spaced", category: "Decorated", description: "Give every character more room", transform: (text) => Array.from(text).join(" ") },
   { slug: "upside-down", name: "Upside down", category: "Playful", description: "Flip and reverse the whole line", transform: (text) => Array.from(text).reverse().map((c) => upsideDownMap[c] ?? c).join("") },
+  { slug: "mirror", name: "Mirror", category: "Playful", description: "Flip each letter left-to-right, like a reflection", transform: (text) => Array.from(text).reverse().map((c) => mirrorMap[c] ?? c).join("") },
   { slug: "reversed", name: "Reversed", category: "Playful", description: "Read the phrase from right to left", transform: (text) => Array.from(text).reverse().join("") },
   { slug: "sparkles", name: "Sparkles", category: "Playful", description: "A bright social-ready frame", transform: (text) => `✦ ${text} ✦` },
   { slug: "hearts", name: "Hearts", category: "Playful", description: "A warm decorative frame", transform: (text) => `♡ ${text} ♡` },
@@ -148,11 +157,13 @@ export const toolPages = [
   "superscript",
   "subscript",
   "bold",
+  "italic",
   "cursive",
   "bubble",
   "underline",
   "strikethrough",
   "upside-down",
+  "mirror",
   "zalgo",
   "invisible",
 ] as const;

@@ -84,7 +84,9 @@ const focusedTools = [
   ["Bubble text", "Ⓣⓘⓝⓨ ⓣⓔⓧⓣ", "bubble"],
   ["Underline", "T̲i̲n̲y̲ t̲e̲x̲t̲", "underline"],
   ["Strikethrough", "T̶i̶n̶y̶ t̶e̶x̶t̶", "strikethrough"],
+  ["Italic", "𝑇𝑖𝑛𝑦 𝑡𝑒𝑥𝑡", "italic"],
   ["Upside down", "ʇxǝʇ ʎuᴉ⊥", "upside-down"],
+  ["Mirror text", "ƚxɘƚ yniT", "mirror"],
   ["Glitch text", "T̸i̷n̶y̴ ̶t̵e̸x̷t̴", "zalgo"],
   ["Discord name generator", "✦ Nᴀᴍᴇ ✦", "discord-name-generator"],
 ] as const;

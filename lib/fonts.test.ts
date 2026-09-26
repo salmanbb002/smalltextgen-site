@@ -33,6 +33,14 @@ describe("Unicode text transformations", () => {
       .toBe("¡ᴉH");
   });
 
+  it("mirrors letters horizontally and reverses the line", () => {
+    expect(transformText("mirror", "Read? (be)")).toBe("(ɘd) ⸮bɒɘЯ");
+  });
+
+  it("uses the Planck constant for italic h", () => {
+    expect(transformText("italic", "hi 2")).toBe("ℎ𝑖 2");
+  });
+
   it("does not attach underline marks to line breaks", () => {
     expect(transformText("underline", "a\nb")).toBe("a̲\nb̲");
   });
