@@ -1,0 +1,142 @@
+[
+  {
+    "canonical": "Typewriter font generator",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Mathematical Monospace (Unicode)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Monospace / fixed width",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Copy and paste",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Mechanical typewriter carriage (why fixed width)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Courier (Kettler, IBM, 1955)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Courier_(typeface)",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Monospace digits",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "WhatsApp ``` / Discord ` code formatting",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "SEO / search caveat",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Design tools (Canva/Figma/Word)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Screen readers",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Image/PNG typewriter fonts",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "ASCII art tables",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Font licensing",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  }
+]

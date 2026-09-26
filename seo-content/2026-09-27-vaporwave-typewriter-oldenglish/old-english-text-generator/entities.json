@@ -1,0 +1,162 @@
+[
+  {
+    "canonical": "Old English text generator",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Old_English",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Blackletter",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Blackletter",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Fraktur (Unicode Mathematical Fraktur)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Fraktur",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Copy and paste",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Bold fraktur (complete alphabet)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Fraktur",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Letterlike capitals ℭ ℌ ℑ ℜ ℨ",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "No fraktur digits",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Fraktur",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Old English language ≠ font",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Old_English",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Textura / Gutenberg Bible",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Maximilian I",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "1941 Fraktur ban",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Fraktur",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Tattoos / jerseys / mastheads / logos",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Gothic (alias)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "PNG/SVG export",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Medieval cross separators",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Wedding invitations",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  }
+]

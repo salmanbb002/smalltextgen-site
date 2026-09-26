@@ -25,6 +25,9 @@ export function SiteFooter() {
           <Link href="/tools/italic">Italic</Link>
           <Link href="/tools/upside-down">Upside down</Link>
           <Link href="/tools/mirror">Mirror text</Link>
+          <Link href="/tools/vaporwave-text-generator">Vaporwave text</Link>
+          <Link href="/tools/typewriter-font-generator">Typewriter font</Link>
+          <Link href="/tools/old-english-text-generator">Old English text</Link>
           <Link href="/tools/zalgo">Glitch text</Link>
           <Link href="/tools/invisible">Invisible text</Link>
         </div>

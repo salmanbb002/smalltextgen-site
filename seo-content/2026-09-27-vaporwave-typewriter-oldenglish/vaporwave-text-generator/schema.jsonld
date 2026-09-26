@@ -1,0 +1,16 @@
+{
+  "@context": "https://schema.org",
+  "note": "Rendered live by components/gallery-tool-page.tsx as @graph: WebApplication + BreadcrumbList + HowTo + FAQPage. No separate file to deploy.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Vaporwave",
+      "sameAs": "https://en.wikipedia.org/wiki/Vaporwave"
+    },
+    {
+      "@type": "Thing",
+      "name": "Halfwidth and Fullwidth Forms",
+      "sameAs": "https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)"
+    }
+  ]
+}

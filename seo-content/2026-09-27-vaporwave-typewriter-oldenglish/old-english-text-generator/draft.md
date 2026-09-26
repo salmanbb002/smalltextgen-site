@@ -1,0 +1,3 @@
+# Old English Text Generator
+
+Shipped directly into `lib/gallery-pages.ts` (entry `slug: "old-english-text-generator"`) + route `app/tools/old-english-text-generator/page.tsx` — that entry is the source of truth for the final copy (intro, 4 steps, 3 use cases, 10 FAQs).

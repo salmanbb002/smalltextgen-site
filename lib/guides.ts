@@ -1160,7 +1160,7 @@ export const guides: Guide[] = [
       {
         heading: "Blackletter and outlined: fraktur and double-struck",
         paragraphs: [
-          "Fraktur (𝔣𝔞𝔫𝔠𝔶) is a gothic blackletter alphabet; double-struck (𝕗𝕒𝕟𝕔𝕪) is the outlined style used for maths symbols like ℝ and ℤ. Both have near-complete alphabets and a distinctive look, with good support on modern devices.",
+          "Fraktur (𝔣𝔞𝔫𝔠𝔶) is a gothic blackletter alphabet — the [Old English text generator](/tools/old-english-text-generator) has regular and bold versions; double-struck (𝕗𝕒𝕟𝕔𝕪) is the outlined style used for maths symbols like ℝ and ℤ. Both have near-complete alphabets and a distinctive look, with good support on modern devices.",
         ],
       },
       {
@@ -1796,7 +1796,7 @@ export const guides: Guide[] = [
       {
         heading: "Bold, sharp, and technical",
         paragraphs: [
-          "Bold (𝗰𝗼𝗼𝗹) and bold italic for weight; monospace (𝚌𝚘𝚘𝚕) for a code-terminal look; fraktur (𝔠𝔬𝔬𝔩) for gothic blackletter. Bold is the most widely supported style of all.",
+          "Bold (𝗰𝗼𝗼𝗹) and bold italic for weight; monospace (𝚌𝚘𝚘𝚕) for a code-terminal look ([typewriter font generator](/tools/typewriter-font-generator)); fraktur (𝔠𝔬𝔬𝔩) for gothic blackletter ([Old English text generator](/tools/old-english-text-generator)). Bold is the most widely supported style of all.",
         ],
       },
       {
@@ -1814,7 +1814,7 @@ export const guides: Guide[] = [
       {
         heading: "Layout and effect",
         paragraphs: [
-          "Letter-spaced and full-width (ｃｏｏｌ) add air; [upside-down](/tools/upside-down) and [mirror text](/tools/mirror) flip the line; glitch adds a distorted overlay. Use these sparingly — they change layout more than letterform. For which styles render everywhere, see [copy and paste fonts](/guides/copy-paste-fonts-guide).",
+          "Letter-spaced and full-width (ｃｏｏｌ) add air — full-width is the [vaporwave text generator](/tools/vaporwave-text-generator) look; [upside-down](/tools/upside-down) and [mirror text](/tools/mirror) flip the line; glitch adds a distorted overlay. Use these sparingly — they change layout more than letterform. For which styles render everywhere, see [copy and paste fonts](/guides/copy-paste-fonts-guide).",
         ],
       },
     ],
@@ -2214,7 +2214,7 @@ export const guides: Guide[] = [
       {
         heading: "Which styles are safe",
         paragraphs: [
-          "Bold, small caps, and full-width render reliably in TikTok's font on iOS and Android. Cursive and fraktur usually work but can box out on older Android. Combining-mark styles like underline are stripped. Keep your handle and key info plain so search still matches — see [are copy-paste fonts safe](/guides/are-copy-paste-fonts-safe).",
+          "Bold, small caps, and full-width ([vaporwave text](/tools/vaporwave-text-generator)) render reliably in TikTok's font on iOS and Android. Cursive and fraktur ([Old English text](/tools/old-english-text-generator)) usually work but can box out on older Android. Combining-mark styles like underline are stripped. Keep your handle and key info plain so search still matches — see [are copy-paste fonts safe](/guides/are-copy-paste-fonts-safe).",
         ],
       },
       {
@@ -2271,7 +2271,7 @@ export const guides: Guide[] = [
       {
         heading: "Reliable styles",
         paragraphs: [
-          "Bold, small caps, and full-width render consistently across X on web, iOS, and Android. Script and fraktur mostly work. Underline and strikethrough combining marks are inconsistent.",
+          "Bold, small caps, and full-width render consistently across X on web, iOS, and Android — though X counts each full-width ([vaporwave](/tools/vaporwave-text-generator)) character as two toward the post limit. Script and fraktur mostly work, and [typewriter-style monospace](/tools/typewriter-font-generator) is a quieter option. Underline and strikethrough combining marks are inconsistent.",
         ],
       },
     ],

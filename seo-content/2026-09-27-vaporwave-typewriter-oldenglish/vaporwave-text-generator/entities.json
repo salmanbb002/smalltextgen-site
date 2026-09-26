@@ -1,0 +1,152 @@
+[
+  {
+    "canonical": "Vaporwave text generator",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Vaporwave",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Full-width Unicode characters (U+FF01–U+FF5E)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Vaporwave (genre/aesthetic)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "https://en.wikipedia.org/wiki/Vaporwave",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "ＡＥＳＴＨＥＴＩＣ",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Copy and paste",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 4,
+    "in_title_or_h2": true,
+    "tier": 1
+  },
+  {
+    "canonical": "Ideographic space U+3000",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "CJK square-cell origin of full-width",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Macintosh Plus / Floral Shoppe (2011)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Bios, playlists, video titles",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Character-limit cost",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Spaced text vs full-width",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "Japanese katakana",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 2,
+    "in_title_or_h2": false,
+    "tier": 2
+  },
+  {
+    "canonical": "PWA/offline",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "Image text effects (gradients, CRT)",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  },
+  {
+    "canonical": "\"325+ styles\"",
+    "type": "Concept",
+    "aliases": [],
+    "sameAs": "",
+    "kind": "entity",
+    "competitor_count": 1,
+    "in_title_or_h2": false,
+    "tier": 3
+  }
+]

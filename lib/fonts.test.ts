@@ -41,6 +41,19 @@ describe("Unicode text transformations", () => {
     expect(transformText("italic", "hi 2")).toBe("ℎ𝑖 2");
   });
 
+  it("widens vaporwave letters and spaces", () => {
+    expect(transformText("vaporwave", "Hi 2!")).toBe("Ｈｉ\u3000２！");
+  });
+
+  it("uses the complete bold fraktur alphabet and letterlike fraktur capitals", () => {
+    expect(transformText("bold-fraktur", "Cz")).toBe("𝕮𝖟");
+    expect(transformText("fraktur", "CHIRZ")).toBe("ℭℌℑℜℨ");
+  });
+
+  it("converts typewriter monospace letters and digits", () => {
+    expect(transformText("monospace", "Ab1")).toBe("𝙰𝚋𝟷");
+  });
+
   it("does not attach underline marks to line breaks", () => {
     expect(transformText("underline", "a\nb")).toBe("a̲\nb̲");
   });

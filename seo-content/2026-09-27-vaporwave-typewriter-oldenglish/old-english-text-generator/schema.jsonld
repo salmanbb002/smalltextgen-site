@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "note": "Rendered live by components/gallery-tool-page.tsx as @graph: WebApplication + BreadcrumbList + HowTo + FAQPage. No separate file to deploy.",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Blackletter",
+      "sameAs": "https://en.wikipedia.org/wiki/Blackletter"
+    },
+    {
+      "@type": "Thing",
+      "name": "Fraktur",
+      "sameAs": "https://en.wikipedia.org/wiki/Fraktur"
+    },
+    {
+      "@type": "Thing",
+      "name": "Old English (language)",
+      "sameAs": "https://en.wikipedia.org/wiki/Old_English"
+    }
+  ]
+}

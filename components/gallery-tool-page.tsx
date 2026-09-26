@@ -70,6 +70,7 @@ export function GalleryToolPage({ page }: { page: GalleryPage }) {
       </section>
 
       <Converter
+        initialStyle={page.leadStyle}
         title={`${page.h1}.`}
         description="Type once, compare every style, then copy the result you want."
       />

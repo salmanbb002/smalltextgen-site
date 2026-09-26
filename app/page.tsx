@@ -89,6 +89,9 @@ const focusedTools = [
   ["Mirror text", "ƚxɘƚ yniT", "mirror"],
   ["Glitch text", "T̸i̷n̶y̴ ̶t̵e̸x̷t̴", "zalgo"],
   ["Discord name generator", "✦ Nᴀᴍᴇ ✦", "discord-name-generator"],
+  ["Vaporwave text", "Ｔｉｎｙ　ｔｅｘｔ", "vaporwave-text-generator"],
+  ["Typewriter font", "𝚃𝚒𝚗𝚢 𝚝𝚎𝚡𝚝", "typewriter-font-generator"],
+  ["Old English text", "𝕿𝖎𝖓𝖞 𝖙𝖊𝖝𝖙", "old-english-text-generator"],
 ] as const;
 
 const relatedGuides = [
