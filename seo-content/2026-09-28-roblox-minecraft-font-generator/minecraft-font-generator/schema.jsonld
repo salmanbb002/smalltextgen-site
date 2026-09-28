@@ -1,0 +1,20 @@
+{
+  "_note": "The live page already emits WebApplication + HowTo + FAQPage + BreadcrumbList via components/gallery-tool-page.tsx. The about/mentions below are OPTIONAL entity markup; not wired in yet.",
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Minecraft Font Generator",
+  "url": "https://smalltextgen.site/tools/minecraft-font-generator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "about": [
+    {"@type": "Thing", "name": "Minecraft", "sameAs": "https://en.wikipedia.org/wiki/Minecraft"},
+    {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}
+  ],
+  "mentions": [
+    {"@type": "Thing", "name": "Mojangles", "sameAs": "https://minecraft.wiki/w/Mojangles"},
+    {"@type": "Thing", "name": "GNU Unifont", "sameAs": "https://en.wikipedia.org/wiki/GNU_Unifont"},
+    {"@type": "Thing", "name": "Minecraft: Java Edition", "sameAs": "https://minecraft.wiki/w/Java_Edition"},
+    {"@type": "Thing", "name": "Minecraft: Bedrock Edition", "sameAs": "https://minecraft.wiki/w/Bedrock_Edition"}
+  ]
+}

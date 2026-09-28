@@ -1,0 +1,22 @@
+[
+  {"canonical":"Roblox","type":"VideoGame","aliases":["Roblox platform"],"sameAs":"https://en.wikipedia.org/wiki/Roblox","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Unicode","type":"Concept","aliases":["Unicode characters","styled text"],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Roblox display name","type":"Concept","aliases":["display name"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Roblox username","type":"Concept","aliases":["username"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Roblox text filter","type":"Concept","aliases":["moderation","filtered"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"copy and paste","type":"Process","aliases":["copy & paste"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Bold / small caps (safe styles)","type":"Concept","aliases":["clean bold","small caps"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":1},
+  {"canonical":"Builder Sans","type":"Product","aliases":["Builder font"],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+  {"canonical":"Gotham","type":"Product","aliases":["Gotham SSm"],"sameAs":"https://en.wikipedia.org/wiki/Gotham_(typeface)","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+  {"canonical":"Roblox Studio","type":"SoftwareApplication","aliases":["Studio"],"sameAs":"https://en.wikipedia.org/wiki/Roblox_Studio","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+  {"canonical":"custom fonts","type":"Concept","aliases":["upload fonts"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":true,"tier":2},
+  {"canonical":"bio / About","type":"Concept","aliases":["profile description"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2},
+  {"canonical":"group name","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":false,"tier":2},
+  {"canonical":"chat","type":"Concept","aliases":["in-game chat"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2},
+  {"canonical":"mobile / Xbox / PlayStation","type":"Concept","aliases":["devices"],"sameAs":"","kind":"term","competitor_count":1,"in_title_or_h2":true,"tier":2},
+  {"canonical":"boxes / missing glyphs","type":"Concept","aliases":["squares","disappears"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":true,"tier":2},
+  {"canonical":"Community Standards","type":"Concept","aliases":["Roblox rules"],"sameAs":"","kind":"term","competitor_count":1,"in_title_or_h2":false,"tier":2},
+  {"canonical":"character limit","type":"Metric","aliases":["3–20 characters"],"sameAs":"","kind":"term","competitor_count":0,"in_title_or_h2":true,"tier":2},
+  {"canonical":"Source Sans Pro","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Source_Sans","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":3},
+  {"canonical":"Montserrat","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Montserrat_(typeface)","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":3}
+]

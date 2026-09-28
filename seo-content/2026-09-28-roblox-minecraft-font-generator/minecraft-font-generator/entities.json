@@ -1,0 +1,23 @@
+[
+  {"canonical":"Minecraft","type":"VideoGame","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Minecraft","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Mojangles","type":"Typeface","aliases":["Minecraft Seven","Minecraft font","in-game font"],"sameAs":"https://minecraft.wiki/w/Mojangles","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Minecraft logo","type":"Concept","aliases":["title-screen wordmark"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":1},
+  {"canonical":"Unicode","type":"Concept","aliases":["fancy text"],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":1},
+  {"canonical":"Java Edition","type":"VideoGame","aliases":["Java"],"sameAs":"https://minecraft.wiki/w/Java_Edition","kind":"entity","competitor_count":0,"in_title_or_h2":true,"tier":1},
+  {"canonical":"Bedrock Edition","type":"VideoGame","aliases":["Bedrock"],"sameAs":"https://minecraft.wiki/w/Bedrock_Edition","kind":"entity","competitor_count":0,"in_title_or_h2":true,"tier":1},
+  {"canonical":"copy and paste","type":"Process","aliases":[],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":true,"tier":1},
+  {"canonical":"GNU Unifont","type":"Typeface","aliases":["Unifont"],"sameAs":"https://en.wikipedia.org/wiki/GNU_Unifont","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+  {"canonical":"U+FFFF / Basic Multilingual Plane","type":"Concept","aliases":["BMP"],"sameAs":"https://en.wikipedia.org/wiki/Plane_(Unicode)","kind":"term","competitor_count":0,"in_title_or_h2":false,"tier":2},
+  {"canonical":"formatting codes","type":"Concept","aliases":["§ codes","color codes","section sign"],"sameAs":"https://minecraft.wiki/w/Formatting_codes","kind":"entity","competitor_count":0,"in_title_or_h2":true,"tier":2},
+  {"canonical":"sign","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":1,"in_title_or_h2":true,"tier":2},
+  {"canonical":"chat","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":1,"in_title_or_h2":true,"tier":2},
+  {"canonical":"anvil / item name","type":"Concept","aliases":["rename"],"sameAs":"","kind":"term","competitor_count":0,"in_title_or_h2":true,"tier":2},
+  {"canonical":"server MOTD","type":"Concept","aliases":["server.properties","server banner"],"sameAs":"https://minecraft.wiki/w/Server.properties","kind":"term","competitor_count":1,"in_title_or_h2":true,"tier":2},
+  {"canonical":"username / gamertag","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":0,"in_title_or_h2":true,"tier":2},
+  {"canonical":"Minecrafter","type":"Typeface","aliases":["Mine Crafter"],"sameAs":"","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+  {"canonical":"Minecraftia","type":"Typeface","aliases":[],"sameAs":"","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+  {"canonical":"image generator (PNG)","type":"Concept","aliases":["thumbnails","posters"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":false,"tier":2},
+  {"canonical":"books","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":0,"in_title_or_h2":false,"tier":2},
+  {"canonical":"Minecraft Ten","type":"Typeface","aliases":[],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":3},
+  {"canonical":"Standard Galactic Alphabet","type":"Concept","aliases":["enchanting table"],"sameAs":"https://minecraft.wiki/w/Standard_Galactic_Alphabet","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":3}
+]

@@ -59,7 +59,7 @@ export const guides: Guide[] = [
         paragraphs: [
           "Discord: Highly popular in text channels, bot messages, and custom statuses. However, server moderation bots (like Carl-bot or Dyno) frequently scrub extreme Zalgo nicknames to prevent channel member list clogging.",
           "TikTok & Instagram: Supported in captions and user bios. Note that Instagram's 150-character limit counts every individual combining mark as a character, so an extreme Zalgo word can rapidly deplete your bio allowance.",
-          "Roblox & Gaming Filters: Roblox aggressively sanitizes combining diacritics to prevent chat flooding and filter evasion, usually replacing Zalgo text with '###'. Steam community profiles, however, render it without restriction.",
+          "Roblox & Gaming Filters: Roblox aggressively sanitizes combining diacritics to prevent chat flooding and filter evasion, usually replacing Zalgo text with '###' — for Roblox names, the [Roblox font generator](/tools/roblox-font-generator) lists the plainer styles that pass. Steam community profiles, however, render it without restriction.",
         ],
       },
       {
@@ -171,7 +171,7 @@ export const guides: Guide[] = [
           "Discord: Glitch text renders exceptionally well in Discord text channels, user About Me bios, and status messages. However, server owners frequently forbid extreme Zalgo nicknames because excessive vertical height can obscure other members in voice channels.",
           "TikTok & Instagram: Works seamlessly in bios and video captions. Note that Instagram's 150-character bio limit counts every individual combining mark as a character, meaning a heavily glitched word may consume 30 to 40 characters of your quota.",
           "Steam & Gaming Profiles: Steam community profiles and nicknames fully support glitch text, making it a staple for CS2, TF2, and Rust clan tags.",
-          "Roblox & Minecraft: Roblox aggressively sanitizes combining diacritics to protect child safety and prevent chat flooding, so glitch text will usually revert to '###'. Minecraft Java chat supports it, but extreme vertical heights can cause text to render outside chat dialogue boxes.",
+          "Roblox & Minecraft: Roblox aggressively sanitizes combining diacritics to protect child safety and prevent chat flooding, so glitch text will usually revert to '###'. Minecraft Java chat supports it, but extreme vertical heights can cause text to render outside chat dialogue boxes. For styles that suit each game, see the [Roblox font generator](/tools/roblox-font-generator) and the [Minecraft font generator](/tools/minecraft-font-generator).",
         ],
       },
       {
@@ -1821,7 +1821,7 @@ export const guides: Guide[] = [
     faq: [
       { question: "What's the coolest copy-paste font?", answer: "Subjective, but fraktur, double-struck, and bold script are the most distinctive; bold and small caps are the most usable day to day." },
       { question: "How many different fonts can I copy and paste?", answer: "Around 20 distinct Unicode letter styles, plus frame and layout effects on top." },
-      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android." },
+      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android. Games have their own limits — see the [Roblox font generator](/tools/roblox-font-generator) and the [Minecraft font generator](/tools/minecraft-font-generator) (Minecraft Bedrock can't show bold or script at all)." },
       { question: "Are these real downloadable fonts?", answer: "No — they're Unicode character styles, which is why they copy and paste without an install." },
     ],
     pillarLinks: [
@@ -2297,7 +2297,7 @@ export const guides: Guide[] = [
     cluster: "Platform",
     lastUpdated: "2026-09-03",
     intro: [
-      "Roblox display names and profile text can take styled Unicode, generated the same way as anywhere else — the [fancy text generator](/tools/fancy-text-generator) or [small text generator](/) produce it. Roblox's text filter, though, is stricter than a typical social app.",
+      "Roblox display names and profile text can take styled Unicode, generated the same way as anywhere else — the [Roblox font generator](/tools/roblox-font-generator) produces it with the filter-friendliest styles first. Roblox's text filter, though, is stricter than a typical social app.",
       "This guide covers where styled text works in Roblox and what its moderation strips.",
     ],
     sections: [
@@ -2333,8 +2333,8 @@ export const guides: Guide[] = [
       { question: "What's the safest style to try on Roblox?", answer: "Small caps or bold — readable, minimal, most likely to pass moderation." },
     ],
     pillarLinks: [
+      { label: "Roblox font generator", href: "/tools/roblox-font-generator" },
       { label: "fancy text generator", href: "/tools/fancy-text-generator" },
-      { label: "small text generator", href: "/" },
     ],
     relatedGuideSlugs: ["copy-paste-fonts-guide", "fancy-text-styles-explained", "are-copy-paste-fonts-safe"],
   },

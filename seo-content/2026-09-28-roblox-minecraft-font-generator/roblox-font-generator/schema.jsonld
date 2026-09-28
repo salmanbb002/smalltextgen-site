@@ -1,0 +1,19 @@
+{
+  "_note": "The live page already emits WebApplication + HowTo + FAQPage + BreadcrumbList via components/gallery-tool-page.tsx, built from lib/gallery-pages.ts. The about/mentions below are OPTIONAL additions if you want entity markup on the WebApplication node; not wired in yet.",
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Roblox Font Generator",
+  "url": "https://smalltextgen.site/tools/roblox-font-generator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "about": [
+    {"@type": "Thing", "name": "Roblox", "sameAs": "https://en.wikipedia.org/wiki/Roblox"},
+    {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}
+  ],
+  "mentions": [
+    {"@type": "Thing", "name": "Builder Sans"},
+    {"@type": "Thing", "name": "Gotham", "sameAs": "https://en.wikipedia.org/wiki/Gotham_(typeface)"},
+    {"@type": "Thing", "name": "Roblox Studio", "sameAs": "https://en.wikipedia.org/wiki/Roblox_Studio"}
+  ]
+}
