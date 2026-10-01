@@ -1,0 +1,13 @@
+[
+ {"canonical":"Bubble text","type":"Concept","aliases":["bubble letters","circle text","circled letters","circle font"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Enclosed Alphanumerics","type":"Unicode block","aliases":["outlined bubbles"],"sameAs":"https://en.wikipedia.org/wiki/Enclosed_Alphanumerics","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Enclosed Alphanumeric Supplement","type":"Unicode block","aliases":["filled bubbles","negative circled","inverted bubbles"],"sameAs":"https://en.wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Circled numbers","type":"Concept","aliases":["circled digits"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"TikTok","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/TikTok","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Microsoft Word","type":"Product","aliases":["Word"],"sameAs":"https://en.wikipedia.org/wiki/Microsoft_Word","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"missing glyph","type":"Concept","aliases":["boxes"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"screen reader","type":"Concept","aliases":["accessibility"],"sameAs":"https://en.wikipedia.org/wiki/Screen_reader","kind":"term","competitor_count":1,"in_title_or_h2":false,"tier":2}
+]

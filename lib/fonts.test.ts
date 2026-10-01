@@ -58,6 +58,10 @@ describe("Unicode text transformations", () => {
     expect(transformText("underline", "a\nb")).toBe("a̲\nb̲");
   });
 
+  it("converts filled bubble letters (both cases) and digits", () => {
+    expect(transformText("bubble-filled", "Ab09")).toBe("🅐🅑⓿❾");
+  });
+
   it("leaves non-Latin text readable", () => {
     expect(transformText("small-caps", "سلام 🌿")).toBe("سلام 🌿");
   });

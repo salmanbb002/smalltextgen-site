@@ -1,0 +1,9 @@
+{
+  "note": "Rendered in-page by components/pillar-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb, FAQ verbatim from lib/pillar-content.ts). about/mentions for reference only.",
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Bubble Text Generator",
+  "url": "https://smalltextgen.site/tools/bubble",
+  "about": [{"@type": "Thing", "name": "Enclosed Alphanumerics", "sameAs": "https://en.wikipedia.org/wiki/Enclosed_Alphanumerics"}],
+  "mentions": [{"@type": "Thing", "name": "Enclosed Alphanumeric Supplement", "sameAs": "https://en.wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement"}, {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}]
+}

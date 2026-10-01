@@ -213,34 +213,94 @@ export const pillarContent: PillarContent[] = [
   },
   {
     slug: "bubble",
-    title: "Bubble Text Generator – Bubble Letters to Copy & Paste",
+    title: "Bubble Text Generator – Circle & Bubble Letters Copy Paste",
     metaDescription:
-      "Turn text into bubble letters — circled and filled — that you can copy and paste into any bio or caption. Free bubble text generator, no font install.",
+      "Turn text into bubble and circle letters, outlined ⓑⓤⓑⓑⓛⓔ or filled 🅑🅤🅑🅑🅛🅔, plus circled numbers ① to ⑳. Free bubble text generator, copy and paste, no font install.",
     h1: "Bubble Text Generator",
-    lastUpdated: "2026-09-01",
+    lastUpdated: "2026-10-02",
     intro: [
-      "This bubble text generator wraps every letter in a circle — the ⒷⓊⒷⒷⓁⒺ style — so you can copy and paste bubble letters into a bio, caption, comment, or display name. The characters are standard Unicode enclosed alphanumerics, which means the bubbly look pastes as real text rather than an image.",
-      "You get the outline (circled) style by default, with a bold filled version available for capitals. Bubble letters copy and paste cleanly on most modern apps — type below, pick circled or filled, and copy the result. Support is widest for A–Z and 0–9, so keep names and short phrases in mind rather than long paragraphs.",
+      "This bubble text generator puts every letter and number inside a circle, so \"bubble\" becomes ⓑⓤⓑⓑⓛⓔ or 🅑🅤🅑🅑🅛🅔, ready to copy and paste into a bio, caption, comment, or display name. It works as a circle text generator too: bubble letters and circled letters are the same Unicode characters, from the Enclosed Alphanumerics blocks, so the result pastes as real text, not an image.",
+      "You get two looks. Outlined bubbles (Ⓐ ⓐ ①) cover capitals, lowercase, and numbers, and they show up on almost every device. Filled bubbles (🅐 ❶) are solid black circles with white letters, capitals only, and they need a newer font. Type below, compare both, and copy the one you like. For bubble letters you draw yourself, like 3D or graffiti styles, see [bubble letters to copy and paste](/guides/bubble-letters-copy-paste).",
     ],
     howToSteps: [
       "Type the word or name you want in bubble letters into the box below.",
-      "Compare the circled bubble result with the filled version and the other styles shown alongside.",
-      "Copy the bubble text output with one tap.",
-      "Paste it into Instagram, TikTok, Discord, or a comment, and preview it once, since a few older keyboards render the filled set as plain capitals.",
+      "Compare the outlined Bubble result with Filled bubble and the other styles shown alongside.",
+      "Copy the version you want with one tap.",
+      "Paste it into Instagram, TikTok, Discord, or a comment, and check it once, since a few older phones show filled bubbles as boxes.",
     ],
     whereUsed: [
-      { platform: "Instagram & TikTok bios", blurb: "A bubble-letter name or tagline line stands out in a feed while staying readable — see the [Instagram bio walkthrough](/guides/small-text-instagram-bio)." },
-      { platform: "Discord & chats", blurb: "Bubble display names and message accents, same as any other styled Unicode text." },
-      { platform: "Comments & captions", blurb: "A short bubble-text phrase to draw the eye to one line." },
+      { platform: "Instagram & TikTok bios", blurb: "A bubble-letter name or one bubble word in a bio stands out in a feed and stays readable. It won't work in the @username, which only takes plain letters, numbers, periods, and underscores. See the [Instagram bio walkthrough](/guides/small-text-instagram-bio) and [bubble text for Instagram and TikTok](/guides/bubble-text-instagram-tiktok)." },
+      { platform: "Discord, games & chats", blurb: "Bubble display names, server nicknames, and message accents. Outlined bubbles are also a cute pick for [Adopt Me pet names](/tools/adopt-me-font-generator), and they're one of the few styles that show in Minecraft Bedrock." },
+      { platform: "Lists, labels & notes", blurb: "Circled numbers like ① ② ③ make neat step labels in captions, notes, and plain-text documents where you can't use a real numbered list." },
+    ],
+    sections: [
+      {
+        heading: "What is circle text, and is it the same as bubble text?",
+        paragraphs: [
+          "Yes. \"Circle text\", \"circled letters\", \"bubble text\", and \"bubble letters\" all describe the same copy-paste characters: letters and numbers drawn inside a circle. They're single Unicode characters, not a font, so Ⓐ is one character with its own code point (U+24B6), just like a regular A (U+0041).",
+          "The one difference is in drawn lettering. Hand-drawn or graphic \"bubble letters\" are puffy, rounded shapes, like 3D or graffiti text, made in an image editor. Those can't be pasted as text. The copy-paste version is always the circled kind.",
+        ],
+      },
+      {
+        heading: "Which circle and bubble letter styles can you copy?",
+        paragraphs: [
+          "There are four sets of circled characters in Unicode, and the generator covers the two letter sets. Outlined is the safest. Filled looks bolder but works on fewer devices. You can copy the full sets straight from this table.",
+        ],
+        table: {
+          caption: "Circled and bubble character sets",
+          headers: ["Style", "Characters", "Unicode range", "Support"],
+          rows: [
+            ["Outlined capitals", "Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ", "U+24B6–U+24CF", "Almost every device"],
+            ["Outlined lowercase", "ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ", "U+24D0–U+24E9", "Almost every device"],
+            ["Circled numbers", "⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳", "U+2460–U+2473, U+24EA", "Almost every device"],
+            ["Filled capitals", "🅐 🅑 🅒 🅓 🅔 🅕 🅖 🅗 🅘 🅙 🅚 🅛 🅜 🅝 🅞 🅟 🅠 🅡 🅢 🅣 🅤 🅥 🅦 🅧 🅨 🅩", "U+1F150–U+1F169", "Newer devices; boxes on some older phones"],
+            ["Filled numbers", "⓿ ❶ ❷ ❸ ❹ ❺ ❻ ❼ ❽ ❾ ❿", "U+24FF, U+2776–U+277F", "Most devices"],
+          ],
+        },
+        subsections: [
+          {
+            heading: "Circled numbers 10 to 20",
+            paragraphs: [
+              "Unicode has single characters for ⑩ through ⑳, but the generator converts one digit at a time, so typing 12 gives ①②. For a single circled 10–20, copy it from the table above. There are also circled numbers up to 50 (㉑ to ㊿) in the Enclosed CJK block, but fewer fonts include them.",
+            ],
+          },
+          {
+            heading: "Why filled bubbles are capitals only",
+            paragraphs: [
+              "Unicode added the filled set, called Negative Circled Latin Capital Letters, in version 6.0 (2010), and it never included lowercase. So the generator turns both a and A into 🅐. If you need mixed case, use outlined bubbles.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Where do bubble and circle letters work?",
+        paragraphs: [
+          "Outlined bubble letters work anywhere you can type text: Instagram, TikTok, X, Facebook, WhatsApp, Discord, Google Docs, and Word. Filled bubbles work in the same places but can show as empty boxes on older Android phones and older Discord or Windows versions, because those fonts don't have the U+1F150 characters.",
+          "No platform lets you use them in a login username or @handle, which are limited to plain characters. Use them in display names, bios, captions, and messages instead. In Word, paste with Ctrl+Shift+V (plain text) so the document's font doesn't swap the circles for something else.",
+        ],
+      },
+      {
+        heading: "Tips for using bubble text well",
+        paragraphs: [
+          "Keep bubble text short. One word or a name reads well, but a full sentence of circled letters is slow to read and hard to scan. Mix it with plain text, like ⓢⓐⓡⓐⓗ | travel + coffee, rather than circling the whole bio.",
+          "Screen readers read circled letters as \"circled latin small letter s\" and so on, which is slow and confusing for blind and low-vision readers. Don't put important information, like a link or a price, only in bubble text.",
+        ],
+      },
     ],
     faq: [
-      { question: "How do I copy and paste bubble letters?", answer: "Type your text into the generator above, tap Copy on the bubble result, and paste it wherever you need it. There's no font or app to install — the circled letters are Unicode characters." },
-      { question: "What's the difference between circled and filled bubble text?", answer: "Circled bubble letters (ⓐ, Ⓐ) are outlines and cover both cases plus digits. Filled bubble letters (🅐) are bold negative-circle capitals only and lean on emoji-style rendering, so they vary more between devices." },
-      { question: "Do bubble fonts copy and paste on Instagram?", answer: "Yes — Instagram bios, captions, and comments accept the Unicode circled alphabet. It won't work in the @username field, which is restricted to plain characters." },
-      { question: "Why do some bubble letters show as normal letters or boxes?", answer: "That device's font is missing the enclosed-alphanumeric glyph, most often for the filled set on older Android. The circled style has the broadest support, so switch to it for anything important." },
-      { question: "Can I make bubble numbers too?", answer: "Yes — digits 0–9 have circled forms (①–⑨, ⓪), so they convert alongside letters." },
+      { question: "How do I copy and paste bubble letters?", answer: "Type your text into the generator above, tap Copy on the bubble result, and paste it wherever you need it. There's no font or app to install, because the circled letters are Unicode characters." },
+      { question: "What's the difference between circled and filled bubble text?", answer: "Circled (outlined) bubble letters like ⓐ and Ⓐ are outlines, and they cover both cases plus numbers. Filled bubble letters like 🅐 are white letters in solid black circles. They're capitals only and need a newer font, so they show as boxes on more devices." },
+      { question: "Is a circle text generator the same as a bubble text generator?", answer: "Yes. Both turn your letters into circled Unicode characters like ⓒⓘⓡⓒⓛⓔ. Different sites just use different names for the same thing." },
+      { question: "Do bubble fonts copy and paste on Instagram?", answer: "Yes. Instagram bios, captions, and comments accept circled Unicode letters. They won't work in your @username, which is limited to plain letters, numbers, periods, and underscores." },
+      { question: "Why do some bubble letters show as boxes?", answer: "That device's font doesn't have the glyph for the character. It happens most with filled bubbles (🅐) on older Android phones. Outlined bubbles have the widest support, so switch to them for anything important." },
+      { question: "Can I make bubble numbers too?", answer: "Yes. Digits 0–9 convert to ⓪–⑨ outlined or ⓿–❾ filled. Single circled numbers from ⑩ to ⑳ also exist, so copy those from the table on this page." },
+      { question: "Why are there no lowercase filled bubble letters?", answer: "Unicode only has filled circled capitals (U+1F150–U+1F169), so lowercase doesn't exist in that style. The generator turns lowercase into filled capitals. Use outlined bubbles if you need lowercase." },
+      { question: "Are bubble letters free to use?", answer: "Yes. Circled letters are part of the Unicode standard, so anyone can use them, including on products and commercial posts. This generator is free with no sign-up." },
+      { question: "Can I use bubble letters in Word or Google Docs?", answer: "Yes. Google Docs shows them as pasted. In Word, paste as plain text with Ctrl+Shift+V so it keeps the circled characters instead of changing fonts." },
+      { question: "Can I make 3D or graffiti bubble letters to copy and paste?", answer: "No. 3D, puffy, and graffiti bubble letters are drawings, not characters, so they can't be pasted as text. Make them in an image editor like Canva, or see our [bubble letters guide](/guides/bubble-letters-copy-paste)." },
+      { question: "Do bubble letters work in games?", answer: "Often. Outlined bubbles pass the Roblox filter more often than most styles and are a popular choice for Adopt Me pet names. They're also one of the few styles that show in Minecraft Bedrock Edition. Filled bubbles are less reliable." },
     ],
-    relatedGuideSlugs: ["copy-paste-text-tricks-social-media-bios", "small-text-instagram-bio", "bubble-text-instagram-tiktok"],
+    relatedGuideSlugs: ["bubble-letters-copy-paste", "bubble-text-instagram-tiktok", "small-text-instagram-bio", "copy-paste-text-tricks-social-media-bios"],
   },
   {
     slug: "underline",

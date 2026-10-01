@@ -138,6 +138,7 @@ export const textStyles: TextStyle[] = [
   { slug: "bold-fraktur", name: "Bold fraktur", category: "Classic", description: "Heavy blackletter with a complete alphabet", transform: (text) => mapCodePoint(text, 0x1d56c, 0x1d586) },
   { slug: "fraktur", name: "Fraktur", category: "Classic", description: "Sharp blackletter forms", transform: fraktur },
   { slug: "bubble", name: "Bubble", category: "Playful", description: "Soft circled letters and numbers", transform: (text) => mapFromStrings(text, "ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉⓊⓋⓌⓍⓎⓏ", "ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ", "⓪①②③④⑤⑥⑦⑧⑨") },
+  { slug: "bubble-filled", name: "Filled bubble", category: "Playful", description: "Solid black circled capitals and numbers", transform: (text) => mapFromStrings(text, "🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙🅚🅛🅜🅝🅞🅟🅠🅡🅢🅣🅤🅥🅦🅧🅨🅩", "🅐🅑🅒🅓🅔🅕🅖🅗🅘🅙🅚🅛🅜🅝🅞🅟🅠🅡🅢🅣🅤🅥🅦🅧🅨🅩", "⓿❶❷❸❹❺❻❼❽❾") },
   { slug: "squared", name: "Squared", category: "Playful", description: "Bold enclosed capitals", transform: (text) => mapFromStrings(text, "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉", "🅰🅱🅲🅳🅴🅵🅶🅷🅸🅹🅺🅻🅼🅽🅾🅿🆀🆁🆂🆃🆄🆅🆆🆇🆈🆉") },
   { slug: "fullwidth", name: "Full width", category: "Decorated", description: "Airy arcade-style characters", transform: (text) => Array.from(text).map((c) => (/[!-~]/.test(c) ? String.fromCharCode(c.charCodeAt(0) + 0xfee0) : c)).join("") },
   { slug: "vaporwave", name: "Vaporwave", category: "Decorated", description: "Full-width letters with extra-wide ideographic spaces", transform: (text) => Array.from(text).map((c) => (c === " " ? "\u3000" : /[!-~]/.test(c) ? String.fromCharCode(c.charCodeAt(0) + 0xfee0) : c)).join("") },
