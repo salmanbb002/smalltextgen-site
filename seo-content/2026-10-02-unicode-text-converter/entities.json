@@ -1,0 +1,13 @@
+[
+ {"canonical":"Unicode","type":"Standard","aliases":["Unicode standard"],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Code point","type":"Concept","aliases":["U+XXXX"],"sameAs":"https://en.wikipedia.org/wiki/Code_point","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Mathematical Alphanumeric Symbols","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Unicode Consortium","type":"Organization","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode_Consortium","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Letterlike Symbols","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Letterlike_Symbols","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Enclosed Alphanumerics","type":"Unicode block","aliases":["bubble","circled"],"sameAs":"https://en.wikipedia.org/wiki/Enclosed_Alphanumerics","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Halfwidth and Fullwidth Forms","type":"Unicode block","aliases":["full-width","vaporwave"],"sameAs":"https://en.wikipedia.org/wiki/Halfwidth_and_Fullwidth_Forms_(Unicode_block)","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Combining Diacritical Marks","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Combining_Diacritical_Marks","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"UTF-8","type":"Concept","aliases":["UTF-16"],"sameAs":"https://en.wikipedia.org/wiki/UTF-8","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Unicode equivalence","type":"Concept","aliases":["NFKC","normalization","convert back to plain text"],"sameAs":"https://en.wikipedia.org/wiki/Unicode_equivalence","kind":"entity","competitor_count":2,"in_title_or_h2":true,"tier":2},
+ {"canonical":"screen reader","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Screen_reader","kind":"term","competitor_count":2,"in_title_or_h2":false,"tier":2}
+]

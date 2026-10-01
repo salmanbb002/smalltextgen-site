@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/gallery-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Unicode Text Converter", "url": "https://smalltextgen.site/tools/unicode-text-converter",
+  "about": [{"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}],
+  "mentions": [{"@type": "Organization", "name": "Unicode Consortium", "sameAs": "https://en.wikipedia.org/wiki/Unicode_Consortium"}, {"@type": "Thing", "name": "Mathematical Alphanumeric Symbols", "sameAs": "https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols"}, {"@type": "Thing", "name": "Unicode equivalence", "sameAs": "https://en.wikipedia.org/wiki/Unicode_equivalence"}]
+}
