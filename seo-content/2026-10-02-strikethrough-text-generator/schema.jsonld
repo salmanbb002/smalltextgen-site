@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/pillar-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Strikethrough Text Generator", "url": "https://smalltextgen.site/tools/strikethrough",
+  "about": [{"@type": "Thing", "name": "Strikethrough", "sameAs": "https://en.wikipedia.org/wiki/Strikethrough"}],
+  "mentions": [{"@type": "Thing", "name": "Combining Diacritical Marks", "sameAs": "https://en.wikipedia.org/wiki/Combining_Diacritical_Marks"}, {"@type": "Thing", "name": "Markdown", "sameAs": "https://en.wikipedia.org/wiki/Markdown"}]
+}
