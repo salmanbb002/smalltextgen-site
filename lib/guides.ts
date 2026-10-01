@@ -1074,6 +1074,7 @@ export const guides: Guide[] = [
       { question: "Why do my bubble letters show as plain capitals or boxes?", answer: "The device is missing the glyph for that character, usually the filled set on older Android. Switch to the circled style, which has the widest support." },
     ],
     pillarLinks: [
+      { label: "Adopt Me font generator", href: "/tools/adopt-me-font-generator" },
       { label: "bubble text generator", href: "/tools/bubble" },
       { label: "fancy text generator", href: "/tools/fancy-text-generator" },
     ],
@@ -2334,6 +2335,7 @@ export const guides: Guide[] = [
     ],
     pillarLinks: [
       { label: "Roblox font generator", href: "/tools/roblox-font-generator" },
+      { label: "Adopt Me font generator", href: "/tools/adopt-me-font-generator" },
       { label: "fancy text generator", href: "/tools/fancy-text-generator" },
     ],
     relatedGuideSlugs: ["copy-paste-fonts-guide", "fancy-text-styles-explained", "are-copy-paste-fonts-safe"],

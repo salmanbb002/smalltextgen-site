@@ -95,6 +95,7 @@ const focusedTools = [
   ["Roblox fonts", "𝐓𝐢𝐧𝐲 𝐭𝐞𝐱𝐭", "roblox-font-generator"],
   ["Minecraft fonts", "ᴛɪɴʏ ᴛᴇxᴛ", "minecraft-font-generator"],
   ["Fortnite fonts", "𝗧𝗶𝗻𝘆 𝘁𝗲𝘅𝘁", "fortnite-font-generator"],
+  ["Adopt Me fonts", "ⓣⓘⓝⓨ ⓣⓔⓧⓣ", "adopt-me-font-generator"],
 ] as const;
 
 const relatedGuides = [

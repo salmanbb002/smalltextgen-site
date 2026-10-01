@@ -1,0 +1,22 @@
+[
+  {"canonical": "Adopt Me!", "type": "VideoGame", "aliases": ["Adopt Me"], "sameAs": "https://en.wikipedia.org/wiki/Adopt_Me!", "kind": "entity", "competitor_count": 4, "in_title_or_h2": true, "tier": 1},
+  {"canonical": "Roblox", "type": "Platform", "aliases": [], "sameAs": "https://en.wikipedia.org/wiki/Roblox", "kind": "entity", "competitor_count": 4, "in_title_or_h2": true, "tier": 1},
+  {"canonical": "pet name", "type": "Concept", "aliases": ["pet names", "name tag"], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1},
+  {"canonical": "Roblox text filter", "type": "Concept", "aliases": ["filter", "####", "hashtags", "blur out"], "sameAs": "", "kind": "term", "competitor_count": 3, "in_title_or_h2": true, "tier": 1},
+  {"canonical": "Unicode", "type": "Standard", "aliases": ["styled text", "fancy text"], "sameAs": "https://en.wikipedia.org/wiki/Unicode", "kind": "entity", "competitor_count": 3, "in_title_or_h2": false, "tier": 1},
+  {"canonical": "copy and paste", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": true, "tier": 1},
+  {"canonical": "bubble / small caps", "type": "Concept", "aliases": ["tiny caps", "circled letters"], "sameAs": "", "kind": "term", "competitor_count": 4, "in_title_or_h2": false, "tier": 1},
+  {"canonical": "Uplift Games", "type": "Organization", "aliases": ["DreamCraft"], "sameAs": "", "kind": "entity", "competitor_count": 1, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "rename pet (pencil icon)", "type": "Process", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": true, "tier": 2},
+  {"canonical": "character limit", "type": "Metric", "aliases": ["20 characters", "12 characters"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "roleplay sign", "type": "Concept", "aliases": ["RP sign", "signs"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "trading", "type": "Concept", "aliases": ["trade value", "WFL"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "Neon / Mega Neon", "type": "Concept", "aliases": [], "sameAs": "", "kind": "entity", "competitor_count": 1, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "boxes / question marks", "type": "Concept", "aliases": ["missing glyphs"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "hearts / stars symbols", "type": "Concept", "aliases": ["♡", "★", "✦"], "sameAs": "", "kind": "term", "competitor_count": 3, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "Community Standards", "type": "Law", "aliases": ["bypass filter"], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "mobile / Xbox / PlayStation", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 2, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "Adopt Me logo", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 0, "in_title_or_h2": false, "tier": 2},
+  {"canonical": "Greek fonts / kaomoji / preppy", "type": "Concept", "aliases": [], "sameAs": "", "kind": "term", "competitor_count": 1, "in_title_or_h2": false, "tier": 3},
+  {"canonical": "Community Sift", "type": "Product", "aliases": [], "sameAs": "", "kind": "entity", "competitor_count": 1, "in_title_or_h2": false, "tier": 3}
+]

@@ -76,7 +76,7 @@ export const galleryPages: GalleryPage[] = [
     featuredStyleSlugs: ["cursive", "fraktur", "double-struck", "bold-italic", "bubble", "squared", "sparkles", "small-caps", "fullwidth"],
     whereUsed: [
       { platform: "Aesthetic bios", blurb: "A fancy name line or tagline on Instagram, TikTok, or a Discord profile — see the [Instagram bio walkthrough](/guides/small-text-instagram-bio)." },
-      { platform: "Gaming & display names", blurb: "Stylish display names and clan tags in games and chat apps that render Unicode — see the [Roblox](/tools/roblox-font-generator), [Minecraft](/tools/minecraft-font-generator), and [Fortnite](/tools/fortnite-font-generator) font generators for game-specific styles." },
+      { platform: "Gaming & display names", blurb: "Stylish display names and clan tags in games and chat apps that render Unicode — see the [Roblox](/tools/roblox-font-generator), [Minecraft](/tools/minecraft-font-generator), and [Fortnite](/tools/fortnite-font-generator), and [Adopt Me](/tools/adopt-me-font-generator) font generators for game-specific styles." },
       { platform: "Invitations & captions", blurb: "A decorative heading or standout line in digital invites, stories, and posts." },
     ],
     faq: [
@@ -293,7 +293,7 @@ export const galleryPages: GalleryPage[] = [
     leadStyle: "bold",
     intro: [
       "This Roblox font generator turns plain text into styled Unicode letters, such as 𝐁𝐨𝐥𝐝, ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, and ⓑⓤⓑⓑⓛⓔ, that you can copy and paste into Roblox text fields. They aren't font files. Each one is a standard character, so it pastes like normal text on PC, mobile, Xbox, and PlayStation, with nothing to install.",
-      "Roblox has its own typeface, Builder Sans, which replaced Gotham in 2024, and you can't pick a different font for your name. Styled Unicode is the workaround, but every field is moderated. The simple, readable styles at the top of the list get through most often. For what the filter strips and why, see [copy-paste fonts for Roblox](/guides/fonts-for-roblox). Styling text for Minecraft instead? The [Minecraft font generator](/tools/minecraft-font-generator) shows which styles work in Java and Bedrock. For Epic display names, use the [Fortnite font generator](/tools/fortnite-font-generator).",
+      "Roblox has its own typeface, Builder Sans, which replaced Gotham in 2024, and you can't pick a different font for your name. Styled Unicode is the workaround, but every field is moderated. The simple, readable styles at the top of the list get through most often. For what the filter strips and why, see [copy-paste fonts for Roblox](/guides/fonts-for-roblox). Styling text for Minecraft instead? The [Minecraft font generator](/tools/minecraft-font-generator) shows which styles work in Java and Bedrock. For Epic display names, use the [Fortnite font generator](/tools/fortnite-font-generator). Naming a pet in Adopt Me? The [Adopt Me font generator](/tools/adopt-me-font-generator) puts the filter-friendly cute styles first.",
     ],
     howToSteps: [
       "Type your name, bio line, or group name into the box below.",
@@ -361,6 +361,46 @@ export const galleryPages: GalleryPage[] = [
     ],
     relatedToolSlugs: ["bold", "small-caps", "italic", "invisible"],
     relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe", "tiny-text-discord"],
+    lastUpdated: "2026-10-01",
+  },
+  {
+    slug: "adopt-me-font-generator",
+    title: "Adopt Me Font Generator – ⓒⓤⓣⓔ Pet Names to Copy & Paste",
+    metaDescription:
+      "Style your Adopt Me pet names and roleplay signs with cute copy-paste fonts — bubble, small caps, cursive, and more. Free Adopt Me font generator, filter-friendly styles first.",
+    h1: "Adopt Me Font Generator",
+    eyebrow: "Pet names & RP signs",
+    leadStyle: "bubble",
+    intro: [
+      "This Adopt Me font generator turns your pet's name into cute Unicode letters, such as ⓑⓤⓑⓑⓛⓔ, ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, and ♡ hearts ♡, that you can copy and paste straight into Adopt Me. They aren't font files. Each letter is a normal character, so it works on phone, tablet, PC, and console with nothing to install.",
+      "Adopt Me! is a pet-raising game on Roblox made by Uplift Games, so every name you type goes through Roblox's text filter. A blocked name comes back as hash marks (####). Short names in simple styles like bubble and small caps get through most often. For your Roblox display name and bio, use the [Roblox font generator](/tools/roblox-font-generator), and for what the filter strips, see [copy-paste fonts for Roblox](/guides/fonts-for-roblox).",
+    ],
+    howToSteps: [
+      "Type your pet's name or your sign text into the box below. Keep it short, ideally one or two words.",
+      "Compare Bubble first, then Small caps, Bold, and Cursive. Add a heart or sparkle frame if you want a cuter look.",
+      "Copy the version you like with one tap.",
+      "In Adopt Me, equip your pet, tap it, and tap the pencil icon next to its name. Paste the styled name and confirm. If it turns into ####, try a plainer style or a shorter name.",
+    ],
+    featuredStyleSlugs: ["bubble", "small-caps", "bold", "cursive", "hearts", "sparkles", "double-struck", "fullwidth", "italic"],
+    whereUsed: [
+      { platform: "Pet names", blurb: "The name shown above your pet. Renaming is free and you can change it as often as you like, so it's the easiest place to test a style. Adopt Me doesn't publish an exact length limit, and fan guides give anything from 12 to 20 characters, so shorter is safer. Bubble and small caps letters count as one character each, while bold and cursive letters can count as two." },
+      { platform: "Roleplay signs", blurb: "The text on a sign your avatar holds during roleplay or in a trading area. One styled word, such as a pet's name or ★ ᴛʀᴀᴅɪɴɢ ★, stands out more than a whole styled sentence, and it's less likely to be filtered." },
+      { platform: "Trading & house roleplay", blurb: "A styled sign helps a trade stand out, but it doesn't change what a pet is worth. A pet's value comes from its rarity and whether it's Neon or Mega Neon, not its name. Be careful with flashy \"WFL?\" signs and trades that move too fast." },
+    ],
+    faq: [
+      { question: "What is an Adopt Me font generator?", answer: "It's a tool that turns normal letters into look-alike Unicode characters, like bubble, small caps, or cursive letters, that you can paste into Adopt Me. The styled text is still regular characters, so it works without downloading a font." },
+      { question: "How do I put a fancy font on my Adopt Me pet's name?", answer: "Copy a style from this page, then equip your pet in Adopt Me, tap it, and tap the pencil icon next to its name. Paste the styled name and confirm. Renaming is free, so you can try a few styles." },
+      { question: "Why does my pet's name show as ####?", answer: "Roblox's text filter replaced it. Adopt Me runs on Roblox, so every pet name and sign is checked, and anything the filter blocks or can't read becomes hash marks. Try a shorter name, a plainer style like bubble or small caps, or style one word only." },
+      { question: "Which fonts work best for Adopt Me pet names?", answer: "Bubble, small caps, and bold are the most reliable. They're easy for the filter to read and show on almost every device. Cursive and double-struck often work too, and simple symbols like ♡, ★, and ✦ are usually kept." },
+      { question: "Is there a character limit for Adopt Me pet names?", answer: "Yes, but Adopt Me doesn't publish the exact number, and fan guides disagree. Keep pet names short. Bubble and small caps letters count as one character each, while bold and cursive letters can count as two, so they fill the limit faster." },
+      { question: "Why does my friend see my pet's name as boxes or question marks?", answer: "Their device doesn't have a glyph for that character. This happens most on older phones and tablets. Bubble and bold have the widest support, so switch to one of those if friends can't read the name." },
+      { question: "Does a fancy pet name make my pet worth more in trades?", answer: "No. A pet's trade value comes from its type, rarity, and whether it's Neon or Mega Neon. A styled name only changes how it looks, so don't trade more for a pet because of its name." },
+      { question: "Can I use fancy fonts to get around the Roblox filter?", answer: "No, and you shouldn't try. Roblox's filter checks styled letters too, and using symbols to hide blocked words breaks Roblox's Community Standards. It can get your text removed or your account moderated." },
+      { question: "What font is the Adopt Me logo?", answer: "The Adopt Me logo is a designed wordmark, not a font you can type, so no generator can paste it as text. For a similar rounded, playful look in a name, bubble letters are the closest copy-paste style." },
+      { question: "Do Adopt Me fonts work on mobile, Xbox, and PlayStation?", answer: "Usually, yes. Adopt Me runs on every device Roblox supports, and the fonts are standard Unicode. A few rare styles may show as boxes on some devices, so check how a name looks on the device you play on most." },
+    ],
+    relatedToolSlugs: ["bubble", "small-caps", "cursive", "bold"],
+    relatedGuideSlugs: ["fonts-for-roblox", "bubble-letters-copy-paste", "are-copy-paste-fonts-safe"],
     lastUpdated: "2026-10-01",
   },
   {

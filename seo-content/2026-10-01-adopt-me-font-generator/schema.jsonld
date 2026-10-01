@@ -1,0 +1,18 @@
+{
+  "_note": "The live page already emits WebApplication + HowTo + FAQPage + BreadcrumbList via components/gallery-tool-page.tsx, built from lib/gallery-pages.ts. The about/mentions below are OPTIONAL extras for the WebApplication node and are not wired in. Thing, not Product/VideoGame, so GSC doesn't validate them as rich-result items.",
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Adopt Me Font Generator",
+  "url": "https://smalltextgen.site/tools/adopt-me-font-generator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "about": [
+    {"@type": "Thing", "name": "Adopt Me!", "sameAs": "https://en.wikipedia.org/wiki/Adopt_Me!"},
+    {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}
+  ],
+  "mentions": [
+    {"@type": "Thing", "name": "Roblox", "sameAs": "https://en.wikipedia.org/wiki/Roblox"},
+    {"@type": "Organization", "name": "Uplift Games"}
+  ]
+}
