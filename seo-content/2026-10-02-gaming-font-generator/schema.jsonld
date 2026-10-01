@@ -1,0 +1,20 @@
+{
+  "note": "Rendered in-page by components/gallery-tool-page.tsx (WebApplication + BreadcrumbList + HowTo + FAQPage, FAQ text taken verbatim from lib/gallery-pages.ts). Article about/mentions not emitted by the gallery template; listed here for reference.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {"@type": "WebApplication", "name": "Gaming Font Generator", "url": "https://smalltextgen.site/tools/gaming-font-generator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any", "isAccessibleForFree": true,
+     "about": [{"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}],
+     "mentions": [
+       {"@type": "Thing", "name": "Roblox", "sameAs": "https://en.wikipedia.org/wiki/Roblox"},
+       {"@type": "Thing", "name": "Minecraft", "sameAs": "https://en.wikipedia.org/wiki/Minecraft"},
+       {"@type": "Thing", "name": "Fortnite", "sameAs": "https://en.wikipedia.org/wiki/Fortnite"},
+       {"@type": "Thing", "name": "Garena Free Fire", "sameAs": "https://en.wikipedia.org/wiki/Garena_Free_Fire"},
+       {"@type": "Thing", "name": "PUBG Mobile", "sameAs": "https://en.wikipedia.org/wiki/PUBG_Mobile"},
+       {"@type": "Thing", "name": "Discord", "sameAs": "https://en.wikipedia.org/wiki/Discord"}
+     ]},
+    {"@type": "BreadcrumbList", "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://smalltextgen.site/"},
+      {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://smalltextgen.site/#generator"},
+      {"@type": "ListItem", "position": 3, "name": "Gaming Font Generator", "item": "https://smalltextgen.site/tools/gaming-font-generator"}]}
+  ]
+}

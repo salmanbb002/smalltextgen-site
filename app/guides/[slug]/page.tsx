@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { SectionBlock } from "@/components/article-sections";
 import { LastUpdated } from "@/components/last-updated";
 import { RichParagraph, RichText } from "@/components/rich-text";
 import { getGuide, getRelatedGuides, guides, stripInlineLinks } from "@/lib/guides";
@@ -83,12 +84,7 @@ export default async function GuidePage({ params }: Props) {
             <RichParagraph text={paragraph} key={index} className="guide-intro-paragraph" />
           ))}
           {guide.sections.map((section) => (
-            <section key={section.heading}>
-              <h2>{section.heading}</h2>
-              {section.paragraphs.map((paragraph, index) => (
-                <RichParagraph text={paragraph} key={index} />
-              ))}
-            </section>
+            <SectionBlock section={section} key={section.heading} />
           ))}
         </div>
       </article>

@@ -92,6 +92,7 @@ const focusedTools = [
   ["Vaporwave text", "Ｔｉｎｙ　ｔｅｘｔ", "vaporwave-text-generator"],
   ["Typewriter font", "𝚃𝚒𝚗𝚢 𝚝𝚎𝚡𝚝", "typewriter-font-generator"],
   ["Old English text", "𝕿𝖎𝖓𝖞 𝖙𝖊𝖝𝖙", "old-english-text-generator"],
+  ["Gaming fonts", "𝕿𝖎𝖓𝖞 𝖙𝖊𝖝𝖙", "gaming-font-generator"],
   ["Roblox fonts", "𝐓𝐢𝐧𝐲 𝐭𝐞𝐱𝐭", "roblox-font-generator"],
   ["Minecraft fonts", "ᴛɪɴʏ ᴛᴇxᴛ", "minecraft-font-generator"],
   ["Fortnite fonts", "𝗧𝗶𝗻𝘆 𝘁𝗲𝘅𝘁", "fortnite-font-generator"],

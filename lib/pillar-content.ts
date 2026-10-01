@@ -1,4 +1,4 @@
-import type { GuideFaq } from "@/lib/guides";
+import type { GuideFaq, GuideSection } from "@/lib/guides";
 
 export type WhereUsed = { platform: string; blurb: string };
 
@@ -13,6 +13,8 @@ export type PillarContent = {
   howToSteps: string[];
   whereUsed: WhereUsed[];
   nativeFormatting?: NativeFormatting[];
+  /** Optional long-form body rendered before the FAQ. */
+  sections?: GuideSection[];
   faq: GuideFaq[];
   relatedGuideSlugs: string[];
   lastUpdated: string;

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArticleSections } from "@/components/article-sections";
 import { Converter } from "@/components/converter";
 import { LastUpdated } from "@/components/last-updated";
 import { RichParagraph, RichText } from "@/components/rich-text";
@@ -118,6 +119,8 @@ export function GalleryToolPage({ page }: { page: GalleryPage }) {
           ))}
         </div>
       </section>
+
+      <ArticleSections sections={page.sections} />
 
       <section className="faq-section" aria-labelledby="gallery-faq-title">
         <div className="section-intro">

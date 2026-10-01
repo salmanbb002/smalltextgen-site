@@ -1,5 +1,11 @@
 export type GuideFaq = { question: string; answer: string };
-export type GuideSection = { heading: string; paragraphs: string[] };
+export type GuideTable = { caption?: string; headers: string[]; rows: string[][] };
+export type GuideSection = {
+  heading: string;
+  paragraphs: string[];
+  table?: GuideTable;
+  subsections?: { heading: string; paragraphs: string[] }[];
+};
 export type GuideLink = { label: string; href: string };
 export type GuideCluster = "A" | "B" | "C" | "D" | "Sitewide" | "Platform";
 

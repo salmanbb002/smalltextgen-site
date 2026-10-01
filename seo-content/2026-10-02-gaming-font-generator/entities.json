@@ -1,0 +1,20 @@
+[
+ {"canonical":"Unicode","type":"Standard","aliases":["Unicode text"],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Mathematical Alphanumeric Symbols","type":"Concept","aliases":["math alphabet"],"sameAs":"https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Roblox","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Roblox","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Minecraft","type":"Product","aliases":["Java Edition","Bedrock Edition"],"sameAs":"https://en.wikipedia.org/wiki/Minecraft","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Fortnite","type":"Product","aliases":["Epic display name"],"sameAs":"https://en.wikipedia.org/wiki/Fortnite","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Garena Free Fire","type":"Product","aliases":["Free Fire","FF"],"sameAs":"https://en.wikipedia.org/wiki/Garena_Free_Fire","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"PUBG Mobile","type":"Product","aliases":["PUBG"],"sameAs":"https://en.wikipedia.org/wiki/PUBG_Mobile","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Valorant","type":"Product","aliases":["Riot ID"],"sameAs":"https://en.wikipedia.org/wiki/Valorant","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Xbox gamertag","type":"Concept","aliases":["gamertag"],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"PlayStation Network Online ID","type":"Concept","aliases":["PSN ID"],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Steam","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Steam_(service)","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"name filter","type":"Concept","aliases":["text filter","####"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":true,"tier":1},
+ {"canonical":"missing glyph","type":"Concept","aliases":["boxes","tofu","question marks"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":true,"tier":1},
+ {"canonical":"clan tag","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Zalgo text","type":"Concept","aliases":["glitch text","cursed text"],"sameAs":"https://en.wikipedia.org/wiki/Zalgo_text","kind":"entity","competitor_count":2,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Burbank Big Condensed","type":"Product","aliases":["Fortnite font"],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":3},
+ {"canonical":"Bebas Neue","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Bebas_Neue","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":3}
+]

@@ -2860,3 +2860,14 @@ body::before { display: none; }
     gap: 22px;
   }
 }
+
+/* Long-form body on tool pages + tables/subsections in guides */
+.tool-article { padding-bottom: 40px; }
+.info-content h3 { margin: 26px 0 10px; font-family: var(--display); font-size: 22px; letter-spacing: -0.02em; }
+.article-table-wrap { margin: 22px 0; overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+.article-table-wrap table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.article-table-wrap caption { padding: 12px 14px; text-align: left; font-weight: 800; }
+.article-table-wrap th,
+.article-table-wrap td { padding: 10px 14px; border-top: 1px solid var(--line); text-align: left; vertical-align: top; color: var(--ink-soft); }
+.article-table-wrap thead th { background: var(--paper-light); color: var(--ink); border-top: 0; }
+.article-table-wrap tbody th { color: var(--ink); font-weight: 800; }

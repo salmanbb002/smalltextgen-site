@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArticleSections } from "@/components/article-sections";
 import { Converter } from "@/components/converter";
 import { LastUpdated } from "@/components/last-updated";
 import { RichParagraph, RichText } from "@/components/rich-text";
@@ -101,6 +102,8 @@ export function PillarToolPage({ style, pillar }: { style: TextStyle; pillar: Pi
           </div>
         </section>
       )}
+
+      <ArticleSections sections={pillar.sections} />
 
       <section className="faq-section" aria-labelledby="pillar-faq-title">
         <div className="section-intro">
