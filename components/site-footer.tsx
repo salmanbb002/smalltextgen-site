@@ -30,6 +30,7 @@ export function SiteFooter() {
           <Link href="/tools/old-english-text-generator">Old English text</Link>
           <Link href="/tools/roblox-font-generator">Roblox fonts</Link>
           <Link href="/tools/minecraft-font-generator">Minecraft fonts</Link>
+          <Link href="/tools/fortnite-font-generator">Fortnite fonts</Link>
           <Link href="/tools/zalgo">Glitch text</Link>
           <Link href="/tools/invisible">Invisible text</Link>
         </div>

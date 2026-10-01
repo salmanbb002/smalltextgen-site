@@ -76,7 +76,7 @@ export const galleryPages: GalleryPage[] = [
     featuredStyleSlugs: ["cursive", "fraktur", "double-struck", "bold-italic", "bubble", "squared", "sparkles", "small-caps", "fullwidth"],
     whereUsed: [
       { platform: "Aesthetic bios", blurb: "A fancy name line or tagline on Instagram, TikTok, or a Discord profile — see the [Instagram bio walkthrough](/guides/small-text-instagram-bio)." },
-      { platform: "Gaming & display names", blurb: "Stylish display names and clan tags in games and chat apps that render Unicode — see the [Roblox font generator](/tools/roblox-font-generator) and the [Minecraft font generator](/tools/minecraft-font-generator) for game-specific styles." },
+      { platform: "Gaming & display names", blurb: "Stylish display names and clan tags in games and chat apps that render Unicode — see the [Roblox](/tools/roblox-font-generator), [Minecraft](/tools/minecraft-font-generator), and [Fortnite](/tools/fortnite-font-generator) font generators for game-specific styles." },
       { platform: "Invitations & captions", blurb: "A decorative heading or standout line in digital invites, stories, and posts." },
     ],
     faq: [
@@ -293,7 +293,7 @@ export const galleryPages: GalleryPage[] = [
     leadStyle: "bold",
     intro: [
       "This Roblox font generator turns plain text into styled Unicode letters, such as 𝐁𝐨𝐥𝐝, ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, and ⓑⓤⓑⓑⓛⓔ, that you can copy and paste into Roblox text fields. They aren't font files. Each one is a standard character, so it pastes like normal text on PC, mobile, Xbox, and PlayStation, with nothing to install.",
-      "Roblox has its own typeface, Builder Sans, which replaced Gotham in 2024, and you can't pick a different font for your name. Styled Unicode is the workaround, but every field is moderated. The simple, readable styles at the top of the list get through most often. For what the filter strips and why, see [copy-paste fonts for Roblox](/guides/fonts-for-roblox). Styling text for Minecraft instead? The [Minecraft font generator](/tools/minecraft-font-generator) shows which styles work in Java and Bedrock.",
+      "Roblox has its own typeface, Builder Sans, which replaced Gotham in 2024, and you can't pick a different font for your name. Styled Unicode is the workaround, but every field is moderated. The simple, readable styles at the top of the list get through most often. For what the filter strips and why, see [copy-paste fonts for Roblox](/guides/fonts-for-roblox). Styling text for Minecraft instead? The [Minecraft font generator](/tools/minecraft-font-generator) shows which styles work in Java and Bedrock. For Epic display names, use the [Fortnite font generator](/tools/fortnite-font-generator).",
     ],
     howToSteps: [
       "Type your name, bio line, or group name into the box below.",
@@ -324,6 +324,46 @@ export const galleryPages: GalleryPage[] = [
     lastUpdated: "2026-09-28",
   },
   {
+    slug: "fortnite-font-generator",
+    title: "Fortnite Font Generator – 𝗕𝗼𝗹𝗱 Fortnite Fonts to Copy & Paste",
+    metaDescription:
+      "Make your Fortnite name stand out with bold, squared, gothic, and other copy-paste fonts. Free Fortnite font generator with the styles Epic's filter accepts most.",
+    h1: "Fortnite Font Generator",
+    eyebrow: "Names, clan tags & clips",
+    leadStyle: "bold",
+    intro: [
+      "This Fortnite font generator turns plain text into styled Unicode letters, such as 𝗕𝗼𝗹𝗱, 🆂🆀🆄🅰🆁🅴🅳, 𝔻𝕠𝕦𝕓𝕝𝕖, and 𝕲𝖔𝖙𝖍𝖎𝖈, that you can copy and paste into your Epic Games display name, clan tag, or stream title. These aren't font files. Every letter is a standard character, so there's nothing to download or install.",
+      "It can't give you the Fortnite logo font itself. That's Burbank Big Condensed, a paid typeface from House Industries, and since Chapter 5 (late 2023) most of the game's menus use a different font, Heading Now. Neither one can be pasted as text. For logo-style thumbnails, you need an image editor and a lookalike font such as Anton or Bebas Neue. This page is for text that has to stay text. Making a name for Roblox instead? Use the [Roblox font generator](/tools/roblox-font-generator).",
+    ],
+    howToSteps: [
+      "Type your name or clan tag into the box below. Keep it to 16 characters, which is the Epic display name limit.",
+      "Compare Bold first, then Bold italic, Small caps, and Double struck. These clean styles are the ones Epic's name filter accepts most often.",
+      "Copy the version you want with one tap.",
+      "Sign in at epicgames.com, open Account settings, paste the text into the Display name field, and save. If it's rejected, try a plainer style or style one word only.",
+    ],
+    featuredStyleSlugs: ["bold", "bold-italic", "small-caps", "double-struck", "squared", "bold-fraktur", "fullwidth", "monospace", "sparkles"],
+    whereUsed: [
+      { platform: "Epic display name", blurb: "Your Epic Games display name is 3–16 characters and can be changed once every two weeks. It shows in the lobby, party, and leaderboards for players on PC and mobile, and for anyone playing with you cross-platform. On PlayStation and Xbox, players on the same console usually see your PSN or Xbox name instead." },
+      { platform: "Clan tags & Discord", blurb: "A styled tag in your Discord server name, nickname, or team roster keeps one look across every place your squad meets. Discord takes almost every style here, so it's a good place to try one before using it in game." },
+      { platform: "Stream titles, TikTok & YouTube", blurb: "One styled word in a Twitch title, TikTok caption, or YouTube video title can draw the eye to a Victory Royale clip. Keep the rest plain so search and screen readers can still read it." },
+    ],
+    faq: [
+      { question: "What is a Fortnite font generator?", answer: "It's a tool that turns normal letters into look-alike Unicode characters, like bold, squared, or gothic letters, that you can paste into Fortnite and other apps. Because they're regular characters, they work without installing a font." },
+      { question: "What font does Fortnite use?", answer: "The Fortnite logo uses a modified Burbank Big Condensed Black, a typeface by Tal Leming published by House Industries. Burbank was also the main menu font until Chapter 5 in late 2023, when Epic switched most of the interface to Heading Now." },
+      { question: "Can I download the Fortnite font for free?", answer: "No. Burbank Big Condensed is a commercial font, so any \"free download\" is unlicensed. For thumbnails and edits, Anton and Bebas Neue are free condensed lookalikes on Google Fonts." },
+      { question: "Does Epic allow special characters in Fortnite names?", answer: "Some. Epic runs every display name through a filter, and it rejects many symbols and look-alike characters. Bold and small caps pass most often. Epic doesn't publish a full list of accepted characters, so test one styled word before changing your whole name." },
+      { question: "How do I change my Fortnite name to a fancy font?", answer: "Copy a style from this page, sign in at epicgames.com, open Account settings, and paste it into the Display name field. Save the change. You can only change your display name once every two weeks, so pick carefully." },
+      { question: "Why can't my friends on PlayStation or Xbox see my styled name?", answer: "Console players on the same platform usually see each other's PSN or Xbox names, not the Epic display name. Your styled Epic name shows to PC and mobile players and in cross-platform lobbies. To change what your console friends see, you'd have to change your PSN ID or Xbox gamertag." },
+      { question: "Why does my Fortnite name show as boxes?", answer: "Either the device has no glyph for that character, or Epic's filter replaced it. Squared and gothic letters are the most likely to break on older consoles. Switch to bold or small caps, which almost every device can show." },
+      { question: "Do fancy fonts count as more characters?", answer: "They can. Bold, gothic, and double-struck letters are each stored as two code units, so a name may hit the 16-character limit early. If your styled name won't fit, shorten it or use small caps, which count as one each." },
+      { question: "Is the Fortnite font on Canva?", answer: "No. Burbank isn't in Canva's font library because it's a paid font. Anton, which Canva does include, is the closest free match for Fortnite-style thumbnails." },
+      { question: "Is it allowed to use fancy fonts in Fortnite?", answer: "Yes. Styled Unicode isn't against Epic's rules, but your name still has to follow them. No offensive words, and no characters used to impersonate another player or a creator. A name that breaks the rules can be reset by Epic." },
+    ],
+    relatedToolSlugs: ["bold", "small-caps", "italic", "invisible"],
+    relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe", "tiny-text-discord"],
+    lastUpdated: "2026-10-01",
+  },
+  {
     slug: "minecraft-font-generator",
     title: "Minecraft Font Generator – ᴍɪɴᴇᴄʀᴀꜰᴛ Text for Names, Signs & Chat",
     metaDescription:
@@ -333,7 +373,7 @@ export const galleryPages: GalleryPage[] = [
     leadStyle: "small-caps",
     intro: [
       "This Minecraft font generator turns your text into styled Unicode, like ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, ⓑⓤⓑⓑⓛⓔ, and 𝐛𝐨𝐥𝐝, that you can paste into Minecraft chat, signs, books, anvil item names, and your server's MOTD. It's text, not an image, so it copies anywhere a keyboard can type.",
-      "It can't recreate the blocky Minecraft logo, though. That logo is custom artwork, and the in-game font, Mojangles, is an 8×8 pixel bitmap built into the game, not a character set you can paste. For the logo look in thumbnails or posters, you need an image generator or a replica font file like Minecrafter or Minecraftia. This page is for text that has to stay text inside the game. For Roblox names and bios, use the [Roblox font generator](/tools/roblox-font-generator). Which styles show up also depends on your edition, so check the Java vs Bedrock notes below before you copy.",
+      "It can't recreate the blocky Minecraft logo, though. That logo is custom artwork, and the in-game font, Mojangles, is an 8×8 pixel bitmap built into the game, not a character set you can paste. For the logo look in thumbnails or posters, you need an image generator or a replica font file like Minecrafter or Minecraftia. This page is for text that has to stay text inside the game. For Roblox names and bios, use the [Roblox font generator](/tools/roblox-font-generator). For an Epic display name, use the [Fortnite font generator](/tools/fortnite-font-generator). Which styles show up also depends on your edition, so check the Java vs Bedrock notes below before you copy.",
     ],
     howToSteps: [
       "Type your sign line, item name, or MOTD into the box below.",

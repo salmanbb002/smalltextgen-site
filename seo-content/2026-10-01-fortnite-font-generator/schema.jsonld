@@ -1,0 +1,22 @@
+{
+  "_note": "The live page already emits WebApplication + HowTo + FAQPage + BreadcrumbList via components/gallery-tool-page.tsx, built from lib/gallery-pages.ts. The about/mentions below are OPTIONAL extras for the WebApplication node and are not wired in. Entities use Thing (not Product) on purpose, so GSC doesn't flag them as invalid Product items.",
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Fortnite Font Generator",
+  "url": "https://smalltextgen.site/tools/fortnite-font-generator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "about": [
+    {"@type": "Thing", "name": "Fortnite", "sameAs": "https://en.wikipedia.org/wiki/Fortnite"},
+    {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}
+  ],
+  "mentions": [
+    {"@type": "Organization", "name": "Epic Games", "sameAs": "https://en.wikipedia.org/wiki/Epic_Games"},
+    {"@type": "Thing", "name": "Burbank Big Condensed"},
+    {"@type": "Thing", "name": "Heading Now"},
+    {"@type": "Organization", "name": "House Industries", "sameAs": "https://en.wikipedia.org/wiki/House_Industries"},
+    {"@type": "Thing", "name": "Bebas Neue", "sameAs": "https://en.wikipedia.org/wiki/Bebas_Neue"},
+    {"@type": "Thing", "name": "Discord", "sameAs": "https://en.wikipedia.org/wiki/Discord"}
+  ]
+}

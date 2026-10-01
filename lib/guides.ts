@@ -1821,7 +1821,7 @@ export const guides: Guide[] = [
     faq: [
       { question: "What's the coolest copy-paste font?", answer: "Subjective, but fraktur, double-struck, and bold script are the most distinctive; bold and small caps are the most usable day to day." },
       { question: "How many different fonts can I copy and paste?", answer: "Around 20 distinct Unicode letter styles, plus frame and layout effects on top." },
-      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android. Games have their own limits — see the [Roblox font generator](/tools/roblox-font-generator) and the [Minecraft font generator](/tools/minecraft-font-generator) (Minecraft Bedrock can't show bold or script at all)." },
+      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android. Games have their own limits — see the [Roblox font generator](/tools/roblox-font-generator), the [Minecraft font generator](/tools/minecraft-font-generator), and the [Fortnite font generator](/tools/fortnite-font-generator) (Minecraft Bedrock can't show bold or script at all)." },
       { question: "Are these real downloadable fonts?", answer: "No — they're Unicode character styles, which is why they copy and paste without an install." },
     ],
     pillarLinks: [
