@@ -1,0 +1,10 @@
+[
+ {"canonical":"Small text","type":"Concept","aliases":["small letters","small font"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Small caps","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Small_caps","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Subscript and superscript","type":"Concept","aliases":["superscript","subscript"],"sameAs":"https://en.wikipedia.org/wiki/Subscript_and_superscript","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Phonetic Extensions","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Phonetic_Extensions","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Tiny text","type":"Concept","aliases":[],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2}
+]

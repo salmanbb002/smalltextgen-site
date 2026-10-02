@@ -4,6 +4,7 @@ import "@fontsource-variable/newsreader/index.css";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { textStyles } from "@/lib/fonts";
 import { getSiteUrl } from "@/lib/site-url";
 import { jsonLdGraph, organizationSchema } from "@/lib/schema";
 
@@ -26,13 +27,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "SmallTextGen",
     title: "SmallTextGen — Small Text Generator",
-    description: "23 copy-ready Unicode styles, generated instantly in your browser.",
+    description: `${textStyles.length} copy-ready Unicode styles, generated instantly in your browser.`,
     images: [{ url: "/og-image.svg", width: 1200, height: 630, alt: "SmallTextGen small text generator" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "SmallTextGen — Small Text Generator",
-    description: "23 copy-ready Unicode styles, generated instantly in your browser.",
+    description: `${textStyles.length} copy-ready Unicode styles, generated instantly in your browser.`,
     images: ["/og-image.svg"],
   },
   icons: { icon: "/favicon.svg" },

@@ -1,0 +1,5 @@
+{
+  "note": "Rendered in-page by app/page.tsx (WebApplication + FAQPage built from the same faq array → verbatim). about for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "SmallTextGen Small Text Generator", "url": "https://smalltextgen.site/",
+  "about": [{"@type": "Thing", "name": "Small caps", "sameAs": "https://en.wikipedia.org/wiki/Small_caps"}, {"@type": "Thing", "name": "Subscript and superscript", "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"}]
+}

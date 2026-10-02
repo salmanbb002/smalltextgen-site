@@ -17,12 +17,15 @@ import {
   Zap,
 } from "lucide-react";
 import { Converter } from "@/components/converter";
+import { ArticleSections } from "@/components/article-sections";
 import { LastUpdated } from "@/components/last-updated";
+import { textStyles } from "@/lib/fonts";
+import type { GuideSection } from "@/lib/guides";
 import { getSiteUrl } from "@/lib/site-url";
 
-const homeTitle = "Small Text Generator — Tiny Text & Copy-and-Paste Fonts";
+const homeTitle = "Small Text Generator — ꜱᴍᴀʟʟ Caps & Copy-and-Paste Fonts";
 const homeDescription =
-  "Free small text generator: turn any word into small caps, tiny letters, cursive, or bubble text you can copy and paste into Instagram bios, TikTok, and Discord. Also works as a font generator and Unicode text converter — no app, no sign-up.";
+  "Free small text generator: turn any word into small caps, superscript, subscript, and other small letters you can copy and paste into Instagram, TikTok, and Discord. Runs in your browser, no app or sign-up.";
 
 export const metadata: Metadata = {
   title: { absolute: homeTitle },
@@ -62,8 +65,24 @@ const faq = [
     "Yes — that is another name for it. SmallTextGen swaps your letters for styled Unicode characters, so you can copy the result and paste fonts like cursive, bold, small caps, or bubble text into apps that do not let you change the typeface.",
   ],
   [
-    "How do I get tiny text or small letters?",
-    "Type your text into the generator above, then copy the small caps or superscript result — those are the styles that read as genuinely small — and paste it wherever you need it.",
+    "How do I make small letters?",
+    "Type your text into the generator above, then copy the Small caps, Superscript, or Subscript result and paste it where you need it. Small caps is the most readable; superscript is the smallest. For the tiniest raised letters only, use the tiny text generator page.",
+  ],
+  [
+    "How does a small text generator work?",
+    "It swaps each letter for a smaller-looking Unicode character. Small caps come mostly from the Phonetic Extensions block (ᴀ is U+1D00), and superscript and subscript come from modifier letters and the Superscripts and Subscripts block. The result is ordinary text, so it copies and pastes anywhere.",
+  ],
+  [
+    "Which small text style is the smallest?",
+    "Subscript and superscript are the smallest, because they sit above or below the line at about half height. Small caps are capitals shrunk to lowercase height, so they're bigger but much easier to read and have the most complete alphabet.",
+  ],
+  [
+    "Is SmallTextGen free?",
+    "Yes. Every generator is free with no sign-up, no daily limit, and no watermark. The text converters run in your browser, so there's nothing to install.",
+  ],
+  [
+    "Is small text accessible to screen readers?",
+    "Only partly. Small caps usually read close to normal, but superscript and subscript letters may be read one by one or skipped. Keep names, links, and important details in plain text.",
   ],
   [
     "Is a small text generator the same as a Unicode text converter?",
@@ -100,10 +119,43 @@ const focusedTools = [
 ] as const;
 
 const relatedGuides = [
-  ["How to Get Small Text on Your Instagram Bio", "small-text-instagram-bio"],
+  ["Aesthetic Fonts for Your Instagram Bio", "small-text-instagram-bio"],
+  ["Smallest Text Style Compared", "smallest-text-style-compared"],
   ["Tiny Text for Discord: Copy, Paste, and Tips", "tiny-text-discord"],
   ["Best Copy-Paste Text Tricks for Social Media Bios", "copy-paste-text-tricks-social-media-bios"],
 ] as const;
+
+const homeSections: GuideSection[] = [
+  {
+    heading: "Which small text style should you use?",
+    paragraphs: [
+      "Small text comes in three main styles, and none of them has every letter. Unicode never added a small capital X, a superscript q, or subscript forms for about ten letters, so the generator leaves those letters as they are instead of swapping in a misleading look-alike. Pick the style by how small you need it and how complete the alphabet has to be.",
+    ],
+    table: {
+      caption: "Small text styles compared",
+      headers: ["Style", "Example", "Size", "Letters it can't convert", "Best for"],
+      rows: [
+        ["[Small caps](/tools/small-caps)", "ꜱᴍᴀʟʟ ᴛᴇxᴛ", "Lowercase height", "x (q uses a look-alike, ǫ)", "Full bios, names, headings"],
+        ["[Superscript](/tools/superscript)", "ˢᵐᵃˡˡ ᵗᵉˣᵗ ¹²³", "About half height, raised", "q", "Tiny accents, footnotes, exponents"],
+        ["[Subscript](/tools/subscript)", "ₛₘₐₗₗ ₜₑₓₜ ₁₂₃", "About half height, lowered", "b c d f g j q w y z", "Chemical formulas, numbers"],
+        ["[Tiny text](/tools/tiny-text-generator)", "ᵗⁱⁿʸ ᵗᵉˣᵗ", "Smallest", "q", "One tiny word or line"],
+      ],
+    },
+  },
+  {
+    heading: "How does small text work?",
+    paragraphs: [
+      "Your phone can't shrink one word in a bio, because apps like Instagram and Discord don't let you change font size. Unicode, the standard list of characters every device shares, happens to include letters that are drawn small: phonetic small capitals used by linguists, and the raised and lowered letters used in math and chemistry. A small text generator swaps your normal letters for those characters.",
+      "Because the result is real text, it copies and pastes like anything else and shows up the same for everyone whose device has the glyphs. On a few older phones, rare characters can appear as boxes, which is why small caps, with the widest support, is the safe default. For more detail, read [Unicode, explained](/guides/unicode-explained) or compare sizes in [the smallest text style](/guides/smallest-text-style-compared).",
+    ],
+  },
+  {
+    heading: "Where does small text work?",
+    paragraphs: [
+      "Small text works in Instagram and TikTok bios and captions, Discord display names and messages, WhatsApp chats and status, X posts, YouTube comments, and most games that accept Unicode names. It doesn't work in usernames and @handles, which only allow plain characters. See the guides for [Instagram bios](/guides/small-text-instagram-bio) and [Discord](/guides/tiny-text-discord) for the fields each app accepts.",
+    ],
+  },
+];
 
 const siteUrl = getSiteUrl();
 
@@ -142,18 +194,18 @@ export default function Home() {
           <span className="eyebrow"><span className="status-dot" /> Free online text tool</span>
           <h1>Small Text Generator</h1>
           <p>
-            This small text generator turns any sentence into tiny letters you can copy and paste — small caps, superscript, cursive, bubble, and more, generated instantly as you type. Use it as a quick copy-and-paste font generator or Unicode text converter to get small text, tiny lettering, or a compact small font for a bio, caption, or display name, without installing a keyboard app or downloading a font. Every style updates live, so you can compare a few small letter options side by side before copying the one that fits. Nothing you type is uploaded — the whole converter runs locally in your browser.
+            This small text generator turns any sentence into small letters you can copy and paste, like ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, ˢᵘᵖᵉʳˢᶜʳⁱᵖᵗ, and ₛₘₐₗₗ ₜₑₓₜ, plus cursive, bubble, and {textStyles.length} styles in all, generated as you type. The small letters are Unicode characters, not a font, so they paste into a bio, caption, or display name without installing a keyboard app. Every style updates live so you can compare them side by side. Nothing you type is uploaded: the converter runs in your browser.
           </p>
           <div className="utility-badges">
             <span><Zap size={15} aria-hidden="true" /> Instant results</span>
             <span><LockKeyhole size={15} aria-hidden="true" /> Private conversion</span>
             <span><Check size={15} aria-hidden="true" /> No sign-up</span>
           </div>
-          <LastUpdated date="2026-08-10" />
+          <LastUpdated date="2026-10-02" />
         </div>
         <div className="tool-profile" aria-label="Tool capabilities">
           <div className="tool-profile-head"><span>Tool overview</span><b>Ready</b></div>
-          <div className="profile-metric"><strong>23</strong><span>Unicode styles<br />in one workspace</span></div>
+          <div className="profile-metric"><strong>{textStyles.length}</strong><span>Unicode styles<br />in one workspace</span></div>
           <div className="profile-grid">
             <span><b>0</b> uploads</span>
             <span><b>&lt;1s</b> conversion</span>
@@ -202,11 +254,11 @@ export default function Home() {
             <div className="feature-card-top"><span>Live results</span><Zap aria-hidden="true" /></div>
             <h3>Live conversion</h3>
             <p>Every visible result updates the moment your input changes. There is no submit step and no waiting screen.</p>
-            <div className="feature-flow"><span>Plain text</span><ArrowRight aria-hidden="true" /><strong>23 outputs</strong></div>
+            <div className="feature-flow"><span>Plain text</span><ArrowRight aria-hidden="true" /><strong>{textStyles.length} outputs</strong></div>
           </article>
           <article className="feature-card">
             <div className="feature-card-top"><span>Style library</span><Layers3 aria-hidden="true" /></div>
-            <h3>23 Unicode styles</h3>
+            <h3>{textStyles.length} Unicode styles</h3>
             <p>Small caps, superscript, bold, cursive, bubble, underline, upside down, and more.</p>
             <div className="feature-specimen">Aa&nbsp; ᴀᴀ&nbsp; ᴬᵃ&nbsp; Ⓐⓐ</div>
           </article>
@@ -284,6 +336,8 @@ export default function Home() {
           </article>
         </div>
       </section>
+
+      <ArticleSections sections={homeSections} />
 
       <section className="faq-section" aria-labelledby="faq-title">
         <div className="section-intro">

@@ -170,7 +170,7 @@ export function Converter({ initialStyle, title, description }: ConverterProps) 
     <section className="generator tool-workspace" id="generator" aria-label="Unicode converter workspace">
       <div className="workspace-bar">
         <span><span className="live-dot" /> Generator ready</span>
-        <div><span>23 styles</span><span>Private</span><span>Free</span></div>
+        <div><span>{textStyles.length} styles</span><span>Private</span><span>Free</span></div>
       </div>
 
       <div className="workspace-grid">
