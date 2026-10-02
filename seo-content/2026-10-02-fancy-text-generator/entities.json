@@ -1,0 +1,11 @@
+[
+ {"canonical":"Fancy text","type":"Concept","aliases":["fancy fonts","stylish text","fancy text generator"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Mathematical Alphanumeric Symbols","type":"Unicode block","aliases":["script","fraktur","double-struck"],"sameAs":"https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Enclosed Alphanumerics","type":"Unicode block","aliases":["bubble","squared"],"sameAs":"https://en.wikipedia.org/wiki/Enclosed_Alphanumerics","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Combining Diacritical Marks","type":"Unicode block","aliases":["Zalgo","glitch"],"sameAs":"https://en.wikipedia.org/wiki/Combining_Diacritical_Marks","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Javanese script","type":"Concept","aliases":["꧁꧂"],"sameAs":"https://en.wikipedia.org/wiki/Javanese_script","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":2},
+ {"canonical":"screen reader","type":"Concept","aliases":["accessibility"],"sameAs":"https://en.wikipedia.org/wiki/Screen_reader","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2}
+]

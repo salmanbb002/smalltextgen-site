@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/gallery-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Fancy Text Generator", "url": "https://smalltextgen.site/tools/fancy-text-generator",
+  "about": [{"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}],
+  "mentions": [{"@type": "Thing", "name": "Mathematical Alphanumeric Symbols", "sameAs": "https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols"}, {"@type": "Thing", "name": "Enclosed Alphanumerics", "sameAs": "https://en.wikipedia.org/wiki/Enclosed_Alphanumerics"}, {"@type": "Thing", "name": "Javanese script", "sameAs": "https://en.wikipedia.org/wiki/Javanese_script"}]
+}
