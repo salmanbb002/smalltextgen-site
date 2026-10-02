@@ -130,6 +130,7 @@ export const textStyles: TextStyle[] = [
   { slug: "superscript", name: "Superscript", category: "Tiny", description: "Raised miniature letters and numbers", transform: superscript },
   { slug: "subscript", name: "Subscript", category: "Tiny", description: "Low-set characters for notes and formulas", transform: subscript },
   { slug: "bold", name: "Bold", category: "Classic", description: "Strong mathematical Unicode lettering", transform: (text) => mapCodePoint(text, 0x1d400, 0x1d41a, 0x1d7ce) },
+  { slug: "bold-sans", name: "Bold sans", category: "Classic", description: "Clean sans-serif bold for posts and headers", transform: (text) => mapCodePoint(text, 0x1d5d4, 0x1d5ee, 0x1d7ec) },
   { slug: "italic", name: "Italic", category: "Classic", description: "A clean editorial slant", transform: italic },
   { slug: "bold-italic", name: "Bold italic", category: "Classic", description: "Expressive and high-impact", transform: (text) => mapCodePoint(text, 0x1d468, 0x1d482) },
   { slug: "cursive", name: "Cursive", category: "Classic", description: "Elegant script-style characters", transform: script },

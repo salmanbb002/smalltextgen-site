@@ -66,6 +66,10 @@ describe("Unicode text transformations", () => {
     expect(transformText("bold-cursive", "Bez")).toBe("𝓑𝓮𝔃");
   });
 
+  it("converts sans-serif bold letters and digits", () => {
+    expect(transformText("bold-sans", "Bold 9")).toBe("𝗕𝗼𝗹𝗱 𝟵");
+  });
+
   it("leaves non-Latin text readable", () => {
     expect(transformText("small-caps", "سلام 🌿")).toBe("سلام 🌿");
   });

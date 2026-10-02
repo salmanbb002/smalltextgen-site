@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/pillar-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Bold Text Generator", "url": "https://smalltextgen.site/tools/bold",
+  "about": [{"@type": "Thing", "name": "Mathematical Alphanumeric Symbols", "sameAs": "https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols"}],
+  "mentions": [{"@type": "Thing", "name": "LinkedIn", "sameAs": "https://en.wikipedia.org/wiki/LinkedIn"}, {"@type": "Thing", "name": "Instagram", "sameAs": "https://en.wikipedia.org/wiki/Instagram"}, {"@type": "Thing", "name": "WhatsApp", "sameAs": "https://en.wikipedia.org/wiki/WhatsApp"}]
+}

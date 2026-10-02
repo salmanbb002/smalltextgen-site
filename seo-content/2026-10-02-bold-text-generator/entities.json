@@ -1,0 +1,14 @@
+[
+ {"canonical":"Bold text","type":"Concept","aliases":["bold font","bold letters"],"sameAs":"https://en.wikipedia.org/wiki/Emphasis_(typography)","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Mathematical Alphanumeric Symbols","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"LinkedIn","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/LinkedIn","kind":"entity","competitor_count":2,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":1},
+ {"canonical":"WhatsApp","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/WhatsApp","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Sans-serif","type":"Concept","aliases":["bold sans"],"sameAs":"https://en.wikipedia.org/wiki/Sans-serif","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Serif","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Serif","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"X (Twitter)","type":"Product","aliases":["Twitter"],"sameAs":"https://en.wikipedia.org/wiki/Twitter","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Markdown","type":"Concept","aliases":["**text**"],"sameAs":"https://en.wikipedia.org/wiki/Markdown","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"screen reader","type":"Concept","aliases":["accessibility"],"sameAs":"https://en.wikipedia.org/wiki/Screen_reader","kind":"term","competitor_count":1,"in_title_or_h2":false,"tier":2}
+]

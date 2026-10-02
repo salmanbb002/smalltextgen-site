@@ -399,34 +399,112 @@ export const pillarContent: PillarContent[] = [
   },
   {
     slug: "bold",
-    title: "Bold Text Generator – Bold Unicode Copy & Paste",
+    title: "Bold Text Generator – 𝐁𝐨𝐥𝐝 & 𝗕𝗼𝗹𝗱 𝗦𝗮𝗻𝘀 Text to Copy and Paste",
     metaDescription:
-      "Turn text into bold Unicode you can copy and paste — for Instagram, WhatsApp, X/Twitter, and LinkedIn. Free bold text generator, no formatting toolbar needed.",
+      "Make bold text you can copy and paste into Instagram, LinkedIn, WhatsApp, and X, in serif 𝐛𝐨𝐥𝐝 or sans 𝗯𝗼𝗹𝗱. Free bold text generator, plus native bold shortcuts for every app.",
     h1: "Bold Text Generator",
-    lastUpdated: "2026-09-13",
+    lastUpdated: "2026-10-02",
     intro: [
-      "This bold text generator turns plain letters and numbers into bold Unicode mathematical characters — 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 — that you can copy and paste anywhere, including places with no bold button at all. Because the boldness is part of the character itself rather than a formatting style, it survives copy-paste into plain-text fields that would otherwise strip rich-text formatting.",
-      "It's the fastest way to get bold text into an Instagram bio, a WhatsApp message, an X/Twitter post, or a LinkedIn update — all of which either lack a bold button or only support one in limited places. Type below, copy the bold result, and paste it in; if you want emphasis without full bold, the [italic text generator](/tools/italic), [cursive font generator](/tools/cursive), and [underline text generator](/tools/underline) are lighter-weight alternatives.",
+      "This bold text generator turns plain letters and numbers into bold Unicode characters, 𝐥𝐢𝐤𝐞 𝐭𝐡𝐢𝐬 or 𝗹𝗶𝗸𝗲 𝘁𝗵𝗶𝘀, that you can copy and paste anywhere, including places with no bold button. The boldness is built into each character, not added as formatting, so it survives being pasted into plain-text fields that strip bold.",
+      "It's the quickest way to get bold text into an Instagram bio, a LinkedIn post, a WhatsApp status, or an X post. You get two main looks: serif Bold, which feels classic and editorial, and Bold sans, the clean style most LinkedIn and X posts use. If your app already has its own bold (Discord, WhatsApp chats, Google Docs), the native shortcuts are listed below, and they're the better choice there.",
     ],
     howToSteps: [
       "Type or paste the text you want in bold into the box below.",
-      "Watch the bold result update instantly as you type, alongside the other styles.",
-      "Copy the bold output with one tap.",
-      "Paste it into your bio, caption, message, or post — it displays the same way for anyone who opens it, with no font install needed on their end either.",
+      "Compare Bold, Bold sans, Bold italic, and the other styles as they update.",
+      "Copy the bold version you want with one tap.",
+      "Paste it into your bio, caption, post, or message. Bold only a hook or a header, and keep the rest plain so it stays easy to read and search.",
     ],
     whereUsed: [
-      { platform: "Social bios & posts", blurb: "A bold name or headline line in an Instagram, TikTok, or X/Twitter bio — see [fonts for X/Twitter](/guides/fonts-for-twitter-x) for the platform-specific fields that accept it." },
-      { platform: "WhatsApp & Messenger chats", blurb: "WhatsApp's own bold formatting only works with asterisks in a live chat; pasted Unicode bold works everywhere, including status updates and group names." },
-      { platform: "Documents & plain-text fields", blurb: "A bold heading or label in plain-text notes, forms, and fields that don't support rich-text formatting." },
+      { platform: "LinkedIn posts & headlines", blurb: "LinkedIn's post composer has no bold button, so Unicode is the only way to bold a hook line or a section header in a post, your headline, or your About section. LinkedIn articles and newsletters have a real formatting toolbar, so use that there." },
+      { platform: "Instagram, TikTok & Facebook", blurb: "None of these apps can bold text in a bio, caption, or comment. A bold name, header line, or call to action, like 𝐁𝐎𝐎𝐊𝐈𝐍𝐆𝐒 𝐎𝐏𝐄𝐍, makes a busy bio easier to scan. See [fonts for X/Twitter](/guides/fonts-for-twitter-x) for how X handles it." },
+      { platform: "WhatsApp names, status & groups", blurb: "WhatsApp's *asterisk* bold only works inside chat messages. Pasted Unicode bold also works in your profile name, About text, status, and group names, where the asterisks don't." },
+    ],
+    nativeFormatting: [
+      { app: "Word, Google Docs & email", instructions: "Select the text and press Ctrl+B (Windows, ChromeOS) or ⌘+B (Mac). This is real formatting, so it stays searchable and readable by screen readers." },
+      { app: "WhatsApp & Slack", instructions: "Wrap the words in single asterisks, *like this*, to send them bold. In Slack you can also select the text and press Ctrl+B or ⌘+B." },
+      { app: "Discord, Telegram & Reddit", instructions: "Wrap the words in two asterisks on each side, **like this**. The same Markdown works in GitHub and most note apps." },
+      { app: "HTML", instructions: "Use <strong> for important text or <b> for visual bold, or CSS font-weight: 700. These stay as formatting and are lost when pasted into a plain-text field." },
+    ],
+    sections: [
+      {
+        heading: "How does a bold text generator work?",
+        paragraphs: [
+          "It swaps each letter for a bold look-alike character from Unicode's Mathematical Alphanumeric Symbols block. A (U+0041) becomes 𝐀 (U+1D400) in serif bold or 𝗔 (U+1D5D4) in sans bold, and the digits 0–9 have bold versions too. Unicode added these in 2001 for math, where a bold 𝐱 and a plain x can mean different things. Social media users borrowed them for emphasis.",
+          "Because they're separate characters, not a formatting style, they look bold anywhere they're pasted. The catch is that they're not the same letters as normal text. Search tools, hashtags, and screen readers may not treat 𝐛𝐨𝐥𝐝 as the word \"bold\".",
+        ],
+      },
+      {
+        heading: "Which bold font style should you use?",
+        paragraphs: [
+          "Use Bold sans for posts, headers, and anything professional, and serif Bold for a classic or editorial feel. The generator converts all of these at once, so you can compare them on your own text.",
+        ],
+        table: {
+          caption: "Bold Unicode styles compared",
+          headers: ["Style", "Example", "Best for"],
+          rows: [
+            ["Bold (serif)", "𝐁𝐨𝐥𝐝 𝐬𝐞𝐫𝐢𝐟", "Names, quotes, editorial emphasis"],
+            ["Bold sans", "𝗕𝗼𝗹𝗱 𝘀𝗮𝗻𝘀", "LinkedIn and X hooks, section headers, CTAs"],
+            ["Bold italic", "𝑩𝒐𝒍𝒅 𝒊𝒕𝒂𝒍𝒊𝒄", "Maximum emphasis on one or two words"],
+            ["[Bold cursive](/tools/cursive)", "𝓑𝓸𝓵𝓭 𝓬𝓾𝓻𝓼𝓲𝓿𝓮", "Names and signatures in bios"],
+            ["[Bold gothic](/tools/old-english-text-generator)", "𝕭𝖔𝖑𝖉 𝖌𝖔𝖙𝖍𝖎𝖈", "Dramatic headers, gaming and metal looks"],
+          ],
+        },
+      },
+      {
+        heading: "How do you bold text on social media?",
+        paragraphs: [
+          "Most social apps have no bold option, so the method is the same everywhere: make the bold text here, copy it, and paste it into the post or profile field. The table shows what each platform supports natively and where Unicode fills the gap.",
+        ],
+        table: {
+          caption: "Bold text by platform (checked October 2026)",
+          headers: ["Platform", "Native bold?", "Where to use Unicode bold"],
+          rows: [
+            ["Instagram", "No", "Bio, name, captions, comments, Story text"],
+            ["LinkedIn", "Articles and newsletters only", "Posts, headline, About, comments"],
+            ["X (Twitter)", "Premium subscribers can format some posts on the web", "Posts, replies, bio, display name"],
+            ["Facebook", "No (in regular posts)", "Posts, comments, Page bio"],
+            ["TikTok", "No", "Bio, captions, comments"],
+            ["WhatsApp", "Yes, *bold* in chats", "Profile name, About, status, group names"],
+            ["Discord", "Yes, **bold** in messages", "Display name, nickname, status, server and channel names"],
+          ],
+        },
+        subsections: [
+          {
+            heading: "LinkedIn bold text tips",
+            paragraphs: [
+              "Bold your first line, since only the first few lines show before \"…see more\", and bold short section headers like 𝗞𝗲𝘆 𝘁𝗮𝗸𝗲𝗮𝘄𝗮𝘆:. Don't bold whole paragraphs. LinkedIn's search matches plain words more reliably, so keep the keywords you want found in plain text.",
+            ],
+          },
+          {
+            heading: "Instagram and TikTok bold text tips",
+            paragraphs: [
+              "Use bold for your name, one header line, or a call to action in your bio, and keep hashtags plain, because a bold hashtag won't match the normal tag. The [Instagram bio fonts guide](/guides/small-text-instagram-bio) shows which fields accept styled text.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Unicode bold vs real bold formatting",
+        paragraphs: [
+          "Real bold, like Ctrl+B in a document or **text** in Discord, is a style applied to normal letters. It's searchable, accessible, and counts as normal characters, but it disappears in fields that don't support formatting. Unicode bold is the opposite: it goes anywhere, but each letter is a different character.",
+          "That difference has three practical effects. Each bold letter counts as two characters toward limits in many apps. Screen readers may read it letter by letter, like \"mathematical bold small b\", or skip it. And search engines and in-app search may not match it. Use native bold where an app has it, and Unicode bold for short accents where it doesn't.",
+        ],
+      },
     ],
     faq: [
-      { question: "How do I make bold text to copy and paste?", answer: "Type your text into the generator above, copy the bold result, and paste it wherever you need it — no formatting toolbar or font install required, since the boldness is built into the Unicode characters themselves." },
-      { question: "Why use a bold text generator instead of my app's bold button?", answer: "Many apps — Instagram bios, WhatsApp status, most bios and display-name fields — simply don't offer a bold button. A bold text generator gives you the same visual weight anywhere plain text is accepted." },
-      { question: "Does bold Unicode text work on Instagram and WhatsApp?", answer: "Yes, in bios, captions, comments, and chat messages. It won't work in strict fields like the Instagram @username, which only accepts plain characters." },
-      { question: "Why do a few bold characters look unchanged?", answer: "Unicode's bold mathematical alphabet covers A–Z, a–z, and 0–9, but not punctuation or symbols — those characters are left as-is rather than substituting a misleading look-alike." },
-      { question: "Is copy-paste bold text the same as real bold formatting?", answer: "No. It's a different set of Unicode characters that happen to look bold, not a style applied to your original letters. That's exactly why it travels through plain-text fields that strip actual formatting." },
+      { question: "How do I make bold text to copy and paste?", answer: "Type your text into the generator above, tap Copy on the Bold or Bold sans result, and paste it where you need it. No formatting toolbar or font install is needed, because the boldness is part of the characters." },
+      { question: "How do I bold text on LinkedIn?", answer: "LinkedIn posts have no bold button, so make the bold text here, copy it, and paste it into your post. In LinkedIn articles and newsletters, you can use the editor's B button or Ctrl+B instead." },
+      { question: "How do I bold text on Instagram?", answer: "Instagram has no bold option, so copy bold Unicode text from this generator and paste it into your bio, name, caption, or comment. It won't work in your @username." },
+      { question: "How do I bold text in WhatsApp?", answer: "In chats, put an asterisk on each side, like *this*, and WhatsApp sends it bold. For your profile name, About, status, or group name, paste Unicode bold from this page instead." },
+      { question: "How do I bold text on X (Twitter)?", answer: "Paste Unicode bold from this generator into your post, bio, or display name. X Premium subscribers can also format some posts on the web, but that bold only shows inside X." },
+      { question: "What's the difference between Bold and Bold sans?", answer: "Bold (𝐁𝐨𝐥𝐝) has serifs, the small strokes at the ends of letters, and looks classic. Bold sans (𝗕𝗼𝗹𝗱) has no serifs and looks cleaner and more modern, which is why it's popular for LinkedIn and X posts." },
+      { question: "Is copy-paste bold text the same as real bold formatting?", answer: "No. It's a different set of Unicode characters that look bold, not a style applied to your letters. That's why it survives plain-text fields, but also why search and screen readers may not read it as normal words." },
+      { question: "Does bold text count as more characters?", answer: "Often, yes. Each bold letter is stored as two code units, so apps that count those, which many do, count each bold letter as two. Keep bold text short in bios with tight limits." },
+      { question: "Why do some characters stay unchanged?", answer: "Unicode's bold alphabets cover A–Z, a–z, and 0–9, but not punctuation, symbols, or accented letters. Those characters are left as they are rather than swapped for a misleading look-alike." },
+      { question: "Does bold Unicode text hurt SEO or accessibility?", answer: "It can. Search engines and screen readers may not read bold Unicode as normal words, so keyword-rich or important text should stay plain. Use bold for short accents like a name, header, or call to action." },
+      { question: "Why does bold text show as boxes on some devices?", answer: "The device's font doesn't have the bold math characters, which is rare today but happens on some older phones and computers. If someone can't see it, they'll see empty boxes, so don't put essential information only in bold." },
     ],
-    relatedGuideSlugs: ["copy-paste-fonts-guide", "fonts-for-twitter-x"],
+    relatedGuideSlugs: ["copy-paste-fonts-guide", "fonts-for-twitter-x", "small-text-instagram-bio"],
   },
   {
     slug: "strikethrough",
