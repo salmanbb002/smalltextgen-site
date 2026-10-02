@@ -256,7 +256,7 @@ export const guides: Guide[] = [
     cluster: "A",
     lastUpdated: "2026-10-02",
     intro: [
-      "Aesthetic Instagram bios, like ᴛɪɴʏ ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓈𝑜𝒻𝓉 𝒸𝓊𝓇𝓈𝒾𝓋𝑒, or 𝐛𝐨𝐥𝐝 𝐡𝐞𝐚𝐝𝐞𝐫𝐬, aren't made with a downloaded font. Instagram doesn't let you change fonts at all. The styled letters are Unicode characters copied from a font generator and pasted into your profile, where Instagram shows them like any other text.",
+      "Aesthetic Instagram bios, like ᴛɪɴʏ ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓈ℴ𝒻𝓉 𝒸𝓊𝓇𝓈𝒾𝓋ℯ, or 𝐛𝐨𝐥𝐝 𝐡𝐞𝐚𝐝𝐞𝐫𝐬, aren't made with a downloaded font. Instagram doesn't let you change fonts at all. The styled letters are Unicode characters copied from a font generator and pasted into your profile, where Instagram shows them like any other text.",
       "This guide covers which fonts look best in each part of your profile, the limits that trip people up, and aesthetic bio ideas you can adapt. To make your own, type your bio into the [small text generator](/) or the [fancy text generator](/tools/fancy-text-generator), copy the style you like, and paste it in.",
     ],
     sections: [
@@ -329,7 +329,7 @@ export const guides: Guide[] = [
         paragraphs: [
           "Mix one styled line with plain text and a few symbols. These templates show the pattern. Swap in your own words using the generator, so the style matches.",
           "Minimal: ꜱᴀʀᴀʜ ✦ ꜰɪʟᴍ ᴘʜᴏᴛᴏɢʀᴀᴘʜʏ\nlondon → lisbon\nprints below ↓",
-          "Soft: 𝓁𝒾𝓋𝒾𝓃𝑔 𝓈𝓁𝑜𝓌𝓁𝓎 ♡\ncoffee, books & rainy days",
+          "Soft: 𝓁𝒾𝓋𝒾𝓃ℊ 𝓈𝓁ℴ𝓌𝓁𝓎 ♡\ncoffee, books & rainy days",
           "Creator: 𝐁𝐄𝐀𝐔𝐓𝐘 𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋𝐒\nnew reel every friday\n𝐁𝐎𝐎𝐊𝐈𝐍𝐆𝐒 ✉ DM me",
           "Playful: ⓜⓐⓨⓐ ☁️ 19\nart, cats & chaos",
           "Keep your name, niche, and city in plain text somewhere in your profile. Instagram search reads plain letters most reliably, so styled-only keywords can make you harder to find.",

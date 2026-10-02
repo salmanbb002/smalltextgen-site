@@ -133,6 +133,7 @@ export const textStyles: TextStyle[] = [
   { slug: "italic", name: "Italic", category: "Classic", description: "A clean editorial slant", transform: italic },
   { slug: "bold-italic", name: "Bold italic", category: "Classic", description: "Expressive and high-impact", transform: (text) => mapCodePoint(text, 0x1d468, 0x1d482) },
   { slug: "cursive", name: "Cursive", category: "Classic", description: "Elegant script-style characters", transform: script },
+  { slug: "bold-cursive", name: "Bold cursive", category: "Classic", description: "Heavier script letters with no gaps", transform: (text) => mapCodePoint(text, 0x1d4d0, 0x1d4ea) },
   { slug: "monospace", name: "Monospace", category: "Classic", description: "Technical, measured letterforms", transform: (text) => mapCodePoint(text, 0x1d670, 0x1d68a, 0x1d7f6) },
   { slug: "double-struck", name: "Double struck", category: "Classic", description: "Outlined mathematical lettering", transform: doubleStruck },
   { slug: "bold-fraktur", name: "Bold fraktur", category: "Classic", description: "Heavy blackletter with a complete alphabet", transform: (text) => mapCodePoint(text, 0x1d56c, 0x1d586) },

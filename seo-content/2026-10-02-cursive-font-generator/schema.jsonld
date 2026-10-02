@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/pillar-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Cursive Font Generator", "url": "https://smalltextgen.site/tools/cursive",
+  "about": [{"@type": "Thing", "name": "Cursive", "sameAs": "https://en.wikipedia.org/wiki/Cursive"}, {"@type": "Thing", "name": "Script typeface", "sameAs": "https://en.wikipedia.org/wiki/Script_typeface"}],
+  "mentions": [{"@type": "Thing", "name": "Mathematical Alphanumeric Symbols", "sameAs": "https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols"}, {"@type": "Thing", "name": "Calligraphy", "sameAs": "https://en.wikipedia.org/wiki/Calligraphy"}]
+}

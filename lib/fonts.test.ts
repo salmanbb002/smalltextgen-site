@@ -62,6 +62,10 @@ describe("Unicode text transformations", () => {
     expect(transformText("bubble-filled", "Ab09")).toBe("🅐🅑⓿❾");
   });
 
+  it("converts bold cursive letters without Letterlike gaps", () => {
+    expect(transformText("bold-cursive", "Bez")).toBe("𝓑𝓮𝔃");
+  });
+
   it("leaves non-Latin text readable", () => {
     expect(transformText("small-caps", "سلام 🌿")).toBe("سلام 🌿");
   });

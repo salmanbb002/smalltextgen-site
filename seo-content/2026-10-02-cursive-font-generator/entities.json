@@ -1,0 +1,12 @@
+[
+ {"canonical":"Cursive","type":"Concept","aliases":["cursive font","cursive text"],"sameAs":"https://en.wikipedia.org/wiki/Cursive","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Script typeface","type":"Concept","aliases":["script"],"sameAs":"https://en.wikipedia.org/wiki/Script_typeface","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Bold cursive","type":"Concept","aliases":["bold script"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Mathematical Alphanumeric Symbols","type":"Unicode block","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Calligraphy","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Calligraphy","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Fraktur","type":"Concept","aliases":["Old English","tattoo font"],"sameAs":"https://en.wikipedia.org/wiki/Fraktur","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Italic type","type":"Concept","aliases":["italic"],"sameAs":"https://en.wikipedia.org/wiki/Italic_type","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Google Fonts","type":"Product","aliases":["Great Vibes","Dancing Script"],"sameAs":"https://en.wikipedia.org/wiki/Google_Fonts","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":3}
+]

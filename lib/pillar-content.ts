@@ -97,32 +97,84 @@ export const pillarContent: PillarContent[] = [
   },
   {
     slug: "cursive",
-    title: "Cursive Font Generator – Copy & Paste Script Text",
+    title: "Cursive Font Generator – 𝒞𝓊𝓇𝓈𝒾𝓋ℯ & 𝓑𝓸𝓵𝓭 Script Copy and Paste",
     metaDescription:
-      "Turn text into cursive, fancy script Unicode instantly. Free cursive font generator for Instagram bios and captions — copy and paste ready.",
-    h1: "Cursive Font Text Generator",
-    lastUpdated: "2026-08-10",
+      "Turn text into cursive fonts you can copy and paste: classic 𝒸𝓊𝓇𝓈𝒾𝓋ℯ script and 𝓫𝓸𝓵𝓭 cursive for Instagram, TikTok, and Discord. Free cursive font generator, no install.",
+    h1: "Cursive Font Generator",
+    lastUpdated: "2026-10-02",
     intro: [
-      "Convert plain text into cursive, script-style Unicode with this cursive font generator — type once and copy fancy cursive fonts ready to paste into a bio, caption, or message. It works by mapping your letters to Unicode's mathematical script characters, so the elegant, handwritten look travels as real text, not an image, and displays correctly wherever you paste it.",
-      "Use it to convert to cursive for a name, a short quote, or a single accent line — because script glyphs are dense, longer passages tend to read more clearly in a plainer style. Every result updates as you type, so you can compare a few phrasings before copying the one you want.",
+      "This cursive font generator turns plain text into flowing script letters, like 𝒸𝓊𝓇𝓈𝒾𝓋ℯ and 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, that you can copy and paste into a bio, caption, comment, or name. It maps your letters to Unicode's script alphabets, so the handwritten look travels as real text, not an image or an installed font.",
+      "You get two cursive styles. Classic cursive is thin and elegant, and bold cursive is heavier and easier to read on a small screen. Both convert as you type, alongside italic and the other styles, so you can compare before you copy. Cursive is best for a name, a short quote, or one accent line, since a whole paragraph of script is slow to read.",
     ],
     howToSteps: [
-      "Type the word or phrase you want to convert into cursive.",
-      "Compare the cursive result against the other styles shown alongside it.",
-      "Copy the cursive font output.",
-      "Paste it into your bio, caption, or message — it displays the same way for anyone who opens it.",
+      "Type the word or phrase you want in cursive into the box below.",
+      "Compare Cursive with Bold cursive and the other styles shown alongside it.",
+      "Copy the cursive version you like with one tap.",
+      "Paste it into your bio, caption, or message, and check it once on your phone, since a few older devices show script letters as boxes.",
     ],
     whereUsed: [
-      { platform: "Instagram & TikTok bios", blurb: "A cursive name or tagline line — see the [Instagram bio copy list](/guides/cursive-fonts-instagram-bio) for ready-made examples." },
-      { platform: "Captions & comments", blurb: "A short cursive accent line to open or close a caption." },
-      { platform: "Discord nicknames", blurb: "Cursive display names and server nicknames, same as any other styled Unicode text." },
+      { platform: "Instagram & TikTok bios", blurb: "A cursive name or tagline is the classic aesthetic bio look. Keep the rest of the bio plain or in small caps. See [cursive fonts for Instagram bio](/guides/cursive-fonts-instagram-bio) for ready-made examples and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) for what each field accepts." },
+      { platform: "Captions, quotes & comments", blurb: "One cursive line to open or sign off a caption, a short quote, or a wedding or birthday message. Bold cursive stays readable at caption size." },
+      { platform: "Discord & gaming names", blurb: "Cursive display names and server nicknames. Games filter names more strictly, so check the [gaming font generator](/tools/gaming-font-generator) to see which games accept script letters." },
+    ],
+    sections: [
+      {
+        heading: "What is a cursive font generator?",
+        paragraphs: [
+          "A cursive font generator is a text converter that swaps each regular letter for a script-style Unicode character, so \"love\" becomes 𝓁ℴ𝓋ℯ or 𝓵𝓸𝓿𝓮. The letters don't actually join up like real handwriting, but their slant and loops give the same feel. Because each one is a standard character, it pastes into any app without a font download.",
+          "The characters come from the Mathematical Alphanumeric Symbols block, which Unicode added in 2001 for math notation. Classic cursive uses the script alphabet (𝒜 starts at U+1D49C), and bold cursive uses the bold script alphabet (𝓐 starts at U+1D4D0). For the full story of how the mapping works, see [how a cursive font generator works](/guides/how-cursive-font-generator-works).",
+        ],
+      },
+      {
+        heading: "Which cursive font style should you use?",
+        paragraphs: [
+          "Use classic cursive for elegance and bold cursive for readability. If neither feels right, italic and fraktur are close cousins that a lot of \"cursive\" generators also list.",
+        ],
+        table: {
+          caption: "Cursive and script-like styles compared",
+          headers: ["Style", "Example", "Best for", "Watch out for"],
+          rows: [
+            ["Cursive (script)", "𝒞𝓊𝓇𝓈𝒾𝓋ℯ 𝒮𝒸𝓇𝒾𝓅𝓉", "Names, wedding and beauty bios, quotes", "Thin strokes are hard to read small. A few letters (ℬ ℰ ℱ ℋ ℐ ℒ ℳ ℛ ℯ ℊ ℴ) come from another Unicode block and can look slightly different."],
+            ["Bold cursive", "𝓒𝓾𝓻𝓼𝓲𝓿𝓮 𝓢𝓬𝓻𝓲𝓹𝓽", "Bios, captions, display names", "Takes more space; each letter counts as two characters in many apps"],
+            ["[Italic](/tools/italic)", "𝐼𝑡𝑎𝑙𝑖𝑐 𝑆𝑐𝑟𝑖𝑝𝑡", "Subtle emphasis in longer text", "Slanted, not looped, so it reads less like handwriting"],
+            ["[Fraktur / Old English](/tools/old-english-text-generator)", "𝔉𝔯𝔞𝔨𝔱𝔲𝔯 𝕭𝖑𝖆𝖈𝖐𝖑𝖊𝖙𝖙𝖊𝖗", "Tattoo-style, gothic, and vintage looks", "Hard to read for long text; boxes on some older phones"],
+          ],
+        },
+      },
+      {
+        heading: "How do you convert text to cursive?",
+        paragraphs: [
+          "Type or paste your text in the box at the top of this page, then tap Copy on the Cursive or Bold cursive result. The conversion runs in your browser as you type, so nothing is uploaded. Capital and lowercase letters both convert. Numbers stay plain in cursive, because Unicode has no script digits.",
+          "On a phone, some keyboard apps have a built-in fancy-font picker that does the same substitution. It gives the same characters as this generator, so you don't need to install one. See [cursive font keyboards](/guides/cursive-font-keyboard) for the options.",
+        ],
+      },
+      {
+        heading: "Where does copy-paste cursive work?",
+        paragraphs: [
+          "Cursive works anywhere you can type text: Instagram, TikTok, X, Facebook, WhatsApp, Discord, YouTube comments, Google Docs, and Word. It doesn't work in usernames or @handles, which only take plain letters, numbers, and a few symbols. Use your display name, bio, and captions instead.",
+          "For printed projects, like invitations, logos, signatures, or a tattoo stencil, copy-paste cursive isn't the right tool. Its look depends on the device's font, so it can't be resized or styled like a real typeface. Use an installed script font such as Great Vibes or Dancing Script, both free on Google Fonts, in a design app instead.",
+        ],
+      },
+      {
+        heading: "Cursive vs script vs calligraphy",
+        paragraphs: [
+          "Cursive is handwriting where the letters join together so you can write quickly. Script is the typography term for any typeface that imitates handwriting, joined or not. Calligraphy is decorative lettering made with a broad pen or brush, where the art is in the strokes themselves.",
+          "Copy-paste generators borrow the word \"cursive\" for any script-looking Unicode letters. That's why Unicode calls these characters \"mathematical script\" letters, even though most people search for them as cursive fonts.",
+        ],
+      },
     ],
     faq: [
-      { question: "Does the cursive font generator work on Instagram bios?", answer: "Yes — Instagram bios accept standard Unicode text, and cursive output is standard Unicode, so it pastes and displays normally, the same as any other text style." },
-      { question: "How do I convert text into cursive font?", answer: "Type your text into the generator above, then copy the cursive result and paste it wherever you need it — no font installation or app required." },
-      { question: "Can I copy and paste cursive fonts into a username?", answer: "Usually not — usernames on most platforms are restricted to letters, numbers, periods, and underscores. Cursive text works in your display name, bio, captions, and comments instead." },
-      { question: "Why do cursive letters look like boxes on some phones?", answer: "It means that device's installed font doesn't include glyphs for the specific Unicode script block being used — more common on older Android phones. There's no fix on your end beyond choosing a simpler style for critical text." },
-      { question: "Is there a cursive font keyboard I can install instead?", answer: "Some keyboard apps offer a built-in style picker, but they work the same way under the hood — substituting Unicode characters — so a copy-paste generator gives you an identical result without installing anything." },
+      { question: "How do I convert text into cursive font?", answer: "Type your text into the generator above, then copy the Cursive or Bold cursive result and paste it where you need it. There's no font to install and no app to download." },
+      { question: "Does the cursive font generator work on Instagram?", answer: "Yes. Instagram bios, captions, comments, and your name field accept cursive Unicode letters. Your @username doesn't, because it only allows letters, numbers, periods, and underscores." },
+      { question: "What's the difference between cursive and bold cursive?", answer: "Cursive (𝒸𝓊𝓇𝓈𝒾𝓋ℯ) uses Unicode's thin script letters, and bold cursive (𝓬𝓾𝓻𝓼𝓲𝓿𝓮) uses the heavier bold script set. Bold cursive is easier to read on phones, while classic cursive looks more delicate." },
+      { question: "Can I copy and paste cursive into a username?", answer: "Usually not. Usernames on most platforms only allow plain letters, numbers, periods, and underscores. Put cursive in your display name, bio, captions, and comments instead." },
+      { question: "Why do cursive letters look like boxes on some phones?", answer: "That device's font doesn't have the glyphs for Unicode's script letters, which happens most on older Android phones. Bold cursive and italic tend to have better support, so try them for important text." },
+      { question: "Why do some cursive letters look different from the rest?", answer: "Unicode's script alphabet has gaps for letters that already existed in an older block, like ℬ, ℰ, ℋ, and ℯ. The generator fills those gaps from that older block, so a few letters can look a little different. Bold cursive has no gaps." },
+      { question: "Can I make cursive numbers?", answer: "No. Unicode has no cursive or script digits, so numbers stay plain. For styled numbers, use bold (𝟏𝟐𝟑), double-struck (𝟙𝟚𝟛), or circled (①②③) instead." },
+      { question: "Can I use copy-paste cursive for a tattoo or signature?", answer: "Use it to preview ideas, but not for the final design. The look changes with each device's font, so a tattoo artist or designer should work from a real installed script font. For an email signature, plain text or an image is more reliable." },
+      { question: "Is there a cursive font keyboard I can install instead?", answer: "Yes, some keyboard apps have a fancy-font picker, but they swap in the same Unicode characters as this generator. A copy-paste generator gives the same result without giving a keyboard app access to what you type." },
+      { question: "Is cursive text accessible to screen readers?", answer: "Not reliably. Screen readers may read each script letter by its Unicode name, like \"mathematical script small c\", or skip it. Use cursive for decoration and keep important information in plain text." },
+      { question: "Is cursive Unicode text free to use?", answer: "Yes. The characters are part of the Unicode standard, so anyone can use them, including in business posts and bios. This generator is free with no sign-up." },
     ],
     relatedGuideSlugs: ["cursive-fonts-instagram-bio", "how-cursive-font-generator-works", "aesthetic-cursive-fonts", "cursive-font-keyboard", "thin-cursive-fonts"],
   },
