@@ -176,7 +176,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Is cursive text accessible to screen readers?", answer: "Not reliably. Screen readers may read each script letter by its Unicode name, like \"mathematical script small c\", or skip it. Use cursive for decoration and keep important information in plain text." },
       { question: "Is cursive Unicode text free to use?", answer: "Yes. The characters are part of the Unicode standard, so anyone can use them, including in business posts and bios. This generator is free with no sign-up." },
     ],
-    relatedGuideSlugs: ["cursive-fonts-instagram-bio", "how-cursive-font-generator-works", "aesthetic-cursive-fonts", "cursive-font-keyboard", "thin-cursive-fonts"],
+    relatedGuideSlugs: ["text-formatting-cheat-sheet", "cursive-fonts-instagram-bio", "how-cursive-font-generator-works", "aesthetic-cursive-fonts", "cursive-font-keyboard", "thin-cursive-fonts"],
   },
   {
     slug: "small-caps",
@@ -395,7 +395,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Can I make a double underline?", answer: "Unicode has a combining double low line (U+0333), but this generator uses the single U+0332 line because it renders most consistently across apps. In Word you can get a native double underline with Ctrl+Shift+D." },
       { question: "Is underlined Unicode text searchable?", answer: "Not reliably. The combining marks make the word a different character string, so platform search and screen readers can miss it or read it awkwardly — keep keywords and key information in plain text." },
     ],
-    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "underline-text-copy-paste"],
+    relatedGuideSlugs: ["text-formatting-cheat-sheet", "unicode-explained", "copy-paste-text-tricks-social-media-bios", "underline-text-copy-paste"],
   },
   {
     slug: "bold",
@@ -504,7 +504,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Does bold Unicode text hurt SEO or accessibility?", answer: "It can. Search engines and screen readers may not read bold Unicode as normal words, so keyword-rich or important text should stay plain. Use bold for short accents like a name, header, or call to action." },
       { question: "Why does bold text show as boxes on some devices?", answer: "The device's font doesn't have the bold math characters, which is rare today but happens on some older phones and computers. If someone can't see it, they'll see empty boxes, so don't put essential information only in bold." },
     ],
-    relatedGuideSlugs: ["copy-paste-fonts-guide", "fonts-for-twitter-x", "small-text-instagram-bio"],
+    relatedGuideSlugs: ["text-formatting-cheat-sheet", "copy-paste-fonts-guide", "fonts-for-twitter-x", "small-text-instagram-bio"],
   },
   {
     slug: "strikethrough",
@@ -587,7 +587,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Can I add strikethrough to emoji or other languages?", answer: "Sometimes. The line is designed for Latin letters, so on emoji, Chinese, Japanese, or Korean characters it often shows misaligned or not at all. Keep strikethrough to Latin text for the best result." },
       { question: "Is strikethrough text accessible to screen readers?", answer: "Not reliably. Screen readers may read each combining mark aloud or ignore the line, so a listener can't tell the word was crossed out. Don't rely on strikethrough alone to show a correction or a changed price." },
     ],
-    relatedGuideSlugs: ["copy-paste-fonts-guide", "cool-different-fonts", "underline-text-copy-paste"],
+    relatedGuideSlugs: ["text-formatting-cheat-sheet", "copy-paste-fonts-guide", "cool-different-fonts", "underline-text-copy-paste"],
   },
   {
     slug: "upside-down",
@@ -697,7 +697,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Will italic text show up in search?", answer: "Usually not. Platform search and search engines treat the italic characters as different symbols from normal letters, so an italicised keyword may not match a plain-text search." },
       { question: "When should I use italics?", answer: "The standard uses are titles of books, films, and albums, foreign words, quotes, and a single stressed word. Italicising whole paragraphs reduces readability, especially on mobile." },
     ],
-    relatedGuideSlugs: ["fancy-text-styles-explained", "copy-paste-fonts-guide", "fonts-for-twitter-x"],
+    relatedGuideSlugs: ["text-formatting-cheat-sheet", "fancy-text-styles-explained", "copy-paste-fonts-guide", "fonts-for-twitter-x"],
   },
   {
     slug: "mirror",

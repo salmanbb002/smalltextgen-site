@@ -1,0 +1,14 @@
+[
+ {"canonical":"Text formatting","type":"Concept","aliases":["formatting cheat sheet"],"sameAs":"https://en.wikipedia.org/wiki/Formatted_text","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Emphasis (typography)","type":"Concept","aliases":["bold","italic"],"sameAs":"https://en.wikipedia.org/wiki/Emphasis_(typography)","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Underline","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Underline","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Strikethrough","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Strikethrough","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"WhatsApp","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/WhatsApp","kind":"entity","competitor_count":2,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Discord","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Google Docs","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Google_Docs","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Microsoft Word","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Microsoft_Word","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Telegram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Telegram_(software)","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Slack","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Slack_(software)","kind":"entity","competitor_count":0,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Markdown","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Markdown","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":1}
+]

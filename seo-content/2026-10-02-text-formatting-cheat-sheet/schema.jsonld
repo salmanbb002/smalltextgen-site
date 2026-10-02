@@ -1,0 +1,8 @@
+{
+  "note": "Rendered in-page by app/guides/[slug]/page.tsx (Article + FAQPage + Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "Article", "headline": "Text Formatting Cheat Sheet: Bold, Italic, Underline & Strikethrough for Every Platform",
+  "mainEntityOfPage": "https://smalltextgen.site/guides/text-formatting-cheat-sheet", "datePublished": "2026-10-02", "dateModified": "2026-10-02",
+  "author": {"@type": "Person", "name": "TODO: author name"},
+  "about": [{"@type": "Thing", "name": "Formatted text", "sameAs": "https://en.wikipedia.org/wiki/Formatted_text"}],
+  "mentions": [{"@type": "Thing", "name": "WhatsApp", "sameAs": "https://en.wikipedia.org/wiki/WhatsApp"}, {"@type": "Thing", "name": "Discord", "sameAs": "https://en.wikipedia.org/wiki/Discord"}, {"@type": "Thing", "name": "Markdown", "sameAs": "https://en.wikipedia.org/wiki/Markdown"}, {"@type": "Thing", "name": "Google Docs", "sameAs": "https://en.wikipedia.org/wiki/Google_Docs"}]
+}
