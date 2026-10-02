@@ -1,0 +1,8 @@
+{
+  "note": "Rendered in-page by app/guides/[slug]/page.tsx (Article + FAQPage + Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "Article", "headline": "Aesthetic Fonts for Your Instagram Bio (Copy & Paste)",
+  "mainEntityOfPage": "https://smalltextgen.site/guides/small-text-instagram-bio", "dateModified": "2026-10-02",
+  "author": {"@type": "Person", "name": "TODO: author name"},
+  "about": [{"@type": "Thing", "name": "Instagram", "sameAs": "https://en.wikipedia.org/wiki/Instagram"}],
+  "mentions": [{"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}, {"@type": "Thing", "name": "Small caps", "sameAs": "https://en.wikipedia.org/wiki/Small_caps"}]
+}

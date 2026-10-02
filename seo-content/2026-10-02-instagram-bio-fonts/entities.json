@@ -1,0 +1,13 @@
+[
+ {"canonical":"Instagram","type":"Product","aliases":["IG"],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Instagram bio","type":"Concept","aliases":["bio"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Aesthetic fonts","type":"Concept","aliases":["aesthetic text","Instagram fonts","IG fonts"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Instagram username","type":"Concept","aliases":["@handle"],"sameAs":"","kind":"term","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Instagram Sans","type":"Product","aliases":[],"sameAs":"","kind":"entity","competitor_count":1,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Small caps","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Small_caps","kind":"entity","competitor_count":2,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Cursive","type":"Concept","aliases":["script"],"sameAs":"https://en.wikipedia.org/wiki/Cursive","kind":"entity","competitor_count":3,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Instagram Stories","type":"Product","aliases":["Reels"],"sameAs":"","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2},
+ {"canonical":"character limit","type":"Metric","aliases":["150 characters","2,200 characters"],"sameAs":"","kind":"term","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"screen reader","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Screen_reader","kind":"term","competitor_count":0,"in_title_or_h2":false,"tier":2}
+]

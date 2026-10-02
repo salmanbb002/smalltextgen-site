@@ -248,72 +248,119 @@ export const guides: Guide[] = [
   },
   {
     slug: "small-text-instagram-bio",
-    title: "Small Text for Instagram Bio (Copy & Paste)",
+    title: "Instagram Bio Fonts: Aesthetic & Small Text to Copy and Paste",
     metaDescription:
-      "How to add small text and tiny letters to your Instagram bio. Copy-paste ready Unicode styles, no font install or app needed.",
-    h1: "How to Get Small Text on Your Instagram Bio",
-    dek: "A step-by-step walkthrough for turning a plain bio into small caps, superscript, or tiny lettering.",
+      "Aesthetic fonts for your Instagram bio: small caps, cursive, bold, and bubble text you can copy and paste, plus which profile fields accept them and bio ideas to start from.",
+    h1: "Aesthetic Fonts for Your Instagram Bio (Copy & Paste)",
+    dek: "How Instagram fonts actually work, which styles look best in a bio, name, and caption, and ready-to-copy aesthetic bio ideas.",
     cluster: "A",
-    lastUpdated: "2026-08-10",
+    lastUpdated: "2026-10-02",
     intro: [
-      "If you've seen a bio written in ᴛɪɴʏ, evenly-sized letters and wondered how it was done, the answer is a small text generator, not a downloaded font. Instagram's bio field only accepts plain Unicode text, so anyone using a stylized look is really pasting in small letters that were copy and pasted from a converter tool, then saved like any other text.",
-      "This guide walks through getting small text into a bio correctly the first time, plus which style of tiny letters tends to read best in that specific 150-character field.",
+      "Aesthetic Instagram bios, like ᴛɪɴʏ ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓈𝑜𝒻𝓉 𝒸𝓊𝓇𝓈𝒾𝓋𝑒, or 𝐛𝐨𝐥𝐝 𝐡𝐞𝐚𝐝𝐞𝐫𝐬, aren't made with a downloaded font. Instagram doesn't let you change fonts at all. The styled letters are Unicode characters copied from a font generator and pasted into your profile, where Instagram shows them like any other text.",
+      "This guide covers which fonts look best in each part of your profile, the limits that trip people up, and aesthetic bio ideas you can adapt. To make your own, type your bio into the [small text generator](/) or the [fancy text generator](/tools/fancy-text-generator), copy the style you like, and paste it in.",
     ],
     sections: [
       {
-        heading: "Why Instagram bios can't run custom fonts",
+        heading: "How do Instagram fonts work?",
         paragraphs: [
-          "Instagram, like most apps, doesn't let you upload or select a custom typeface for your bio. What it does accept is any character in the Unicode standard — the same underlying character set used for emoji, accented letters, and every alphabet on earth. A small text generator swaps your regular letters for a different set of Unicode characters that happen to look small or capital-shaped, so the 'font change' you're seeing is really a character substitution, not a rendering change.",
-          "That distinction matters because it explains both why this works everywhere without installing anything, and why it occasionally breaks — a handful of older Android keyboards or minimal system fonts don't include glyphs for every Unicode block, so a small percentage of visitors might see a blank box instead of a letter.",
+          "An Instagram font generator swaps each letter you type for a look-alike Unicode character, such as ᴀ for a, 𝓪 for a, or ⓐ for a. Unicode is the standard list of characters every phone and computer shares, so Instagram stores and shows those characters exactly as you pasted them. Nothing is installed, and the text stays text, not an image.",
+          "Instagram itself only gives you one font for your profile. Its own typeface, Instagram Sans, appears in parts of the app like Stories and Reels text, while bios and captions use your phone's system font. Styled Unicode is the only way to get a different look in your bio. For the background on why these aren't real fonts, see [Unicode, explained](/guides/unicode-explained).",
         ],
       },
       {
-        heading: "Step by step: add small text to your bio",
+        heading: "Where can you use fancy fonts on Instagram?",
         paragraphs: [
-          "1. Open the small text generator and type your bio text into the input box — the converter works entirely in your browser, so nothing is uploaded.\n2. Compare the small caps, superscript, and subscript results side by side; each uses a different Unicode block and reads slightly differently.\n3. Tap Copy on the version you want.\n4. In Instagram, go to your profile, tap Edit Profile, then tap the Bio field.\n5. Paste, then tap the checkmark or Done to save.",
-          "Because the text is copy and paste, not typed fresh inside Instagram, you can build and revise your bio in the generator until it's right, then paste once.",
+          "Everywhere you type freely, except your username. Your @username only allows letters, numbers, periods, and underscores, so styled letters are rejected there. Your name, bio, captions, comments, Story text, and DMs all accept them.",
+        ],
+        table: {
+          caption: "Instagram fields and fancy fonts",
+          headers: ["Field", "Limit", "Fancy fonts?", "Tip"],
+          rows: [
+            ["Username (@handle)", "30 characters", "No", "Letters, numbers, periods, and underscores only"],
+            ["Name", "30 characters", "Yes", "You can change it twice in 14 days, so test the style first. Plain-text names are easier to find in search."],
+            ["Bio", "150 characters", "Yes", "Best place for small caps, cursive, and one styled header line"],
+            ["Captions", "2,200 characters", "Yes", "Style a hook line, keep hashtags plain"],
+            ["Comments & DMs", "Same as captions", "Yes", "Short accents only"],
+            ["Story & Reels text", "On-screen text", "Yes", "Paste styled text into the text tool, or use Instagram's built-in fonts"],
+          ],
+        },
+      },
+      {
+        heading: "Which aesthetic fonts look best in an Instagram bio?",
+        paragraphs: [
+          "Small caps is the safest aesthetic font for a whole bio: it's clean, readable, and shows on almost every phone. Use cursive, bold, or bubble letters for one line, like your name or a tagline, rather than the whole bio.",
+        ],
+        subsections: [
+          {
+            heading: "Small caps and tiny text",
+            paragraphs: [
+              "ꜱᴍᴀʟʟ ᴄᴀᴘꜱ gives the quiet, minimal look most \"aesthetic\" bios use, and it works for full sentences. Superscript (ᵗⁱⁿʸ) is smaller still but has gaps in its alphabet, so keep it to a word or two. Try the [small caps generator](/tools/small-caps) or the [tiny text generator](/tools/tiny-text-generator).",
+            ],
+          },
+          {
+            heading: "Cursive and script",
+            paragraphs: [
+              "𝓬𝓾𝓻𝓼𝓲𝓿𝓮 and 𝒮𝒸𝓇𝒾𝓅𝓉 feel soft and personal, so they suit names, quotes, and creators in beauty, wedding, or art niches. Thin script can be hard to read on small screens, so use the [cursive generator](/tools/cursive) for a short line, not a paragraph.",
+            ],
+          },
+          {
+            heading: "Bold and serif headers",
+            paragraphs: [
+              "𝐁𝐨𝐥𝐝 works as a section header inside a bio, like 𝐁𝐎𝐎𝐊𝐈𝐍𝐆𝐒 or 𝐒𝐇𝐎𝐏, so a busy bio is easier to scan. It's a good fit for coaches, shops, and service accounts. Make it with the [bold text generator](/tools/bold).",
+            ],
+          },
+          {
+            heading: "Bubble, vaporwave, and playful styles",
+            paragraphs: [
+              "ⓑⓤⓑⓑⓛⓔ letters and ｖａｐｏｒｗａｖｅ spacing are fun for one word, especially for younger or gaming audiences. They take up a lot of visual space, so one styled word is plenty. See the [bubble text generator](/tools/bubble).",
+            ],
+          },
         ],
       },
       {
-        heading: "Which small text style looks best in a bio",
+        heading: "How do you change the font in your Instagram bio?",
         paragraphs: [
-          "Small caps (ᴀʙᴄ) is the most legible option for a full sentence — every letter stays close to the same visual weight, so longer bios don't feel cramped. Superscript (ᵃᵇᶜ) reads as genuinely tiny and works well for a single accent line, like a tagline under your name. Subscript is the least complete alphabet in Unicode — not every lowercase letter has a true subscript form — so it suits short words or numbers more than full sentences; the subscript generator page has the full list of which letters convert cleanly.",
+          "1. Type your bio into a font generator and compare the styles.\n2. Tap Copy on the one you want.\n3. In Instagram, go to your profile and tap Edit profile.\n4. Tap Bio, paste the text, and tap Done (or the checkmark).\n5. Look at your profile to check that every letter shows correctly.",
+          "Build the whole bio in the generator first, then paste it once. That's easier than editing styled text inside Instagram's small bio box, where deleting one styled letter can leave half of a character behind.",
         ],
       },
       {
-        heading: "Before you save: two things to check",
+        heading: "Aesthetic Instagram bio ideas to copy",
         paragraphs: [
-          "Instagram bios are capped at 150 characters, and stylized Unicode letters count the same as regular ones, so a tiny-text bio won't buy you extra room. Preview the saved bio on your own profile afterward — if a letter shows up as a box, swap that word to small caps instead, since it has the most complete alphabet coverage of the tiny styles.",
+          "Mix one styled line with plain text and a few symbols. These templates show the pattern. Swap in your own words using the generator, so the style matches.",
+          "Minimal: ꜱᴀʀᴀʜ ✦ ꜰɪʟᴍ ᴘʜᴏᴛᴏɢʀᴀᴘʜʏ\nlondon → lisbon\nprints below ↓",
+          "Soft: 𝓁𝒾𝓋𝒾𝓃𝑔 𝓈𝓁𝑜𝓌𝓁𝓎 ♡\ncoffee, books & rainy days",
+          "Creator: 𝐁𝐄𝐀𝐔𝐓𝐘 𝐓𝐔𝐓𝐎𝐑𝐈𝐀𝐋𝐒\nnew reel every friday\n𝐁𝐎𝐎𝐊𝐈𝐍𝐆𝐒 ✉ DM me",
+          "Playful: ⓜⓐⓨⓐ ☁️ 19\nart, cats & chaos",
+          "Keep your name, niche, and city in plain text somewhere in your profile. Instagram search reads plain letters most reliably, so styled-only keywords can make you harder to find.",
+        ],
+      },
+      {
+        heading: "Why do Instagram fonts show as boxes or break?",
+        paragraphs: [
+          "Empty boxes or question marks mean the viewer's phone has no glyph for that character. It's most common on older Android phones with styles like squared letters, filled bubbles, and some cursive. Small caps and bold have the widest support, so switch the broken word to one of those.",
+          "Styled letters can also take up more of the limit than they look. Bold, italic, and cursive letters are each stored as two units, so a 150-character bio can fill sooner than expected. If Instagram won't let you save, shorten the styled part or use small caps.",
         ],
       },
     ],
     faq: [
-      {
-        question: "Does small text actually work in Instagram bios?",
-        answer:
-          "Yes. Because it's standard Unicode rather than an image or custom font, Instagram displays it exactly like normal text — you can copy, paste, search, and even screen-read it, with the accessibility caveats covered in [Unicode Explained](/guides/unicode-explained).",
-      },
-      {
-        question: "Why does my small text show up as a box or question mark?",
-        answer:
-          "That means the visitor's device doesn't have a glyph for that specific Unicode character in its installed fonts — most common on older Android phones. Small caps has the broadest support of the tiny styles because it maps to a widely implemented Unicode block.",
-      },
-      {
-        question: "Can I use small text in my Instagram username too, not just my bio?",
-        answer:
-          "Instagram usernames are restricted to letters, numbers, periods, and underscores, so stylized Unicode text is blocked there — it only works in the bio, name field, and posts/comments.",
-      },
-      {
-        question: "Will small text let me fit more into my 150-character bio limit?",
-        answer:
-          "No — each styled character still counts as one character toward the limit, the same as a normal letter.",
-      },
+      { question: "How do I get different fonts on my Instagram bio?", answer: "Type your bio into a font generator, copy the style you like, and paste it into Edit profile > Bio. Instagram has no font setting, so the styled look comes from Unicode characters you paste in." },
+      { question: "Do fancy fonts work on Instagram?", answer: "Yes. They work in your name, bio, captions, comments, Story text, and DMs, on both iPhone and Android. They don't work in your @username, which only allows letters, numbers, periods, and underscores." },
+      { question: "What is the best aesthetic font for an Instagram bio?", answer: "Small caps is the best all-round choice because it's clean, readable, and works on almost every phone. Cursive and bold are great for one line, like your name or a header, but they're harder to read in long text." },
+      { question: "Why does my Instagram font show up as a box or question mark?", answer: "The viewer's device doesn't have a glyph for that character, which is most common on older Android phones. Small caps and bold have the broadest support, so swap the broken word to one of those." },
+      { question: "Can I use fancy fonts in my Instagram username?", answer: "No. Instagram usernames only allow letters, numbers, periods, and underscores. Put styled text in your name field or bio instead." },
+      { question: "Do fancy fonts take up more of the 150-character bio limit?", answer: "Some do. Small caps and bubble letters count as one character each, but bold, italic, and cursive letters are stored as two units, so they can fill the limit faster. If your bio won't save, shorten the styled part." },
+      { question: "Do Instagram fonts affect reach or search?", answer: "They don't change the algorithm, but they can affect search. Instagram search reads plain letters most reliably, so keep your name, niche, and keywords in plain text and use styled fonts for decoration." },
+      { question: "Can I use fancy fonts in Instagram Stories and Reels?", answer: "Yes. Paste styled text into the Story or Reels text tool, or into a Reel caption. Stories also have Instagram's own built-in fonts, which you can pick without a generator." },
+      { question: "Are Instagram font generators safe?", answer: "Yes. The output is plain text with no code in it, and a generator that converts in your browser doesn't upload what you type. Avoid apps that ask for your Instagram login, since you never need it to copy a font." },
+      { question: "Are fancy fonts accessible on Instagram?", answer: "Not fully. Screen readers may read styled letters one by one, by their Unicode names, or skip them. Keep important details like your name, contact info, and links in plain text." },
+      { question: "What font does Instagram use?", answer: "Instagram's brand typeface is Instagram Sans, introduced in 2022, and it appears in parts of the app like Story and Reels text. Bios, captions, and comments are shown in your phone's system font, which is why you can't change them without Unicode." },
     ],
     pillarLinks: [
       { label: "small text generator", href: "/" },
-      { label: "small caps tool", href: "/tools/small-caps" },
+      { label: "fancy text generator", href: "/tools/fancy-text-generator" },
     ],
-    relatedGuideSlugs: ["tiny-text-discord", "copy-paste-text-tricks-social-media-bios"],
+    relatedGuideSlugs: ["bubble-text-instagram-tiktok", "aesthetic-cursive-fonts", "copy-paste-text-tricks-social-media-bios", "tiny-text-discord"],
   },
     {
     slug: "tiny-text-discord",
