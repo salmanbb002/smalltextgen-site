@@ -70,6 +70,10 @@ describe("Unicode text transformations", () => {
     expect(transformText("bold-sans", "Bold 9")).toBe("𝗕𝗼𝗹𝗱 𝟵");
   });
 
+  it("uses the subscript j and leaves letters without a subscript form unchanged", () => {
+    expect(transformText("subscript", "jab")).toBe("ⱼₐb");
+  });
+
   it("leaves non-Latin text readable", () => {
     expect(transformText("small-caps", "سلام 🌿")).toBe("سلام 🌿");
   });

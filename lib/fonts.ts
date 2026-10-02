@@ -60,8 +60,8 @@ const superscript = (text: string) =>
 const subscript = (text: string) =>
   mapFromStrings(
     text,
-    "ₐBCDₑFGₕᵢJₖₗₘₙₒₚQᵣₛₜᵤᵥWₓYZ",
-    "ₐbcdₑfgₕᵢjₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz",
+    "ₐBCDₑFGₕᵢⱼₖₗₘₙₒₚQᵣₛₜᵤᵥWₓYZ",
+    "ₐbcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥwₓyz",
     "₀₁₂₃₄₅₆₇₈₉",
   );
 

@@ -220,37 +220,88 @@ export const galleryPages: GalleryPage[] = [
   },
   {
     slug: "tiny-text-generator",
-    title: "Tiny Text Generator — Really Small Letters to Copy & Paste",
+    title: "Tiny Text Generator – ᵗⁱⁿʸ Letters to Copy and Paste",
     metaDescription:
-      "Make really tiny text with the three smallest Unicode styles — small caps, superscript, and subscript — copy and paste ready. Free tiny text generator.",
+      "Make tiny text you can copy and paste: superscript ᵗⁱⁿʸ, subscript ₜᵢₙy, and small caps ᴛɪɴʏ letters for bios, captions, and names. Free tiny text generator with every tiny letter listed.",
     h1: "Tiny Text Generator",
     eyebrow: "The smallest styles",
+    leadStyle: "superscript",
     intro: [
-      "Genuinely tiny text comes from three Unicode blocks: small caps (ᴛɪɴʏ), superscript (ᵗⁱⁿʸ), and subscript (ₜᵢₙy). This tiny text generator focuses on those three so you can see how small each one goes and copy the smallest readable option for a bio, caption, or name.",
-      "Superscript and subscript render the smallest but have gaps in their alphabets; small caps is slightly larger but converts every letter. For the full library of 20-plus styles — bold, cursive, bubble, and the rest — use the [small text generator](/) on the home page.",
+      "This tiny text generator turns your words into the smallest letters Unicode has: superscript ᵗⁱⁿʸ ᵗᵉˣᵗ, subscript ₜᵢₙy ₜₑₓₜ, and small caps ᴛɪɴʏ ᴛᴇxᴛ. Copy the result and paste it into a bio, caption, display name, or message. It isn't a smaller font size. Each tiny letter is its own character, so it stays tiny wherever you paste it.",
+      "Superscript is the smallest and most popular tiny style, so it's shown first. Subscript sits lower and has the most missing letters, and small caps is a little bigger but converts almost everything. Want bold, cursive, bubble, and the rest too? The [small text generator](/) on the home page shows all styles at once.",
     ],
     howToSteps: [
       "Type your text into the box below.",
-      "Compare the three tiny styles — small caps stays fully readable, superscript and subscript look smallest.",
-      "Copy the version that's still legible at the size you need.",
-      "Paste it into your bio, caption, or display name, and preview it, since a few superscript and subscript letters fall back to full size.",
+      "Compare the three tiny styles. Superscript is smallest, subscript sits below the line, and small caps stays most readable.",
+      "Copy the tiny version you want with one tap.",
+      "Paste it into your bio, caption, or name, and check it, since a few letters have no tiny form and stay full size.",
     ],
-    featuredStyleSlugs: ["small-caps", "superscript", "subscript"],
+    featuredStyleSlugs: ["superscript", "subscript", "small-caps"],
     whereUsed: [
-      { platform: "Instagram & TikTok bios", blurb: "A tiny tagline or a compact full bio line — see the [Instagram bio walkthrough](/guides/small-text-instagram-bio)." },
-      { platform: "Discord names", blurb: "Small, understated display names and nicknames that stand out by being quieter, not louder." },
-      { platform: "Aesthetic captions", blurb: "A tiny accent line above or below a normal-size caption for contrast." },
+      { platform: "Instagram & TikTok bios", blurb: "A tiny tagline under your name, or a whisper-small line at the end of a bio. Tiny letters count as one character each, so they don't eat into the 150-character limit faster than normal text. See the [Instagram bio fonts guide](/guides/small-text-instagram-bio)." },
+      { platform: "Discord names & messages", blurb: "Quiet, tiny display names and nicknames. In Discord messages you can also start a line with -# for native small subtext. The [tiny text for Discord guide](/guides/tiny-text-discord) covers both." },
+      { platform: "Footnotes, math & chemistry", blurb: "Superscript numbers for exponents and footnotes (x², ¹), and subscript numbers for formulas like H₂O and CO₂ in plain-text fields. See [subscript numbers for chemistry](/guides/subscript-numbers-chemistry)." },
+    ],
+    sections: [
+      {
+        heading: "What is tiny text?",
+        paragraphs: [
+          "Tiny text is text written with Unicode characters that are drawn small: superscript and subscript letters, which sit above or below the line at about half height, and small capital letters, which are capitals at lowercase height. Apps like Instagram and Discord don't let you shrink your font, but they do accept these characters, so tiny text is the workaround.",
+          "Most tiny letters weren't made for decoration. Superscript and subscript letters exist for phonetics, math, and chemistry, and small capitals come from phonetic alphabets. That's also why the sets have gaps: Unicode only added the letters scholars needed.",
+        ],
+      },
+      {
+        heading: "Which tiny letters exist? (full alphabet)",
+        paragraphs: [
+          "Here's every tiny character the generator uses, so you can see the gaps before you type, or copy single characters directly. Letters not listed have no tiny form and stay full size.",
+        ],
+        table: {
+          caption: "Tiny text alphabets",
+          headers: ["Style", "Lowercase", "Capitals", "Numbers & symbols", "Missing"],
+          rows: [
+            ["Superscript", "ᵃ ᵇ ᶜ ᵈ ᵉ ᶠ ᵍ ʰ ⁱ ʲ ᵏ ˡ ᵐ ⁿ ᵒ ᵖ ʳ ˢ ᵗ ᵘ ᵛ ʷ ˣ ʸ ᶻ", "ᴬ ᴮ ꟲ ᴰ ᴱ ꟳ ᴳ ᴴ ᴵ ᴶ ᴷ ᴸ ᴹ ᴺ ᴼ ᴾ ᴿ ᵀ ᵁ ⱽ ᵂ", "⁰ ¹ ² ³ ⁴ ⁵ ⁶ ⁷ ⁸ ⁹ ⁺ ⁻ ⁼ ⁽ ⁾", "q, Q (S, X, Y, Z use lowercase forms)"],
+            ["Subscript", "ₐ ₑ ₕ ᵢ ⱼ ₖ ₗ ₘ ₙ ₒ ₚ ᵣ ₛ ₜ ᵤ ᵥ ₓ", "None (capitals use the lowercase forms)", "₀ ₁ ₂ ₃ ₄ ₅ ₆ ₇ ₈ ₉ ₊ ₋ ₌ ₍ ₎", "b c d f g q w y z"],
+            ["Small caps", "ᴀ ʙ ᴄ ᴅ ᴇ ꜰ ɢ ʜ ɪ ᴊ ᴋ ʟ ᴍ ɴ ᴏ ᴘ ǫ ʀ ꜱ ᴛ ᴜ ᴠ ᴡ ʏ ᴢ", "Same as lowercase", "Numbers stay normal size", "x (q uses the look-alike ǫ)"],
+          ],
+        },
+      },
+      {
+        heading: "Which tiny text style is smallest?",
+        paragraphs: [
+          "Superscript and subscript are the smallest, at roughly half the height of normal letters. Superscript is usually the better pick because it's missing only q, while subscript is missing nine lowercase letters. Small caps are bigger, about the height of a normal lowercase x, but they're the easiest to read and convert every letter except x.",
+          "A good rule: use superscript for a short tiny word or tagline, small caps for a full tiny sentence or bio, and subscript only for numbers and formulas. For a side-by-side size comparison, see [the smallest text style compared](/guides/smallest-text-style-compared).",
+        ],
+      },
+      {
+        heading: "How do you make tiny numbers?",
+        paragraphs: [
+          "Superscript and subscript both have a complete set of digits, 0 to 9, so tiny numbers always convert. Type the numbers into the generator and copy the Superscript result for raised numbers (x², 10⁶) or the Subscript result for lowered ones (H₂O, CO₂).",
+          "Plus, minus, equals, and brackets also have tiny forms (⁺ ⁻ ⁼ ⁽ ⁾ and ₊ ₋ ₌ ₍ ₎), but the generator keeps those symbols normal size. Copy them from the table above when you need a tiny formula like x⁽ⁿ⁺¹⁾.",
+        ],
+      },
+      {
+        heading: "Why do some tiny letters show as boxes or stay big?",
+        paragraphs: [
+          "A letter that stays big has no tiny version in Unicode, like a superscript q or a subscript b, so the generator leaves it normal size rather than swap in a confusing symbol. If one big letter spoils the look, try another word, or switch that word to small caps.",
+          "A box or question mark means the viewer's device is missing the glyph. It's most likely with the newest characters, like the superscript capitals ꟲ and ꟳ, which Unicode only added in 2021. Lowercase superscript and small caps have the widest support. Also note that tiny text isn't reliably searchable, and screen readers may read it oddly, so keep important words in normal text.",
+        ],
+      },
     ],
     faq: [
-      { question: "Which style makes the smallest text?", answer: "Superscript and subscript characters render smallest — roughly 60–70% of normal height. Small caps is a little larger but has the advantage of a complete alphabet." },
-      { question: "How do I make text really tiny?", answer: "Type it into the generator above and copy the superscript result for the smallest look, or small caps if you need every letter to convert cleanly." },
-      { question: "Do tiny fonts work everywhere?", answer: "They work anywhere standard Unicode is accepted — most social apps and messengers. Strict fields like usernames reject them." },
-      { question: "Why do some letters stay full-size?", answer: "Unicode doesn't define a superscript or subscript form for every letter (several capitals are missing). Those characters are left at normal size so the text stays readable." },
-      { question: "Is tiny text the same as small text?", answer: "'Tiny text' usually means the three smallest styles on this page; 'small text' is the broader term that also covers bold, cursive, and the rest of the library on the home page." },
+      { question: "How do I make tiny text?", answer: "Type your text into the generator above and copy the Superscript result for the smallest letters, or Small caps if you need nearly every letter to convert. Paste it wherever you need it, with no app or font to install." },
+      { question: "Which style makes the smallest text?", answer: "Superscript and subscript are smallest, at about half the height of normal letters. Superscript is usually better because it's only missing q, while subscript is missing nine lowercase letters." },
+      { question: "Is tiny text the same as small text?", answer: "Mostly. \"Tiny text\" usually means the three smallest styles on this page: superscript, subscript, and small caps. \"Small text\" is the broader term that also covers bold, cursive, and other styles on the home page." },
+      { question: "Why do some letters stay full size?", answer: "Unicode doesn't have a tiny form for every letter. There's no superscript q, no subscript b, c, d, f, g, q, w, y, or z, and no small capital x, so those letters stay normal size to keep your text readable." },
+      { question: "Can I make tiny numbers?", answer: "Yes. Superscript (⁰¹²³) and subscript (₀₁₂₃) both have every digit from 0 to 9, so numbers always convert. They're useful for exponents, footnotes, and chemical formulas like H₂O." },
+      { question: "Does tiny text work on Instagram, TikTok, and Discord?", answer: "Yes, in bios, captions, display names, comments, and messages. It doesn't work in usernames or @handles, which only accept plain letters, numbers, and a few symbols." },
+      { question: "Does tiny text use fewer characters?", answer: "No, but it doesn't use more either. Each tiny letter counts as one character, just like a normal letter, so a tiny bio fits the same limit. That's different from bold or cursive letters, which often count as two." },
+      { question: "Why does tiny text show as boxes for some people?", answer: "Their device's font doesn't include that character. The newest tiny letters, like the superscript capitals ꟲ and ꟳ added in 2021, are the most likely to break. Lowercase superscript and small caps work on almost every device." },
+      { question: "Is tiny text searchable or accessible?", answer: "Not reliably. Search tools may not match tiny letters to normal words, and screen readers may read them one at a time or skip them. Keep your name, keywords, and important details in normal text." },
+      { question: "Is this the same as small caps in Word or Google Docs?", answer: "It looks similar but works differently. Word's small caps is formatting applied to normal letters, which disappears in plain-text fields. Unicode small caps are separate characters, so they stay small when you paste them anywhere." },
     ],
-    relatedToolSlugs: ["small-caps", "superscript", "subscript", "cursive"],
-    relatedGuideSlugs: ["how-to-make-tiny-text", "subscript-vs-superscript"],
-    lastUpdated: "2026-09-03",
+    relatedToolSlugs: ["superscript", "subscript", "small-caps", "invisible"],
+    relatedGuideSlugs: ["how-to-make-tiny-text", "smallest-text-style-compared", "subscript-vs-superscript", "tiny-text-discord"],
+    lastUpdated: "2026-10-02",
   },
   {
     slug: "discord-name-generator",

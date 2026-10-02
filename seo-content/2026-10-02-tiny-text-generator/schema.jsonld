@@ -1,0 +1,6 @@
+{
+  "note": "Rendered in-page by components/gallery-tool-page.tsx (WebApplication/HowTo/FAQPage/Breadcrumb; FAQ verbatim). about/mentions for reference.",
+  "@context": "https://schema.org", "@type": "WebApplication", "name": "Tiny Text Generator", "url": "https://smalltextgen.site/tools/tiny-text-generator",
+  "about": [{"@type": "Thing", "name": "Subscript and superscript", "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"}],
+  "mentions": [{"@type": "Thing", "name": "Small caps", "sameAs": "https://en.wikipedia.org/wiki/Small_caps"}, {"@type": "Thing", "name": "Superscripts and Subscripts", "sameAs": "https://en.wikipedia.org/wiki/Superscripts_and_Subscripts_(Unicode_block)"}]
+}

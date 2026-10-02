@@ -129,7 +129,7 @@ const homeSections: GuideSection[] = [
   {
     heading: "Which small text style should you use?",
     paragraphs: [
-      "Small text comes in three main styles, and none of them has every letter. Unicode never added a small capital X, a superscript q, or subscript forms for about ten letters, so the generator leaves those letters as they are instead of swapping in a misleading look-alike. Pick the style by how small you need it and how complete the alphabet has to be.",
+      "Small text comes in three main styles, and none of them has every letter. Unicode never added a small capital X, a superscript q, or subscript forms for nine letters, so the generator leaves those letters as they are instead of swapping in a misleading look-alike. Pick the style by how small you need it and how complete the alphabet has to be.",
     ],
     table: {
       caption: "Small text styles compared",
@@ -137,7 +137,7 @@ const homeSections: GuideSection[] = [
       rows: [
         ["[Small caps](/tools/small-caps)", "ꜱᴍᴀʟʟ ᴛᴇxᴛ", "Lowercase height", "x (q uses a look-alike, ǫ)", "Full bios, names, headings"],
         ["[Superscript](/tools/superscript)", "ˢᵐᵃˡˡ ᵗᵉˣᵗ ¹²³", "About half height, raised", "q", "Tiny accents, footnotes, exponents"],
-        ["[Subscript](/tools/subscript)", "ₛₘₐₗₗ ₜₑₓₜ ₁₂₃", "About half height, lowered", "b c d f g j q w y z", "Chemical formulas, numbers"],
+        ["[Subscript](/tools/subscript)", "ₛₘₐₗₗ ₜₑₓₜ ₁₂₃", "About half height, lowered", "b c d f g q w y z", "Chemical formulas, numbers"],
         ["[Tiny text](/tools/tiny-text-generator)", "ᵗⁱⁿʸ ᵗᵉˣᵗ", "Smallest", "q", "One tiny word or line"],
       ],
     },

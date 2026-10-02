@@ -1,0 +1,10 @@
+[
+ {"canonical":"Tiny text","type":"Concept","aliases":["tiny letters","tiny font"],"sameAs":"","kind":"term","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Subscript and superscript","type":"Concept","aliases":["superscript","subscript"],"sameAs":"https://en.wikipedia.org/wiki/Subscript_and_superscript","kind":"entity","competitor_count":4,"in_title_or_h2":true,"tier":1},
+ {"canonical":"Small caps","type":"Concept","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Small_caps","kind":"entity","competitor_count":4,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Unicode","type":"Standard","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Unicode","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":1},
+ {"canonical":"Superscripts and Subscripts","type":"Unicode block","aliases":["tiny numbers"],"sameAs":"https://en.wikipedia.org/wiki/Superscripts_and_Subscripts_(Unicode_block)","kind":"entity","competitor_count":1,"in_title_or_h2":true,"tier":2},
+ {"canonical":"Latin Extended-D","type":"Unicode block","aliases":["ꟲ","ꟳ"],"sameAs":"https://en.wikipedia.org/wiki/Latin_Extended-D","kind":"entity","competitor_count":0,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Discord","type":"Product","aliases":["-# subtext"],"sameAs":"https://en.wikipedia.org/wiki/Discord","kind":"entity","competitor_count":2,"in_title_or_h2":false,"tier":2},
+ {"canonical":"Instagram","type":"Product","aliases":[],"sameAs":"https://en.wikipedia.org/wiki/Instagram","kind":"entity","competitor_count":3,"in_title_or_h2":false,"tier":2}
+]
