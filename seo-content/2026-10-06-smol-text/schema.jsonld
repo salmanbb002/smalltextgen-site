@@ -1,0 +1,136 @@
+{
+ "note": "Rendered in-page by app/guides/[slug]/page.tsx (Article + FAQPage + Breadcrumb; FAQ verbatim). about/mentions for reference; entities typed Thing on purpose.",
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Smol Text: How to Make Tiny, Cute Letters You Can Copy and Paste",
+ "description": "Smol text is tiny, cute Unicode lettering like ˢᵐᵒˡ and ꜱᴍᴏʟ. Learn what smol means, where it came from, and how to copy and paste smol text anywhere.",
+ "mainEntityOfPage": "https://smalltextgen.site/guides/smol-text",
+ "datePublished": "2026-10-06",
+ "dateModified": "2026-10-06",
+ "author": {
+  "@type": "Person",
+  "name": "TODO: author name"
+ },
+ "publisher": {
+  "@id": "https://smalltextgen.site/#organization"
+ },
+ "about": [
+  {
+   "@type": "Thing",
+   "name": "Smol",
+   "sameAs": "https://en.wiktionary.org/wiki/smol"
+  },
+  {
+   "@type": "Thing",
+   "name": "Internet slang",
+   "sameAs": "https://en.wikipedia.org/wiki/Internet_slang"
+  }
+ ],
+ "mentions": [
+  {
+   "@type": "Thing",
+   "name": "DoggoLingo",
+   "sameAs": "https://en.wikipedia.org/wiki/DoggoLingo"
+  },
+  {
+   "@type": "Thing",
+   "name": "Smol bean"
+  },
+  {
+   "@type": "Thing",
+   "name": "Unicode",
+   "sameAs": "https://en.wikipedia.org/wiki/Unicode"
+  },
+  {
+   "@type": "Thing",
+   "name": "Superscript",
+   "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"
+  },
+  {
+   "@type": "Thing",
+   "name": "Small caps",
+   "sameAs": "https://en.wikipedia.org/wiki/Small_caps"
+  },
+  {
+   "@type": "Thing",
+   "name": "Subscript",
+   "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"
+  },
+  {
+   "@type": "Thing",
+   "name": "Tiny text"
+  },
+  {
+   "@type": "Thing",
+   "name": "Twenty One Pilots",
+   "sameAs": "https://en.wikipedia.org/wiki/Twenty_One_Pilots"
+  },
+  {
+   "@type": "Thing",
+   "name": "BuzzFeed",
+   "sameAs": "https://en.wikipedia.org/wiki/BuzzFeed"
+  },
+  {
+   "@type": "Thing",
+   "name": "Twitter",
+   "sameAs": "https://en.wikipedia.org/wiki/Twitter"
+  },
+  {
+   "@type": "Thing",
+   "name": "Gretchen McCulloch",
+   "sameAs": "https://en.wikipedia.org/wiki/Gretchen_McCulloch"
+  },
+  {
+   "@type": "Thing",
+   "name": "Eye dialect",
+   "sameAs": "https://en.wikipedia.org/wiki/Eye_dialect"
+  },
+  {
+   "@type": "Thing",
+   "name": "Tol"
+  },
+  {
+   "@type": "Thing",
+   "name": "Lorge"
+  },
+  {
+   "@type": "Thing",
+   "name": "Know Your Meme",
+   "sameAs": "https://en.wikipedia.org/wiki/Know_Your_Meme"
+  },
+  {
+   "@type": "Thing",
+   "name": "Dictionary.com",
+   "sameAs": "https://en.wikipedia.org/wiki/Dictionary.com"
+  },
+  {
+   "@type": "Thing",
+   "name": "Screen reader",
+   "sameAs": "https://en.wikipedia.org/wiki/Screen_reader"
+  },
+  {
+   "@type": "Thing",
+   "name": "Instagram",
+   "sameAs": "https://en.wikipedia.org/wiki/Instagram"
+  },
+  {
+   "@type": "Thing",
+   "name": "Discord",
+   "sameAs": "https://en.wikipedia.org/wiki/Discord"
+  },
+  {
+   "@type": "Thing",
+   "name": "Bubble text"
+  },
+  {
+   "@type": "Thing",
+   "name": "Usernames"
+  }
+ ],
+ "speakable": {
+  "@type": "SpeakableSpecification",
+  "cssSelector": [
+   ".guide-intro-paragraph"
+  ]
+ }
+}

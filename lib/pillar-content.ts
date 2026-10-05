@@ -93,7 +93,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Is there a subscript shortcut for Excel?", answer: "Excel has no default keyboard shortcut for subscript. Double-click into the cell, select the characters, open Format Cells → Font, and check Subscript." },
       { question: "How do I write subscript in HTML?", answer: "Wrap the characters in a <sub> tag — for example H<sub>2</sub>O. Unicode subscript from this generator is the plain-text alternative for fields that don't support HTML or rich formatting at all." },
     ],
-    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-subscript-character-set", "smallest-text-style-compared"],
+    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-subscript-character-set", "smallest-text-style-compared", "small-text-generator-compared"],
   },
   {
     slug: "cursive",
@@ -217,7 +217,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Do numbers convert to small caps too?", answer: "No — this generator only converts letters. Unicode's small-caps block doesn't include digit forms the way superscript and subscript do, so numbers are left at normal size." },
       { question: "Is Word's Small Caps the same as this generator's output?", answer: "They look similar but work differently. Word's version is a text style that only holds inside Word-compatible editing. This generator's output is actual Unicode characters, so it looks the same everywhere you paste it — a bio, a chat, a spreadsheet — with no editor required." },
     ],
-    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "small-caps-copy-paste", "small-caps-vs-all-caps", "fonts-for-tiktok", "numbers-in-small-font", "small-text-png-vs-unicode"],
+    relatedGuideSlugs: ["unicode-explained", "copy-paste-text-tricks-social-media-bios", "small-caps-copy-paste", "small-caps-vs-all-caps", "fonts-for-tiktok", "numbers-in-small-font", "small-text-png-vs-unicode", "small-text-generator-compared"],
   },
   {
     slug: "superscript",
@@ -261,7 +261,7 @@ export const pillarContent: PillarContent[] = [
       { question: "Why do 'i' and 'q' never convert, specifically?", answer: "Unicode never assigned superscript code points for lowercase i or q — every other lowercase letter has one, but those two don't exist in any font. The generator leaves them as regular letters rather than faking a lookalike. See the [full character reference](/guides/superscript-subscript-character-set) for what does convert." },
       { question: "Is there a superscript shortcut for Excel or PowerPoint?", answer: "PowerPoint uses the same shortcut as Word (Ctrl+Shift+=). Excel has no default keyboard shortcut — select the characters inside the cell, open Format Cells → Font, and check Superscript." },
     ],
-    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-discord", "superscript-numbers-exponents", "superscript-subscript-character-set", "smallest-text-style-compared"],
+    relatedGuideSlugs: ["subscript-vs-superscript", "subscript-numbers-chemistry", "superscript-discord", "superscript-numbers-exponents", "superscript-subscript-character-set", "smallest-text-style-compared", "smol-text"],
   },
   {
     slug: "bubble",

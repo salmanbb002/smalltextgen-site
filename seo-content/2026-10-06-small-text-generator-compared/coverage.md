@@ -1,0 +1,13 @@
+# Coverage / QA: small text generator compared (Day 30)
+- New guide, 7 H2 + 7 H3, one 7-row comparison table, one numbered checklist, FAQ 12. About 2,350 words. Answer block 47 words. Title 55 chars, meta 154.
+- Tier 1: 8/8 (each with an attribute). Tier 2: 13/13. String-level check run against entities.json.
+- Heading check: one H1, no skipped levels, each H2 owns a different phrase.
+- Competitor-heading matrix: what it is ✓, three styles ✓, copy and paste ✓, missing letters ✓, platforms ✓, boxes ✓, screen readers ✓, privacy ✓, numbers/math (only as Omni's differentiator; superscript-numbers guide owns it).
+- Fact check: every competitor claim traces to the Step 4 table. Letter coverage verified against lib/fonts.ts by script. Our style count (29) counted from `textStyles`.
+- Flags for a human:
+  - Competitor facts come from fetched page text, not hands-on use. "Not shown" for LingoJam's copy button means not visible in the fetch; worth a 30-second manual look.
+  - Competitor pages change; the table is dated October 6, 2026.
+  - "All seven were free without an account": stated on some pages, inferred for LingoJam and Omni Calculator from the absence of a login wall.
+  - No named author on our page (schema keeps Organization author; TODO in schema.jsonld).
+  - README says 23 styles; the code has 29. The article uses 29.
+- Readability: about grade 7–8.

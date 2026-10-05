@@ -43,6 +43,7 @@ export function SiteFooter() {
           <Link href="/guides/tiny-text-discord">Tiny text for Discord</Link>
           <Link href="/guides/small-text-instagram-bio">Small text for Instagram</Link>
           <Link href="/guides/copy-paste-fonts-guide">Copy-paste fonts guide</Link>
+          <Link href="/guides/small-text-generator-compared">Small text generators compared</Link>
         </div>
         <div>
           <p className="footer-label">Info</p>

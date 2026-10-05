@@ -121,6 +121,8 @@ const focusedTools = [
 const relatedGuides = [
   ["Aesthetic Fonts for Your Instagram Bio", "small-text-instagram-bio"],
   ["Smallest Text Style Compared", "smallest-text-style-compared"],
+  ["Small Text Generators Compared: 7 Free Tools", "small-text-generator-compared"],
+  ["Smol Text: Tiny, Cute Letters to Copy and Paste", "smol-text"],
   ["Tiny Text for Discord: Copy, Paste, and Tips", "tiny-text-discord"],
   ["Best Copy-Paste Text Tricks for Social Media Bios", "copy-paste-text-tricks-social-media-bios"],
 ] as const;
@@ -146,7 +148,7 @@ const homeSections: GuideSection[] = [
     heading: "How does small text work?",
     paragraphs: [
       "Your phone can't shrink one word in a bio, because apps like Instagram and Discord don't let you change font size. Unicode, the standard list of characters every device shares, happens to include letters that are drawn small: phonetic small capitals used by linguists, and the raised and lowered letters used in math and chemistry. A small text generator swaps your normal letters for those characters.",
-      "Because the result is real text, it copies and pastes like anything else and shows up the same for everyone whose device has the glyphs. On a few older phones, rare characters can appear as boxes, which is why small caps, with the widest support, is the safe default. For more detail, read [Unicode, explained](/guides/unicode-explained) or compare sizes in [the smallest text style](/guides/smallest-text-style-compared).",
+      "Because the result is real text, it copies and pastes like anything else and shows up the same for everyone whose device has the glyphs. On a few older phones, rare characters can appear as boxes, which is why small caps, with the widest support, is the safe default. For more detail, read [Unicode, explained](/guides/unicode-explained) or compare sizes in [the smallest text style](/guides/smallest-text-style-compared). To see how this tool stacks up against others, read [seven small text generators compared](/guides/small-text-generator-compared).",
     ],
   },
   {

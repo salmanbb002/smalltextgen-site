@@ -360,7 +360,7 @@ export const guides: Guide[] = [
       { label: "small text generator", href: "/" },
       { label: "fancy text generator", href: "/tools/fancy-text-generator" },
     ],
-    relatedGuideSlugs: ["bubble-text-instagram-tiktok", "aesthetic-cursive-fonts", "copy-paste-text-tricks-social-media-bios", "tiny-text-discord"],
+    relatedGuideSlugs: ["bubble-text-instagram-tiktok", "aesthetic-cursive-fonts", "copy-paste-text-tricks-social-media-bios", "tiny-text-discord", "smol-text"],
   },
     {
     slug: "tiny-text-discord",
@@ -471,7 +471,7 @@ export const guides: Guide[] = [
       { label: "small caps generator", href: "/tools/small-caps" },
       { label: "superscript generator", href: "/tools/superscript" },
     ],
-    relatedGuideSlugs: ["small-text-instagram-bio", "blank-discord-name-message", "glitch-text-generator"],
+    relatedGuideSlugs: ["small-text-instagram-bio", "blank-discord-name-message", "glitch-text-generator", "smol-text"],
   },
   {
     slug: "what-is-invisible-text",
@@ -975,7 +975,7 @@ export const guides: Guide[] = [
       {
         heading: "The three styles that actually make text smaller",
         paragraphs: [
-          "Small caps (ᴛɪɴʏ) replaces lowercase with miniature capital letterforms and keeps a complete alphabet. Superscript (ᵗⁱⁿʸ) raises tiny characters above the baseline and renders smallest. Subscript (ₜᵢₙy) does the same below the line. Bold, cursive, and bubble change the shape of letters but not their size, so they don't count as tiny.",
+          "Small caps (ᴛɪɴʏ) replaces lowercase with miniature capital letterforms and keeps a complete alphabet. Superscript (ᵗⁱⁿʸ) raises tiny characters above the baseline and renders smallest. Subscript (ₜᵢₙy) does the same below the line. Bold, cursive, and bubble change the shape of letters but not their size, so they don't count as tiny. Online, these three styles are also nicknamed [smol text](/guides/smol-text), after the slang word for small and cute.",
         ],
       },
       {
@@ -993,7 +993,7 @@ export const guides: Guide[] = [
       {
         heading: "Copy and paste small letters without a generator",
         paragraphs: [
-          "You can't type these characters directly on a standard keyboard, so a converter is the practical route. Once pasted, the small letters behave like any other text — searchable, selectable, and editable. Bookmark the [small text generator](/) if you do it often.",
+          "You can't type these characters directly on a standard keyboard, so a converter is the practical route. Once pasted, the small letters behave like any other text — searchable, selectable, and editable. Bookmark the [small text generator](/) if you do it often. Every converter outputs the same characters, so the differences are in the interface: see [seven small text generators compared](/guides/small-text-generator-compared).",
         ],
       },
       {
@@ -1014,7 +1014,7 @@ export const guides: Guide[] = [
       { label: "small text generator", href: "/" },
       { label: "tiny text generator", href: "/tools/tiny-text-generator" },
     ],
-    relatedGuideSlugs: ["subscript-vs-superscript", "small-text-instagram-bio", "copy-paste-fonts-guide"],
+    relatedGuideSlugs: ["subscript-vs-superscript", "small-text-instagram-bio", "copy-paste-fonts-guide", "smol-text", "small-text-generator-compared"],
   },
   {
     slug: "superscript-numbers-exponents",
@@ -1335,13 +1335,14 @@ export const guides: Guide[] = [
       {
         heading: "Every style, grouped",
         paragraphs: [
-          "Small / compact: small caps, superscript, subscript. Weight and slant: bold, italic, bold italic, monospace. Script: cursive (plain and bold). Blackletter and outline: fraktur, double-struck. Enclosed: bubble (circled and filled), squared. Framed: brackets, hearts, sparkles. Layout: letter-spaced, full width, upside down, reversed. Effect: glitch. Blank: invisible.",
+          "Small / compact: small caps, superscript, subscript (the styles nicknamed [smol text](/guides/smol-text)). Weight and slant: bold, italic, bold italic, monospace. Script: cursive (plain and bold). Blackletter and outline: fraktur, double-struck. Enclosed: bubble (circled and filled), squared. Framed: brackets, hearts, sparkles. Layout: letter-spaced, full width, upside down, reversed. Effect: glitch. Blank: invisible.",
         ],
       },
       {
         heading: "How to copy and paste a font, step by step",
         paragraphs: [
           "1. Open a generator and type your text.\n2. Compare the styles.\n3. Tap Copy on the one you want.\n4. Paste it into the bio, caption, message, or field.\n5. Preview it there before you rely on it.",
+          "Not sure which generator to open? [Seven free small text generators compared](/guides/small-text-generator-compared) lists what each one converts and how you copy the result.",
         ],
       },
       {
@@ -1368,7 +1369,7 @@ export const guides: Guide[] = [
       { label: "small text generator", href: "/" },
       { label: "Unicode text converter", href: "/tools/unicode-text-converter" },
     ],
-    relatedGuideSlugs: ["unicode-explained", "fancy-text-styles-explained", "unicode-text-converter-explained"],
+    relatedGuideSlugs: ["unicode-explained", "fancy-text-styles-explained", "unicode-text-converter-explained", "small-text-generator-compared"],
   },
   {
     slug: "unicode-text-converter-explained",
@@ -1463,7 +1464,7 @@ export const guides: Guide[] = [
       {
         heading: "Picking one",
         paragraphs: [
-          "Want maximum shrink for a two or three word lowercase tagline: superscript. Want a whole bio line or anything with capitals and numbers to stay readable: small caps. Subscript is niche — reach for it only when you specifically want the below-the-line look.",
+          "Want maximum shrink for a two or three word lowercase tagline: superscript. Want a whole bio line or anything with capitals and numbers to stay readable: small caps. Subscript is niche — reach for it only when you specifically want the below-the-line look. The ranking holds in any tool, because they all use the same characters; [small text generators compared](/guides/small-text-generator-compared) covers how the tools themselves differ. For the playful side of superscript, see [smol text](/guides/smol-text).",
         ],
       },
     ],
@@ -1477,7 +1478,7 @@ export const guides: Guide[] = [
       { label: "tiny text generator", href: "/tools/tiny-text-generator" },
       { label: "small text generator", href: "/" },
     ],
-    relatedGuideSlugs: ["how-to-make-tiny-text", "subscript-vs-superscript", "small-text-instagram-bio"],
+    relatedGuideSlugs: ["how-to-make-tiny-text", "subscript-vs-superscript", "small-text-instagram-bio", "small-text-generator-compared", "smol-text"],
   },
   {
     slug: "superscript-discord",
@@ -1654,7 +1655,7 @@ export const guides: Guide[] = [
       {
         heading: "Building an aesthetic bio layout",
         paragraphs: [
-          "The look that works: one script line for your name or handle, a plain-text line for what you do, then a short script or small-caps line for a tagline. Three lines, one or two styled. A whole bio in script is hard to read at bio size — see [convert text to cursive](/guides/convert-text-to-cursive) on why script gets spidery in bulk.",
+          "The look that works: one script line for your name or handle, a plain-text line for what you do, then a short script or small-caps line for a tagline. Three lines, one or two styled. For the tagline, tiny superscript [smol text](/guides/smol-text) is a softer alternative to small caps. A whole bio in script is hard to read at bio size — see [convert text to cursive](/guides/convert-text-to-cursive) on why script gets spidery in bulk.",
         ],
       },
       {
@@ -1680,7 +1681,7 @@ export const guides: Guide[] = [
       { label: "cursive font generator", href: "/tools/cursive" },
       { label: "fancy text generator", href: "/tools/fancy-text-generator" },
     ],
-    relatedGuideSlugs: ["convert-text-to-cursive", "cursive-fonts-instagram-bio", "fancy-text-styles-explained"],
+    relatedGuideSlugs: ["convert-text-to-cursive", "cursive-fonts-instagram-bio", "fancy-text-styles-explained", "smol-text"],
   },
   {
     slug: "invisible-character-instagram",
@@ -1767,7 +1768,7 @@ export const guides: Guide[] = [
       {
         heading: "Small caps vs the alternatives",
         paragraphs: [
-          "Superscript and subscript render smaller but drop capitals; small caps keeps every letter, which is why it's the safe default for a name or a full bio line. For the size comparison see [which small text style is smallest](/guides/smallest-text-style-compared).",
+          "Superscript and subscript render smaller but drop capitals; small caps keeps every letter, which is why it's the safe default for a name or a full bio line. For the size comparison see [which small text style is smallest](/guides/smallest-text-style-compared), and for a tool-by-tool look see [small text generators compared](/guides/small-text-generator-compared).",
         ],
       },
     ],
@@ -1781,7 +1782,7 @@ export const guides: Guide[] = [
       { label: "small caps generator", href: "/tools/small-caps" },
       { label: "small text generator", href: "/" },
     ],
-    relatedGuideSlugs: ["smallest-text-style-compared", "small-caps-vs-all-caps", "small-text-instagram-bio"],
+    relatedGuideSlugs: ["smallest-text-style-compared", "small-caps-vs-all-caps", "small-text-instagram-bio", "small-text-generator-compared"],
   },
   {
     slug: "underline-text-copy-paste",
@@ -1901,7 +1902,7 @@ export const guides: Guide[] = [
       {
         heading: "Are they free?",
         paragraphs: [
-          "Yes. Unicode characters aren't licensed the way typeface files are — there's no font to buy or attribute. A generator that runs in your browser, like the ones here, also doesn't charge or watermark. You're using standard characters that every device already has.",
+          "Yes. Unicode characters aren't licensed the way typeface files are — there's no font to buy or attribute. A generator that runs in your browser, like the ones here, also doesn't charge or watermark. You're using standard characters that every device already has. In our [comparison of seven free small text generators](/guides/small-text-generator-compared), none asked for an account.",
         ],
       },
       {
@@ -1933,7 +1934,7 @@ export const guides: Guide[] = [
       { label: "small text generator", href: "/" },
       { label: "Unicode text converter", href: "/tools/unicode-text-converter" },
     ],
-    relatedGuideSlugs: ["copy-paste-fonts-guide", "unicode-explained", "copy-paste-text-tricks-social-media-bios"],
+    relatedGuideSlugs: ["copy-paste-fonts-guide", "unicode-explained", "copy-paste-text-tricks-social-media-bios", "small-text-generator-compared"],
   },
   {
     slug: "numbers-in-small-font",
@@ -2499,6 +2500,285 @@ export const guides: Guide[] = [
       { label: "strikethrough text generator", href: "/tools/strikethrough" },
     ],
     relatedGuideSlugs: ["underline-text-copy-paste", "fonts-for-twitter-x", "small-text-instagram-bio", "tiny-text-discord"],
+  },
+  {
+    slug: "small-text-generator-compared",
+    title: "Small Text Generator: 7 Best Free Tools Compared (2026)",
+    metaDescription:
+      "Seven free small text generators compared on styles, copy buttons, and extras. One side-by-side table shows which tool fits bios, Discord names, and math.",
+    h1: "Small Text Generators Compared: Which Free Tool Is Actually Best?",
+    dek: "Seven free small text generators, one table. What each tool converts, how you copy the result, and which one fits the job you have.",
+    cluster: "A",
+    lastUpdated: "2026-10-06",
+    intro: [
+      "The best free small text generator depends on how many styles you need. LingoJam, ConvertCase, CommentPicker, WordCount, and Omni Calculator each convert text into three styles: small caps, superscript, and subscript. SmallTextGen.com adds bubble and cursive for six. SmallTextGen.site shows 29 styles, with search and saved favorites.",
+      "We make one of these seven tools, so read our own row with the same suspicion you would give any vendor. Every fact below comes from each tool's public page as it stood on October 6, 2026. Where a page did not show something, the table says \"not shown\" instead of guessing.",
+    ],
+    sections: [
+      {
+        heading: "What is a small text generator?",
+        paragraphs: [
+          "A small text generator is a free online tool that swaps each letter you type for a smaller-looking Unicode character. The result is plain text, not a font size, so it survives copy and paste into bios, captions, chats, and display names.",
+          "Every tool in this comparison draws on the same three Unicode alphabets. Small caps (ꜱᴍᴀʟʟ) uses miniature capital letterforms. Superscript (ˢᵐᵃˡˡ) raises tiny letters above the line, and subscript (ₛₘₐₗₗ) drops them below it. Omni Calculator's page puts it well: these are not a separate font, but characters with their own Unicode code points.",
+          "That shared source matters for the rest of this guide. Type the same word into any of the seven tools and the small caps result is the same string of characters. The tools differ in how many styles they offer, how you copy the result, and what sits around the converter.",
+        ],
+      },
+      {
+        heading: "Which small text generators did we compare?",
+        paragraphs: [
+          "We compared seven free tools: our own generator plus six established alternatives. The table lists what each tool's page showed on October 6, 2026. \"Small styles\" counts only styles that shrink letters. \"All styles\" counts everything the same page converts.",
+        ],
+        table: {
+          caption: "Seven free small text generators compared (checked October 6, 2026)",
+          headers: ["Tool", "Small styles", "All styles on the page", "How you copy", "Standout extra", "Best for"],
+          rows: [
+            ["[SmallTextGen.site](/) (ours)", "Small caps, superscript, subscript", "29", "Click any output", "Style search, category filters, saved styles", "Comparing many styles at once"],
+            ["SmallTextGen.com", "Small caps, superscript, subscript, tiny text", "6", "Copy button on each style card", "Sections for WhatsApp, Discord, and Instagram", "Platform-specific instructions"],
+            ["LingoJam Tiny Text Generator", "Small caps, superscript, subscript", "3", "Not shown", "Plain two-box translator layout", "A fast one-off conversion"],
+            ["ConvertCase", "Small caps, superscript, subscript", "3", "Copy button on each style", "Favorites, plus 80+ other text tools", "People already using it for case conversion"],
+            ["CommentPicker", "Small caps, superscript, subscript", "3", "Copy button on each style", "Settings panel, plus giveaway and social tools", "Social media managers"],
+            ["WordCount", "Superscript, small caps, subscript", "3", "Paste and copy buttons", "Character counter link, screen reader notes", "Writers watching a character limit"],
+            ["Omni Calculator", "Small capitals, superscript, subscript", "3", "Copy and paste from the result", "Capital superscripts, digits, and math symbols", "Math and science notation"],
+          ],
+        },
+      },
+      {
+        heading: "Which small text generator is best for each job?",
+        paragraphs: [
+          "No single tool wins every job, because the seven tools are built around different users. Pick by what you are doing: styling a bio, fixing one word, or writing a formula. The notes below explain what each tool is good at and where it stops.",
+        ],
+        subsections: [
+          {
+            heading: "SmallTextGen.site: the widest style range",
+            paragraphs: [
+              "SmallTextGen.site suits people who want to compare styles before choosing one. The [small text generator](/) converts one input into 29 styles across five categories: Tiny, Classic, Decorated, Playful, and Invisible. You can search styles by name, filter by category, and save favorites, which the browser remembers.",
+              "The trade-off is a longer results list than a three-style tool. If you only want the three small styles, the [tiny text generator](/tools/tiny-text-generator) page narrows it down, and the [fancy text generator](/tools/fancy-text-generator) gathers the decorative ones. This is our tool, so test it against the others instead of taking our word.",
+            ],
+          },
+          {
+            heading: "SmallTextGen.com: platform-by-platform help",
+            paragraphs: [
+              "SmallTextGen.com suits readers who want instructions for one app. Its page offers six styles (small caps, superscript, subscript, tiny text, bubble text, and fancy cursive) with a copy button on each style card. Below the tool it has sections for WhatsApp, Discord, Instagram, and names and usernames.",
+              "The page states that it has no character limits, needs no signup, and processes text entirely within your browser. Its navigation links to more than 25 separate style tools, so other styles live on other pages instead of in one list.",
+            ],
+          },
+          {
+            heading: "LingoJam: the quickest one-off",
+            paragraphs: [
+              "LingoJam's Tiny Text Generator suits a single quick conversion. It converts text into three styles and names them in its own title: three different types. The page is a plain translator with very little around it, and it showed no FAQ or how-to section when we checked.",
+              "Its short explainer is honest about the limits. It calls the small caps alphabet the most complete and says subscript is lacking quite a few letters with no reasonable replacement. We could not confirm a per-style copy button from the page, so plan to select the text yourself.",
+            ],
+          },
+          {
+            heading: "ConvertCase: the all-round text toolbox",
+            paragraphs: [
+              "ConvertCase suits people who already use it for other text jobs. Its small text page converts three styles with a copy button on each, and lets you mark favorites. The same site lists more than 80 tools, from case conversion to a JSON formatter.",
+              "It also has the clearest letter-coverage notes of the group. The page lists the nine letters subscript is missing, marks q as missing from superscript, and x as the only small caps gap. It shows a \"last reviewed\" date of September 2026 and offers ad removal through Ko-fi.",
+            ],
+          },
+          {
+            heading: "CommentPicker: built for social media managers",
+            paragraphs: [
+              "CommentPicker suits people running social accounts. Its generator converts three styles with a separate copy button for each, and the page says small text creation is unlimited and free. A settings panel sits beside the tool.",
+              "The rest of the site is aimed at giveaways and social posts, with an Instagram font generator, a random name picker, and more than 40 other tools. Its FAQ covers only three questions, so it explains less than ConvertCase or WordCount.",
+            ],
+          },
+          {
+            heading: "WordCount: best when length matters",
+            paragraphs: [
+              "WordCount suits writers who are working against a character limit. Its tool converts superscript, small caps, and subscript, with paste and copy buttons, and links straight to a character counter. The page says everything runs in your browser and nothing is uploaded.",
+              "It is also one of two tools here with an accessibility section, explaining what a screen reader hears when it meets these characters. It has no styles beyond the three small ones on this page; its fancy text generator is a separate tool with 13 styles.",
+            ],
+          },
+          {
+            heading: "Omni Calculator: best for math and science",
+            paragraphs: [
+              "Omni Calculator suits students and anyone writing formulas. Besides small capitals, superscript, and subscript letters, it lists capital superscripts, digits, and math symbols. It is the only page of the seven that names an author and a reviewer: Wojciech Sas, PhD, and Steven Wooding.",
+              "It is built like a calculator, with reload and clear buttons, so it feels less like a style picker. For exponents and chemical formulas specifically, our [superscript generator](/tools/superscript) and [subscript generator](/tools/subscript) do the same job with a copy button per result.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What do all small text generators have in common?",
+        paragraphs: [
+          "All seven tools have the same gaps, because Unicode does not include a small version of every letter. No generator can add a character that does not exist. A tool can only leave the letter at normal size or swap in a lookalike.",
+          "The gaps are specific. Subscript covers 17 of 26 lowercase letters (a, e, h, i, j, k, l, m, n, o, p, r, s, t, u, v, x), which leaves nine missing: b, c, d, f, g, q, w, y, and z. Superscript is missing q. Small caps is missing only x. ConvertCase and WordCount both list the same subscript set, and our own generator converts exactly those 17.",
+          "So small caps is the safe choice for full sentences, and superscript is the smallest style that still covers almost every letter. For a ranked look at size, see [which small text style is smallest](/guides/smallest-text-style-compared).",
+        ],
+      },
+      {
+        heading: "How do you choose a small text generator?",
+        paragraphs: [
+          "Choose by matching the tool to the task, since the converted characters are identical. These five checks take about a minute and settle it.",
+          "1. Count the styles you need. For only small caps, superscript, and subscript, any of the seven works. For bold, cursive, bubble, or glitch text in the same place, pick a tool with a longer list.\n2. Check the copy step. A copy button on each style is faster than selecting text by hand, mostly on a phone.\n3. Check what happens to missing letters. A good tool leaves the letter plain instead of inserting a wrong-looking symbol.\n4. Check where your text goes. SmallTextGen.com and WordCount both say conversion runs in your browser, and our generator works the same way.\n5. Read the accessibility note, if there is one. ConvertCase and WordCount both explain how screen readers handle these characters.",
+          "If two tools pass all five checks, pick the one whose layout you find faster. There is no quality difference in the output to break the tie.",
+        ],
+      },
+      {
+        heading: "Do small text generators work on Instagram, Discord, and WhatsApp?",
+        paragraphs: [
+          "Yes, small text from any of these tools pastes into Instagram, Discord, WhatsApp, TikTok, X, and Facebook, because all of them accept Unicode text. It works in bios, captions, comments, messages, and display names. It is rejected in usernames and handles, which accept only plain letters, numbers, and a few symbols.",
+          "Discord is a special case because it has a native option. Typing -# at the start of a line makes real small subtext in a message, with normal letters. That is better than Unicode for messages, but it does not work in display names or statuses. The [tiny text on Discord guide](/guides/tiny-text-discord) covers both methods, and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) covers bios.",
+        ],
+      },
+      {
+        heading: "What are the limits of every small text generator?",
+        paragraphs: [
+          "Every small text generator shares three limits, whichever one you choose. First, missing letters stay full size, which can break the look of a word. Second, older devices can show boxes or squares where a character has no glyph in the device's font. SmallTextGen.com and CommentPicker both answer that question in their FAQs.",
+          "Third, small text is harder for assistive technology. ConvertCase notes that a screen reader may read a superscript letter as \"modifier letter small h\" instead of the letter itself. Search and hashtags may not match styled words either, since each styled letter is a different character from the plain one.",
+          "The practical rule is to keep small text short. Use it for a name, a label, or one phrase, and leave anything people must read or search for in plain letters. The [copy-paste font safety guide](/guides/are-copy-paste-fonts-safe) goes deeper on accessibility.",
+        ],
+      },
+    ],
+    faq: [
+      { question: "What is the best free small text generator?", answer: "The best free small text generator is the one that matches your task, because all of them output the same Unicode characters. For three small styles and nothing else, LingoJam, ConvertCase, CommentPicker, WordCount, and Omni Calculator all work. For more styles in one list, SmallTextGen.site shows 29." },
+      { question: "Are small text generators really free?", answer: "Yes, all seven tools compared here were free to use without an account when checked on October 6, 2026. CommentPicker and SmallTextGen.com state it directly on their pages. ConvertCase also offers optional ad removal through Ko-fi." },
+      { question: "Do different small text generators produce different text?", answer: "No, the small caps, superscript, and subscript output is the same across tools, because each one maps letters to the same Unicode characters. Differences appear only in how a tool handles letters with no small version. Some leave the letter plain and some substitute a lookalike." },
+      { question: "Is there a limit to how much text I can convert?", answer: "SmallTextGen.com says it has no character limits, and CommentPicker says small text creation is unlimited. The other tools did not state a limit on their pages. The limit that matters is usually the app you paste into, such as a bio or username length." },
+      { question: "Why does my small text show as boxes or squares?", answer: "Boxes appear when the device's font has no glyph for a character. It happens most on older phones and operating systems. Try small caps instead of subscript, since small caps characters are more widely supported, and preview the text in the app before you post." },
+      { question: "Why are some letters missing in small text?", answer: "Some letters are missing because Unicode never defined a small version of them. Subscript has 17 of 26 lowercase letters, superscript lacks q, and small caps lacks x. No generator can fix this, so the missing letters stay at normal size." },
+      { question: "Is small text an actual font?", answer: "No, small text is a set of Unicode characters, not a font. Each small letter has its own code point, the same way an emoji does. That is why it keeps its look when pasted into apps that do not let you choose fonts." },
+      { question: "Which small text generator is best for Discord?", answer: "Any of the seven tools works for Discord display names and statuses, since they output the same characters. For messages, Discord's own -# subtext is better than Unicode because it keeps normal, readable letters. SmallTextGen.com and SmallTextGen.site both have Discord-specific instructions." },
+      { question: "Is it safe to paste my text into a small text generator?", answer: "SmallTextGen.com and WordCount both state that conversion runs in your browser and text is not uploaded, and SmallTextGen.site converts in the browser as well. The other pages did not say either way. As with any online tool, avoid pasting passwords or private information." },
+      { question: "Can screen readers read small text?", answer: "Not reliably. A screen reader may announce a small character by its Unicode name, such as \"modifier letter small h\", or skip it. Keep small text to short decorative phrases and put important information in plain letters." },
+      { question: "Which small text generator has the most styles?", answer: "Of the seven tools compared, SmallTextGen.site shows the most styles on one page, with 29. SmallTextGen.com shows six on its small text page and links to more than 25 other style tools. The remaining five tools each show three." },
+      { question: "Can I use small text in my username?", answer: "Usually not. Instagram, TikTok, X, and Discord usernames accept only plain letters, numbers, and a few symbols. Small text works in display names, bios, captions, and messages instead." },
+    ],
+    pillarLinks: [
+      { label: "small text generator", href: "/" },
+      { label: "tiny text generator", href: "/tools/tiny-text-generator" },
+    ],
+    relatedGuideSlugs: ["smallest-text-style-compared", "how-to-make-tiny-text", "are-copy-paste-fonts-safe", "smol-text"],
+  },
+  {
+    slug: "smol-text",
+    title: "Smol Text: What It Means & How to Make It (Copy & Paste)",
+    metaDescription:
+      "Smol text is tiny, cute Unicode lettering like ˢᵐᵒˡ and ꜱᴍᴏʟ. Learn what smol means, where it came from, and how to copy and paste smol text anywhere.",
+    h1: "Smol Text: How to Make Tiny, Cute Letters You Can Copy and Paste",
+    dek: "What smol means, where the word came from, and the three tiny Unicode styles that make your words look as smol as they sound.",
+    cluster: "A",
+    lastUpdated: "2026-10-06",
+    intro: [
+      "Smol text is tiny Unicode lettering, such as ˢᵐᵒˡ, ꜱᴍᴏʟ, or ₛₘₒₗ, named after the internet slang word smol, which means small and cute. You make it by typing words into a small text generator, then copying the superscript, small caps, or subscript result and pasting it anywhere.",
+      "This guide covers both halves of the phrase: the slang word and the tiny letters. If you only want the letters, open the [small text generator](/) and type. If you want to know why everyone calls their cat a smol bean, keep reading.",
+    ],
+    sections: [
+      {
+        heading: "What does smol mean?",
+        paragraphs: [
+          "Smol is internet slang for something small and cute. [Wiktionary](https://en.wiktionary.org/wiki/smol) defines it as \"tiny and cute\" and labels it an eye dialect spelling of small, meaning a deliberate respelling that sounds almost the same. Its comparative forms are smoler and smolest.",
+          "The word is about affection more than size. [Dictionary.com](https://www.dictionary.com/e/slang/smol/) describes it as an affectionate way to call someone or something small, used most for puppies, kittens, and other animals. Linguist Gretchen McCulloch pointed out in Mental Floss that fans used it for One Direction members, who are 5'7\" to 5'11\". Smol works like calling someone baby: it signals that you find them adorable.",
+        ],
+      },
+      {
+        heading: "Where did the word smol come from?",
+        paragraphs: [
+          "Smol spread across social media in the spring and summer of 2015, although its exact origin is unknown. Dictionary.com traces an early use to a 2008 tweet about \"smol children\". [Know Your Meme](https://knowyourmeme.com/memes/smol) dates the breakout to 2015, when a BuzzFeed list titled \"20 Baby Animals Who Are Too Smol\" ran on May 8.",
+          "The phrase smol bean carried it further. It appeared on Twitter in March 2015, and fans of the band Twenty One Pilots used it for singer Tyler Joseph. On June 26, 2015, Joseph tweeted \"I am a bean\", which drew more than 22,000 retweets within two months. By August and September 2015, Know Your Meme counted more than 111,000 tweets using the word.",
+          "Smol then settled into DoggoLingo, the playful pet slang that also gave us doggo and pupper. Its opposites follow the same vowel swap: tol for tall and lorge for large. The word has lasted, too. Wiktionary quotes The Economist using \"smol government\" in a 2024 headline.",
+        ],
+      },
+      {
+        heading: "What is smol text?",
+        paragraphs: [
+          "Smol text means one of two things: writing that uses the word smol, or writing made of tiny characters. Most people searching for it want the second one. They want letters that look as small as the word sounds.",
+          "Tiny characters go by several names. Smol text, mini text, miniature text, tiny text, and small text all describe the same thing: Unicode characters drawn smaller than normal letters. They are not a font, so they keep their size when pasted into an app that gives you no font options. The [tiny text guide](/guides/how-to-make-tiny-text) explains the mechanics in more depth.",
+        ],
+      },
+      {
+        heading: "How do you make smol text?",
+        paragraphs: [
+          "You make smol text by converting normal letters in a generator and copying the result. It takes four steps and no install.",
+          "1. Open the [tiny text generator](/tools/tiny-text-generator).\n2. Type or paste your words, for example smol bean.\n3. Compare the superscript, small caps, and subscript results.\n4. Click the one you like to copy it, then paste it into your bio, caption, message, or display name.",
+          "Each of the three styles gives a different kind of smol. The word smol itself is a lucky case: all four letters exist in all three styles, so it converts completely every time.",
+        ],
+        subsections: [
+          {
+            heading: "Superscript: the smallest smol",
+            paragraphs: [
+              "Superscript is the smallest of the three styles and the closest match to how smol sounds. It raises tiny letters above the line: ˢᵐᵒˡ ᵇᵉᵃⁿ. Every lowercase letter converts except q. Use the [superscript generator](/tools/superscript) for short phrases, since long lines of superscript get hard to read.",
+            ],
+          },
+          {
+            heading: "Small caps: the most reliable smol",
+            paragraphs: [
+              "Small caps is the most complete style, so it is the safest for full sentences. It uses miniature capital shapes that sit on the line: ꜱᴍᴏʟ ʙᴇᴀɴ. Only x has no small caps form. It reads as neat and quiet more than cute, which suits bios and headers. Try it in the [small caps generator](/tools/small-caps).",
+            ],
+          },
+          {
+            heading: "Subscript: smol below the line",
+            paragraphs: [
+              "Subscript drops tiny letters below the line, and it is the patchiest style. It has only 17 of the 26 lowercase letters. Smol converts fully (ₛₘₒₗ), but smol bean becomes ₛₘₒₗ bₑₐₙ, with a full-size b in the middle. Check your word in the [subscript generator](/tools/subscript) before relying on it.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Which smol words convert cleanly?",
+        paragraphs: [
+          "Most DoggoLingo words convert fully in superscript and small caps, but only some survive subscript. We ran ten common words through our own generator on October 6, 2026. The last column shows whether every letter converted in subscript, and names the letters that stayed full size when it did not.",
+        ],
+        table: {
+          caption: "Ten smol-speak words in three tiny styles (generated October 6, 2026)",
+          headers: ["Word", "Meaning", "Superscript", "Small caps", "Subscript", "Subscript complete?"],
+          rows: [
+            ["smol", "small and cute", "ˢᵐᵒˡ", "ꜱᴍᴏʟ", "ₛₘₒₗ", "Yes"],
+            ["tol", "tall", "ᵗᵒˡ", "ᴛᴏʟ", "ₜₒₗ", "Yes"],
+            ["lorge", "large", "ˡᵒʳᵍᵉ", "ʟᴏʀɢᴇ", "ₗₒᵣgₑ", "No (g)"],
+            ["chonk", "a very round pet", "ᶜʰᵒⁿᵏ", "ᴄʜᴏɴᴋ", "cₕₒₙₖ", "No (c)"],
+            ["birb", "bird", "ᵇⁱʳᵇ", "ʙɪʀʙ", "bᵢᵣb", "No (b)"],
+            ["snek", "snake", "ˢⁿᵉᵏ", "ꜱɴᴇᴋ", "ₛₙₑₖ", "Yes"],
+            ["henlo", "hello", "ʰᵉⁿˡᵒ", "ʜᴇɴʟᴏ", "ₕₑₙₗₒ", "Yes"],
+            ["sploot", "lying flat with legs out", "ˢᵖˡᵒᵒᵗ", "ꜱᴘʟᴏᴏᴛ", "ₛₚₗₒₒₜ", "Yes"],
+            ["doggo", "dog", "ᵈᵒᵍᵍᵒ", "ᴅᴏɢɢᴏ", "dₒggₒ", "No (d, g)"],
+            ["pupper", "puppy", "ᵖᵘᵖᵖᵉʳ", "ᴘᴜᴘᴘᴇʀ", "ₚᵤₚₚₑᵣ", "Yes"],
+          ],
+        },
+      },
+      {
+        heading: "How do you style smol text for bios and captions?",
+        paragraphs: [
+          "Smol text looks best when the whole line stays small and soft. Three habits from smol-speak carry over to styling, and each takes a few seconds.",
+          "Keep it lowercase. Smol-speak is almost always written without capitals, and superscript capitals are a different size from the lowercase letters, so mixed case looks uneven. Keep it short. One phrase such as ᵛᵉʳʸ ˢᵐᵒˡ or ʰᵉⁿˡᵒ ᶠʳᵉⁿ reads at a glance, while a full paragraph of superscript does not.",
+          "Pair it with one softer style for contrast. Bubble letters (ⓢⓜⓞⓛ) from the [bubble text generator](/tools/bubble) suit a name. Letter spacing (s m o l) gives a gentle, airy look with normal characters. Use plain text for the rest of the line so the smol part stands out. For script styles in the same mood, see [cute and aesthetic cursive fonts](/guides/aesthetic-cursive-fonts).",
+        ],
+      },
+      {
+        heading: "Where does smol text work?",
+        paragraphs: [
+          "Smol text works anywhere that accepts standard Unicode text. That covers Instagram and TikTok bios and captions, Discord display names and messages, X posts, Facebook, WhatsApp, and most chat apps. It pastes as ordinary text, so you can select and edit it afterwards.",
+          "It does not work in usernames and handles, which accept only plain letters, numbers, and a few symbols. On some older phones, a character can show as an empty box. Preview the text in the app before you save it. For app-specific steps, see the [Discord tiny text guide](/guides/tiny-text-discord) and the [Instagram bio guide](/guides/small-text-instagram-bio).",
+        ],
+      },
+      {
+        heading: "When should you not use smol text?",
+        paragraphs: [
+          "Skip smol text wherever people need to read, search for, or hear your words. Screen readers may read tiny Unicode letters one at a time by their technical names, or skip them. Search and hashtags treat ˢᵐᵒˡ as different characters from smol, so styled words will not match a search.",
+          "It also has a tone. Smol is playful and affectionate, which fits a pet account or a fan bio and sits oddly in a job title or a customer notice. Keep important details such as your name, contact info, and links in plain text, and use smol text as decoration around them.",
+        ],
+      },
+    ],
+    faq: [
+      { question: "What does smol mean in text?", answer: "Smol means small and cute. It is a deliberate respelling of small, used affectionately for pets, babies, and people someone finds adorable. It often has nothing to do with actual size." },
+      { question: "Is smol a real word?", answer: "Smol is established internet slang with entries in Wiktionary and Dictionary.com's slang dictionary. Wiktionary labels it internet slang and gives the forms smoler and smolest. It is informal, so it does not belong in formal writing." },
+      { question: "What is a smol bean?", answer: "A smol bean is someone small, sweet, and precious. The phrase appeared on Twitter in March 2015 and spread through fandoms, most famously for Twenty One Pilots singer Tyler Joseph. Fans use it for favorite people regardless of their real height." },
+      { question: "How do I type smol text on my phone?", answer: "Open a small text generator in your phone's browser, type your words, and tap the result to copy it. Then paste it into your app. Phone keyboards do not have superscript or small caps letters, so a generator is the practical way." },
+      { question: "What is the smallest smol text style?", answer: "Superscript is the smallest of the three tiny styles. Subscript is about the same size but is missing nine letters, and small caps is slightly larger but nearly complete. For one or two words, superscript looks the most smol." },
+      { question: "Why do some letters stay big in my smol text?", answer: "Letters stay big when Unicode has no tiny version of them. Subscript has no b, c, d, f, g, q, w, y, or z, superscript has no q, and small caps has no x. The generator leaves those letters plain instead of inserting a wrong symbol." },
+      { question: "Is smol text the same as tiny text or mini text?", answer: "Yes, smol text, tiny text, mini text, and miniature text all describe the same small Unicode characters. Smol text is the slang name for them. The styles involved are superscript, small caps, and subscript." },
+      { question: "Can I use smol text in my Instagram bio?", answer: "Yes, smol text pastes into Instagram bios, names, captions, and comments. It does not work in the username, which accepts only plain letters, numbers, periods, and underscores." },
+      { question: "What is the opposite of smol?", answer: "The opposites of smol are tol, meaning tall, and lorge, meaning large. Both follow the same playful vowel swap. Chonky is used for a pet that is round instead of small." },
+      { question: "Does smol text count as more characters?", answer: "No, each superscript, small caps, or subscript letter counts as one character, the same as a normal letter. A bio written in smol text uses the same share of the character limit as plain text." },
+      { question: "Is smol text bad for accessibility?", answer: "It can be. Screen readers may read tiny Unicode letters by their technical names or skip them. Keep smol text to short decorative phrases and write anything important in plain letters." },
+    ],
+    pillarLinks: [
+      { label: "small text generator", href: "/" },
+      { label: "tiny text generator", href: "/tools/tiny-text-generator" },
+      { label: "superscript generator", href: "/tools/superscript" },
+    ],
+    relatedGuideSlugs: ["how-to-make-tiny-text", "smallest-text-style-compared", "small-text-instagram-bio", "small-text-generator-compared"],
   },
 ];
 

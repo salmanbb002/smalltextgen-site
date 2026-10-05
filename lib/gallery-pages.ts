@@ -246,7 +246,7 @@ export const galleryPages: GalleryPage[] = [
       {
         heading: "What is tiny text?",
         paragraphs: [
-          "Tiny text is text written with Unicode characters that are drawn small: superscript and subscript letters, which sit above or below the line at about half height, and small capital letters, which are capitals at lowercase height. Apps like Instagram and Discord don't let you shrink your font, but they do accept these characters, so tiny text is the workaround.",
+          "Tiny text is text written with Unicode characters that are drawn small: superscript and subscript letters, which sit above or below the line at about half height, and small capital letters, which are capitals at lowercase height. Apps like Instagram and Discord don't let you shrink your font, but they do accept these characters, so tiny text is the workaround. It also goes by mini text, miniature text, and [smol text](/guides/smol-text), after the internet slang for small and cute.",
           "Most tiny letters weren't made for decoration. Superscript and subscript letters exist for phonetics, math, and chemistry, and small capitals come from phonetic alphabets. That's also why the sets have gaps: Unicode only added the letters scholars needed.",
         ],
       },
@@ -300,7 +300,7 @@ export const galleryPages: GalleryPage[] = [
       { question: "Is this the same as small caps in Word or Google Docs?", answer: "It looks similar but works differently. Word's small caps is formatting applied to normal letters, which disappears in plain-text fields. Unicode small caps are separate characters, so they stay small when you paste them anywhere." },
     ],
     relatedToolSlugs: ["superscript", "subscript", "small-caps", "invisible"],
-    relatedGuideSlugs: ["how-to-make-tiny-text", "smallest-text-style-compared", "subscript-vs-superscript", "tiny-text-discord"],
+    relatedGuideSlugs: ["how-to-make-tiny-text", "smallest-text-style-compared", "subscript-vs-superscript", "tiny-text-discord", "smol-text", "small-text-generator-compared"],
     lastUpdated: "2026-10-02",
   },
   {

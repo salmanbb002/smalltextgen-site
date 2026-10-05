@@ -1,0 +1,11 @@
+# Coverage / QA: smol text (strategy post #6)
+- New guide, 8 H2 + 3 H3, one 10-row table, one numbered step list, FAQ 11. About 1,690 words. Answer block 48 words. Title 56 chars, meta 150.
+- Tier 1: 9/9. Tier 2: 14/14. String-level check run against entities.json.
+- Heading check: one H1, no skipped levels, each H2 owns a different phrase.
+- Fact check: every date and number traces to Step 4. All styled strings and the "subscript complete?" column were generated from lib/fonts.ts, not typed by hand.
+- Flags for a human:
+  - 2008 first-use date is Dictionary.com's claim; Know Your Meme calls the origin unknown. Both are attributed in the text.
+  - Meanings of doggo, pupper, and chonk are common usage, not quoted from a fetched page.
+  - "Superscript is the smallest" follows LingoJam's description and our existing guides; no measured figure is given.
+  - No named author (TODO in schema.jsonld).
+- Readability: about grade 7.

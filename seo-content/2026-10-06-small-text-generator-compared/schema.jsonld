@@ -1,0 +1,127 @@
+{
+ "note": "Rendered in-page by app/guides/[slug]/page.tsx (Article + FAQPage + Breadcrumb; FAQ verbatim). about/mentions for reference; entities typed Thing on purpose.",
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Small Text Generators Compared: Which Free Tool Is Actually Best?",
+ "description": "Seven free small text generators compared on styles, copy buttons, and extras. One side-by-side table shows which tool fits bios, Discord names, and math.",
+ "mainEntityOfPage": "https://smalltextgen.site/guides/small-text-generator-compared",
+ "datePublished": "2026-10-06",
+ "dateModified": "2026-10-06",
+ "author": {
+  "@type": "Person",
+  "name": "TODO: author name"
+ },
+ "publisher": {
+  "@id": "https://smalltextgen.site/#organization"
+ },
+ "about": [
+  {
+   "@type": "Thing",
+   "name": "Small text generator"
+  },
+  {
+   "@type": "Thing",
+   "name": "Unicode",
+   "sameAs": "https://en.wikipedia.org/wiki/Unicode"
+  }
+ ],
+ "mentions": [
+  {
+   "@type": "Thing",
+   "name": "Small caps",
+   "sameAs": "https://en.wikipedia.org/wiki/Small_caps"
+  },
+  {
+   "@type": "Thing",
+   "name": "Superscript",
+   "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"
+  },
+  {
+   "@type": "Thing",
+   "name": "Subscript",
+   "sameAs": "https://en.wikipedia.org/wiki/Subscript_and_superscript"
+  },
+  {
+   "@type": "Thing",
+   "name": "Copy and paste",
+   "sameAs": "https://en.wikipedia.org/wiki/Cut,_copy,_and_paste"
+  },
+  {
+   "@type": "Thing",
+   "name": "Missing letters"
+  },
+  {
+   "@type": "Thing",
+   "name": "SmallTextGen.site",
+   "sameAs": "https://smalltextgen.site/"
+  },
+  {
+   "@type": "Thing",
+   "name": "SmallTextGen.com",
+   "sameAs": "https://smalltextgen.com/"
+  },
+  {
+   "@type": "Thing",
+   "name": "LingoJam",
+   "sameAs": "https://lingojam.com/TinyTextGenerator"
+  },
+  {
+   "@type": "Thing",
+   "name": "ConvertCase",
+   "sameAs": "https://convertcase.net/small-text-generator/"
+  },
+  {
+   "@type": "Thing",
+   "name": "CommentPicker",
+   "sameAs": "https://commentpicker.com/small-text-generator.php"
+  },
+  {
+   "@type": "Thing",
+   "name": "WordCount",
+   "sameAs": "https://wordcount.com/small-text-generator"
+  },
+  {
+   "@type": "Thing",
+   "name": "Omni Calculator",
+   "sameAs": "https://en.wikipedia.org/wiki/Omni_Calculator"
+  },
+  {
+   "@type": "Thing",
+   "name": "Screen reader",
+   "sameAs": "https://en.wikipedia.org/wiki/Screen_reader"
+  },
+  {
+   "@type": "Thing",
+   "name": "Boxes or squares"
+  },
+  {
+   "@type": "Thing",
+   "name": "Discord",
+   "sameAs": "https://en.wikipedia.org/wiki/Discord"
+  },
+  {
+   "@type": "Thing",
+   "name": "Instagram",
+   "sameAs": "https://en.wikipedia.org/wiki/Instagram"
+  },
+  {
+   "@type": "Thing",
+   "name": "WhatsApp",
+   "sameAs": "https://en.wikipedia.org/wiki/WhatsApp"
+  },
+  {
+   "@type": "Thing",
+   "name": "Usernames"
+  },
+  {
+   "@type": "Thing",
+   "name": "Character limit"
+  }
+ ],
+ "speakable": {
+  "@type": "SpeakableSpecification",
+  "cssSelector": [
+   ".guide-intro-paragraph"
+  ]
+ }
+}
