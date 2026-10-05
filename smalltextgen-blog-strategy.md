@@ -73,7 +73,7 @@ Guides live at `/guides/[slug]` and carry a `cluster` tag (`A`–`D`, `Sitewide`
 | 3 | Small Text Generator for Discord *(expand existing `tiny-text-discord`)* | `tiny-text-discord` | small text generator discord | small text generator discord, tiny letters discord | 2 |
 | 4 | Numbers in Small Font: Superscript, Subscript & Tiny Digits | `numbers-in-small-font` | numbers in small font | small font numbers, tiny numbers copy paste | 3 |
 | 5 | Small Text as an Image (PNG) vs Unicode: When to Use Which | `small-text-png-vs-unicode` | small text png | small text image, save small text | 3 |
-| 6 | `smol` Text & Internet Slang Styling | `smol-text` | smol text | miniature text, mini text | 3 |
+| 6 | `smol` Text & Internet Slang Styling *(live 2026-10-06)* | `smol-text` | smol text | miniature text, mini text | 3 |
 
 ### Pillar 2 — Superscript & Subscript (hub: `/tools/superscript`, `/tools/subscript`)
 
