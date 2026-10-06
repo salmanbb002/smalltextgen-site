@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { SectionBlock } from "@/components/article-sections";
+import { ArticleFigure, SectionBlock } from "@/components/article-sections";
 import { LastUpdated } from "@/components/last-updated";
 import { RichParagraph, RichText } from "@/components/rich-text";
 import { getGuide, getRelatedGuides, guides, stripInlineLinks } from "@/lib/guides";
@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: guide.title,
     description: guide.metaDescription,
     alternates: { canonical: `/guides/${guide.slug}` },
-    openGraph: { title: guide.title, description: guide.metaDescription },
-    twitter: { title: guide.title, description: guide.metaDescription },
+    openGraph: { title: guide.title, description: guide.metaDescription, ...(guide.image ? { images: [{ url: guide.image.src, width: guide.image.width, height: guide.image.height, alt: guide.image.alt }] } : {}) },
+    twitter: { title: guide.title, description: guide.metaDescription, ...(guide.image ? { images: [guide.image.src] } : {}) },
   };
 }
 
@@ -51,6 +51,7 @@ export default async function GuidePage({ params }: Props) {
       author: { "@type": "Organization", name: "SmallTextGen", url: siteUrl },
       publisher: { "@id": `${siteUrl}/#organization` },
       mainEntityOfPage: `${siteUrl}/guides/${guide.slug}`,
+      ...(guide.image ? { image: `${siteUrl}${guide.image.src}` } : {}),
     },
     ...(guide.faq.length
       ? [faqPageSchema(guide.faq.map((item) => ({ question: item.question, answer: stripInlineLinks(item.answer) })))]
@@ -83,6 +84,7 @@ export default async function GuidePage({ params }: Props) {
           {guide.intro.map((paragraph, index) => (
             <RichParagraph text={paragraph} key={index} className="guide-intro-paragraph" />
           ))}
+          <ArticleFigure image={guide.image} />
           {guide.sections.map((section) => (
             <SectionBlock section={section} key={section.heading} />
           ))}

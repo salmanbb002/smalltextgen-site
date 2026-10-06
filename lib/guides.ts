@@ -7,6 +7,7 @@ export type GuideSection = {
   subsections?: { heading: string; paragraphs: string[] }[];
 };
 export type GuideLink = { label: string; href: string };
+export type PageImage = { src: string; alt: string; width: number; height: number; caption?: string };
 export type GuideCluster = "A" | "B" | "C" | "D" | "Sitewide" | "Platform";
 
 export type Guide = {
@@ -22,6 +23,8 @@ export type Guide = {
   relatedGuideSlugs: string[];
   lastUpdated: string;
   cluster: GuideCluster;
+  /** Optional figure shown after the intro; also used as the OG image. */
+  image?: PageImage;
 };
 
 export const guides: Guide[] = [
@@ -257,7 +260,7 @@ export const guides: Guide[] = [
     lastUpdated: "2026-10-02",
     intro: [
       "Aesthetic Instagram bios, like ᴛɪɴʏ ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, 𝓈ℴ𝒻𝓉 𝒸𝓊𝓇𝓈𝒾𝓋ℯ, or 𝐛𝐨𝐥𝐝 𝐡𝐞𝐚𝐝𝐞𝐫𝐬, aren't made with a downloaded font. Instagram doesn't let you change fonts at all. The styled letters are Unicode characters copied from a font generator and pasted into your profile, where Instagram shows them like any other text.",
-      "This guide covers which fonts look best in each part of your profile, the limits that trip people up, and aesthetic bio ideas you can adapt. To make your own, type your bio into the [small text generator](/) or the [fancy text generator](/tools/fancy-text-generator), copy the style you like, and paste it in.",
+      "This guide covers which fonts look best in each part of your profile, the limits that trip people up, and aesthetic bio ideas you can adapt. To make your own, type your bio into the [Instagram font generator](/tools/instagram-font-generator) or the [small text generator](/), copy the style you like, and paste it in.",
     ],
     sections: [
       {
@@ -732,7 +735,7 @@ export const guides: Guide[] = [
     cluster: "D",
     lastUpdated: "2026-08-10",
     intro: [
-      "Cursive-look bios on Instagram come from a cursive font generator, not a font Instagram actually offers. The tool converts your regular letters into Unicode's mathematical script character set, which mimics handwritten, connected-looking letterforms while remaining fully copy-and-paste text — you can select it, search it, and it'll display in anyone's Instagram app without them installing anything.",
+      "Cursive-look bios on Instagram come from a cursive font generator, not a font Instagram actually offers. The tool converts your regular letters into Unicode's mathematical script character set, which mimics handwritten, connected-looking letterforms while remaining fully copy-and-paste text — you can select it, search it, and it'll display in anyone's Instagram app without them installing anything. To compare cursive with bold, small caps, and other styles side by side, use the [Instagram font generator](/tools/instagram-font-generator).",
     ],
     sections: [
       {
@@ -929,7 +932,7 @@ export const guides: Guide[] = [
       {
         heading: "How to combine styles without it looking cluttered",
         paragraphs: [
-          "The cleanest bios usually use one styled element, not four — for example, a cursive name line followed by small caps for the rest of the bio, rather than mixing every style in one sentence. If you're building an Instagram bio specifically, the [Instagram bio guide](/guides/small-text-instagram-bio) walks through that layout in more detail.",
+          "The cleanest bios usually use one styled element, not four — for example, a cursive name line followed by small caps for the rest of the bio, rather than mixing every style in one sentence. If you're building an Instagram bio specifically, the [Instagram bio guide](/guides/small-text-instagram-bio) walks through that layout in more detail, and the [Instagram font generator](/tools/instagram-font-generator) suggests a style for each part of your profile.",
         ],
       },
     ],
@@ -1617,7 +1620,7 @@ export const guides: Guide[] = [
       {
         heading: "Keeping it readable",
         paragraphs: [
-          "Every bubble letter is wrapped in a circle, so a full bio in bubble text is dense and slow to read. Use it for your name or one line, and keep the rest of the bio plain — the [Instagram bio guide](/guides/small-text-instagram-bio) covers that layout.",
+          "Every bubble letter is wrapped in a circle, so a full bio in bubble text is dense and slow to read. Use it for your name or one line, and keep the rest of the bio plain — the [Instagram bio guide](/guides/small-text-instagram-bio) covers that layout, and the [Instagram font generator](/tools/instagram-font-generator) lets you compare bubble with calmer styles.",
         ],
       },
     ],
@@ -1876,7 +1879,7 @@ export const guides: Guide[] = [
     faq: [
       { question: "What's the coolest copy-paste font?", answer: "Subjective, but fraktur, double-struck, and bold script are the most distinctive; bold and small caps are the most usable day to day." },
       { question: "How many different fonts can I copy and paste?", answer: "Around 20 distinct Unicode letter styles, plus frame and layout effects on top." },
-      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android. Games have their own limits — see the [Roblox font generator](/tools/roblox-font-generator), the [Minecraft font generator](/tools/minecraft-font-generator), and the [Fortnite font generator](/tools/fortnite-font-generator) (Minecraft Bedrock can't show bold or script at all)." },
+      { question: "Do all these fonts work everywhere?", answer: "No. Bold, small caps, and full-width are the most compatible; script, fraktur, and double-struck can show as boxes on older Android. Games have their own limits — see the [Roblox font generator](/tools/roblox-font-generator), the [Minecraft font generator](/tools/minecraft-font-generator), and the [Fortnite font generator](/tools/fortnite-font-generator) (Minecraft Bedrock can't show bold or script at all). For symbols like ★ and ツ in an Epic name, see [Fortnite name symbols](/guides/fortnite-name-symbols)." },
       { question: "Are these real downloadable fonts?", answer: "No — they're Unicode character styles, which is why they copy and paste without an install." },
     ],
     pillarLinks: [
@@ -2395,6 +2398,177 @@ export const guides: Guide[] = [
     relatedGuideSlugs: ["copy-paste-fonts-guide", "fancy-text-styles-explained", "are-copy-paste-fonts-safe"],
   },
   {
+    slug: "fortnite-name-symbols",
+    title: "Fortnite Name Symbols ★ Copy & Paste Symbols Epic Accepts",
+    metaDescription:
+      "Fortnite name symbols you can copy and paste, like ★, ツ, 彡, and 【】, plus which ones Epic's filter usually accepts, how they count toward 16 characters, and how to add them.",
+    h1: "Fortnite Name Symbols: Copy and Paste Symbols That Work",
+    image: {
+      src: "/images/fortnite-name-symbols.png",
+      alt: "Chart of Fortnite name symbols grouped by how often Epic's filter accepts them: stars, ツ, 彡 and brackets usually work; crosses and wings are mixed; ⚡, ☠, emoji and blank characters are often blocked. Example names show 7, 8 and 16 of 16 characters used.",
+      width: 1200,
+      height: 630,
+      caption: "Symbols grouped by how often player lists report them passing Epic's filter (October 2026). Bold letters count double, so ★ 𝗦𝗻𝗶𝗽𝗲𝗿 ★ uses all 16 characters.",
+    },
+    dek: "Copy-paste symbols for your Epic display name, which ones usually pass the filter, and how to add one without wasting your two-week name change.",
+    cluster: "Platform",
+    lastUpdated: "2026-10-07",
+    intro: [
+      "Fortnite name symbols are Unicode characters, such as ★, ツ, 彡, ♛, and 【】, that you paste into your Epic Games display name to decorate it. Epic doesn't publish a list of allowed symbols. Stars, Japanese characters, brackets, and superscript letters usually pass its filter, while emoji are removed.",
+      "Your Fortnite name is your Epic Games display name, so every symbol has to get past Epic's name filter and fit within 3–16 characters. You can only change it once every two weeks, so it pays to pick a symbol that's likely to work before you save. To restyle the letters themselves, use the [Fortnite font generator](/tools/fortnite-font-generator), and for other games, the [gaming font generator](/tools/gaming-font-generator). This guide covers the symbols that go around them.",
+    ],
+    sections: [
+      {
+        heading: "Which symbols work in a Fortnite name?",
+        paragraphs: [
+          "Plain letters, numbers, spaces, hyphens, and underscores always work. Decorative symbols are hit or miss. Player-tested lists from 2026 agree that simple stars, Japanese katakana like ツ, CJK brackets, and small superscript letters usually pass. Colour emoji are stripped, and blank or invisible names are rejected.",
+          "The table groups the symbols that show up most in Fortnite names, with how often player lists report them passing as of October 2026. \"Usually works\" means at least two independent lists include the symbol. \"Mixed\" means reports disagree. Epic can change its filter at any time, so treat this as a guide, not a guarantee.",
+          "⚡, ☠, and ⚔ have emoji versions, and ⚡ shows as a colour emoji by default on most phones. That's why Epic's emoji filter often catches them. Pick ★ or ✦ if you want a symbol that's less likely to be removed.",
+        ],
+        table: {
+          caption: "Fortnite name symbols to copy, and how often they pass",
+          headers: ["Symbol set", "Copy", "Unicode", "Counts as", "Status"],
+          rows: [
+            ["Stars", "★ ☆ ✦ ✧ ✪ ✯", "U+2605, U+2606, U+2726, U+2727, U+272A, U+272F", "1 each", "Usually works"],
+            ["Japanese characters", "ツ シ 々 彡 乡 亗", "U+30C4, U+30B7, U+3005, U+5F61, U+4E61, U+4E97", "1 each", "Usually works"],
+            ["Brackets", "【 】 『 』 「 」", "U+3010–3011, U+300E–300F, U+300C–300D", "1 each", "Usually works"],
+            ["Crowns & trademark", "♛ ♕ ♔ ™", "U+265B, U+2655, U+2654, U+2122", "1 each", "Usually works"],
+            ["[Superscript letters](/tools/superscript)", "ᴹ ᴿ ⁿ ᵗ ᵛ", "U+1D39, U+1D3F, U+207F, U+1D57, U+1D5B", "1 each", "Usually works"],
+            ["Crosses & daggers", "✞ † ♰", "U+271E, U+2020, U+2670", "1 each", "Mixed"],
+            ["Javanese \"wings\"", "꧁ ꧂ ༒", "U+A9C1, U+A9C2, U+0F12", "1 each", "Mixed"],
+            ["Emoji-style symbols", "⚡ ☠ ⚔", "U+26A1, U+2620, U+2694", "1 each", "Often stripped"],
+            ["Hieroglyph wings", "𓆩 𓆪", "U+131A9, U+131AA", "2 each", "Often boxes"],
+            ["Invisible filler", "ㅤ", "U+3164", "1", "Usually rejected as blank"],
+          ],
+        },
+        subsections: [
+          {
+            heading: "What does ツ mean in a Fortnite name?",
+            paragraphs: [
+              "ツ is the Japanese katakana letter \"tsu\" (U+30C4). It's popular because it looks like a small smiling face, the same face in the ¯\\_(ツ)_/¯ shrug. In names it's just decoration. It doesn't mean anything to other players beyond the look.",
+            ],
+          },
+          {
+            heading: "What are \"sweaty\" Fortnite symbols?",
+            paragraphs: [
+              "\"Sweaty\" is Fortnite slang for a player who tries extremely hard. Sweaty names often use sharp, compact symbols like 彡, 亗, 々, ×, and ϟ, or a pair of brackets around a short tag. They signal style, not skill, and they follow the same filter rules as any other symbol.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How do you put symbols in your Fortnite name?",
+        paragraphs: [
+          "Change your Epic Games display name on the Epic website, not inside the game. Copy the symbol first, then paste it into the display name field in your account settings.",
+          "1. Copy a symbol from the table above, or build the full name in the [Fortnite font generator](/tools/fortnite-font-generator) and add a symbol at each end.\n2. Sign in at epicgames.com on a phone or computer browser and open Account settings.\n3. Click the pencil icon next to your display name.\n4. Paste the name with your symbol. Keep the whole name between 3 and 16 characters.\n5. Confirm the change. If Epic says the name isn't allowed, swap the symbol for a plainer one from the \"Usually works\" rows and try again.\n6. Restart Fortnite so the new name loads. It can take a little while to show for everyone.",
+          "Use a browser, not a console, for this. A controller can't type most symbols, and pasting works best on a computer or phone.",
+        ],
+      },
+      {
+        heading: "Why did Epic reject your Fortnite name symbol?",
+        paragraphs: [
+          "Most rejections come from Epic's filter, which blocks characters it can't read or that could be used to fake another name. The rest come from Epic's written name rules, the length limit, or the two-week cooldown.",
+        ],
+        subsections: [
+          {
+            heading: "The filter blocked the character",
+            paragraphs: [
+              "Epic doesn't publish which Unicode characters it accepts. It removes colour emoji and rejects many look-alike letters, combining marks, and blank characters, because they can be used to copy someone else's name. If one symbol fails, try a simpler one in the same style, like ★ instead of ⚡.",
+            ],
+          },
+          {
+            heading: "The name breaks Epic's rules",
+            paragraphs: [
+              "Epic's display name rules ban vulgarity, hate speech, and offensive language. They also ban direct references to any Epic Games employee, product, service, or character, and private details like phone numbers, addresses, and real names. A symbol doesn't make a banned word allowed, and Epic can reset a name that breaks these rules.",
+            ],
+          },
+          {
+            heading: "The name is too long or too short",
+            paragraphs: [
+              "A display name must be 3–16 characters. Symbols count toward that limit, and some count double. More on that below.",
+            ],
+          },
+          {
+            heading: "You're still in the cooldown",
+            paragraphs: [
+              "You can change your Epic display name once every two weeks. If the pencil icon is locked, hover over the info icon to see when you last changed it. Player reports suggest a rejected attempt doesn't start the cooldown, because only a saved change does. A saved name that turns out to show as boxes still costs you two weeks, though.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How do symbols count toward the 16-character limit?",
+        paragraphs: [
+          "Most symbols count as one character, but characters from outside Unicode's Basic Multilingual Plane are stored as two code units, and many apps count them as two. That includes styled [bold](/tools/bold) and [gothic](/tools/old-english-text-generator) letters and the 𓆩𓆪 hieroglyph wings. Epic doesn't publish how it counts, so plan around the stricter count.",
+          "The last name in the table looks like 10 characters but uses all 16 code units, because each bold letter takes two. If a styled name won't fit, keep the letters plain and let one or two symbols do the decorating.",
+        ],
+        table: {
+          caption: "How example names count",
+          headers: ["Name", "Looks like", "Code units"],
+          rows: [
+            ["彡Ninja彡", "7 characters", "7"],
+            ["【Ghost】ツ", "8 characters", "8"],
+            ["ᴹᴿ Shadow", "9 characters", "9"],
+            ["★ Sniper ★", "10 characters", "10"],
+            ["𓆩Raven𓆪", "7 characters", "9"],
+            ["★ 𝗦𝗻𝗶𝗽𝗲𝗿 ★", "10 characters", "16"],
+          ],
+        },
+      },
+      {
+        heading: "Do symbols in your Fortnite name show on PlayStation and Xbox?",
+        paragraphs: [
+          "Not always. Players on PC, mobile, and Nintendo Switch see your Epic display name, symbols included. Players on the same PlayStation or Xbox as you usually see your PSN ID or Xbox gamertag instead, and those have their own rules for symbols.",
+          "To change what console friends see, you'd change your PSN online ID or Xbox gamertag. Both platforms give one free change, and later changes usually cost around $10 each (2026 pricing; check your platform's store). Cross-platform lobbies show the Epic name, so your symbol still appears to most of the players you meet.",
+        ],
+      },
+      {
+        heading: "Ready-made Fortnite name patterns",
+        paragraphs: [
+          "These patterns use symbols from the \"Usually works\" rows. Replace NAME with your own name and check the total stays within 16 characters.",
+          "One symbol at each end looks cleaner than a name packed with symbols. It's also less likely to get caught by the filter and easier for friends to search for.",
+        ],
+        table: {
+          headers: ["Pattern", "Example"],
+          rows: [
+            ["彡NAME彡", "彡Ninja彡"],
+            ["【NAME】", "【Ghost】"],
+            ["NAMEツ", "Viperツ"],
+            ["ᴹᴿ NAME", "ᴹᴿ Shadow"],
+            ["★NAME★", "★Nova★"],
+            ["『NAME』", "『Echo』"],
+            ["々NAME々", "々Blaze々"],
+            ["NAME™", "Frost™"],
+          ],
+        },
+      },
+      {
+        heading: "Are Fortnite name symbol sites safe?",
+        paragraphs: [
+          "Copying a symbol from a web page is safe, because it's just text. The risk is a site or extension that asks you to sign in with your Epic account to \"apply\" a name for you. No site needs your Epic password to give you a symbol. Change your name only on epicgames.com.",
+        ],
+      },
+    ],
+    faq: [
+      { question: "What symbols can you put in a Fortnite name?", answer: "Stars like ★ and ✦, Japanese characters like ツ and 彡, brackets like 【】, crowns like ♛, and small superscript letters usually work. Epic doesn't publish an allowed list, so test one symbol at a time. Colour emoji are always removed." },
+      { question: "Why won't Fortnite accept my symbol name?", answer: "Epic's filter rejects many symbols, look-alike letters, and blank characters, along with names that break its rules. Your name may also be outside the 3–16 character limit, or you may be in the two-week cooldown. Try a simpler symbol from the \"Usually works\" list." },
+      { question: "How often can I change my Fortnite display name?", answer: "Once every two weeks. If the edit button is locked, Epic shows when you last changed your name. Pick your symbol carefully, because a name that saves but looks wrong still uses up the two weeks." },
+      { question: "Do symbols in my Fortnite name show to other players?", answer: "Yes, for players who see your Epic display name, including PC, mobile, Switch, and cross-platform lobbies. Players on the same PlayStation or Xbox usually see your console name instead. A rare symbol may also show as a box on some devices." },
+      { question: "Can you get banned for using special symbols in Fortnite?", answer: "No, not for the symbols themselves, as long as you add them through Epic's own display name settings. A name that uses symbols to spell something offensive, or to copy another player or a creator, breaks Epic's rules and can be reset." },
+      { question: "Why does my symbol appear as a box or question mark?", answer: "The device showing your name has no glyph for that character. The symbol passed Epic's filter, but some phones and consoles can't draw it. Symbols outside the Basic Multilingual Plane, like 𓆩 and 𓆪, break most often, so ★ or ツ are safer." },
+      { question: "How do I get an invisible name in Fortnite?", answer: "You can't, reliably. Epic rejects blank and invisible display names, and the Hangul filler character (U+3164) that some sites suggest is usually blocked. A name needs at least 3 visible characters. Blank characters still work in apps like Discord, covered in [hidden and zero-width characters](/guides/hidden-zero-width-characters)." },
+      { question: "Can I use emoji in my Fortnite name?", answer: "No. Epic strips colour emoji from display names. Symbols with emoji versions, like ⚡ and ☠, are often removed for the same reason, so use text symbols like ★ instead." },
+      { question: "Does a rejected name start the two-week cooldown?", answer: "Player reports say no, because the cooldown only starts when a change is saved. Epic doesn't state this directly, so don't rely on it. If you're unsure how a symbol looks, test it in a Discord nickname first, for example with the [Discord name generator](/tools/discord-name-generator)." },
+      { question: "Can I put symbols in my Fortnite name on Xbox or PlayStation?", answer: "Not from the console itself. Change your Epic display name in a browser at epicgames.com, then sign in to Fortnite on your console. Players on your own console network may still see your PSN ID or gamertag instead." },
+    ],
+    pillarLinks: [
+      { label: "Fortnite font generator", href: "/tools/fortnite-font-generator" },
+      { label: "gaming font generator", href: "/tools/gaming-font-generator" },
+      { label: "Discord name generator", href: "/tools/discord-name-generator" },
+    ],
+    relatedGuideSlugs: ["fonts-for-roblox", "are-copy-paste-fonts-safe", "cool-different-fonts"],
+  },
+  {
     slug: "text-formatting-cheat-sheet",
     title: "Text Formatting Cheat Sheet: Bold, Italic, Underline & Strikethrough",
     metaDescription:
@@ -2471,7 +2645,7 @@ export const guides: Guide[] = [
         heading: "How do you format text on Instagram, TikTok, LinkedIn, and X?",
         paragraphs: [
           "You can't, natively. Instagram, TikTok, Facebook, and LinkedIn posts have no bold, italic, underline, or strikethrough options, and X only offers some formatting to Premium subscribers on the web. The workaround is Unicode: special characters that already look bold, italic, underlined, or crossed out, which you copy from a generator and paste in.",
-          "Use the [bold text generator](/tools/bold) for headers and hooks, the [italic text generator](/tools/italic) for emphasis, the [underline text generator](/tools/underline) or [strikethrough text generator](/tools/strikethrough) for lines, and the [cursive font generator](/tools/cursive) for a handwritten look. Instagram is covered in detail in the [Instagram bio fonts guide](/guides/small-text-instagram-bio), and X in [fonts for X/Twitter](/guides/fonts-for-twitter-x).",
+          "Use the [bold text generator](/tools/bold) for headers and hooks, the [italic text generator](/tools/italic) for emphasis, the [underline text generator](/tools/underline) or [strikethrough text generator](/tools/strikethrough) for lines, and the [cursive font generator](/tools/cursive) for a handwritten look. For Instagram, use the [Instagram font generator](/tools/instagram-font-generator) and the [Instagram bio fonts guide](/guides/small-text-instagram-bio), and for X, see [fonts for X/Twitter](/guides/fonts-for-twitter-x).",
         ],
       },
       {

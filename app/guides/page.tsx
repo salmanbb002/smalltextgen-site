@@ -122,6 +122,7 @@ export default function GuidesIndexPage() {
             ["Superscript generator", "/tools/superscript"],
             ["Cursive font generator", "/tools/cursive"],
             ["Bubble text generator", "/tools/bubble"],
+            ["Instagram font generator", "/tools/instagram-font-generator"],
             ["Invisible text generator", "/tools/invisible"],
           ].map(([label, href]) => (
             <Link href={href} key={href}>

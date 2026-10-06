@@ -1,13 +1,25 @@
+import Image from "next/image";
 import { RichParagraph, RichText } from "@/components/rich-text";
-import type { GuideSection } from "@/lib/guides";
+import type { GuideSection, PageImage } from "@/lib/guides";
+
+export function ArticleFigure({ image }: { image?: PageImage }) {
+  if (!image) return null;
+  return (
+    <figure className="article-figure">
+      <Image src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="(max-width: 820px) 100vw, 760px" />
+      {image.caption && <figcaption><RichText text={image.caption} /></figcaption>}
+    </figure>
+  );
+}
 
 /** Long-form body for tool pages: H2 sections with optional H3 subsections and a table. */
-export function ArticleSections({ sections }: { sections?: GuideSection[] }) {
-  if (!sections || sections.length === 0) return null;
+export function ArticleSections({ sections, image }: { sections?: GuideSection[]; image?: PageImage }) {
+  if ((!sections || sections.length === 0) && !image) return null;
   return (
     <article className="info-page guide-body tool-article">
       <div className="info-content">
-        {sections.map((section) => (
+        <ArticleFigure image={image} />
+        {sections?.map((section) => (
           <SectionBlock section={section} key={section.heading} />
         ))}
       </div>

@@ -33,6 +33,7 @@ export function SiteFooter() {
           <Link href="/tools/minecraft-font-generator">Minecraft fonts</Link>
           <Link href="/tools/fortnite-font-generator">Fortnite fonts</Link>
           <Link href="/tools/adopt-me-font-generator">Adopt Me fonts</Link>
+          <Link href="/tools/instagram-font-generator">Instagram fonts</Link>
           <Link href="/tools/zalgo">Glitch text</Link>
           <Link href="/tools/invisible">Invisible text</Link>
         </div>

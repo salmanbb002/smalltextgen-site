@@ -1,4 +1,4 @@
-import type { GuideFaq, GuideSection } from "@/lib/guides";
+import type { GuideFaq, GuideSection, PageImage } from "@/lib/guides";
 import type { WhereUsed } from "@/lib/pillar-content";
 
 export type GalleryPage = {
@@ -16,6 +16,8 @@ export type GalleryPage = {
   whereUsed: WhereUsed[];
   /** Optional long-form body rendered after "where used". */
   sections?: GuideSection[];
+  /** Optional figure shown above `sections`; also used as the OG image. */
+  image?: PageImage;
   faq: GuideFaq[];
   /** Pillar tool slugs (under /tools/) to cross-link in "more text tools". */
   relatedToolSlugs: string[];
@@ -134,7 +136,7 @@ export const galleryPages: GalleryPage[] = [
     ],
     featuredStyleSlugs: ["bold-cursive", "cursive", "bold-fraktur", "double-struck", "bold-sans", "bubble", "squared", "small-caps", "sparkles"],
     whereUsed: [
-      { platform: "Aesthetic bios & captions", blurb: "A fancy name or one styled line on Instagram, TikTok, or X. Keep keywords and hashtags plain so people can still find you. See the [Instagram bio fonts guide](/guides/small-text-instagram-bio)." },
+      { platform: "Aesthetic bios & captions", blurb: "A fancy name or one styled line on Instagram, TikTok, or X. Keep keywords and hashtags plain so people can still find you. The [Instagram font generator](/tools/instagram-font-generator) shows which style suits your name, bio, and captions, and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) has bio ideas." },
       { platform: "Gaming & display names", blurb: "Stylish display names and clan tags. Games filter names more strictly than social apps, so see the [gaming font generator](/tools/gaming-font-generator) for which styles each game accepts, or the [Roblox](/tools/roblox-font-generator), [Minecraft](/tools/minecraft-font-generator), [Fortnite](/tools/fortnite-font-generator), and [Adopt Me](/tools/adopt-me-font-generator) generators." },
       { platform: "Discord, chats & invites", blurb: "Fancy server names, nicknames, and roles on Discord, plus a decorative heading in digital invitations, stories, and group chats. The [Discord name generator](/tools/discord-name-generator) adds frames and symbols." },
     ],
@@ -190,7 +192,7 @@ export const galleryPages: GalleryPage[] = [
         heading: "Where can you use fancy text?",
         paragraphs: [
           "Fancy text works almost anywhere you can type: Instagram, TikTok, X, Facebook, WhatsApp, Discord, YouTube comments, Telegram, and most game chats and display names. It also pastes into Google Docs and Word, where it keeps its look even if you paste as plain text, because the style is in the characters.",
-          "It doesn't work in fields that only allow plain characters, such as usernames, @handles, email addresses, and most game account IDs. Some games, like Roblox and Fortnite, also filter display names and may reject decorative symbols. When a field rejects fancy text, try a simpler style like bold or small caps.",
+          "It doesn't work in fields that only allow plain characters, such as usernames, @handles, email addresses, and most game account IDs. Some games, like Roblox and Fortnite, also filter display names and may reject decorative symbols (see which [Fortnite name symbols usually pass](/guides/fortnite-name-symbols)). When a field rejects fancy text, try a simpler style like bold or small caps.",
         ],
       },
       {
@@ -522,7 +524,7 @@ export const galleryPages: GalleryPage[] = [
     ],
     featuredStyleSlugs: ["bold", "bold-italic", "small-caps", "double-struck", "squared", "bold-fraktur", "fullwidth", "monospace", "sparkles"],
     whereUsed: [
-      { platform: "Epic display name", blurb: "Your Epic Games display name is 3–16 characters and can be changed once every two weeks. It shows in the lobby, party, and leaderboards for players on PC and mobile, and for anyone playing with you cross-platform. On PlayStation and Xbox, players on the same console usually see your PSN or Xbox name instead." },
+      { platform: "Epic display name", blurb: "Your Epic Games display name is 3–16 characters and can be changed once every two weeks. It shows in the lobby, party, and leaderboards for players on PC and mobile, and for anyone playing with you cross-platform. On PlayStation and Xbox, players on the same console usually see your PSN or Xbox name instead. To add symbols like ★ or ツ around your name, see [Fortnite name symbols](/guides/fortnite-name-symbols)." },
       { platform: "Clan tags & Discord", blurb: "A styled tag in your Discord server name, nickname, or team roster keeps one look across every place your squad meets. Discord takes almost every style here, so it's a good place to try one before using it in game." },
       { platform: "Stream titles, TikTok & YouTube", blurb: "One styled word in a Twitch title, TikTok caption, or YouTube video title can draw the eye to a Victory Royale clip. Keep the rest plain so search and screen readers can still read it." },
     ],
@@ -539,8 +541,8 @@ export const galleryPages: GalleryPage[] = [
       { question: "Is it allowed to use fancy fonts in Fortnite?", answer: "Yes. Styled Unicode isn't against Epic's rules, but your name still has to follow them. No offensive words, and no characters used to impersonate another player or a creator. A name that breaks the rules can be reset by Epic." },
     ],
     relatedToolSlugs: ["bold", "small-caps", "italic", "invisible"],
-    relatedGuideSlugs: ["cool-different-fonts", "are-copy-paste-fonts-safe", "tiny-text-discord"],
-    lastUpdated: "2026-10-01",
+    relatedGuideSlugs: ["fortnite-name-symbols", "cool-different-fonts", "are-copy-paste-fonts-safe"],
+    lastUpdated: "2026-10-07",
   },
   {
     slug: "adopt-me-font-generator",
@@ -581,6 +583,113 @@ export const galleryPages: GalleryPage[] = [
     relatedToolSlugs: ["bubble", "small-caps", "cursive", "bold"],
     relatedGuideSlugs: ["fonts-for-roblox", "bubble-letters-copy-paste", "are-copy-paste-fonts-safe"],
     lastUpdated: "2026-10-01",
+  },
+  {
+    slug: "instagram-font-generator",
+    title: "Instagram Font Generator – 𝓒𝓾𝓻𝓼𝓲𝓿𝓮 & 𝐁𝐨𝐥𝐝 Fonts to Copy and Paste",
+    metaDescription:
+      "Free Instagram font generator: cursive, bold, small caps, and more copy-paste fonts for your name, bio, captions, and Stories, plus which style suits each spot.",
+    h1: "Instagram Font Generator",
+    eyebrow: "Name, bio, captions & Stories",
+    leadStyle: "cursive",
+    intro: [
+      "This Instagram font generator turns plain text into copy-and-paste fonts, such as 𝓬𝓾𝓻𝓼𝓲𝓿𝓮, 𝐛𝐨𝐥𝐝, ꜱᴍᴀʟʟ ᴄᴀᴘꜱ, and ⓑⓤⓑⓑⓛⓔ, for your Instagram name, bio, captions, comments, and Story text. Each letter is a Unicode character, not a font file, so it pastes into the app on iPhone and Android with nothing to install.",
+      "Instagram has no font setting for your profile or captions. Bios and captions show in your phone's system font, and only Story and Reels text has a built-in font picker. Pasting styled Unicode is the only way to change how your profile text looks. This page helps you pick a style for each part of Instagram, and the [fancy text generator](/tools/fancy-text-generator) has every style at once. For bio ideas and the full list of field limits, see [aesthetic fonts for your Instagram bio](/guides/small-text-instagram-bio).",
+    ],
+    howToSteps: [
+      "Type your name, a bio line, or a caption into the box below.",
+      "Compare Cursive first, then Small caps, Bold, and Italic. These stay readable on a small phone screen.",
+      "Copy the style you want with one tap.",
+      "In Instagram, tap Edit profile and paste it into Name or Bio, or paste it into a caption, comment, or Story text box. Check how it looks before you save, because you can only change your name twice within 14 days.",
+    ],
+    featuredStyleSlugs: ["cursive", "small-caps", "bold", "italic", "bold-cursive", "double-struck", "bubble", "fullwidth", "sparkles"],
+    whereUsed: [
+      { platform: "Name", blurb: "The bold line above your bio. It's up to 30 characters, you can change it twice within 14 days, and it's searchable. Keep the word people search for in plain letters and style the rest, like Maya Lin | ᴄᴇʀᴀᴍɪᴄꜱ." },
+      { platform: "Bio", blurb: "Your bio has 150 characters. Small caps and cursive suit short bio lines, and one bold line works as a header above them." },
+      { platform: "Captions & comments", blurb: "Captions can be up to 2,200 characters, but only the first line or two show before \"… more\". Style the opening line so it catches the eye, and keep the rest plain." },
+      { platform: "Stories, Reels & Notes", blurb: "Paste styled text into the Story or Reels text tool, or into a 60-character Note, to get looks Instagram's own font picker doesn't have, like small caps or bubble letters." },
+    ],
+    sections: [
+      {
+        heading: "Which Instagram font should you use where?",
+        paragraphs: [
+          "Use bold or small caps for your name, small caps or cursive for your bio, and bold for the first line of a caption. These styles stay readable at small sizes and show up on almost every phone. Save bubble, gothic, and vaporwave letters for a single accent word.",
+          "Bold and small caps come from Unicode blocks that almost every phone font covers. Script, fraktur, and double-struck letters come from the Mathematical Alphanumeric Symbols block (U+1D400–U+1D7FF), which some older Android phones don't fully support, so a few followers may see empty boxes instead.",
+        ],
+        table: {
+          caption: "The best Instagram font for each spot",
+          headers: ["Where", "Best styles", "Why it works", "Avoid"],
+          rows: [
+            ["Name", "[Bold](/tools/bold), [small caps](/tools/small-caps)", "Bold matches the name's heavy weight, and small caps keeps it neat", "Styling the part people search for"],
+            ["Bio header line", "Bold, bold cursive", "Reads like a heading above plain lines", "Styling every line"],
+            ["Bio body", "Small caps, [cursive](/tools/cursive), [italic](/tools/italic)", "Light and easy to read at bio size", "Zalgo and upside-down text"],
+            ["Caption opening line", "Bold, bold sans", "Catches the eye before \"… more\"", "Styling the whole caption"],
+            ["Comments", "Bold, italic", "A quick highlight in a reply", "Long styled comments, which can look like spam"],
+            ["Story & Reels text", "Small caps, [bubble](/tools/bubble), [vaporwave](/tools/vaporwave-text-generator)", "Looks the built-in font picker doesn't offer", "Thin styles over busy photos"],
+          ],
+        },
+      },
+      {
+        heading: "Will a fancy font stop people finding you on Instagram?",
+        paragraphs: [
+          "It can, if you style the words people search for. Instagram search matches the letters in your name field, and 𝐌𝐚𝐲𝐚 is made of different characters from Maya, so a fully styled name may not show up when someone types your name.",
+          "Keep your real name or your main keyword plain and style an add-on next to it. Maya Lin | ᴄᴇʀᴀᴍɪᴄꜱ is easy to find and still looks styled. The same goes for captions, where plain keywords help Instagram understand what a post is about.",
+        ],
+        subsections: [
+          {
+            heading: "Do styled hashtags work?",
+            paragraphs: [
+              "No. A hashtag only links to posts that use exactly the same characters, and #𝐭𝐫𝐚𝐯𝐞𝐥 is not #travel. A styled hashtag either won't link at all or leads to an almost empty tag, so keep hashtags in plain letters even inside a styled caption.",
+            ],
+          },
+          {
+            heading: "Can screen readers read styled text?",
+            paragraphs: [
+              "Not reliably. Screen readers may read styled letters one at a time, read out their Unicode names, or skip them. Keep anything important, like your name, contact details, and calls to action, in plain text.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Instagram's own fonts vs copy-and-paste fonts",
+        paragraphs: [
+          "Instagram's built-in fonts only work in Story and Reels text, while copy-and-paste fonts work everywhere you can type except your @username. Your username only allows letters, numbers, periods, and underscores.",
+          "Use the built-in picker when you want an effect like Neon's glow. Paste Unicode when you want a look the picker doesn't have, or one that matches your bio.",
+        ],
+        table: {
+          headers: ["Feature", "Instagram's built-in fonts", "Copy-and-paste fonts"],
+          rows: [
+            ["Where they work", "Story and Reels text only", "Name, bio, captions, comments, Stories, Reels, Notes, and DMs"],
+            ["How you choose one", "The font button in the text tool", "Copy from a generator and paste"],
+            ["What followers see", "The same font on every phone", "The same characters, drawn in each phone's own font"],
+            ["Example styles", "Classic, Modern, Neon, Typewriter", "Cursive, bold, small caps, bubble, gothic"],
+            ["Works outside Instagram", "No", "Yes, anywhere Unicode text is accepted"],
+          ],
+        },
+      },
+    ],
+    faq: [
+      { question: "What is an Instagram font generator?", answer: "It's a tool that turns normal letters into look-alike Unicode characters, like cursive, bold, or small caps, that you can paste into Instagram. Instagram shows them like any other text, so you don't need an app or a font download." },
+      { question: "Are Instagram fonts real fonts?", answer: "No. They're Unicode characters that look styled, not font files. Each phone draws them with its own fonts, which is why the same text can look slightly different on an iPhone and an Android phone. [Unicode, explained](/guides/unicode-explained) covers how this works." },
+      { question: "Is this Instagram font generator free?", answer: "Yes. It's free, with no sign-up and no limit. The text converts in your browser, so what you type isn't uploaded." },
+      { question: "Why won't Instagram let me save my styled name?", answer: "Usually because you've already changed your name twice in the last 14 days, which is Instagram's limit. If you pasted the text into the Username field instead, it will be rejected, because usernames only allow letters, numbers, periods, and underscores." },
+      { question: "Do styled hashtags work on Instagram?", answer: "No. A hashtag only links to posts with exactly the same characters, so #𝐭𝐫𝐚𝐯𝐞𝐥 doesn't count as #travel. Keep hashtags in plain letters." },
+      { question: "Why do some letters show as boxes after I paste?", answer: "The viewer's phone has no glyph for that character. Script, gothic, and double-struck letters are the most likely to break on older Android phones, while bold and small caps are the safest. Some styles also leave out letters Unicode never added, like a small-caps X, so those letters stay plain." },
+      { question: "How do I make text bold in an Instagram caption?", answer: "Instagram has no bold button, so type your line into the generator, copy the Bold style, and paste it into the caption. Bold one opening line rather than the whole caption, which is harder to read." },
+      { question: "Can I use these fonts on TikTok, Facebook, and Threads?", answer: "Yes. They're standard Unicode, so they paste into TikTok, Facebook, Threads, X, and most other apps. Each app has its own limits. See [fonts for TikTok](/guides/fonts-for-tiktok) for what works there." },
+      { question: "Does a fancy font look the same on a computer?", answer: "Mostly. The characters are the same, but Instagram on the web uses your computer's fonts, so letters may look a little thinner or wider. Rare styles can show as boxes on older computers." },
+      { question: "How do I make my Instagram name stand out without hurting search?", answer: "Keep your real name or main keyword in plain letters and style a short add-on next to it, like Maya Lin | ᴄᴇʀᴀᴍɪᴄꜱ. A divider such as | or ✦ separates the two parts. You stay easy to find, and the name still looks styled." },
+    ],
+    image: {
+      src: "/images/instagram-font-generator.png",
+      alt: "Instagram profile mockup showing a plain name with a small caps add-on, a bio with a bold header, small caps and cursive lines, and a caption with a bold first line and plain hashtags",
+      width: 1200,
+      height: 630,
+      caption: "One style per spot: plain name plus a small caps add-on, a bold bio header, and a bold first caption line with plain hashtags.",
+    },
+    relatedToolSlugs: ["cursive", "bold", "small-caps", "italic"],
+    relatedGuideSlugs: ["small-text-instagram-bio", "cursive-fonts-instagram-bio", "bubble-text-instagram-tiktok"],
+    lastUpdated: "2026-10-07",
   },
   {
     slug: "minecraft-font-generator",
@@ -666,7 +775,7 @@ export const galleryPages: GalleryPage[] = [
           rows: [
             ["[Roblox](/tools/roblox-font-generator)", "Display name 3–20 characters, one change every 7 days. Usernames allow letters, numbers, and one underscore only.", "Display name sometimes; heavily filtered", "Bold, small caps"],
             ["[Minecraft](/tools/minecraft-font-generator)", "Java usernames are 3–16 letters, numbers, or underscores. Styled text works on signs, books, chat, item names, and server MOTDs.", "Java: most styles. Bedrock: only characters up to U+FFFF", "Small caps, bubble, full-width"],
-            ["[Fortnite](/tools/fortnite-font-generator)", "Epic display name 3–16 characters, one change every 2 weeks.", "Partly; Epic filters many symbols", "Bold, small caps"],
+            ["[Fortnite](/tools/fortnite-font-generator)", "Epic display name 3–16 characters, one change every 2 weeks.", "Partly; Epic filters many symbols (see [Fortnite name symbols](/guides/fortnite-name-symbols))", "Bold, small caps"],
             ["[Adopt Me](/tools/adopt-me-font-generator)", "Pet names and signs go through the Roblox filter.", "Often; blocked text shows as ####", "Bubble, small caps"],
             ["Free Fire", "Nickname about 12 characters. Renaming costs 390 diamonds or a Name Change Card.", "Yes; a styled letter can count as 2–3 characters", "Bold, small caps, ꧁꧂ frames"],
             ["PUBG Mobile", "Name up to 14 characters. Changing it needs a Rename Card.", "Yes; some symbols blocked", "Bold, small caps"],
@@ -746,7 +855,7 @@ export const galleryPages: GalleryPage[] = [
       { question: "Is it safe to copy and paste gaming fonts?", answer: "Yes. Gaming fonts are plain text characters with no code in them, so they can't harm your device or account. Be careful with invisible characters, though, since some games flag them as an attempt to hide or blank a name." },
     ],
     relatedToolSlugs: ["bold", "small-caps", "zalgo", "invisible"],
-    relatedGuideSlugs: ["fonts-for-roblox", "cool-different-fonts", "are-copy-paste-fonts-safe", "tiny-text-discord"],
+    relatedGuideSlugs: ["fonts-for-roblox", "fortnite-name-symbols", "cool-different-fonts", "are-copy-paste-fonts-safe"],
     lastUpdated: "2026-10-02",
   },
 ];

@@ -2871,3 +2871,7 @@ body::before { display: none; }
 .article-table-wrap td { padding: 10px 14px; border-top: 1px solid var(--line); text-align: left; vertical-align: top; color: var(--ink-soft); }
 .article-table-wrap thead th { background: var(--paper-light); color: var(--ink); border-top: 0; }
 .article-table-wrap tbody th { color: var(--ink); font-weight: 800; }
+
+.article-figure { margin: 8px 0 28px; }
+.article-figure img { display: block; width: 100%; height: auto; border: 1px solid var(--line); border-radius: 12px; }
+.article-figure figcaption { margin-top: 10px; font-size: 14px; color: var(--muted); }

@@ -113,7 +113,7 @@ export const pillarContent: PillarContent[] = [
       "Paste it into your bio, caption, or message, and check it once on your phone, since a few older devices show script letters as boxes.",
     ],
     whereUsed: [
-      { platform: "Instagram & TikTok bios", blurb: "A cursive name or tagline is the classic aesthetic bio look. Keep the rest of the bio plain or in small caps. See [cursive fonts for Instagram bio](/guides/cursive-fonts-instagram-bio) for ready-made examples and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) for what each field accepts." },
+      { platform: "Instagram & TikTok bios", blurb: "A cursive name or tagline is the classic aesthetic bio look. Keep the rest of the bio plain or in small caps. See [cursive fonts for Instagram bio](/guides/cursive-fonts-instagram-bio) for ready-made examples, the [Instagram font generator](/tools/instagram-font-generator) to compare cursive with other styles for each spot, and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) for what each field accepts." },
       { platform: "Captions, quotes & comments", blurb: "One cursive line to open or sign off a caption, a short quote, or a wedding or birthday message. Bold cursive stays readable at caption size." },
       { platform: "Discord & gaming names", blurb: "Cursive display names and server nicknames. Games filter names more strictly, so check the [gaming font generator](/tools/gaming-font-generator) to see which games accept script letters." },
     ],
@@ -478,7 +478,7 @@ export const pillarContent: PillarContent[] = [
           {
             heading: "Instagram and TikTok bold text tips",
             paragraphs: [
-              "Use bold for your name, one header line, or a call to action in your bio, and keep hashtags plain, because a bold hashtag won't match the normal tag. The [Instagram bio fonts guide](/guides/small-text-instagram-bio) shows which fields accept styled text.",
+              "Use bold for your name, one header line, or a call to action in your bio, and keep hashtags plain, because a bold hashtag won't match the normal tag. The [Instagram font generator](/tools/instagram-font-generator) shows where bold works best next to other styles, and the [Instagram bio fonts guide](/guides/small-text-instagram-bio) shows which fields accept styled text.",
             ],
           },
         ],

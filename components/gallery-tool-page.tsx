@@ -8,6 +8,7 @@ import { getStyle, toolPages } from "@/lib/fonts";
 import { getGuide, stripInlineLinks } from "@/lib/guides";
 import type { GalleryPage } from "@/lib/gallery-pages";
 import { breadcrumbSchema, faqPageSchema, jsonLdGraph } from "@/lib/schema";
+import { getSiteUrl } from "@/lib/site-url";
 
 const toolPageSet = new Set<string>(toolPages);
 
@@ -38,6 +39,7 @@ export function GalleryToolPage({ page }: { page: GalleryPage }) {
       operatingSystem: "Any",
       isAccessibleForFree: true,
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      ...(page.image ? { image: `${getSiteUrl()}${page.image.src}` } : {}),
     },
     breadcrumbSchema([
       { name: "Home", path: "/" },
@@ -120,7 +122,7 @@ export function GalleryToolPage({ page }: { page: GalleryPage }) {
         </div>
       </section>
 
-      <ArticleSections sections={page.sections} />
+      <ArticleSections sections={page.sections} image={page.image} />
 
       <section className="faq-section" aria-labelledby="gallery-faq-title">
         <div className="section-intro">
