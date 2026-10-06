@@ -1,0 +1,34 @@
+{
+  "_note": "The live page already emits WebApplication + HowTo + FAQPage + BreadcrumbList via components/gallery-tool-page.tsx, built from lib/gallery-pages.ts. The about/mentions below are OPTIONAL extras for the WebApplication node and are not wired in. Entities use Thing/Organization (not Product) so GSC doesn't flag invalid Product items.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Instagram Font Generator",
+      "url": "https://smalltextgen.site/tools/instagram-font-generator",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "about": [
+        {"@type": "Organization", "name": "Instagram", "sameAs": "https://en.wikipedia.org/wiki/Instagram"},
+        {"@type": "Thing", "name": "Unicode", "sameAs": "https://en.wikipedia.org/wiki/Unicode"}
+      ],
+      "mentions": [
+        {"@type": "Thing", "name": "Mathematical Alphanumeric Symbols", "sameAs": "https://en.wikipedia.org/wiki/Mathematical_Alphanumeric_Symbols"},
+        {"@type": "Organization", "name": "TikTok", "sameAs": "https://en.wikipedia.org/wiki/TikTok"},
+        {"@type": "Organization", "name": "Facebook", "sameAs": "https://en.wikipedia.org/wiki/Facebook"},
+        {"@type": "Thing", "name": "Threads", "sameAs": "https://en.wikipedia.org/wiki/Threads_(social_network)"}
+      ],
+      "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".tool-hero p"]},
+      "dateModified": "2026-10-07"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://smalltextgen.site/"},
+        {"@type": "ListItem", "position": 2, "name": "Tools", "item": "https://smalltextgen.site/tools"},
+        {"@type": "ListItem", "position": 3, "name": "Instagram Font Generator", "item": "https://smalltextgen.site/tools/instagram-font-generator"}
+      ]
+    }
+  ]
+}
